@@ -386,6 +386,9 @@
         font-size: 60px;
         margin-bottom: 10px;
     }
+    .button-calendar .final-btn{
+        display: none;
+    }
 }
 .highlight{
     color: #24B47E;
