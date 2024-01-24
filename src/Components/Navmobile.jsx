@@ -172,7 +172,8 @@ function Navmobile() {
             </Link>
             <Link to="commitee" ref={commiteeref} className=" navbar-linkx">
               <i className="fa fa-users"></i>
-              <span>Commitee</span>
+              <span
+              >Commitee</span>
             </Link>
             <Link to="contact_us" ref={contactref} className=" navbar-linkx">
               <i className="fa fa-headset"></i>
