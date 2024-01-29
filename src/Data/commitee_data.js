@@ -19,7 +19,7 @@ export default [
     {
         id: 1,
         name: "Arshad Ahmed A",
-        position: "President",
+        position: "Chairman",
         year: "Third year",
         x: "CSE",
         profile: pf1
@@ -27,7 +27,7 @@ export default [
     {
         id: 2,
         name: "Harshal Ram R V",
-        position: "Vice President",
+        position: "Vice Chairman",
         year: "Third year",
         x: "CSE",
         profile: pf2
