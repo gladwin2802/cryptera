@@ -28,10 +28,10 @@ function Main({ movetohomepage }) {
         Homeref.current.offsetHeight + Homeref.current.scrollTop >=
         Homeref.current.scrollHeight
       ) {
-        h += 3;
+        h += 10;
        // console.log(h);
         greenref.current.style.height = h + "px";
-        if (h > 100) {
+        if (h > 10) {
           greenref.current.style.height = "0px";
           movetohomepage();
         }

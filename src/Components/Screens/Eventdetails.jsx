@@ -219,7 +219,7 @@ function Eventdetails() {
 
                   {Event_data.form != "" && (
                     <div className="final-btn">
-                      <a  href={Event_data.form} target="_blank">
+                      <a href={Event_data.form} target="_blank">
                         <div className="submit-btn-event">
                           <div>
                             {Event_data.s ? <>Open contest</> : <>Register Now</>}

@@ -245,7 +245,7 @@
 
 }
 .submit-btn-event{
-    background-image:linear-gradient(90deg, #24B47E,#50e40c);
+    background-image:linear-gradient(90deg, #24B47E,#50e40c) !important;
     width: fit-content;
     padding: 3px;
     border-radius: 50px;
