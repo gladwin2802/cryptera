@@ -60,20 +60,33 @@ function Eventdetails() {
                     {Event_data.dateTime}
                   </p>
                 </div>
-                <div
-                  className="google-calendar"
-                  ref={contactref}
-                  style={{
-                    backgroundColor: "var(--fg-green)",
-                    width: "40px",
-                    height: "40px",
-                    display: "flex",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    padding: "10px",
-                    borderRadius: "500px",
-                  }}
-                ></div>
+                <div className="button-calendar">
+                  {Event_data.form != "" && (
+                    <div className="final-btn">
+                      <a href={Event_data.form} target="_blank">
+                        <div className="submit-btn-event">
+                          <div>
+                            Register Now
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  )}
+                  <div
+                    className="google-calendar"
+                    ref={contactref}
+                    style={{
+                      backgroundColor: "var(--fg-green)",
+                      width: "40px",
+                      height: "40px",
+                      display: "flex",
+                      justifyContent: "center",
+                      alignItems: "center",
+                      padding: "10px",
+                      borderRadius: "500px",
+                    }}
+                  ></div>
+                </div>
               </div>
 
               <div className="tags">
@@ -193,20 +206,43 @@ function Eventdetails() {
                     {Event_data.dateTime}
                   </p>
                 </div>
-                <div
-                  className="google-calendar"
-                  ref={contactref}
-                  style={{
-                    backgroundColor: "var(--fg-green)",
-                    width: "40px",
-                    height: "40px",
-                    display: "flex",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    padding: "10px",
-                    borderRadius: "500px",
-                  }}
-                ></div>
+                <div className="button-calendar">
+                  {Event_data.form == "" && (
+                    <div className="final-btn">
+                      <div className="submit-btn-event">
+                        <div>
+                          {Event_data.s ? <>Open contest</> : <>Coming soon</>}
+                        </div>
+                      </div>
+                    </div>
+                  )}
+
+                  {Event_data.form != "" && (
+                    <div className="final-btn">
+                      <a  href={Event_data.form} target="_blank">
+                        <div className="submit-btn-event">
+                          <div>
+                            {Event_data.s ? <>Open contest</> : <>Register Now</>}
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  )}
+                  <div
+                    className="google-calendar"
+                    ref={contactref}
+                    style={{
+                      backgroundColor: "var(--fg-green)",
+                      width: "40px",
+                      height: "40px",
+                      display: "flex",
+                      justifyContent: "center",
+                      alignItems: "center",
+                      padding: "10px",
+                      borderRadius: "500px",
+                    }}
+                  ></div>
+                </div>
               </div>
 
               <div className="tags">
