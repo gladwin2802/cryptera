@@ -22,6 +22,7 @@ import Update_event from './Components/Screens/Update_event';
 import { initializeApp } from "firebase/app";
 import { getFirestore, collection, getDocs, addDoc } from "firebase/firestore";
 import { getevent_details_data } from './Data/events_data';
+import Countdown from './Components/Screens/Countdown';
 
 const firebaseConfig = {
   apiKey: "AIzaSyCjDtQ-hsyXk876DZLyyeC6UpXMFFjF5EY",
@@ -79,7 +80,7 @@ function App() {
             <Route path="/" element={<Home />}></Route>
             <Route path="/about_us" element={<AboutUs />}></Route>
             <Route path="/events" element={<Events />}></Route>
-            <Route path="/timeline" element={<Timelinex/>}></Route>
+            <Route path="/timeline" element={<Countdown/>}></Route>
             <Route path="/web_devs" element={<WebDevs />}></Route>
             <Route path="/commitee" element={<Commitee />}></Route>
             <Route path="/contact_us" element={<ContactUs />}></Route>

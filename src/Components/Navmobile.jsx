@@ -212,7 +212,6 @@ function Navmobile() {
         </div>
         <div onClick={toggleMenu} className="close-btn">
           Menu
-          {/* <i class="fas fa-bars"></i> */}
         </div>
       </div>
     </>

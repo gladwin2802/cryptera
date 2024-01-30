@@ -29,8 +29,8 @@ function Home() {
   }
 
   return (
-    <div className='home main-section' id='Home' style={{ position: 'relative' }}>
-      <div style={{ paddingTop: '20px', paddingBottom: '20px' }}>
+    <div className='home main-section' id='Home' style={{ position: 'relative', padding:  isMobile ? '0px' : '', margin:isMobile?"0px 2px":"", overflow:isMobile?"hidden":"", position:isMobile?"fixed":"" }}>
+      <div style={{ paddingTop: isMobile ? 'px' : '20px', paddingBottom: isMobile ? '5px' :'20px' }}>
         <Carousel
           style={{ height: '100vh' }}
           dynamicHeight={true}
