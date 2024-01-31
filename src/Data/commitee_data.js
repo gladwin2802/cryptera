@@ -1,89 +1,150 @@
+import pf1 from "../Assets/Profile/Arshad.jpeg"
+import pf2 from "../Assets/Profile/HarshalRam.jpeg"
+import pf3 from "../Assets/Profile/Rajaponpriya.jpeg"
+import pf4 from "../Assets/Profile/Krithika.jpeg"
+import pf5 from "../Assets/Profile/Anuvarshini.jpeg"
+import pf6 from "../Assets/Profile/Janani.jpeg"
+import pf7 from "../Assets/Profile/Gokulajay.jpeg"
+import pf8 from "../Assets/Profile/Narmada.jpeg"
+import pf9 from "../Assets/Profile/Niranjan.jpeg"
+import pf10 from "../Assets/Profile/Muthu.jpeg"
+import pf11 from "../Assets/Profile/Mukilan.jpeg"
+import pf12 from "../Assets/Profile/AkshayaRB.jpeg"
+import pf13 from "../Assets/Profile/Prakash.jpeg"
+import pf14 from "../Assets/Profile/Priyanth.jpeg"
+import pf15 from "../Assets/Profile/Faizan.jpeg"
+import pf16 from "../Assets/Profile/Priyadharshini.jpeg"
+
 export default [
     {
-        name: "Gowtham M",
-        position: "President",
+        id: 1,
+        name: "Arshad Ahmed A",
+        position: "Chairman",
         year: "Third year",
         x: "CSE",
-        profile:
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Default_pfp.svg/1200px-Default_pfp.svg.png",
+        profile: pf1
     },
     {
-        name: "Manoj Kumar G",
+        id: 2,
+        name: "Harshal Ram R V",
+        position: "Vice Chairman",
+        year: "Third year",
+        x: "CSE",
+        profile: pf2
+    },
+    {
+        id: 3,
+        name: "Rajaponpriya R",
         position: "Secretary",
         year: "Third year",
         x: "CSE",
-        profile:
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Default_pfp.svg/1200px-Default_pfp.svg.png",
+        profile: pf3
     },
-
     {
-        name: "Shareena",
+        id: 4,
+        name: "Krithika T",
         position: "Secretary",
         year: "Third year",
         x: "CSE",
-        profile:
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Default_pfp.svg/1200px-Default_pfp.svg.png",
+        profile: pf4
     },
     {
-        name: "Sarvesh Kumar K",
+        id: 5,
+        name: "Anuvarshini K",
         position: "Joint Secretary",
         year: "Third year",
         x: "CSE",
-        profile:
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Default_pfp.svg/1200px-Default_pfp.svg.png",
+        profile: pf5
     },
     {
-        name: "Karupaiya chu",
+        id: 6,
+        name: "Janani M",
         position: "Joint Secretary",
         year: "Third year",
         x: "CSE",
-        profile:
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Default_pfp.svg/1200px-Default_pfp.svg.png",
+        profile: pf6
     },
     {
-        name: "Ananya S",
+        id: 7,
+        name: "Gokul Ajay P",
         position: "Treasurer",
         year: "Third year",
         x: "CSE",
-        profile:
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Default_pfp.svg/1200px-Default_pfp.svg.png",
+        profile: pf7
     },
     {
-        name: "Siddharth G",
+        id: 8,
+        name: "Narmatha R",
         position: "Treasurer",
         year: "Third year",
         x: "CSE",
-        profile:
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Default_pfp.svg/1200px-Default_pfp.svg.png",
+        profile: pf8
     },
     {
-        name: 'Arvind V',
+        id: 9,
+        name: 'Niranjan R M',
+        position: 'Technical Event Head',
+        year: 'Third year',
+        x: 'CSE',
+        profile: pf9
+    },
+    {
+        id: 10,
+        name: 'Muthu Jawahar K',
+        position: 'Technical Event Head',
+        year: 'Third year',
+        x: 'CSE',
+        profile: pf10
+    },
+    {
+        id: 11,
+        name: 'Mukilan S',
+        position: 'Non-Technical Event Head',
+        year: 'Third year',
+        x: 'CSE',
+        profile: pf11
+    },
+    {
+        id: 12,
+        name: 'Akshaya R B',
+        position: 'Non-Technical Event Head',
+        year: 'Third year',
+        x: 'CSE',
+        profile: pf12
+    },
+    {
+        id: 13,
+        name: 'Prakash S',
         position: 'Design Head',
         year: 'Third year',
         x: 'CSE',
-        profile: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Default_pfp.svg/1200px-Default_pfp.svg.png'
+        profile: pf13
     },
     {
-        name: 'Sanjay J Y',
-        position: 'Design head',
-        year: 'Third year',
-        x: 'CSE',//https://drive.google.com/file/d//view?usp=sharing
-        profile: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Default_pfp.svg/1200px-Default_pfp.svg.png'
-    },
-    {
-        name: 'Mohammed Hisham A',
-        position: 'Campaign Head',
+        id: 14,
+        name: 'Priyanth V',
+        position: 'Design Head',
         year: 'Third year',
         x: 'CSE',
-        profile: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Default_pfp.svg/1200px-Default_pfp.svg.png'
+        profile: pf14
     },
     {
-        name: 'Dharanish P M',
-        position: 'Campaign Head',
+        id: 15,
+        name: 'Faizan F',
+        position: 'Public Relations Head',
         year: 'Third year',
         x: 'CSE',
-        profile: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Default_pfp.svg/1200px-Default_pfp.svg.png'
+        profile: pf15
     },
+    {
+        id: 16,
+        name: 'Priyadarshni S',
+        position: 'Public Relations Head',
+        year: 'Third year',
+        x: 'CSE',
+        profile: pf16
+    },
+
     // {
     //     name: 'Aakash G S',
     //     position: 'Event Manager',
