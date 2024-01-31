@@ -51,6 +51,7 @@ function Commitee() {
     <div className="webdevs" ref={contentref} onWheel={wheelhandler} style={{"paddingTop":"0px"}}>
       {/* <div className='add-green bg-gradient-to-tr from-green-600 to-green-300 ' ref={greenBottomref} />
             <div className='add-green top-fixed bg-gradient-to-tr from-green-600 to-green-300 ' ref={greenTopref} /> */}
+      <br /><br />
       <div className="commitee">
         <lottie-player
           autoplay

@@ -123,7 +123,7 @@ function Events() {
   };
 
   return (
-    <div className="events" onWheel={scrollhandler}>
+    <div className="events">
       <div className='events-header'>
         <h1 ref={technicalref} onClick={technicalclick} className={curr === 0 ? 'activex' : ''}>Technical</h1>
         <h1 ref={nontechnicalref} onClick={nontechnicalclick} className={curr === 1 ? 'activex' : ''}>Non-Technical</h1>

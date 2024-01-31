@@ -1,6 +1,5 @@
 import React, { useRef } from 'react'
 import '../../Styles/WebDevs.css'
-import profile1 from '../../Assets/1905098.png'
 import { useNavigate } from 'react-router-dom'
 import web_devs_data from '../../Data/web_devs_data'
 function WebDevs() {
@@ -43,21 +42,36 @@ function WebDevs() {
                     navigate('/commitee')
                 }
             }
-
         }
-
     }
     return (
-        <div className='webdevs' ref={contentref} onWheel={wheelhandler} >
+        <div className='webdevs' ref={contentref} onWheel={wheelhandler}>
             {/* <div className='add-green bg-gradient-to-tr from-green-600 to-green-300 ' ref={greenBottomref} />
             <div className='add-green top-fixed bg-gradient-to-tr from-green-600 to-green-300 ' ref={greenTopref} /> */}
 
             <div className='webdevs-container'>
-                <div >
+                <div>
                     <h1 className='webdevs-title'>Web Developers</h1>
                     <p className='webdevs-tilte-description'>The team that is similar to the root of the tree</p>
                 </div>
+                <br /><br /><br />
+                {/* First content-container for the first element */}
                 <div className='content-container'>
+                    {web_devs_data.length > 0 && (
+                        <Web_devs_card data={web_devs_data[0]} key={0} />
+                    )}
+                </div>
+
+                {/* Second content-container for the rest of the elements */}
+                <div className='content-container'>
+                    {
+                        web_devs_data.slice(1).map((data, index) => (
+                            <Web_devs_card data={data} key={index + 1} />
+                        ))
+                    }
+                </div>
+
+                {/* <div className='content-container'>
                     {
                         web_devs_data.map((data, index) => {
                             return (
@@ -65,8 +79,7 @@ function WebDevs() {
                             )
                         })
                     }
-
-                </div>
+                </div> */}
             </div>
         </div>
     )

@@ -19,14 +19,13 @@ function Eventdetails() {
 
   useEffect(() => {
     const data = JSON.parse(localStorage.getItem("event_details"));
-    //console.log("data is ", data);
+    console.log("data is ", data);
     console.warn(event_name_from_path);
 
     const temp = data.filter((event) => event.name === event_name_from_path)[0];
-    // console.log("your content is", temp);
     setTimeout(() => {
       contactref.current.innerHTML = `
-            <a href="tel:+91 ${temp.contact}">
+            <a href="tel:+91 ${temp?.contact}">
     <i class="fas fa-phone"></i>
     </a>
             `;
@@ -57,7 +56,7 @@ function Eventdetails() {
                   <h1>{Event_data.title}</h1>
                   <p>
                     <i className="fas fa-calendar-week mr-2 mb-3"></i>
-                    {Event_data.dateTime}
+                    {Event_data.dateTime.split(',')[0].trim()}
                   </p>
                 </div>
                 <div className="button-calendar">
@@ -119,7 +118,6 @@ function Eventdetails() {
                       return (
                         <tr>
                           <td>{data.type} </td>
-                          {/* <td>: RS {data.amt}</td> */}
                         </tr>
                       );
                     })}
@@ -160,7 +158,6 @@ function Eventdetails() {
               <div className="faq">
                 {Event_data.faq &&
                   Event_data.faq.map((faq, index) => {
-                    // console.log("faq is ", faq);
                     return <Faq key={index} data={faq} />;
                   })}
               </div>
@@ -203,7 +200,7 @@ function Eventdetails() {
                   <h1>{Event_data.title}</h1>
                   <p>
                     <i className="fas fa-calendar-week mr-2 mb-3"></i>
-                    {Event_data.dateTime}
+                    {Event_data.dateTime.split(',')[0].trim()}
                   </p>
                 </div>
                 <div className="button-calendar">
@@ -329,9 +326,8 @@ function Eventdetails() {
                       <div className="gold-trophy">
                         <i class="fa fa-trophy"></i>
                         <div>
-                          <div>Winner</div>
-                          <i className="fas fa-rupee-sign"></i>
-                          {Event_data.prizes["gold"]}
+                          <div><b>Winner</b></div>
+                          Rs. <b>{Event_data.prizes["gold"]}</b>
                         </div>
                       </div>
 
@@ -339,21 +335,12 @@ function Eventdetails() {
                         <div className="silver-trophy">
                           <i class="fa fa-trophy"></i>
                           <div>
-                            <div>Runner</div>
-                            <i className="fas fa-rupee-sign"></i>
-                            {Event_data.prizes["silver"]}
+                            <div><b>Runner</b></div>
+                            Rs. <b>{Event_data.prizes["silver"]}</b>
                           </div>
                         </div>
                       )}
 
-                      {/* <div className="bronze-trophy">
-                        <i class="fa fa-trophy"></i>
-                        <div>
-                          <div>Third place</div>
-                          <i className="fas fa-rupee-sign"></i>
-                          {Event_data.prizes["bronze"]}
-                        </div>
-                      </div> */}
                     </div>
                   ) : (
                     <div>{Event_data.prizes}</div>
