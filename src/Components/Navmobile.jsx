@@ -12,7 +12,7 @@ function Navmobile() {
   const aboutref = useRef(null);
   const contactref = useRef(null);
   const eventref = useRef(null);
-  const webref = useRef(null);
+  const galref = useRef(null);
   const commiteeref = useRef(null);
   const hintref = useRef(null);
   const linkxref = useRef(null);
@@ -48,7 +48,7 @@ function Navmobile() {
     aboutref.current.classList.remove("active");
     contactref.current.classList.remove("active");
     eventref.current.classList.remove("active");
-    webref.current.classList.remove("active");
+    galref.current.classList.remove("active");
     commiteeref.current.classList.remove("active");
     timelineref.current.classList.remove("active");
   };
@@ -67,7 +67,7 @@ function Navmobile() {
       if (location.pathname === "/events") {
         hintref.current.innerHTML = "Web devs";
         hintref.current.addEventListener("click", () => {
-          navigate("/web_devs");
+          navigate("/gallery");
         });
       } else {
         closenav();
@@ -106,12 +106,12 @@ function Navmobile() {
       timelineref.current.classList.add("active");
       hintref.current.innerHTML = "Web devs";
       hintref.current.addEventListener("click", () => {
-        navigate("/web_devs");
+        navigate("/gallery");
       });
-    } else if (location.pathname === "/web_devs") {
+    } else if (location.pathname === "/gallery") {
       clearActive();
 
-      webref.current.classList.add("active");
+      galref.current.classList.add("active");
       hintref.current.innerHTML = "Committee";
       hintref.current.addEventListener("click", () => {
         navigate("/commitee");
@@ -166,13 +166,14 @@ function Navmobile() {
               <i className="fa fa-calendar-check"></i>
               <span>Timeline</span>
             </Link>
-            <Link to="web_devs" ref={webref} className="navbar-linkx">
-              <i className="fa fa-wifi"></i>
-              <span>Web devs</span>
+            <Link to="gallery" ref={galref} className="navbar-linkx">
+            <i class="fa-brands fa-envira"></i>
+              <span>Gallery</span>
             </Link>
             <Link to="commitee" ref={commiteeref} className=" navbar-linkx">
               <i className="fa fa-users"></i>
-              <span>Commitee</span>
+              <span
+              >Commitee</span>
             </Link>
             <Link to="contact_us" ref={contactref} className=" navbar-linkx">
               <i className="fa fa-headset"></i>
@@ -212,6 +213,7 @@ function Navmobile() {
         </div>
         <div onClick={toggleMenu} className="close-btn">
           Menu
+          {/* <i class="fas fa-bars"></i> */}
         </div>
       </div>
     </>
