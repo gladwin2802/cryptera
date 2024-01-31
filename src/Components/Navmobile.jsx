@@ -142,7 +142,7 @@ function Navmobile() {
           <div className="hint" ref={hintref}></div>
 
           <div className="linkx" ref={linkxref}>
-            <Link to="/" ref={homeref} className=" navbar-linkx" id="Home-link">
+            <Link onClick={toggleMenu} to="/" ref={homeref} className=" navbar-linkx" id="Home-link">
               {" "}
               <i className="fa fa-home"></i>
               <span>Home</span>
@@ -152,29 +152,30 @@ function Navmobile() {
               ref={aboutref}
               id="about_us"
               className="navbar-linkx"
+              onClick={toggleMenu}
             >
               <i className="fa fa-info-circle"></i>
               <span>About us</span>
             </Link>
-            <Link to="events" ref={eventref} className=" navbar-linkx">
+            <Link onClick={toggleMenu} to="events" ref={eventref} className=" navbar-linkx">
               {" "}
               <i className="fa fa-calendar-minus"></i>
               <span>Events</span>
             </Link>
-            <Link to="timeline" ref={timelineref} className=" navbar-linkx">
+            <Link onClick={toggleMenu} to="timeline" ref={timelineref} className=" navbar-linkx">
               {" "}
               <i className="fa fa-calendar-check"></i>
               <span>Timeline</span>
             </Link>
-            <Link to="web_devs" ref={webref} className="navbar-linkx">
+            <Link onClick={toggleMenu} to="web_devs" ref={webref} className="navbar-linkx">
               <i className="fa fa-wifi"></i>
               <span>Web devs</span>
             </Link>
-            <Link to="commitee" ref={commiteeref} className=" navbar-linkx">
+            <Link onClick={toggleMenu} to="commitee" ref={commiteeref} className=" navbar-linkx">
               <i className="fa fa-users"></i>
               <span>Commitee</span>
             </Link>
-            <Link to="contact_us" ref={contactref} className=" navbar-linkx">
+            <Link onClick={toggleMenu} to="contact_us" ref={contactref} className=" navbar-linkx">
               <i className="fa fa-headset"></i>
               <span>Contact Us</span>
             </Link>

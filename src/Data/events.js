@@ -3,6 +3,7 @@ import blindCode from "../Assets/event/blindCode.jpg";
 
 const form = "https://docs.google.com/forms/d/e/1FAIpQLSdVn_M4OESw7BRTY5QJF8FREnONDoWUfAreehNLWgyF81HhHw/viewform"
 
+// eslint-disable-next-line import/no-anonymous-default-export
 export default [
     // Workshops and Webinars
 
@@ -1382,7 +1383,7 @@ Jumble the code and triumphal your day.`,
             "Solve the clues and follow the trail, find the treasure that will prevail.",
         description:
             "An adventure, a game of the mind, a quest for treasure, that you'll surely find. Follow clues and solve puzzles, step by step, to uncover the prize, that will make you rare.",
-        form: "",
+        form: "https://docs.google.com/forms/d/e/1FAIpQLSeTlzTsWcmaK89WOtjPhWXLgkFjBo3GFaMccVIM8CAWY7SCiQ/viewform",
         type: "non_technical",
         faq: [],
         speakers: [],
@@ -1674,52 +1675,52 @@ Jumble the code and triumphal your day.`,
     },
 
     // Capture The Flag
-    {
-        id: "25",
-        name: "CTF",
-        title: "Capture The Flag",
-        eligibility: "Anyone can join",
-        completed: false,
-        results: null,
-        rules: [
-            "The competition runs from ... IST — ... IST ( 6 hours)",
-            "In order to claim prizes, problem writeups are required.",
-            "Time will act as a tie-breaker between teams with the same number of points.",
-            "Flags format is CRYPCTF{flag+here}, unless otherwise specified.",
-            "You can't play on two teams at once. Team size limit is 5 per team.",
-            "Being caught cheating during a game is grounds for an instant disqualification.",
-            "Organizers reserve rights to make decisions which are final.",
-            "Let's all have fun and play together!",
-        ],
-        pics: {
-            primary: "https://www.simplilearn.com/ice9/free_resources_article_thumb/top_5_valuable_ethical_hacking_tools.jpg",
-            secondary: [],
-        },
-        dateTime: "March 1, 6.00 pm",
-        duration: "",
-        prizes: {
-            gold: "3000",
-            silver: "2000",
-        },
-        contact: "9442523172",
-        speakers: null,
-        color: "var(--fg-g)",
-        carddescription: "A Jeopardy style CTF",
-        description: `A Jeopardy style CTF`,
-        form: "",
-        type: "flagship",
-        faq: [
-            {
-                question: "Will it happen online or offline?",
-                answer: "Online",
-            },
-            {
-                question: "Is there is a team size limit",
-                answer: "Yes. Maximum team size is 5.",
-            },
-        ],
-        tags: ["Problem Solving", "C", "C++", "Python"],
-    },
+    // {
+    //     id: "25",
+    //     name: "CTF",
+    //     title: "Capture The Flag",
+    //     eligibility: "Anyone can join",
+    //     completed: false,
+    //     results: null,
+    //     rules: [
+    //         "The competition runs from ... IST — ... IST ( 6 hours)",
+    //         "In order to claim prizes, problem writeups are required.",
+    //         "Time will act as a tie-breaker between teams with the same number of points.",
+    //         "Flags format is CRYPCTF{flag+here}, unless otherwise specified.",
+    //         "You can't play on two teams at once. Team size limit is 5 per team.",
+    //         "Being caught cheating during a game is grounds for an instant disqualification.",
+    //         "Organizers reserve rights to make decisions which are final.",
+    //         "Let's all have fun and play together!",
+    //     ],
+    //     pics: {
+    //         primary: "https://www.simplilearn.com/ice9/free_resources_article_thumb/top_5_valuable_ethical_hacking_tools.jpg",
+    //         secondary: [],
+    //     },
+    //     dateTime: "March 1, 6.00 pm",
+    //     duration: "",
+    //     prizes: {
+    //         gold: "3000",
+    //         silver: "2000",
+    //     },
+    //     contact: "9442523172",
+    //     speakers: null,
+    //     color: "var(--fg-g)",
+    //     carddescription: "A Jeopardy style CTF",
+    //     description: `A Jeopardy style CTF`,
+    //     form: "",
+    //     type: "flagship",
+    //     faq: [
+    //         {
+    //             question: "Will it happen online or offline?",
+    //             answer: "Online",
+    //         },
+    //         {
+    //             question: "Is there is a team size limit",
+    //             answer: "Yes. Maximum team size is 5.",
+    //         },
+    //     ],
+    //     tags: ["Problem Solving", "C", "C++", "Python"],
+    // },
 
     // Freefire
     {

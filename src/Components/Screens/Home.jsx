@@ -54,7 +54,7 @@ function Home() {
           style={{ height: "100vh" }}
           dynamicHeight={true}
           autoPlay={true}
-          interval={2000}
+          interval={1500}
           infiniteLoop={true}
           showThumbs={false}
           showStatus={false}
@@ -96,6 +96,9 @@ function Home() {
                   background: "transparent",
                   opacity: 1,
                   marginBottom: "0px",
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "center"
                 }}
               >
                 {index === 0 ? (
@@ -110,21 +113,21 @@ function Home() {
                     onClick={() => clickhandler("Technical")}
                     className="submit-btn-event"
                   >
-                    <div>Technical</div>
+                    <div>Explore</div>
                   </div>
                 ) : index === 2 ? (
                   <div
                     onClick={() => clickhandler("Non-Technical")}
                     className="submit-btn-event"
                   >
-                    <div>Non-Technical</div>
+                    <div>Explore</div>
                   </div>
                 ) : (
                   <div
                     onClick={() => clickhandler("Flagship")}
                     className="submit-btn-event"
                   >
-                    <div>Flagship</div>
+                    <div>Explore</div>
                   </div>
                 )}
               </div>
