@@ -20,13 +20,13 @@ function Home() {
   function getImagePath(index) {
     switch (index) {
       case 0:
-        return isMobile ? "pback" : "back.jpg";
+        return isMobile ? "pcrypterabg.png" : "crypterabg.png";
       case 1:
-        return isMobile ? "pback.jpg" : "back.jpg";
+        return isMobile ? "ptechnical.png" : "technical.png";
       case 2:
-        return isMobile ? "pback.jpg" : "back.jpg";
+        return isMobile ? "pnon-technical.png" : "non-technical.png";
       case 3:
-        return isMobile ? "pback.jpg" : "back.jpg";
+        return isMobile ? "pflagship.png" : "flagship.png";
       default:
         return "";
     }
@@ -95,6 +95,7 @@ function Home() {
                   borderRadius: "50px",
                   background: "transparent",
                   opacity: 1,
+                  marginBottom: "0px",
                 }}
               >
                 {index === 0 ? (
