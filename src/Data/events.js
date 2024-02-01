@@ -3,421 +3,7 @@ import blindCode from "../Assets/event/blindCode.jpg";
 
 const form = "https://docs.google.com/forms/d/e/1FAIpQLSdVn_M4OESw7BRTY5QJF8FREnONDoWUfAreehNLWgyF81HhHw/viewform"
 
-// eslint-disable-next-line import/no-anonymous-default-export
 export default [
-    // Workshops and Webinars
-
-    // {
-    //     id: "1",
-    //     rules: [
-    //         "E-certificate will be given",
-    //         "Certificate will be given for the registered candidates",
-    //         "Disocunts will be given for referrals",
-    //         "For further details call :9962623236",
-    //     ],
-    //     faq: [
-    //         {
-    //             question: "Will it happen online or offline?",
-    //             answer: "Offline",
-    //         },
-    //         {
-    //             question: "Will it be a one day workshop or two days?",
-    //             answer: "One day,Time is mentioned above",
-    //         },
-    //         {
-    //             question: "Can I get any discount?",
-    //             answer: "Yeah sure,contact us for further details",
-    //         },
-    //         {
-    //             question: "Can I get certificate?",
-    //             answer: "Yes,certificate will be provided",
-    //         },
-    //     ],
-    //     name: "Workshop1",
-    //     title: "Workshop on Blockchain",
-    //     dateTime: "Mar 11th, 1.00 pm to 4.00 pm",
-    //     carddescription: "Unlock the Power of Web 3",
-    //     description:
-    //         "Unlock the Power of Web 3.0: Explore the world of blockchain technology and its impact on our digital lives. Learn about the fundamentals of blockchain and its various use cases in transforming industries today.Check out the form for more details on registration fees.",
-    //     type: "flagship",
-    //     eligibility: "Anyone can join",
-    //     pics: {
-    //         primary:
-    //             "https://d32ijn7u0aqfv4.cloudfront.net/wp/wp-content/uploads/raw/bitcoin-cryptocurrency-vault-safelock_SOIN20003_905168316_is_1560x880.jpg",
-    //     },
-    //     contact: "6382978347",
-    //     tags: [],
-    //     entry: [
-    //         {
-    //             type: "Single Workshop- Rs.150/- ",
-    //             amt: "",
-    //         },
-    //         {
-    //             type:
-    //                 "Combo A - Two Workshop- Rs.250/-",
-    //             amt: "",
-    //         },
-    //         {
-    //             type: "Combo B - Three Workshop- Rs.350/-",
-    //             amt: "",
-    //         },
-    //     ],
-    //     form: "https://forms.gle/5GWSLDupUemUbShs5",
-    //     speakerinfo:
-    //         "Pyashu Satapathy is a Developer and Designer by skills ( Won at world's largest Ethereum Hackathon - ETHIndia'22 ) and loves to engage with technical communities out of passion, and have scaled developer communities in India and Globally.",
-    //     key: 1,
-    //     speakers: [
-    //         {
-    //             name: "Prayashu Satapathy",
-    //             bio: "Have brought revolution in working of Technical Clubs in my college with CodeChef SRM RMP Club , build the Hackathon and Hustle culture among the students to helping them with their career journey",
-    //         },
-    //     ],
-    //     color: "red",
-    // },
-
-    // {
-    //     id: "2",
-    //     rules: [
-    //         "E-certificate will be given",
-    //         "Certificate will be given for the registered candidates",
-    //         "Disocunts will be given for referrals",
-    //         "For further details call :9962623236",
-    //     ],
-    //     faq: [
-    //         {
-    //             question: "Will it happen online or offline?",
-    //             answer: "Offline",
-    //         },
-    //         {
-    //             question: "Will it be a one day workshop or two days?",
-    //             answer: "One day,Time is mentioned above",
-    //         },
-    //         {
-    //             question: "Can I get any discount?",
-    //             answer: "Yeah sure,contact us for further details",
-    //         },
-    //         {
-    //             question: "Can I get certificate?",
-    //             answer: "Yes,certificate will be provided",
-    //         },
-    //     ],
-    //     name: "Workshop2",
-    //     title: "Workshop on Startup Journey and Product Development",
-    //     dateTime: "Mar 11th, 10.00 am to 12.00 pm",
-    //     carddescription: "Gain valuable insights into market research",
-    //     description:
-    //         "Learn about the key steps involved in taking your idea from conception to launch. Gain valuable insights into market research, product design, and go-to-market strategies.Check out the form for more details on registration fees.",
-    //     type: "flagship",
-    //     eligibility: "Anyone can join",
-    //     pics: {
-    //         primary:
-    //             "https://m.economictimes.com/thumb/msid-93829401,width-1200,height-900,resizemode-4,imgsize-624482/learn-with-etmarkets-beginners-guide-to-fo-trading.jpg",
-    //     },
-    //     contact: "6382978347",
-    //     tags: [],
-    //     entry: [
-    //         {
-    //             type: "Single Workshop- Rs.150/- ",
-    //             amt: "",
-    //         },
-    //         {
-    //             type:
-    //                 "Combo A - Two Workshop- Rs.250/-",
-    //             amt: "",
-    //         },
-    //         {
-    //             type: "Combo B - Three Workshop- Rs.350/-",
-    //             amt: "",
-    //         },
-    //     ],
-    //     form: "https://forms.gle/5GWSLDupUemUbShs5",
-    //     speakerinfo:
-    //         "Ramanathan Alagappan Passionate Full stack developer and skilled in MERN/MEAN Stack developement. Experienced in web development, all layers, from database to services to user interfaces.",
-    //     key: 1,
-    //     speakers: [
-    //         {
-    //             name: "Ramanathan Alagappan",
-    //             bio: "Close to 9 years of experience as a Full stack developer in Software Industry and 2 years of experience as a Freelance developer and has good knowledge in Test Driven Development.",
-    //         },
-    //     ],
-    //     color: "red",
-    // },
-
-    // {
-    //     id: "3",
-    //     rules: [
-    //         "E-certificate will be given",
-    //         "Certificate will be given for the registered candidates",
-    //         "Disocunts will be given for referrals",
-    //         "For further details call :9962623236",
-    //     ],
-    //     faq: [
-    //         {
-    //             question: "Will it happen online or offline?",
-    //             answer: "Offline",
-    //         },
-    //         {
-    //             question: "Will it be a one day workshop or two days?",
-    //             answer: "One day,Time is mentioned above",
-    //         },
-    //         {
-    //             question: "Can I get any discount?",
-    //             answer: "Yeah sure,contact us for further details",
-    //         },
-    //         {
-    //             question: "Can I get certificate?",
-    //             answer: "Yes,certificate will be provided",
-    //         },
-    //     ],
-    //     name: "Workshop3",
-    //     title: "Workshop on Startup Journey and Product Development",
-    //     dateTime: "Mar 10th, 2.00 pm to 4.00 pm",
-    //     carddescription: "Gain valuable insights on Startups of Today",
-    //     description:
-    //         "Join our workshop on Startups of Today: Developing a Viable Product and gain insights on creating successful products that meet market needs. Our experienced speakersand interactive sessions will equip you with the knowledgeand tools needed to turn your startup idea into a reality. Check out the form for more details on registration fees.",
-    //     type: "flagship",
-    //     eligibility: "Anyone can join",
-    //     pics: {
-    //         primary:
-    //             "https://sergiocaredda.eu/wp-content/uploads/2020/01/workshop-facilitation.jpg",
-    //     },
-    //     contact: "6382978347",
-    //     tags: [],
-    //     entry: [
-    //         {
-    //             type: "Single Workshop- Rs.150/- ",
-    //             amt: "",
-    //         },
-    //         {
-    //             type:
-    //                 "Combo A - Two Workshop- Rs.250/-",
-    //             amt: "",
-    //         },
-    //         {
-    //             type: "Combo B - Three Workshop- Rs.350/-",
-    //             amt: "",
-    //         },
-    //     ],
-    //     form: "https://forms.gle/5GWSLDupUemUbShs5",
-    //     speakerinfo:
-    //         "Mohanraj Siddhuraj is an experienced Software Test Engineer with a demonstrated history of working in the information technology and services industry.",
-    //     key: 1,
-    //     speakers: [
-    //         {
-    //             name: "Mohanraj Siddhuraj",
-    //             bio: "Skilled in Agile Methodologies, Linux, Test Management, Automation and Manual Testing and a strong quality assurance professional.",
-    //         },
-    //     ],
-    //     color: "red",
-    // },
-
-    // {
-    //     id: "4",
-    //     rules: [
-    //         "E-certificate will be given",
-    //         "Certificate will be given for the registered candidates",
-    //         "Disocunts will be given for referrals",
-    //         "For further details call :9962623236",
-    //     ],
-    //     faq: [
-    //         {
-    //             question: "Will it happen online or offline?",
-    //             answer: "Offline",
-    //         },
-    //         {
-    //             question: "Will it be a one day workshop or two days?",
-    //             answer: "One day,Time is mentioned above",
-    //         },
-    //         {
-    //             question: "Can I get any discount?",
-    //             answer: "Yeah sure,contact us for further details",
-    //         },
-    //         {
-    //             question: "Can I get certificate?",
-    //             answer: "Yes,certificate will be provided",
-    //         },
-    //     ],
-    //     name: "Webinar1",
-    //     title: "Webinar on Data Analytics",
-    //     dateTime: "Mar 11th, 10.00 am to 12.00 pm",
-    //     carddescription: "Unlock the power of data",
-    //     description:
-    //         "Unlock the power of data with our upcoming workshop! Join us to learn how to make informed decisions and gain valuable insights from raw data. Don't miss out on this opportunity to enhance your analytical skills. Register now! Check out the form for more details on registration fees.",
-    //     type: "flagship",
-    //     eligibility: "Anyone can join",
-    //     pics: {
-    //         primary:
-    //             "https://bernardmarr.com/wp-content/uploads/2022/11/The-Top-5-Data-Science-And-Analytics-Trends-In-2023.jpg",
-    //     },
-    //     contact: "6382978347",
-    //     tags: [],
-    //     entry: [
-    //         {
-    //             type: "Single webinar- Rs.200/- ",
-    //             amt: "",
-    //         },
-    //         {
-    //             type:
-    //                 "Combo A - Two Webinars - Rs.300/-",
-    //             amt: "",
-    //         },
-    //         {
-    //             type: "Combo B - Three Webinars - Rs.400/-",
-    //             amt: "",
-    //         },
-    //     ],
-    //     form: "https://forms.gle/MRdusV5a6QX5QRvu5",
-    //     speakerinfo:
-    //         "Yasmin Basheer Ahmed is a highly experienced data analyst who's been in the field for more than 5 years.",
-    //     key: 1,
-    //     speakers: [
-    //         {
-    //             name: "Yasmin Basheer Ahmed",
-    //             bio: "Skilled in using Google Analytics and Database Management Systems.",
-    //         },
-    //     ],
-    //     color: "red",
-    // },
-
-    // {
-    //     id: "5",
-    //     rules: [
-    //         "E-certificate will be given",
-    //         "Certificate will be given for the registered candidates",
-    //         "Disocunts will be given for referrals",
-    //         "For further details call :9962623236",
-    //     ],
-    //     faq: [
-    //         {
-    //             question: "Will it happen online or offline?",
-    //             answer: "Offline",
-    //         },
-    //         {
-    //             question: "Will it be a one day workshop or two days?",
-    //             answer: "One day,Time is mentioned above",
-    //         },
-    //         {
-    //             question: "Can I get any discount?",
-    //             answer: "Yeah sure,contact us for further details",
-    //         },
-    //         {
-    //             question: "Can I get certificate?",
-    //             answer: "Yes,certificate will be provided",
-    //         },
-    //     ],
-    //     name: "Webinar2",
-    //     title: "Webinar on DevOps and GitHub Actions",
-    //     dateTime: "Mar 12th, 2.00 pm to 4.00 pm",
-    //     carddescription:
-    //         "An immersive experience that will empower your team's software development transactions",
-    //     description:
-    //         "An immersive experience that will empower your team's software development transactions.With a focus on automation and optimization, we'll guide you through the best practices. To ensure your workflows are efficient and your code is bug-free and errorless. Check out the form for more details on registration fees.",
-    //     type: "flagship",
-    //     eligibility: "Anyone can join",
-    //     pics: {
-    //         primary:
-    //             "https://miro.medium.com/max/1400/1*JLYlSLSK8-AZo8gt9UdYqA.jpeg",
-    //     },
-    //     contact: "6382978347",
-    //     tags: [],
-    //     entry: [
-    //         {
-    //             type: "Single webinar- Rs.200/- ",
-    //             amt: "",
-    //         },
-    //         {
-    //             type:
-    //                 "Combo A - Two Webinars - Rs.300/-",
-    //             amt: "",
-    //         },
-    //         {
-    //             type: "Combo B - Three Webinars - Rs.400/-",
-    //             amt: "",
-    //         },
-    //     ],
-    //     form: "https://forms.gle/MRdusV5a6QX5QRvu5",
-    //     speakerinfo:
-    //         "Harshvardhan is the lead of Student Innovation Network (SIN) & Dhando india and Maheshwaran is a devops enthusiast / Web Developer who spends time building useful products, a designer, front-end web developer and Community contributor.",
-    //     key: 1,
-    //     speakers: [
-    //         {
-    //             name: "Harshvardhan",
-    //             bio: "Microsoft certified Microsoft Azure AI ML expert.",
-
-    //             name: "Maheshwaran",
-    //             bio: "Proficient in DevOps and Web Development.",
-    //         },
-    //     ],
-    //     color: "red",
-    // },
-
-    // {
-    //     id: "6",
-    //     rules: [
-    //         "E-certificate will be given",
-    //         "Certificate will be given for the registered candidates",
-    //         "Disocunts will be given for referrals",
-    //         "For further details call :9962623236",
-    //     ],
-    //     faq: [
-    //         {
-    //             question: "Will it happen online or offline?",
-    //             answer: "Offline",
-    //         },
-    //         {
-    //             question: "Will it be a one day workshop or two days?",
-    //             answer: "One day,Time is mentioned above",
-    //         },
-    //         {
-    //             question: "Can I get any discount?",
-    //             answer: "Yeah sure,contact us for further details",
-    //         },
-    //         {
-    //             question: "Can I get certificate?",
-    //             answer: "Yes,certificate will be provided",
-    //         },
-    //     ],
-    //     name: "Webinar3",
-    //     title: "Webinar on Techniques of Share Trading and Investing",
-    //     dateTime: "Mar 12th, 11.00 am to 12.45 pm",
-    //     carddescription: "Unlock the power of data with our upcoming workshop",
-    //     description:
-    //         "Unlock the power of data with our upcoming workshop! Join us to learn how to make informed decisions and gain valuable insights from raw data. Don't miss out on this opportunity to enhance your analytical skills. Register now! Check out the form for more details on registration fees.",
-    //     type: "flagship",
-    //     eligibility: "Anyone can join",
-    //     pics: {
-    //         primary:
-    //             "https://iq-study.com/wp-content/uploads/2021/01/blog_price_pattern.jpg",
-    //     },
-    //     contact: "6382978347",
-    //     tags: [],
-    //     entry: [
-    //         {
-    //             type: "Single webinar- Rs.200/- ",
-    //             amt: "",
-    //         },
-    //         {
-    //             type:
-    //                 "Combo A - Two Webinars - Rs.300/-",
-    //             amt: "",
-    //         },
-    //         {
-    //             type: "Combo B - Three Webinars - Rs.400/-",
-    //             amt: "",
-    //         },
-    //     ],
-    //     form: "https://forms.gle/MRdusV5a6QX5QRvu5",
-    //     speakerinfo:
-    //         "K.C.A. Naraayan, Founder & Qualified Personal Finance Professional of WealthSpikes.",
-    //     key: 1,
-    //     speakers: [
-    //         {
-    //             name: "K.C.A. Naraayan",
-    //             bio: "Seasoned Share trader and investor in Stock Market.",
-    //         },
-    //     ],
-    //     color: "red",
-    // },
 
     ///////////////////////////////////////////////////////
 
@@ -1787,49 +1373,50 @@ Jumble the code and triumphal your day.`,
     },
 
     // Hackathon
-    // {
-    //     id: "27",
-    //     name: "Hackathon",
-    //     title: "Hackathon",
-    //     eligibility: "Anyone can join",
-    //     completed: false,
-    //     results: null,
-    //     rules: [
-    //         "A team should consist of 4 members",
-    //         "the teams should submit the topic on 7th March",
-    //         "THEME:Sustainable Development",
-    //         "ENTRY FEE PER TEAM:250",
-    //         "The final solution must be demonstrated through presentation and implementation of the project",
-    //         "Panel members decision is final",
-    //         "Simulation can be done through any software",
-    //         "Students should upload their PPT and other necessary files on 11th march 12pm",
-    //     ],
-    //     pics: {
-    //         primary:
-    //             "https://images.squarespace-cdn.com/content/v1/5e6542d2ae16460bb741a9eb/1603318636443-A846ACUKNYUBA0RPLJ94/marvin-meyer-SYTO3xs06fU-unsplash.jpg",
-    //         secondary: [
-    //             "https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
-    //             "https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
-    //             "https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
-    //             "https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
-    //         ],
-    //     },
-    //     contact: "9952792500",
-    //     dateTime: "March 2, 2.00 pm",
-    //     prizes: {
-    //         gold: "2000",
-    //         silver: "1000",
-    //     },
-    //     color: "var(--fg-g)",
-    //     carddescription: "You must do the thing you think you cannot do",
-    //     description:
-    //         "Hackathon is a national-level 48-hour long intensive, brainstorming event that encourages young talents to generate solutions to real-world problems. Participants can work in teams of 4 members and use innovative ideation practices to brainstorm and work with specialized tools and come up with the most suitable and feasible one. The event aims to encourage students to find a solution and provide a kickstart to implement them in the future.",
-    //     form: "https://docs.google.com/forms/d/e/1FAIpQLSeSqEDX5Lyp7maO52THyN9UYYbZl4ARDAV0wdGwYkvYHs842A/viewform",
-    //     type: "flagship",
-    //     faq: [],
-    //     speakers: [],
-    //     tags: [],
-    // },
+    {
+        id: "27",
+        name: "Hackathon1",
+        title: "Hackathon",
+        eligibility: "Anyone can join",
+        completed: false,
+        results: null,
+        rules: [
+            "A team should consist of 4 members",
+            "the teams should submit the topic on 7th March",
+            "THEME:Sustainable Development",
+            "ENTRY FEE PER TEAM:250",
+            "The final solution must be demonstrated through presentation and implementation of the project",
+            "Panel members decision is final",
+            "Simulation can be done through any software",
+            "Students should upload their PPT and other necessary files on 11th march 12pm",
+        ],
+        pics: {
+            primary:
+                "https://images.squarespace-cdn.com/content/v1/5e6542d2ae16460bb741a9eb/1603318636443-A846ACUKNYUBA0RPLJ94/marvin-meyer-SYTO3xs06fU-unsplash.jpg",
+            secondary: [
+                "https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
+                "https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
+                "https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
+                "https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
+            ],
+        },
+        contact: "9952792500",
+        dateTime: "March 2, 2.00 pm",
+        prizes: {
+            gold: "2000",
+            silver: "1000",
+        },
+        color: "var(--fg-g)",
+        carddescription: "You must do the thing you think you cannot do",
+        description:
+            "Hackathon is a national-level 48-hour long intensive, brainstorming event that encourages young talents to generate solutions to real-world problems. Participants can work in teams of 4 members and use innovative ideation practices to brainstorm and work with specialized tools and come up with the most suitable and feasible one. The event aims to encourage students to find a solution and provide a kickstart to implement them in the future.",
+        form: "https://docs.google.com/forms/d/e/1FAIpQLSeSqEDX5Lyp7maO52THyN9UYYbZl4ARDAV0wdGwYkvYHs842A/viewform",
+        type: "flagship",
+        faq: [],
+        speakers: [],
+        tags: [],
+        status: 1
+    },
 
     // Valorant
     {
@@ -1944,13 +1531,433 @@ Jumble the code and triumphal your day.`,
         contact: "9043148825",
         color: "var(--fg-g)",
         carddescription:
-            "Enter the world of strategy and intellect with our exciting chess tournament!",
+            "Dive into the intense battlegrounds of BGMI, where strategy, survival, and skill converge.",
         description:
-            "Enter the world of strategy and intellect with our exciting chess tournament!",
+            "Dive into the intense battlegrounds of BGMI, where strategy, survival, and skill converge. Join the adrenaline-pumping action and showcase your gaming prowess in this thrilling battle royale experience!",
         form: "https://docs.google.com/forms/d/e/1FAIpQLSeGyD1TTLJWJKi-YSEWeibkgB2d97A8qaDqybz3Ey8wG-86Ow/viewform",
         type: "flagship",
         faq: null,
         tags: [],
+    },
+
+    // Workshops and Webinars
+
+    {
+        id: "31",
+        status: 1,
+        rules: [
+            "E-certificate will be given",
+            "Certificate will be given for the registered candidates",
+            "Disocunts will be given for referrals",
+            "For further details call :9962623236",
+        ],
+        faq: [
+            {
+                question: "Will it happen online or offline?",
+                answer: "Offline",
+            },
+            {
+                question: "Will it be a one day workshop or two days?",
+                answer: "One day,Time is mentioned above",
+            },
+            {
+                question: "Can I get any discount?",
+                answer: "Yeah sure,contact us for further details",
+            },
+            {
+                question: "Can I get certificate?",
+                answer: "Yes,certificate will be provided",
+            },
+        ],
+        name: "Workshop1",
+        title: "Workshop on Blockchain",
+        dateTime: "Mar 11th, 1.00 pm to 4.00 pm",
+        carddescription: "Unlock the Power of Web 3",
+        description:
+            "Unlock the Power of Web 3.0: Explore the world of blockchain technology and its impact on our digital lives. Learn about the fundamentals of blockchain and its various use cases in transforming industries today.Check out the form for more details on registration fees.",
+        type: "flagship",
+        eligibility: "Anyone can join",
+        pics: {
+            primary:
+                "https://d32ijn7u0aqfv4.cloudfront.net/wp/wp-content/uploads/raw/bitcoin-cryptocurrency-vault-safelock_SOIN20003_905168316_is_1560x880.jpg",
+        },
+        contact: "6382978347",
+        tags: [],
+        entry: [
+            {
+                type: "Single Workshop- Rs.150/- ",
+                amt: "",
+            },
+            {
+                type:
+                    "Combo A - Two Workshop- Rs.250/-",
+                amt: "",
+            },
+            {
+                type: "Combo B - Three Workshop- Rs.350/-",
+                amt: "",
+            },
+        ],
+        form: "https://forms.gle/5GWSLDupUemUbShs5",
+        speakerinfo:
+            "Pyashu Satapathy is a Developer and Designer by skills ( Won at world's largest Ethereum Hackathon - ETHIndia'22 ) and loves to engage with technical communities out of passion, and have scaled developer communities in India and Globally.",
+        key: 1,
+        speakers: [
+            {
+                name: "Prayashu Satapathy",
+                bio: "Have brought revolution in working of Technical Clubs in my college with CodeChef SRM RMP Club , build the Hackathon and Hustle culture among the students to helping them with their career journey",
+            },
+        ],
+        color: "red",
+    },
+
+    {
+        id: "32",
+        status: 1,
+        rules: [
+            "E-certificate will be given",
+            "Certificate will be given for the registered candidates",
+            "Disocunts will be given for referrals",
+            "For further details call :9962623236",
+        ],
+        faq: [
+            {
+                question: "Will it happen online or offline?",
+                answer: "Offline",
+            },
+            {
+                question: "Will it be a one day workshop or two days?",
+                answer: "One day,Time is mentioned above",
+            },
+            {
+                question: "Can I get any discount?",
+                answer: "Yeah sure,contact us for further details",
+            },
+            {
+                question: "Can I get certificate?",
+                answer: "Yes,certificate will be provided",
+            },
+        ],
+        name: "Workshop2",
+        title: "Workshop on Startup Journey and Product Development",
+        dateTime: "Mar 11th, 10.00 am to 12.00 pm",
+        carddescription: "Gain valuable insights into market research",
+        description:
+            "Learn about the key steps involved in taking your idea from conception to launch. Gain valuable insights into market research, product design, and go-to-market strategies.Check out the form for more details on registration fees.",
+        type: "flagship",
+        eligibility: "Anyone can join",
+        pics: {
+            primary:
+                "https://m.economictimes.com/thumb/msid-93829401,width-1200,height-900,resizemode-4,imgsize-624482/learn-with-etmarkets-beginners-guide-to-fo-trading.jpg",
+        },
+        contact: "6382978347",
+        tags: [],
+        entry: [
+            {
+                type: "Single Workshop- Rs.150/- ",
+                amt: "",
+            },
+            {
+                type:
+                    "Combo A - Two Workshop- Rs.250/-",
+                amt: "",
+            },
+            {
+                type: "Combo B - Three Workshop- Rs.350/-",
+                amt: "",
+            },
+        ],
+        form: "https://forms.gle/5GWSLDupUemUbShs5",
+        speakerinfo:
+            "Ramanathan Alagappan Passionate Full stack developer and skilled in MERN/MEAN Stack developement. Experienced in web development, all layers, from database to services to user interfaces.",
+        key: 1,
+        speakers: [
+            {
+                name: "Ramanathan Alagappan",
+                bio: "Close to 9 years of experience as a Full stack developer in Software Industry and 2 years of experience as a Freelance developer and has good knowledge in Test Driven Development.",
+            },
+        ],
+        color: "red",
+    },
+
+    {
+        id: "33",
+        status: 1,
+        rules: [
+            "E-certificate will be given",
+            "Certificate will be given for the registered candidates",
+            "Disocunts will be given for referrals",
+            "For further details call :9962623236",
+        ],
+        faq: [
+            {
+                question: "Will it happen online or offline?",
+                answer: "Offline",
+            },
+            {
+                question: "Will it be a one day workshop or two days?",
+                answer: "One day,Time is mentioned above",
+            },
+            {
+                question: "Can I get any discount?",
+                answer: "Yeah sure,contact us for further details",
+            },
+            {
+                question: "Can I get certificate?",
+                answer: "Yes,certificate will be provided",
+            },
+        ],
+        name: "Workshop3",
+        title: "Workshop on Startup Journey and Product Development",
+        dateTime: "Mar 10th, 2.00 pm to 4.00 pm",
+        carddescription: "Gain valuable insights on Startups of Today",
+        description:
+            "Join our workshop on Startups of Today: Developing a Viable Product and gain insights on creating successful products that meet market needs. Our experienced speakersand interactive sessions will equip you with the knowledgeand tools needed to turn your startup idea into a reality. Check out the form for more details on registration fees.",
+        type: "flagship",
+        eligibility: "Anyone can join",
+        pics: {
+            primary:
+                "https://sergiocaredda.eu/wp-content/uploads/2020/01/workshop-facilitation.jpg",
+        },
+        contact: "6382978347",
+        tags: [],
+        entry: [
+            {
+                type: "Single Workshop- Rs.150/- ",
+                amt: "",
+            },
+            {
+                type:
+                    "Combo A - Two Workshop- Rs.250/-",
+                amt: "",
+            },
+            {
+                type: "Combo B - Three Workshop- Rs.350/-",
+                amt: "",
+            },
+        ],
+        form: "https://forms.gle/5GWSLDupUemUbShs5",
+        speakerinfo:
+            "Mohanraj Siddhuraj is an experienced Software Test Engineer with a demonstrated history of working in the information technology and services industry.",
+        key: 1,
+        speakers: [
+            {
+                name: "Mohanraj Siddhuraj",
+                bio: "Skilled in Agile Methodologies, Linux, Test Management, Automation and Manual Testing and a strong quality assurance professional.",
+            },
+        ],
+        color: "red",
+    },
+
+    {
+        id: "34",
+        status: 1,
+        rules: [
+            "E-certificate will be given",
+            "Certificate will be given for the registered candidates",
+            "Disocunts will be given for referrals",
+            "For further details call :9962623236",
+        ],
+        faq: [
+            {
+                question: "Will it happen online or offline?",
+                answer: "Offline",
+            },
+            {
+                question: "Will it be a one day workshop or two days?",
+                answer: "One day,Time is mentioned above",
+            },
+            {
+                question: "Can I get any discount?",
+                answer: "Yeah sure,contact us for further details",
+            },
+            {
+                question: "Can I get certificate?",
+                answer: "Yes,certificate will be provided",
+            },
+        ],
+        name: "Webinar1",
+        title: "Webinar on Data Analytics",
+        dateTime: "Mar 11th, 10.00 am to 12.00 pm",
+        carddescription: "Unlock the power of data",
+        description:
+            "Unlock the power of data with our upcoming workshop! Join us to learn how to make informed decisions and gain valuable insights from raw data. Don't miss out on this opportunity to enhance your analytical skills. Register now! Check out the form for more details on registration fees.",
+        type: "flagship",
+        eligibility: "Anyone can join",
+        pics: {
+            primary:
+                "https://bernardmarr.com/wp-content/uploads/2022/11/The-Top-5-Data-Science-And-Analytics-Trends-In-2023.jpg",
+        },
+        contact: "6382978347",
+        tags: [],
+        entry: [
+            {
+                type: "Single webinar- Rs.200/- ",
+                amt: "",
+            },
+            {
+                type:
+                    "Combo A - Two Webinars - Rs.300/-",
+                amt: "",
+            },
+            {
+                type: "Combo B - Three Webinars - Rs.400/-",
+                amt: "",
+            },
+        ],
+        form: "https://forms.gle/MRdusV5a6QX5QRvu5",
+        speakerinfo:
+            "Yasmin Basheer Ahmed is a highly experienced data analyst who's been in the field for more than 5 years.",
+        key: 1,
+        speakers: [
+            {
+                name: "Yasmin Basheer Ahmed",
+                bio: "Skilled in using Google Analytics and Database Management Systems.",
+            },
+        ],
+        color: "red",
+    },
+
+    {
+        id: "35",
+        status: 1,
+        rules: [
+            "E-certificate will be given",
+            "Certificate will be given for the registered candidates",
+            "Disocunts will be given for referrals",
+            "For further details call :9962623236",
+        ],
+        faq: [
+            {
+                question: "Will it happen online or offline?",
+                answer: "Offline",
+            },
+            {
+                question: "Will it be a one day workshop or two days?",
+                answer: "One day,Time is mentioned above",
+            },
+            {
+                question: "Can I get any discount?",
+                answer: "Yeah sure,contact us for further details",
+            },
+            {
+                question: "Can I get certificate?",
+                answer: "Yes,certificate will be provided",
+            },
+        ],
+        name: "Webinar2",
+        title: "Webinar on DevOps and GitHub Actions",
+        dateTime: "Mar 12th, 2.00 pm to 4.00 pm",
+        carddescription:
+            "An immersive experience that will empower your team's software development transactions",
+        description:
+            "An immersive experience that will empower your team's software development transactions.With a focus on automation and optimization, we'll guide you through the best practices. To ensure your workflows are efficient and your code is bug-free and errorless. Check out the form for more details on registration fees.",
+        type: "flagship",
+        eligibility: "Anyone can join",
+        pics: {
+            primary:
+                "https://miro.medium.com/max/1400/1*JLYlSLSK8-AZo8gt9UdYqA.jpeg",
+        },
+        contact: "6382978347",
+        tags: [],
+        entry: [
+            {
+                type: "Single webinar- Rs.200/- ",
+                amt: "",
+            },
+            {
+                type:
+                    "Combo A - Two Webinars - Rs.300/-",
+                amt: "",
+            },
+            {
+                type: "Combo B - Three Webinars - Rs.400/-",
+                amt: "",
+            },
+        ],
+        form: "https://forms.gle/MRdusV5a6QX5QRvu5",
+        speakerinfo:
+            "Harshvardhan is the lead of Student Innovation Network (SIN) & Dhando india and Maheshwaran is a devops enthusiast / Web Developer who spends time building useful products, a designer, front-end web developer and Community contributor.",
+        key: 1,
+        speakers: [
+            {
+                name: "Harshvardhan",
+                bio: "Microsoft certified Microsoft Azure AI ML expert.",
+
+                name: "Maheshwaran",
+                bio: "Proficient in DevOps and Web Development.",
+            },
+        ],
+        color: "red",
+    },
+
+    {
+        id: "36",
+        status: 1,
+        rules: [
+            "E-certificate will be given",
+            "Certificate will be given for the registered candidates",
+            "Disocunts will be given for referrals",
+            "For further details call :9962623236",
+        ],
+        faq: [
+            {
+                question: "Will it happen online or offline?",
+                answer: "Offline",
+            },
+            {
+                question: "Will it be a one day workshop or two days?",
+                answer: "One day,Time is mentioned above",
+            },
+            {
+                question: "Can I get any discount?",
+                answer: "Yeah sure,contact us for further details",
+            },
+            {
+                question: "Can I get certificate?",
+                answer: "Yes,certificate will be provided",
+            },
+        ],
+        name: "Webinar3",
+        title: "Webinar on Techniques of Share Trading and Investing",
+        dateTime: "Mar 12th, 11.00 am to 12.45 pm",
+        carddescription: "Unlock the power of data with our upcoming workshop",
+        description:
+            "Unlock the power of data with our upcoming workshop! Join us to learn how to make informed decisions and gain valuable insights from raw data. Don't miss out on this opportunity to enhance your analytical skills. Register now! Check out the form for more details on registration fees.",
+        type: "flagship",
+        eligibility: "Anyone can join",
+        pics: {
+            primary:
+                "https://iq-study.com/wp-content/uploads/2021/01/blog_price_pattern.jpg",
+        },
+        contact: "6382978347",
+        tags: [],
+        entry: [
+            {
+                type: "Single webinar- Rs.200/- ",
+                amt: "",
+            },
+            {
+                type:
+                    "Combo A - Two Webinars - Rs.300/-",
+                amt: "",
+            },
+            {
+                type: "Combo B - Three Webinars - Rs.400/-",
+                amt: "",
+            },
+        ],
+        form: "https://forms.gle/MRdusV5a6QX5QRvu5",
+        speakerinfo:
+            "K.C.A. Naraayan, Founder & Qualified Personal Finance Professional of WealthSpikes.",
+        key: 1,
+        speakers: [
+            {
+                name: "K.C.A. Naraayan",
+                bio: "Seasoned Share trader and investor in Stock Market.",
+            },
+        ],
+        color: "red",
     },
 
     ///////////////////////////////////////////////////////
