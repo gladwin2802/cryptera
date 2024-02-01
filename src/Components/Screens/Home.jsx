@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React from "react";
 import "../../Styles/Home.css";
 import { useNavigate } from "react-router-dom";
 import { Carousel } from "react-responsive-carousel";
@@ -6,8 +6,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 function Home() {
   const navigator = useNavigate();
-  const Homeref = useRef(null);
-  const greenref = useRef(null);
+ 
   const isMobile = window.innerWidth <= 768;
 
   const clickhandler = (category) => {
