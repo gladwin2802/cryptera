@@ -53,7 +53,8 @@ function Home() {
           style={{ height: "100vh" }}
           dynamicHeight={true}
           autoPlay={true}
-          interval={1500}
+          interval={2000}
+          stopOnHover={false}
           infiniteLoop={true}
           showThumbs={false}
           showStatus={false}
