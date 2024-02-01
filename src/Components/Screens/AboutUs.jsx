@@ -18,7 +18,7 @@ function AboutUs() {
   const contentref = useRef(null);
   let h = 10;
   let i = 10;
-  const isMobile = window.innerWidth <= 768; 
+  const isMobile = window.innerWidth <= 768;
 
   const handleClick = () => {
     window.open("https://www.cit.edu.in/", "_blank");
@@ -83,7 +83,10 @@ function AboutUs() {
         <i class="fas fa-quote-right"></i>
       </div> */}
       <div className="contentx">
-        <div className="left-container" style={{minWidth: "320px", paddingLeft: isMobile ?"0px":"10px"}}>
+        <div
+          className="left-container"
+          style={{ minWidth: "320px", paddingLeft: isMobile ? "0px" : "10px" }}
+        >
           <img src={final_logo} alt="CIT Logo" />
         </div>
         <div className="right-container">
@@ -103,7 +106,7 @@ function AboutUs() {
       </div>
       <div className="contentx">
         {/* CIT Content on the left with image on the right */}
-        <div className="left-container" >
+        <div className="left-container">
           <div className="titley">About CIT</div>
           <div className="descriptiony">
             The{" "}
@@ -123,12 +126,20 @@ function AboutUs() {
             years attained autonomous status in 1987.
           </div>
         </div>
-        <div className="right-container" style={{minWidth: "320px", margin:"2rem 0px"}}>
-          <img
-            onClick={() => handleClick()}
-            src={college_logo}
-            alt="CIT Logo"
-          />
+        <div
+          className="right-container"
+          style={{ minWidth: "320px", margin: "2rem 0px" }}
+        >
+          <a
+            href="https://www.cit.edu.in/departments/computer-science-engineering-department"
+            target="_blank"
+          >
+            <img
+              // onClick={() => handleClick()}
+              src={college_logo}
+              alt="CIT Logo"
+            />
+          </a>
         </div>
       </div>
 
@@ -136,12 +147,13 @@ function AboutUs() {
 
       <div className="contentx">
         {/* Department Content with Lottie player on the left */}
-        <div className="left-container2" style={{minWidth: "320px"}}>
+        <div className="left-container2" style={{ minWidth: "320px" }}>
           <a
             href="https://www.cit.edu.in/departments/computer-science-engineering-department"
             target="_blank"
           >
             <lottie-player
+              className="lottie"
               autoplay
               loop
               mode="normal"

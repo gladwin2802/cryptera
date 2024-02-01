@@ -1,11 +1,8 @@
 import { React } from "react";
 import { useNavigate } from "react-router-dom";
-import { useRef, useState, useEffect } from "react";
 import { TbReportMoney } from "react-icons/tb";
 
-import Logo from "../Assets/logo_final.png";
-import { Link, useLocation } from "react-router-dom";
-function Eventcard({ data, primary }) {
+function Eventcard({ data, primary, status }) {
   const navigate = useNavigate();
   const clickhandler = (e) => {
     navigate(`/events/${data.name}`);
@@ -16,41 +13,40 @@ function Eventcard({ data, primary }) {
       {/* {data.color=="red" && (<div className="disabled"></div>)} */}
       <div className="backdrop"></div>
       <div className="backdropImg">
-        <img src={data.pics.primary}></img>
+        <img src={data.type === "flagship" && status === 1 ? "https://img.freepik.com/free-vector/gradient-mystery-box-illustration_23-2149491633.jpg" : data.pics.primary} alt={`${data.title} backdrop`}></img>
       </div>
-
       <div className="event-card-body-outer">
-        
-        {data.type != "flagship" &&
-          data.name != "Tune_up" &&
-          data.name != "Snap_Quest" &&
-          data.name != "Spill_Some_Ink" &&
-          data.name != "Modelling" &&
-          data.name != "Arts_N_Emotion" && (
+        {data.type !== "flagship" &&
+          data.name !== "Tune_up" &&
+          data.name !== "Snap_Quest" &&
+          data.name !== "Spill_Some_Ink" &&
+          data.name !== "Modelling" &&
+          data.name !== "Arts_N_Emotion" && (
             <TbReportMoney id="general-event"></TbReportMoney>
           )}
         <div className="event-card-header">
-          <span>{data.title}</span>
+            <span>{data.type === "flagship" && status === 1 ? data.name.slice(0, -1) : data.title}</span>
         </div>
+
         <div className="event-card-body">
-          {data.carddescription ? (
-            <span>{data.carddescription}</span>
+          {status === 1 ? (
+            <span>Coming Soon...</span>
           ) : (
-            <span>{data.description}</span>
+            <span>{data.carddescription}</span>
           )}
         </div>
-        <div
-          className="read-more"
-          style={{ backgroundColor: primary }}
-          onClick={clickhandler}
-        >
-          <button>
-            View<i className="fa fas-angle-right"></i>{" "}
-          </button>
+        {status !== 1 && (
+          <div
+            className="read-more"
+            style={{ backgroundColor: primary }}
+            onClick={clickhandler}
+          >
+            <button>
+              View<i className="fa fas-angle-right"></i>{" "}
+            </button>
+          </div>)}
         </div>
-      </div>
-    </div>
-  );
-}
-
+        </div>
+  )
+        }
 export default Eventcard;

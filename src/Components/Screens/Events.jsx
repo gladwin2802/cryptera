@@ -123,7 +123,7 @@ function Events() {
   };
 
   return (
-    <div className="events" onWheel={scrollhandler}>
+    <div className="events">
       <div className='events-header'>
         <h1 ref={technicalref} onClick={technicalclick} className={curr === 0 ? 'activex' : ''}>Technical</h1>
         <h1 ref={nontechnicalref} onClick={nontechnicalclick} className={curr === 1 ? 'activex' : ''}>Non-Technical</h1>
@@ -141,7 +141,7 @@ function Events() {
               (data.type === "non_technical" && curr === 1) ||
               (data.type === "flagship" && curr === 2)) {
               return (
-                <Eventcard primary={data.color} data={data} key={index} />
+                <Eventcard primary={data.color} data={data} key={index} status={data.status === 1 ? data.status : undefined} />
               );
             } else {
               return null;

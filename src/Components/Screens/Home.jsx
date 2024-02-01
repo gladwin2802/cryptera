@@ -20,13 +20,13 @@ function Home() {
   function getImagePath(index) {
     switch (index) {
       case 0:
-        return isMobile ? "pback" : "back.jpg";
+        return isMobile ? "pcrypterabg.png" : "crypterabg.png";
       case 1:
-        return isMobile ? "pback.jpg" : "back.jpg";
+        return isMobile ? "ptechnical.png" : "technical.png";
       case 2:
-        return isMobile ? "pback.jpg" : "back.jpg";
+        return isMobile ? "pnon-technical.png" : "non-technical.png";
       case 3:
-        return isMobile ? "pback.jpg" : "back.jpg";
+        return isMobile ? "pflagship.png" : "flagship.png";
       default:
         return "";
     }
@@ -54,7 +54,7 @@ function Home() {
           style={{ height: "100vh" }}
           dynamicHeight={true}
           autoPlay={true}
-          interval={2000}
+          interval={1500}
           infiniteLoop={true}
           showThumbs={false}
           showStatus={false}
@@ -95,6 +95,10 @@ function Home() {
                   borderRadius: "50px",
                   background: "transparent",
                   opacity: 1,
+                  marginBottom: "0px",
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "center"
                 }}
               >
                 {index === 0 ? (
@@ -109,21 +113,21 @@ function Home() {
                     onClick={() => clickhandler("Technical")}
                     className="submit-btn-event"
                   >
-                    <div>Technical</div>
+                    <div>Explore</div>
                   </div>
                 ) : index === 2 ? (
                   <div
                     onClick={() => clickhandler("Non-Technical")}
                     className="submit-btn-event"
                   >
-                    <div>Non-Technical</div>
+                    <div>Explore</div>
                   </div>
                 ) : (
                   <div
                     onClick={() => clickhandler("Flagship")}
                     className="submit-btn-event"
                   >
-                    <div>Flagship</div>
+                    <div>Explore</div>
                   </div>
                 )}
               </div>
