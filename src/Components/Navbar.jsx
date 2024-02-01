@@ -9,7 +9,7 @@ function Navbar() {
   const aboutref = useRef(null);
   const contactref = useRef(null);
   const eventref = useRef(null);
-  const webref = useRef(null);
+  const galref = useRef(null);
   const commiteeref = useRef(null);
   const hintref = useRef(null);
   const navbarref = useRef(null);
@@ -19,7 +19,7 @@ function Navbar() {
     aboutref.current.classList.remove("active");
     contactref.current.classList.remove("active");
     eventref.current.classList.remove("active");
-    webref.current.classList.remove("active");
+    galref.current.classList.remove("active");
     commiteeref.current.classList.remove("active");
     timelineref.current.classList.remove("active");
   };
@@ -46,7 +46,7 @@ function Navbar() {
       // if(location.pathname=== "/events"){
       //     hintref.current.innerHTML = "Web devs"
       //     hintref.current.addEventListener("click", () => {
-      //         navigate("/web_devs")
+      //         navigate("/gallery")
       //     })
       // }
       // else{
@@ -81,11 +81,11 @@ function Navbar() {
       timelineref.current.classList.add("active");
       // hintref.current.innerHTML = "Web devs"
       // hintref.current.addEventListener("click", () => {
-      //     navigate("/web_devs")
+      //     navigate("/gallery")
       // })
-    } else if (location.pathname === "/web_devs") {
+    } else if (location.pathname === "/gallery") {
       clearActive();
-      webref.current.classList.add("active");
+      galref.current.classList.add("active");
       // hintref.current.innerHTML = "Committee"
       // hintref.current.addEventListener("click", () => {
       //     navigate("/commitee")
@@ -145,9 +145,9 @@ function Navbar() {
           <i className="fa fa-calendar-check"></i>
           <span>Timeline</span>
         </Link>
-        <Link to="web_devs" ref={webref} className="navbar-link">
-          <i className="fa fa-wifi"></i>
-          <span>Web devs</span>
+        <Link to="gallery" ref={galref} className="navbar-link">
+          <i class="fa-brands fa-envira"></i>
+          <span>Gallery</span>
         </Link>
         <Link to="commitee" ref={commiteeref} className=" navbar-link">
           <i className="fa fa-users"></i>

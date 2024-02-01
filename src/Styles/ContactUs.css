@@ -1,57 +1,13 @@
-.support{
+.support {
     width: 100%;
     height: 100vh;
     scroll-behavior: smooth;
     overflow-y: auto;
     overflow-x: hidden;
     padding: 20px;
+}
 
-}
-.faq-header{
-    font-size: 30px;
-    color: var(--fg-green);
-    font-weight: 700;
-    margin-bottom: 40px;
-    letter-spacing:-1.3px;
-    font-weight: 900;
-}
-.faq-card{
-    cursor: pointer;
-    max-width: 700px;
-
-    border: 2px solid rgba(255, 255, 255,0.8);
-    padding:20px;
-    border-radius: 10px;
-    margin-bottom: 30px;
-}
-.faq-question{
-    color:rgba(255, 255, 255,0.8);
-    display: flex;
-    font-weight: 600;
-    justify-content: space-between;
-    align-items: center;
-    font-family: var(--font-secondary);
-    
-}
-.down-icon{
-    cursor: pointer;
-    font-weight: 900;
-}
-.faq-answer{
-    color:rgba(255, 255, 255,1);
-    padding-top: 5px;
-    font-family: var(--font-secondary);
-    font-weight: 600;
-}
-.rotate{
-    transform: rotate(180deg);
-}
-.mobile-containe{
-    font-size: 18px;
-    font-weight: 600;
-    color:white;
-}
-.support-header{
+.support-header {
     font-size: 30px;
     display: flex;
     flex-direction: row;
@@ -61,11 +17,24 @@
     color: var(--fg-green);
     margin-top: 8%;
     margin-bottom: 40px;
-    letter-spacing:-1.3px;
+    letter-spacing: -1.3px;
     font-weight: 900;
 }
-.support-content{
+
+.support-title {
+    text-align: center;
+    flex-grow: 1; /* This will make the <div> take up the available space */
+}
+
+.mobile-container {
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+}
+
+.support-content {
     max-width: 800px;
+    margin: 0 auto; /* Center the content horizontally */
     padding-left: 20px;
     color: #999999;
     font-size: 15px;
@@ -75,7 +44,8 @@
     letter-spacing: 0.9px;
     font-family: var(--font-secondary);
 }
-.support-content>input{
+
+.support-content > input {
     border: none;
     outline: none;
     border-bottom: 3px solid var(--fg-green);
@@ -87,75 +57,117 @@
     margin-left: 10px;
     margin-right: 10px;
 }
-.text-area{
-    min-width: 400px;
-    line-height: normal;
-    border: none;
-    outline: none;
-    border-bottom: 3px solid var(--fg-green);
-    background-color: rgb(53, 53, 53);
-    padding-left: 5px;
-    font-weight: 700;
-    color:var(--fg-white);
-    height: 60px;
-    padding-top: 15px;
-    padding-left: 15px;
-}
-.txt-content{
-    margin-top: 20px;
-    ;
-}
-.submit{
-    background-image:linear-gradient(90deg, #24B47E, #128b5f);
-    width: fit-content;
-    padding: 3px;
-    border-radius: 50px;
-    color:white;
-    margin-top: 60px;
-    margin-left: 10px;
-    margin-bottom:90px 
-    
-}
-.submit>div{
-    width: 100%;
-    background-color: var(--bg-black);
-    border-radius: 50px;
-    padding: 18px 80px;
-    font-size: 14px;
-    font-weight: 800;
-    cursor: pointer;
 
+.form-group {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
 }
-.submit>div:hover{
-   color: var(--fg-green);
+
+.form-group label {
+    color: #999999;
 }
-.mobile-container{    
-    position: absolute;
-    top: 60px;
-    right: 50px;
-    
+
+.form-group input,
+.form-group textarea {
+    width: calc(100% - 20px);
+    height: 40px;
+    margin-left: -200px;
+    padding: 10px;
+    border: 1px solid var(--fg-green);
+    background-color: var(--bg-black);
+    color: var(--fg-green);
+    font-weight: 700;
+    box-sizing: border-box;
+    line-height: 20px;
 }
-@media only screen and (max-width: 900px) {
-    .support-container{
-        margin-top: 60px;
-    }
-    .support-content{
-        max-width: 100%;
-        padding-left: 0px;
-    }
-    .support-content>input{
-        margin-left: 5px;
-        margin-right: 5px;
-    }
-    .text-area{
-        min-width: 100%;
-    }
-    .mobile-container{
-        position: absolute;
-        top: -0px;
-        right: 30px;
-    }
-    .submit{
-        margin-top: 0px;
-    }
+
+.txt-content {
+    margin-top: 20px;
 }
+
+.center-container {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.submit {   
+    background-image:linear-gradient(90deg, #24B47E,#50e40c);
+    padding: 3px;
+    color:white;
+    border-radius: 50px;
+    margin-top: 60px;
+    margin-right: 100px;
+    text-align: center; 
+    width: 25%;
+}
+    /* Existing styles for desktop screens */
+
+    @media only screen and (max-width: 900px) {
+        .support-container {
+            margin-top: 60px;
+        }
+
+        .support-header {
+            margin-top: 20px;
+            margin-left: 25px;
+            text-align: center; /* Center-align the header */
+        }
+
+        .support-content {
+            max-width: 100%;
+            padding-left: 20px;
+            line-height: 28px;
+            text-align: center; /* Center-align the text content */
+        }
+
+        .support-content label {
+            display: block;
+            margin-bottom: 8px;
+            color: #999999;
+        }
+
+        .form-group {
+            display: grid;
+            grid-template-columns: 1fr; /* Change to a single column layout */
+            align-items: center; /* Center-align the input boxes */
+        }
+
+        .form-group input,
+        .form-group textarea {
+            width: calc(100% - 20px);
+            padding: 10px;
+            margin-bottom: 20px;
+            border: none;
+            outline: none;
+            border-bottom: 3px solid var(--fg-green);
+            background-color: var(--bg-black);
+            color: var(--fg-green);
+            font-weight: 700;
+            text-align: left; /* Reset text alignment for input and textarea */
+            margin-left: auto; /* Center-align input and textarea */
+            margin-right: auto; /* Center-align input and textarea */
+        }
+
+        .submit {   
+            background-image:linear-gradient(90deg, #24B47E,#50e40c);
+            padding: 3px;
+            color:white;
+            border-radius: 50px;
+            margin-top: 60px;
+            margin-left: 85px;
+            text-align: center; 
+            width: 25%;
+        }
+
+        .mobile-container {
+            position: absolute;
+            top: -20px;
+            right: 20px;
+            font-size: 16px;
+            font-weight: 600;
+            color: white;
+        }
+    }
+
+
