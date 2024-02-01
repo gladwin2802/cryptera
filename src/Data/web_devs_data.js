@@ -57,7 +57,7 @@ const web_devs_data = [
         id: 5,
         profile: pf5,
         name: "Aniruthan M",
-        about: "Web developer passionate about creating dynamic and responsive applications.",
+        about: "An avid web developer, passionate about building cool and dynamic web applications.",
         instagram: "https://www.instagram.com/aniruth_19/",
         github: "https://github.com/Aniruth19",
         medium: "",

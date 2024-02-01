@@ -254,7 +254,6 @@
     margin-left: 10px;
     margin-bottom:90px;
     text-align: center;
-    
 }
 .submit-btn-event>div{
     width: 100%;
@@ -295,8 +294,8 @@
     z-index: 99;
 }
 .manager-profile-image{
-    width:auto;
-    height:110px;
+    width:85px;
+    height:100px;
     border: 0px solid white;
     transition: all 0.24s ease-in-out;
 }
