@@ -82,19 +82,19 @@ export default [
     },
     {
         id: 9,
-        name: 'Niranjan R M',
-        position: 'Technical Event Head',
-        year: 'Third year',
-        x: 'CSE',
-        profile: pf9
-    },
-    {
-        id: 10,
         name: 'Muthu Jawahar K',
         position: 'Technical Event Head',
         year: 'Third year',
         x: 'CSE',
         profile: pf10
+    },
+    {
+        id: 10,
+        name: 'Niranjan R M',
+        position: 'Technical Event Head',
+        year: 'Third year',
+        x: 'CSE',
+        profile: pf9
     },
     {
         id: 11,
