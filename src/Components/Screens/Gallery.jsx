@@ -30,7 +30,7 @@ function Gallery(){
         />
         <Gallerycard 
           image={require("../../Assets/2k23pic/startup.jpg")}
-          name="Workshop on Startup Journey and Product Development"
+          name="Workshop on Startup"
           
         />
 

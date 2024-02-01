@@ -92,14 +92,9 @@
 }
 
 .submit {   
-    background-image:linear-gradient(90deg, #24B47E,#50e40c);
-    padding: 3px;
     color:white;
     border-radius: 50px;
-    margin-top: 60px;
-    margin-right: 100px;
     text-align: center; 
-    width: 25%;
 }
     /* Existing styles for desktop screens */
 
@@ -150,14 +145,7 @@
         }
 
         .submit {   
-            background-image:linear-gradient(90deg, #24B47E,#50e40c);
-            padding: 3px;
-            color:white;
-            border-radius: 50px;
-            margin-top: 60px;
-            margin-left: 85px;
-            text-align: center; 
-            width: 25%;
+
         }
 
         .mobile-container {

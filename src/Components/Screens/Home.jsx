@@ -37,17 +37,16 @@ function Home() {
       className="home main-section"
       id="Home"
       style={{
-        position: "relative",
         padding: isMobile ? "0px" : "",
         margin: isMobile ? "0px 2px" : "",
         overflow: isMobile ? "hidden" : "",
-        position: isMobile ? "fixed" : "",
+        position: isMobile ? "fixed" : "relative",
       }}
     >
       <div
         style={{
-          paddingTop: isMobile ? "px" : "20px",
-          paddingBottom: isMobile ? "5px" : "20px",
+          paddingTop: isMobile ? "px" : "0px",
+          paddingBottom: isMobile ? "5px" : "0px",
         }}
       >
         <Carousel
@@ -90,7 +89,6 @@ function Home() {
                   marginRight: "auto",
                   left: 0,
                   right: 0,
-                  marginBottom: "70px",
                   fontSize: "20px",
                   borderRadius: "50px",
                   background: "transparent",
