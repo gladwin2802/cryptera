@@ -1318,7 +1318,7 @@ Jumble the code and triumphal your day.`,
         results: null,
         rules: [
             "Game Mode : Clash Squad",
-            "Event Fee : Rs.120 per team",
+            "Event Fee : Rs.150 per team",
             "Moderators will be spectating the match, and any inconvenience should be brought to the Moderators.",
             "The moderator will share the room id and password for every match in the whatsapp group.",
             "Freefire room will be created and the room's name and password will be shared before the match start.",
@@ -1429,6 +1429,7 @@ Jumble the code and triumphal your day.`,
         rules: [
             "Team size: 5+2 ( 5 Main players, 2 Substitutes )",
             "If the team fails to show up, the opponents automatically get a walk over",
+            "Registration fee Rs. 300 per team",
         ],
         pics: {
             primary:
