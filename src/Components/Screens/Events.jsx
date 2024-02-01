@@ -141,7 +141,7 @@ function Events() {
               (data.type === "non_technical" && curr === 1) ||
               (data.type === "flagship" && curr === 2)) {
               return (
-                <Eventcard primary={data.color} data={data} key={index} />
+                <Eventcard primary={data.color} data={data} key={index} status={data.status === 1 ? data.status : undefined} />
               );
             } else {
               return null;
