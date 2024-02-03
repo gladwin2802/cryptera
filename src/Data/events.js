@@ -134,7 +134,7 @@ export default [
                 "https://www.billboard.com/wp-content/uploads/2022/07/salt-n-pepa-celebrity-family-feud-2022-billboard-1548.png",
             secondary: [],
         },
-        dateTime: "March 1, 11, 2.30 pm",
+        dateTime: "March 2, 2.30 pm",
         duration: "",
         prizes: {
             gold: "1000",
