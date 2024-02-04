@@ -1,6 +1,6 @@
 import React, { useRef } from "react";
 import profile1 from "../../Assets/1905098.png";
-import "../../Styles/Commmitee.css";
+import "../../Styles/Committee.css";
 import { useNavigate } from "react-router-dom";
 import commitee_data from "../../Data/commitee_data";
 function Commitee() {
@@ -60,10 +60,10 @@ function Commitee() {
           src="https://assets4.lottiefiles.com/packages/lf20_h3a2hlnn.json"
         ></lottie-player>
       </div>
-      <div className="webdevs-container" style={{"paddingTop":"0px"}}>
+      <div className="committee-container" style={{"paddingTop":"0px"}}>
         <div>
-          <h1 className="webdevs-title" style={{"marginTop":"0px",paddingTop:"0p"}}>Commitee members</h1>
-          <p className="webdevs-tilte-description">
+          <h1 className="committee-title" style={{"marginTop":"0px",paddingTop:"0p"}}>Commitee members</h1>
+          <p className="committee-tilte-description">
             The crew in charge of painting the events.{" "}
           </p>
         </div>

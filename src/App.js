@@ -10,7 +10,7 @@ import Home from './Components/Screens/Home';
 import AboutUs from './Components/Screens/AboutUs';
 import ContactUs from './Components/Screens/ContactUs';
 import Gallery from './Components/Screens/Gallery';
-import Commitee from './Components/Screens/Commitee';
+import Commitee from './Components/Screens/Committee';
 import Events from './Components/Screens/Events';
 import Countdown from './Components/Screens/Countdown'
 import WebDevs from './Components/Screens/WebDevs'

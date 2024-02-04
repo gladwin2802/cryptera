@@ -1,25 +1,42 @@
-.content-container-item{
+.committee-container {
+    text-align: center;
+    padding: 20px;
+    margin-top: 5%;
+}
+
+.committee-title {
+    font-size: 44px;
+    color: #05ffa3;
+    font-weight: 700;
+}
+
+
+
+
+.content-container-item {
     display: flex;
     flex-direction: row;
-    margin:0px;
+    margin: 0px;
     margin-bottom: 60px;
     width: 350px;
-
 }
-.content-container-item-image{
+
+.content-container-item-image {
     width: 100px;
     position: relative;
     height: 100px;
     border-radius: 50%;
     margin-right: 20px;
 }
-.content-container-item-image>img{
-    width:100px;
+
+.content-container-item-image>img {
+    width: 100px;
     height: 100px;
     border-radius: 50%;
     object-fit: cover;
 }
-.commitee-name-x{
+
+.commitee-name-x {
     text-align: justify;
     display: flex;
     flex-direction: column;
@@ -27,22 +44,26 @@
     height: 100%;
     padding: 10px;
 }
-.commitee-name-x >div>h1{
+
+.commitee-name-x>div>h1 {
     font-size: 20px;
     font-weight: 700;
-    color: rgba(255,255,255,0.9);
+    color: rgba(255, 255, 255, 0.9);
 }
-.commitee-name-x>div>p{
+
+.commitee-name-x>div>p {
     font-size: 14px;
     font-weight: 600;
-    color: rgba(255,255,255,0.5);
+    color: rgba(255, 255, 255, 0.5);
 }
-.commitee-name-x>p{
+
+.commitee-name-x>p {
     font-size: 14px;
     font-weight: 600;
     color: #05ffa3;
 }
-.insta-hover-container{
+
+.insta-hover-container {
     position: absolute;
     bottom: -10px;
     left: 0;
@@ -57,12 +78,33 @@
     font-weight: 700;
 }
 
-
-.commitee{
+.commitee {
     width: 50%;
     height: 40%;
     margin: auto;
     margin-bottom: 0px;
     padding-right: 5%;
     margin-top: 20px;
+}
+
+@media only screen and (max-width: 900px) {
+    .committee-container {
+        text-align: center;
+        padding: 20px;
+        line-height: normal;
+        margin-top: 0%;
+        margin-bottom: 50px;
+    }
+
+    .content-container-item {
+        display: flex;
+        flex-direction: row;
+        margin: 0px;
+        margin-top: 50px;
+        width: 350px;
+    }
+
+    .committee-tilte-description {
+        margin: 5%;
+    }
 }

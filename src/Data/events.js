@@ -1,5 +1,6 @@
 import chess from "../Components/Screens/assets/chess.jpg";
 import blindCode from "../Assets/event/blindCode.jpg";
+import jumbledCode from "../Assets/event/jumbledCode.jpg";
 
 const form = "https://docs.google.com/forms/d/e/1FAIpQLSdVn_M4OESw7BRTY5QJF8FREnONDoWUfAreehNLWgyF81HhHw/viewform"
 
@@ -243,8 +244,7 @@ export default [
             "Plagiarism and any kind of cheating is strictly prohibited.",
         ],
         pics: {
-            primary:
-                "https://english.olympiadsuccess.com/assets/images/english_square/english_topic_50.jpg",
+            primary: jumbledCode,
             secondary: [],
         },
         dateTime: "March 1, 10.00 am",
@@ -1151,7 +1151,7 @@ Jumble the code and triumphal your day.`,
             "We are looking for the best photographs that capture the beauty and creativity of the world around us.Stop the moment from slipping away.",
         form: "https://docs.google.com/forms/d/e/1FAIpQLSd2JYaCJW4kgijFE5W69625vbxRzEdMffcds-v-jCMTA3drHQ/viewform",
         type: "non_technical",
-        faq: null,
+        faq: [],
         tags: ["Fun Event"],
     },
 
@@ -1333,6 +1333,7 @@ Jumble the code and triumphal your day.`,
                 "https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
             ],
         },
+        amt: "150",
         contact: "9344860242",
         dateTime: "March 1, 7.00 pm",
         prizes: {
@@ -1441,6 +1442,7 @@ Jumble the code and triumphal your day.`,
                 "https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
             ],
         },
+        amt: "300",
         contact: "9677666944",
         dateTime: "March 1, 11, 8.00 pm",
         prizes: {
@@ -1490,6 +1492,8 @@ Jumble the code and triumphal your day.`,
             silver: "250",
         },
         contact: "9043148825",
+        amt: "50",
+        team: "no",
         color: "var(--fg-g)",
         carddescription:
             "Enter the world of strategy and intellect with our exciting chess tournament!",
@@ -1497,7 +1501,7 @@ Jumble the code and triumphal your day.`,
             "Enter the world of strategy and intellect with our exciting chess tournament!",
         form: "https://docs.google.com/forms/d/e/1FAIpQLSd_XqKFigNtReNdvVejryuzeIYhhnuc2A44sITUhoFRK1gevQ/viewform",
         type: "flagship",
-        faq: null,
+        faq: [],
         tags: ["Fun Event", "Chess"],
     },
 
@@ -1530,6 +1534,7 @@ Jumble the code and triumphal your day.`,
             silver: "500",
         },
         contact: "9043148825",
+        amt: "150",
         color: "var(--fg-g)",
         carddescription:
             "Dive into the intense battlegrounds of BGMI, where strategy, survival, and skill converge.",
@@ -1537,7 +1542,7 @@ Jumble the code and triumphal your day.`,
             "Dive into the intense battlegrounds of BGMI, where strategy, survival, and skill converge. Join the adrenaline-pumping action and showcase your gaming prowess in this thrilling battle royale experience!",
         form: "https://docs.google.com/forms/d/e/1FAIpQLSeGyD1TTLJWJKi-YSEWeibkgB2d97A8qaDqybz3Ey8wG-86Ow/viewform",
         type: "flagship",
-        faq: null,
+        faq: [],
         tags: [],
     },
 

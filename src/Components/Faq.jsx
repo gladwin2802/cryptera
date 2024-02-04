@@ -27,8 +27,6 @@ function Faq({data}) {
                     {data.answer}
                 </div>
             }
-
-
         </div>
     )
 }

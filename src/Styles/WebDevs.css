@@ -30,7 +30,6 @@
     align-items: center;
     flex-wrap: wrap;
     gap:13px;
-    /* margin-top: 50px; */
 }
 .web-card{
     background-color:rgba(26, 25, 25, 0.3);
@@ -100,7 +99,6 @@
     bottom: 25px;
 }
 
-
 .media-container>a>i{
     cursor: pointer;
 }
@@ -111,7 +109,7 @@
     .webdevs-container{
         text-align: center;
         padding: 20px;
-        margin-top: 15%;
+        margin-top: 50px;
     }
 }
 

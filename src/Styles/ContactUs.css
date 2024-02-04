@@ -23,7 +23,7 @@
 
 .support-title {
     text-align: center;
-    flex-grow: 1; /* This will make the <div> take up the available space */
+    flex-grow: 1;
 }
 
 .mobile-container {
@@ -34,7 +34,7 @@
 
 .support-content {
     max-width: 800px;
-    margin: 0 auto; /* Center the content horizontally */
+    margin: 0 auto;
     padding-left: 20px;
     color: #999999;
     font-size: 15px;
@@ -91,60 +91,58 @@
     text-align: center;
 }
 
-    /* Existing styles for desktop screens */
-
-    @media only screen and (max-width: 900px) {
-        .support-container {
-            margin-top: 60px;
-        }
-
-        .support-header {
-            margin-top: 20px;
-            margin-left: 25px;
-            text-align: center; /* Center-align the header */
-        }
-
-        .support-content {
-            max-width: 100%;
-            padding-left: 20px;
-            line-height: 28px;
-            text-align: center; /* Center-align the text content */
-        }
-
-        .support-content label {
-            display: block;
-            margin-bottom: 8px;
-            color: #999999;
-        }
-
-        .form-group {
-            display: grid;
-            grid-template-columns: 1fr; /* Change to a single column layout */
-            align-items: center; /* Center-align the input boxes */
-        }
-
-        .form-group input,
-        .form-group textarea {
-            width: calc(100% - 20px);
-            padding: 10px;
-            margin-bottom: 20px;
-            border: none;
-            outline: none;
-            border-bottom: 3px solid var(--fg-green);
-            background-color: var(--bg-black);
-            color: var(--fg-green);
-            font-weight: 700;
-            text-align: left; /* Reset text alignment for input and textarea */
-            margin-left: auto; /* Center-align input and textarea */
-            margin-right: auto; /* Center-align input and textarea */
-        }
-
-        .mobile-container {
-            position: flex;
-            top: -20px;
-            right: 20px;
-            font-size: 16px;
-            font-weight: 600;
-            color: white;
-        }
+@media only screen and (max-width: 900px) {
+    .support-container {
+        margin-top: 60px;
     }
+
+    .support-header {
+        margin-top: 20px;
+        margin-left: 25px;
+        text-align: center;
+    }
+
+    .support-content {
+        max-width: 100%;
+        padding-left: 20px;
+        line-height: 28px;
+        text-align: center;
+    }
+
+    .support-content label {
+        display: block;
+        margin-bottom: 8px;
+        color: #999999;
+    }
+
+    .form-group {
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+    }
+
+    .form-group input,
+    .form-group textarea {
+        width: calc(100% - 20px);
+        padding: 10px;
+        margin-bottom: 20px;
+        border: none;
+        outline: none;
+        border-bottom: 3px solid var(--fg-green);
+        background-color: var(--bg-black);
+        color: var(--fg-green);
+        font-weight: 700;
+        text-align: left;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .mobile-container {
+        position: flex;
+        top: -20px;
+        right: 20px;
+        font-size: 16px;
+        font-weight: 600;
+        color: white;
+    }
+}

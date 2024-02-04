@@ -40,6 +40,7 @@
 
 .events-header>h1:last-child {
     position: relative;
+    padding-right: 50px;
 }
 
 .activex {
@@ -94,18 +95,15 @@
 }
 
 .event-card {
-
-   
-    width: 320px;
+    /* margin: 0px auto; */
+    width: 340px;
     height: 220px;
     background-color: rgba(38, 38, 43, 0.6);
     border-radius: 5px;
     border-top: 3px solid yellow;
     padding:0px !important;
     position: relative;
-   overflow: hidden;
-
-  
+    overflow: hidden;
 }
 
 .event-card:nth-child(1) {
@@ -204,7 +202,6 @@ font-family: var(--font-primary);
 
 }
 
-
 #general-event{
     position: absolute;
     bottom:10px;
@@ -234,11 +231,11 @@ font-family: var(--font-primary);
     }
     .events-header {
         width: 100%;
-
+        justify-content: center;
         display: flex;
         flex-direction: row;
         align-items: center;
-        margin-top: 50px;
+        margin-top: 60px;
         font-size: 16px;
         letter-spacing: 0.02px;
         -webkit-text-stroke-width: 0.7px;
@@ -266,17 +263,31 @@ font-family: var(--font-primary);
     }
     .events-header>h1:nth-child(2) {
         position: relative;
-        padding-right: 20px;
+        padding: 0px 10px;
     }
     
     .events-header>h1:first-child {
         position: relative;
-        padding-right: 20px;
+        padding: 0px 10px;
     }
     
     .events-header>h1:last-child {
         position: relative;
+        padding: 0px 10px;
     }
+
+    .event-card {
+        margin: 0px auto;
+        width: 340px;
+        height: 220px;
+        background-color: rgba(38, 38, 43, 0.6);
+        border-radius: 5px;
+        border-top: 3px solid yellow;
+        padding:0px !important;
+        position: relative;
+        overflow: hidden;
+    }
+
     .event-card-body {
         font-size: 15px;
         font-weight: 900;
