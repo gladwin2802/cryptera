@@ -1,42 +1,45 @@
-.faculty{
-    height:250px;
-    width:250px;
+.faculty {
+    height: 250px;
+    width: 250px;
     border-radius: 5px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    overflow:hidden;
+    overflow: hidden;
     background-color: var(--bg-black1);
-   box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
-    padding:10px 0;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    padding: 10px 0;
 }
 
-.faculty-image{
+.faculty-image {
     position: relative;
-    top:-30%;
-    height:130px;
+    top: -30%;
+    height: 130px;
 }
-.triangle{
+
+.triangle {
     position: relative;
-    height:900px;
-    width:900px;
-    transform: rotate(-26deg)translate( -10px,-10px);
+    height: 900px;
+    width: 900px;
+    transform: rotate(-26deg)translate(-10px, -10px);
     background-color: #24B47E;
 }
-.faculty h3{
+
+.faculty h3 {
 
     position: relative;
-    bottom:15px;
+    bottom: 15px;
     font-size: 18px;
-    color:var(fg-white);
+    color: var(fg-white);
     font-weight: 700;
 
 }
-.faculty h3{
-       position: relative;
-    bottom:15px;
+
+.faculty h3 {
+    position: relative;
+    bottom: 15px;
     font-size: 18px;
-    color:var(fg-white);
+    color: var(fg-white);
     font-weight: 700;
 }

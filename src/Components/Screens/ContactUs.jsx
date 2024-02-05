@@ -1,19 +1,14 @@
 import React, { useState } from "react";
 import "../../Styles/ContactUs.css";
-import Faq from "../Faq";
-import Faq_data from "../../Data/Faqs_main";
 import { db } from "../../App";
-import { getFirestore, collection, getDocs, addDoc } from "firebase/firestore";
-import Button from "../Button";
+import { collection, addDoc } from "firebase/firestore";
+
 function ContactUs() {
-
-
     const [name, setname] = useState("");
     const [college, setcollege] = useState("");
     const [email, setemail] = useState("");
     const [mobile, setmobile] = useState("");
     const [question, setquestion] = useState("");
-
     const submit = async (e) => {
         e.preventDefault();
         console.log("done");
@@ -29,8 +24,6 @@ function ContactUs() {
                     college,
                     replied: false,
                 });
-
-                // console.log("Document written with ID: ", docRef.id);
                 alert("Success");
                 setname("");
                 setcollege("");
@@ -41,8 +34,8 @@ function ContactUs() {
                 console.error("Error adding document: ", e);
             }
         }
-        // validations
     };
+
     return (
         <div className="support">
             <div className="support-container">

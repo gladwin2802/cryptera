@@ -10,7 +10,6 @@ function Eventcard({ data, primary, status }) {
 
     return (
         <div className="event-card" style={{ borderTopColor: primary }}>
-            {/* {data.color=="red" && (<div className="disabled"></div>)} */}
             <div className="backdrop"></div>
             <div className="backdropImg">
                 <img src={data.type === "flagship" && status === 1 ? "https://img.freepik.com/free-vector/gradient-mystery-box-illustration_23-2149491633.jpg" : data.pics.primary} alt={`${data.title} backdrop`}></img>

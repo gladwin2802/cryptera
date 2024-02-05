@@ -1,6 +1,7 @@
 import chess from "../Components/Screens/assets/chess.jpg";
 import blindCode from "../Assets/event/blindCode.jpg";
 import jumbledCode from "../Assets/event/jumbledCode.jpg";
+import oxdebug from "../Assets/event/0xdebug.jpg";
 
 const form = "https://docs.google.com/forms/d/e/1FAIpQLSdVn_M4OESw7BRTY5QJF8FREnONDoWUfAreehNLWgyF81HhHw/viewform"
 
@@ -30,14 +31,9 @@ export default [
             "Winner will be decided based on the number of questions answered and time of submission.",
         ],
         pics: {
-            primary:
-                "https://www.zdnet.com/a/img/resize/757fc75271d8f21e8d54e61b5d0dee0a3d522971/2021/06/30/0286f74b-453c-4472-b5c1-321b18475c78/technical-visual-studio-code-extension.jpg?auto=webp&fit=crop&height=1200&width=1200",
-            secondary: [
-                "https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
-                "https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
-                "https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
-                "https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
-            ],
+            primary: oxdebug,
+                // "https://www.zdnet.com/a/img/resize/757fc75271d8f21e8d54e61b5d0dee0a3d522971/2021/06/30/0286f74b-453c-4472-b5c1-321b18475c78/technical-visual-studio-code-extension.jpg?auto=webp&fit=crop&height=1200&width=1200",
+            secondary: [],
         },
         dateTime: "March 2, 3.00 pm",
         duration: "",
@@ -1318,7 +1314,6 @@ Jumble the code and triumphal your day.`,
         results: null,
         rules: [
             "Game Mode : Clash Squad",
-            "Event Fee : Rs.150 per team",
             "Moderators will be spectating the match, and any inconvenience should be brought to the Moderators.",
             "The moderator will share the room id and password for every match in the whatsapp group.",
             "Freefire room will be created and the room's name and password will be shared before the match start.",
@@ -1430,7 +1425,6 @@ Jumble the code and triumphal your day.`,
         rules: [
             "Team size: 5+2 ( 5 Main players, 2 Substitutes )",
             "If the team fails to show up, the opponents automatically get a walk over",
-            "Registration fee Rs. 300 per team",
         ],
         pics: {
             primary:

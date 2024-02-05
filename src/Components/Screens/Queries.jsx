@@ -1,19 +1,18 @@
 import React, { useEffect, useState } from 'react'
 import { db } from './../../App'
-import { getFirestore, collection, getDocs, addDoc ,setDoc,doc} from "firebase/firestore";
+import { collection, getDocs, setDoc, doc } from "firebase/firestore";
 function Queries() {
     const [data, setData] = useState([])
-    const repliedstatus=async(id)=>{
+    const repliedstatus = async (id) => {
         await setDoc(doc(db, "queries", id), {
-            replied:true
-          },{merge:true});
-        let temp=data
-        temp.forEach(query=>{
-            if (query.id === id){
-                query.replied=true
+            replied: true
+        }, { merge: true });
+        let temp = data
+        temp.forEach(query => {
+            if (query.id === id) {
+                query.replied = true
             }
         })
-     //   console.log(temp)
         setData(temp)
     }
     useEffect(async () => {
@@ -21,17 +20,15 @@ function Queries() {
             const querysnapshot = await getDocs(collection(db, "queries"))
             var queries = []
             querysnapshot.forEach(doc => {
-                let temp={
+                let temp = {
                     ...doc.data(),
-                    id:doc.id
+                    id: doc.id
                 }
                 queries.push(temp)
             })
             setData(queries)
-          //  console.log(data)
         }
         getdata()
-      //  console.log("hot")
     }, [])
     return (
         <div style={{ margin: "30px", marginTop: "90px" }}>
@@ -53,11 +50,9 @@ function Queries() {
                                     {
                                         !query.replied
                                         &&
-                                        <buttton onClick={()=>repliedstatus(query.id)} style={{ padding: "10px 20px", cursor: "pointer", backgroundColor: "var(--fg-green)", borderRadius: "4px" }}>Replied</buttton>
+                                        <buttton onClick={() => repliedstatus(query.id)} style={{ padding: "10px 20px", cursor: "pointer", backgroundColor: "var(--fg-green)", borderRadius: "4px" }}>Replied</buttton>
                                     }
-
                                 </div>
-
                             </li>
                         )
                     })

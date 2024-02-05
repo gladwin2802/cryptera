@@ -15,7 +15,7 @@
     justify-content: space-between;
     align-items: center;
     color: var(--fg-green);
-    margin-top: 8%;
+    margin-top: 5%;
     margin-bottom: 40px;
     letter-spacing: -1.3px;
     font-weight: 900;
@@ -45,7 +45,7 @@
     font-family: var(--font-secondary);
 }
 
-.support-content > input {
+.support-content>input {
     border: none;
     outline: none;
     border-bottom: 3px solid var(--fg-green);

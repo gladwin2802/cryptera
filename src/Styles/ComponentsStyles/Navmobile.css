@@ -40,25 +40,29 @@
 .close-btn {
     z-index: 800;
 }
-.linkx{
+
+.linkx {
     position: relative;
-    display:none;
+    display: none;
     flex-direction: column;
-    gap:10px;
+    gap: 10px;
     margin-left: 30px;
     margin-top: 50px;
     color: rgba(246, 248, 246, 0.8);
 }
-.navbar-linkx{
+
+.navbar-linkx {
     font-size: 18px;
     overflow: hidden;
     width: fit-content;
     height: 40px;
 }
-.navbar-linkx>i{
+
+.navbar-linkx>i {
     margin: 10px;
 }
-.close-btn-x{
+
+.close-btn-x {
     position: absolute;
     right: 20px;
     top: 10px;
@@ -67,22 +71,25 @@
     color: var(--fg-black);
     color: rgba(246, 248, 246, 0.8);
 }
-.hint{
+
+.hint {
     position: absolute;
-    left:10px;
+    left: 10px;
     top: 890px;
     padding: 10px;
     font-size: 20px;
     color: var(--fg-white);
     color: rgba(246, 248, 246, 0.8);
 }
-.social-linksx{
+
+.social-linksx {
     margin: 40px;
     display: none;
     overflow: hidden;
     width: fit-content;
     height: 20px;
 }
-.social-linksx>i{
+
+.social-linksx>i {
     margin: 10px;
 }

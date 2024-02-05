@@ -1,26 +1,26 @@
-.home{
+.home {
     width: 100%;
-    height:100vh;
+    height: 100vh;
     scroll-behavior: smooth;
-overflow-y: auto;
-overflow-x: hidden;
-position: relative;
-padding:20px;
-display: flex;
-flex-direction: column;
-align-items: center;
-justify-content: center;
+    overflow-y: auto;
+    overflow-x: hidden;
+    position: relative;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 
-.home-content{
+.home-content {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    gap:6%
-   
+    gap: 6%
 }
-.home-content-text{
+
+.home-content-text {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -32,33 +32,35 @@ justify-content: center;
     letter-spacing: normal;
     text-align: start;
 }
-.top-fixed{
-    top:0 !important;
-    left:0 !important;
+
+.top-fixed {
+    top: 0 !important;
+    left: 0 !important;
 
 }
-.right-fixed{
-    right:0 !important;
-    top:0 !important;
+
+.right-fixed {
+    right: 0 !important;
+    top: 0 !important;
 }
-.left-fixed{
-    left:0 !important;
-    top:0 !important;
+
+.left-fixed {
+    left: 0 !important;
+    top: 0 !important;
 }
-.add-green-vertical{
+
+.add-green-vertical {
     width: 0px;
-    height:100vh;
+    height: 100vh;
     border-radius: 2px;
     position: fixed;
     bottom: 0;
-    right:0;
-    background: radial-gradient(
-        circle,
-        rgba(2, 0, 36, 1) 0%,
-        rgba(36, 180, 126, 1) 0%,
-        rgba(19, 195, 185, 1) 81%,
-        rgba(0, 212, 255, 1) 100%
-      );
+    right: 0;
+    background: radial-gradient(circle,
+            rgba(2, 0, 36, 1) 0%,
+            rgba(36, 180, 126, 1) 0%,
+            rgba(19, 195, 185, 1) 81%,
+            rgba(0, 212, 255, 1) 100%);
     box-shadow: 0 0 30px rgba(77, 175, 28, 0.7);
     z-index: 100;
 }
@@ -66,35 +68,36 @@ justify-content: center;
 .button {
     background-color: transparent;
     /* Other button styles */
-  }
-  
-.add-green{
+}
+
+.add-green {
     width: 100%;
-    height:0px;
+    height: 0px;
     border-radius: 2px;
     position: fixed;
     bottom: 0;
-    right:0;
-    background: radial-gradient(
-        circle,
-        rgba(2, 0, 36, 1) 0%,
-        rgba(36, 180, 126, 1) 0%,
-        rgba(19, 195, 185, 1) 81%,
-        rgba(0, 212, 255, 1) 100%
-      );
+    right: 0;
+    background: radial-gradient(circle,
+            rgba(2, 0, 36, 1) 0%,
+            rgba(36, 180, 126, 1) 0%,
+            rgba(19, 195, 185, 1) 81%,
+            rgba(0, 212, 255, 1) 100%);
     box-shadow: 0 0 30px rgba(77, 175, 28, 0.7);
     z-index: 100;
 }
-.card-content-wrapper{
+
+.card-content-wrapper {
     box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 1);
     background-color: var(--bg-black) !important;
-} 
-.timeline-component::-webkit-scrollbar{
+}
+
+.timeline-component::-webkit-scrollbar {
     background-color: transparent;
-    border:none !important;
+    border: none !important;
     display: none !important;
 }
-.explore-btn{
+
+.explore-btn {
     margin-top: 00px;
     display: flex;
     justify-content: center;
@@ -102,64 +105,74 @@ justify-content: center;
 
 /* below 900px */
 @media only screen and (max-width: 900px) {
-    .home-content{
+    .home-content {
         flex-direction: column-reverse;
-        gap:10%;
+        gap: 10%;
         margin-top: 90px;
-     
+
     }
-    .home-content>.lottie{
+
+    .home-content>.lottie {
         width: 100%;
         height: 100%;
         margin-top: 90px;
     }
-    .home{
+
+    .home {
         padding-top: 200px;
         margin-top: 100px;
     }
-    .explore-btn{
+
+    .explore-btn {
         margin-top: 40px !important;
         margin-bottom: 80px;
     }
-   
-@media screen and (max-width: 768px) {
-    .home.main-section {
-      /* Adjust styles for smaller screens */
-      padding-top: 0; /* Example adjustment */
-      padding-bottom: 0; /* Example adjustment */
-    }
-  
-    .legend {
-      /* Adjust styles for smaller screens */
-      max-width: 200px; /* Example adjustment */
-      font-size: 14px; /* Example adjustment */
-      margin-left: 10px; /* Example adjustment */
-    }
-  
-    /* Force carousel to display in portrait mode */
-    .carousel .slider-wrapper {
-      width: 100% !important;
-      height: 100vh !important; /* Cover the full viewport height */
-    }
-  
-    /* Adjust carousel item to fit portrait mode */
-    .carousel .slider-wrapper .slider {
-      width: 100% !important;
-      height: 100% !important;
-    }
-  
 
-    .carousel .slider-wrapper .slider img {
-      height: 100%;
-      width: auto;
-      object-fit: cover;
-    }
-    .button {
+    @media screen and (max-width: 768px) {
+        .home.main-section {
+            /* Adjust styles for smaller screens */
+            padding-top: 0;
+            /* Example adjustment */
+            padding-bottom: 0;
+            /* Example adjustment */
+        }
 
-        padding: 10px 20px;
-      }
-  }
-  
-  
-  
+        .legend {
+            /* Adjust styles for smaller screens */
+            max-width: 200px;
+            /* Example adjustment */
+            font-size: 14px;
+            /* Example adjustment */
+            margin-left: 10px;
+            /* Example adjustment */
+        }
+
+        /* Force carousel to display in portrait mode */
+        .carousel .slider-wrapper {
+            width: 100% !important;
+            height: 100vh !important;
+            /* Cover the full viewport height */
+        }
+
+        /* Adjust carousel item to fit portrait mode */
+        .carousel .slider-wrapper .slider {
+            width: 100% !important;
+            height: 100% !important;
+        }
+
+
+        .carousel .slider-wrapper .slider img {
+            height: 100%;
+            width: auto;
+            object-fit: cover;
+        }
+
+        .button {
+
+            padding: 10px 20px;
+        }
+    }
+
+
+
 }
