@@ -88,7 +88,7 @@
 }
 
 .event-content-container {
-    max-width: 75%;
+    max-width: 80%;
     margin: auto;
     flex-direction: row;
     justify-content: space-between;
@@ -456,7 +456,7 @@
     }
 
     .event-content-container {
-        max-width: 80%;
+        max-width: 85%;
         margin-top: 50px;
     }
 
