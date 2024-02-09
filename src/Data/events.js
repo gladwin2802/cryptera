@@ -114,9 +114,9 @@ export default [
             `Round 2 : CODE SHARING
             Each member of a team will be given one of the two question and both should solve simultaneously.
             After 15 minutes, 
-                    If one of the teammate have completed his problem. Then he will be given two 
-                    options,(1) Either replace his teammate to solve the teammate's question or (2) Wait for his teammate to complete
-                    If none of them have completed, swapping is not possible.
+            If one of the teammate have completed his problem. Then he will be given two 
+            options,(1) Either replace his teammate to solve the teammate's question or (2) Wait for his teammate to complete
+            If none of them have completed, swapping is not possible.
             Discussion among team members is not permitted.`,
             `Round 3 :	RAPID FIRE
             For each battle,
@@ -247,7 +247,7 @@ export default [
         duration: "",
         prizes: {
             gold: "650",
-            silver: "300",
+            silver: "350",
         },
         contact: "7598096466",
         speakers: null,

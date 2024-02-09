@@ -15,12 +15,7 @@ function Eventcard({ data, primary, status }) {
                 <img src={data.type === "flagship" && status === 1 ? "https://img.freepik.com/free-vector/gradient-mystery-box-illustration_23-2149491633.jpg" : data.pics.primary} alt={`${data.title} backdrop`}></img>
             </div>
             <div className="event-card-body-outer">
-                {data.type !== "flagship" &&
-                    data.name !== "Tune_up" &&
-                    data.name !== "Snap_Quest" &&
-                    data.name !== "Spill_Some_Ink" &&
-                    data.name !== "Modelling" &&
-                    data.name !== "Arts_N_Emotion" && (
+                {data.type !== "flagship" && (
                         <TbReportMoney id="general-event"></TbReportMoney>
                     )}
                 <div className="event-card-header">
