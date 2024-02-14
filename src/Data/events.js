@@ -1409,7 +1409,7 @@ Jumble the code and triumphal your day.`,
         color: "var(--fg-g)",
         carddescription: "You must do the thing you think you cannot do",
         description:
-            "Hackathon is a national-level 48-hour long intensive, brainstorming event that encourages young talents to generate solutions to real-world problems. Participants can work in teams of 4 members and use innovative ideation practices to brainstorm and work with specialized tools and come up with the most suitable and feasible one. The event aims to encourage students to find a solution and provide a kickstart to implement them in the future.",
+            "Hackathon is a national-level, brainstorming event that encourages young talents to generate solutions to real-world problems. Participants can work in teams of 4 members and use innovative ideation practices to brainstorm and work with specialized tools and come up with the most suitable and feasible one. The event aims to encourage students to find a solution and provide a kickstart to implement them in the future.",
         form: "https://docs.google.com/forms/d/e/1FAIpQLSeSqEDX5Lyp7maO52THyN9UYYbZl4ARDAV0wdGwYkvYHs842A/viewform",
         type: "flagship",
         faq: [],
