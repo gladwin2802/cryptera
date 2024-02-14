@@ -32,7 +32,7 @@ export default [
         ],
         pics: {
             primary: oxdebug,
-                // "https://www.zdnet.com/a/img/resize/757fc75271d8f21e8d54e61b5d0dee0a3d522971/2021/06/30/0286f74b-453c-4472-b5c1-321b18475c78/technical-visual-studio-code-extension.jpg?auto=webp&fit=crop&height=1200&width=1200",
+            // "https://www.zdnet.com/a/img/resize/757fc75271d8f21e8d54e61b5d0dee0a3d522971/2021/06/30/0286f74b-453c-4472-b5c1-321b18475c78/technical-visual-studio-code-extension.jpg?auto=webp&fit=crop&height=1200&width=1200",
             secondary: [],
         },
         dateTime: "March 2, 3.00 pm",
@@ -1371,20 +1371,23 @@ Jumble the code and triumphal your day.`,
     // Hackathon
     {
         id: "27",
-        name: "Hackathon1",
+        name: "Hackathon",
         title: "Hackathon",
         eligibility: "Anyone can join",
         completed: false,
         results: null,
+        mailto: "mailto:crypterahackathon@gmail.com?subject=Hackathon%20Submission&body=Dear%20Organizers,%0D%0A%0D%0AAttached%20are%20my%20PPT%20and%20other%20necessary%20files%20for%20the%20hackathon.%20Please%20let%20me%20know%20if%20there%20are%20any%20issues.%0D%0A%0D%0AKind%20regards,%0D%0A[Your%20Name]",
+        email: "crypterahackathon@gmail.com",
         rules: [
             "A team should consist of 4 members",
-            "the teams should submit the topic on 7th March",
-            "THEME:Sustainable Development",
-            "ENTRY FEE PER TEAM:250",
+            "ENTRY FEE PER TEAM : Rs. 250",
+            "Theme - Smart City and Home Automation",
+            "The teams should submit the topic on 28th February",
             "The final solution must be demonstrated through presentation and implementation of the project",
             "Panel members decision is final",
             "Simulation can be done through any software",
-            "Students should upload their PPT and other necessary files on 1st March 12pm",
+            "PPT should contain theme, introduction, problem statement, objective, target users, proposed solution, sequence diagram, conclusion",
+            "Students should upload their PPT and other necessary files before March 1st, 12 pm at "
         ],
         pics: {
             primary:
@@ -1402,6 +1405,7 @@ Jumble the code and triumphal your day.`,
             gold: "2000",
             silver: "1000",
         },
+        amt: "250",
         color: "var(--fg-g)",
         carddescription: "You must do the thing you think you cannot do",
         description:
@@ -1411,7 +1415,6 @@ Jumble the code and triumphal your day.`,
         faq: [],
         speakers: [],
         tags: [],
-        status: 1
     },
 
     // Valorant
@@ -1437,7 +1440,7 @@ Jumble the code and triumphal your day.`,
             ],
         },
         amt: "300",
-        contact: "9677666944",
+        contact: "6369829214",
         dateTime: "March 1, 11, 8.00 pm",
         prizes: {
             gold: "2000",
@@ -1573,8 +1576,7 @@ Jumble the code and triumphal your day.`,
         title: "Workshop on Blockchain",
         dateTime: "Mar 11th, 1.00 pm to 4.00 pm",
         carddescription: "Unlock the Power of Web 3",
-        description:
-            "Unlock the Power of Web 3.0: Explore the world of blockchain technology and its impact on our digital lives. Learn about the fundamentals of blockchain and its various use cases in transforming industries today.Check out the form for more details on registration fees.",
+        description: "Unlock the Power of Web 3.0: Explore the world of blockchain technology and its impact on our digital lives. Learn about the fundamentals of blockchain and its various use cases in transforming industries today.Check out the form for more details on registration fees.",
         type: "flagship",
         eligibility: "Anyone can join",
         pics: {

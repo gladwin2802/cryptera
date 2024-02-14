@@ -298,6 +298,9 @@ function Eventdetails() {
                                                         }}
                                                     >
                                                         {rule}
+                                                        {index === Event_data.rules.length - 1 && Event_data.mailto && (
+                                                            <a style={{display:"inline", color:"blueviolet"}} href={Event_data.mailto}>{Event_data.email}</a>
+                                                        )}
                                                     </li>
                                                 </div>
                                             );
