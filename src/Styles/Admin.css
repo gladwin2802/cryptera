@@ -1,0 +1,73 @@
+.admin-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 500px;
+    margin: 0px auto;
+}
+
+.admin-container h2 {
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+}
+
+.admin-container img {
+    display: inherit;
+    margin: 0px auto;
+    width: 300px;
+    height: 300px;
+}
+
+.admin-container input {
+    margin: 10px auto;
+    color: black;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    display: block;
+}
+
+.selection-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 80%;
+    margin: 0px auto;
+}
+
+.selection-container h2 {
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+}
+
+.button-flex {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 30px;
+    margin: auto;
+    margin-top: 4%;
+    width: 100%;
+}
+
+@media screen and (max-width: 789px) {
+    .admin-container {
+        margin: 200px auto 0px auto;
+    }
+    .selection-container {
+        margin: 200px auto 0px auto;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .admin-container {
+        margin: 200px auto 0px auto;
+    }
+    .selection-container {
+        margin: 100px auto 0px auto;
+    }
+}

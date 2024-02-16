@@ -2,6 +2,7 @@ import chess from "../Components/Screens/assets/chess.jpg";
 import blindCode from "../Assets/event/blindCode.jpg";
 import jumbledCode from "../Assets/event/jumbledCode.jpg";
 import oxdebug from "../Assets/event/0xdebug.jpg";
+import carrom from "../Assets/event/carrom.jpg"
 
 const form = "https://docs.google.com/forms/d/e/1FAIpQLSdVn_M4OESw7BRTY5QJF8FREnONDoWUfAreehNLWgyF81HhHw/viewform"
 
@@ -638,7 +639,7 @@ Jumble the code and triumphal your day.`,
             'Individual Participation Only.',
             'You can use any programming language of given choice (C, C++, Java, Python)',
             'Make sure you have a Hackerrank account. If not create one before the contest',
-            'A total of two rounds will be conducted.',
+            'A total of three rounds will be conducted.',
             'Internet and personal computer will be provided and be free to bring your own laptops to this event.'
         ],
         pics: {
@@ -693,7 +694,10 @@ Jumble the code and triumphal your day.`,
         eligibility: "Anyone can join",
         completed: false,
         results: null,
+        free: "yes",
         rules: [
+            "This event is a free participation event, no entry free or special fee needed",
+            "Event is conducted for vocals and instruments separately",
             "Participants are requested to record video with duration of 1-3 minutes.",
             "Both solo and team performance are accepted",
             "Maximum team size is 2",
@@ -701,7 +705,8 @@ Jumble the code and triumphal your day.`,
             "Those videos are posted in Cryptera instagram page.",
             "Latest video should be uploaded.",
             "Any kind of plagiarism is strictly prohibited",
-            "Winners and runners are decided based on 40%  likes and remaining 60% through panel member decision.",
+            "Winners are decided based on 40% likes and remaining 60% through panel member decision.",
+            "Winners are decided for vocals and instruments separately each having cash price of Rs. 250"
         ],
         pics: {
             primary:
@@ -719,7 +724,10 @@ Jumble the code and triumphal your day.`,
         dateTime: "March 1",
         prizes: {
             gold: "250",
+            gold1: "250"
         },
+        type1: "Vocals",
+        type2: "Instruments",
         color: "var(--fg-g)",
         description:
             "Get ready to hit all the right notes and make some sweet music! Join our singing and music competition and showcase your talent to the world. Whether you're a seasoned pro or a fresh face on the scene, this is your chance to shine and take center stage. So tune up your instruments, warm up your vocals, and let's make some unforgettable melodies together!",
@@ -728,13 +736,11 @@ Jumble the code and triumphal your day.`,
         faq: [
             {
                 question: "Can we upload only audio files?",
-                answer:
-                    "No,the video should be uploaded. If needed we can mask your faces while posting it into our Cryptera's instagram page.s",
+                answer: "No,the video should be uploaded. If needed we can mask your faces while posting it into our Cryptera's instagram page.s",
             },
             {
                 question: "Is there any cash price provided?",
-                answer:
-                    "Yes, there are cash prices for winner and runner ups.E- certificates will also be provided for all the participants.",
+                answer: "Yes, there are cash prices for winner and runner ups.E- certificates will also be provided for all the participants.",
             },
         ],
         speakers: [],
@@ -832,7 +838,9 @@ Jumble the code and triumphal your day.`,
         eligibility: "Anyone can join",
         completed: false,
         results: null,
+        free: "yes",
         rules: [
+            "This event is a free participation event, no entry free or special fee needed",
             "Theme : Open theme",
             "All kind of artistic styles are welcomed (eg: Pencil sketch, water colour, doodle art, oil painting, etc).",
             "Plagiarism is strictly prohibited.",
@@ -884,7 +892,9 @@ Jumble the code and triumphal your day.`,
         eligibility: "Anyone can join",
         completed: false,
         results: null,
+        free: "yes",
         rules: [
+            "This event is a free participation event, no entry free or special fee needed",
             "Solo Participation",
             "Languages allowed : Tamil, English",
             "Upload your file in jpg/jpeg format",
@@ -1126,7 +1136,9 @@ Jumble the code and triumphal your day.`,
         eligibility: "Anyone can join",
         completed: false,
         results: null,
+        free: "yes",
         rules: [
+            "This event is a free participation event, no entry free or special fee needed",
             "Selfies and portraits are not allowed.",
             "Photo uploading formats(.jpg or .png)",
         ],
@@ -1340,7 +1352,7 @@ Jumble the code and triumphal your day.`,
             "Get ready to battle it out and be the last one standing in the ultimate Free Fire showdown!",
         description:
             "Join the hottest battleground with Free Fire! Experience heart-pumping action and be the last one standing.",
-        form: "https://docs.google.com/forms/d/e/1FAIpQLSdh89b7jTQENvRUYblX9sP2tV4LJ-f1tl1B_pI0yNPmkutqVA/viewform",
+        form: "https://docs.google.com/forms/d/e/1FAIpQLSfmCfHZOQkHfyZPA71G1PRjzTk4F0r-kHdM2ljluM0-KIMobQ/viewform?usp=sf_link",
         type: "flagship",
         faq: [
             {
@@ -1543,10 +1555,162 @@ Jumble the code and triumphal your day.`,
         tags: [],
     },
 
+    // Carrom
+    {
+        id: "31",
+        name: "Carrom",
+        title: "Carrom",
+        eligibility: "Anyone can join",
+        completed: false,
+        results: null,
+        rules: [
+            "2 players per team(doubles)",
+            "Matches will be in league format",
+            "4 teams per pool",
+            "Each team will play 1 match with other 3 teams in the pool",
+            "Points will be awarded for each match",
+            "Top 2 team will qualify for knockouts",
+            "Base game(No thumping & Scissoring)",
+            "Black & white game",
+            "Refree's decision is final",
+        ],
+        entry: [],
+        pics: {
+            primary: carrom,
+            secondary: [],
+        },
+        dateTime: "March 1 and 2, 6.00 pm",
+        duration: "",
+        prizes: {
+            gold: "600",
+            silver: "300",
+        },
+        contact: "7867800830",
+        amt: "50",
+        color: "var(--fg-g)",
+        carddescription:
+            "Let the striker talk !",
+        description:
+            "Are you prepared to master the art of precision and stratergy ? Let the coins fly and the striker slide as you embark on a journey to become the ultimate carrom champion !",
+        form: "https://docs.google.com/forms/d/e/1FAIpQLSdh89b7jTQENvRUYblX9sP2tV4LJ-f1tl1B_pI0yNPmkutqVA/viewform",
+        type: "flagship",
+        faq: [
+            {
+                question: "Board size and type ?",
+                answer: " Medium and wooden",
+            },
+            {
+                question: "Can we use our own striker ?",
+                answer: "Yes, you can use your own striker"
+            }
+        ],
+        tags: [],
+    },
+
+    // IPL Auction
+    {
+        id: "32",
+        status: 1,
+        name: "IPL-Auction1",
+        title: "IPL Auction",
+        eligibility: "Anyone can join",
+        completed: false,
+        results: null,
+        rules: [
+            "Each team must consist of 4 members in a group.",
+            "The team leader's name should be announced in the form.",
+            "Only the team leader can bid during the auction; other team members' bids are not considerable.",
+            "Bidding will be conducted with the player's name, base price, country, and rating (e.g., Name: Virat Kohli, Base Price: 200L, Country: India, Rating: 10). However, the player's rating will not be revealed initially. The rating will only be disclosed after each player selection. Each team must consider the revealed rating for strategic decision-making during subsequent bids.",
+            `Each team is required to select 6 players:
+                - 2 Batsmen
+                - 1 Wicket Keeper
+                - 1 All-Rounder
+                - 2 Bowlers`,
+            "A maximum of 2 foreign players can be in the playing 6.",
+            "If a team successfully buys the maximum number of players in each category (role), subsequent bids for players in the same category will not be considerable. For example, if Team 1 has already bought 2 batsmen, any further bids for batsmen from Team 1 will not be considered.",
+            `Purse: Each team starts with a total purse of 50cr.
+                - Bids under 5cr are increased by 20L.
+                - Bids after reaching 50Cr are increased by 50L.`,
+        ],
+        entry: [],
+        pics: {
+            primary: "https://thebridge.in/h-upload/2022/02/12/23253-ipl-2022.webp",
+        },
+        dateTime: "March 1, 6.00 pm",
+        duration: "",
+        prizes: {
+            gold: "1000",
+        },
+        contact: "9344860242",
+        amt: "150",
+        color: "var(--fg-g)",
+        determination: "The team with the highest total rating after player auction will be declared as the winner.",
+        carddescription: "Immersive cricket experience  assemble, bid, and conquer! 🏏💰",
+        description: "Join the excitement of the IPL-Auction, where strategic bidding and team-building skills will be put to the test! Form your squad, lead the bidding, and assemble a winning team to claim the coveted title. With a dynamic auction format, diverse player roles, and a challenging purse limit, the IPL-Auction promises intense competition and thrilling cricket action.",
+        form: "https://docs.google.com/forms/d/e/1FAIpQLSeGyD1TTLJWJKi-YSEWeibkgB2d97A8qaDqybz3Ey8wG-86Ow/viewform",
+        type: "flagship",
+        faq: [
+            {
+                question: "Are player ratings revealed during bidding?",
+                answer: "No"
+            },
+            {
+                question: "Can unsold players be bought in the acceleration auction at the end?",
+                answer: "Yes"
+            },
+            {
+                question: "In case of tied ratings, who wins?",
+                answer: "The team with the highest purse is declared the winner."
+            }
+        ],
+        tags: [],
+    },
+
+    // Escape Room
+    // {
+    //     id: "33",
+    //     name: "Escape Room",
+    //     title: "Escape Room",
+    //     eligibility: "Anyone can join",
+    //     completed: false,
+    //     results: null,
+    //     rules: [
+    //         "Emulators not allowed",
+    //         "3 maps will be played",
+    //         "Based on points winners runners will be decided",
+    //         "New player will not allowed.",
+    //         "Team should present before 10 min match start",
+    //         "Moderators will be spectating the match, and any inconvenience should be brought to the Moderators",
+    //         "The moderator will share the room id and password for every match in the whatsapp group"
+    //     ],
+    //     entry: [],
+    //     pics: {
+    //         primary: "https://wallpapercave.com/wp/wp9273900.jpg",
+    //         secondary: [],
+    //     },
+    //     dateTime: "March 1, 6.00 pm",
+    //     duration: "",
+    //     prizes: {
+    //         gold: "1000",
+    //         silver: "500",
+    //     },
+    //     contact: "9043148825",
+    //     amt: "150",
+    //     color: "var(--fg-g)",
+    //     carddescription:
+    //         "Dive into the intense battlegrounds of BGMI, where strategy, survival, and skill converge.",
+    //     description:
+    //         "Dive into the intense battlegrounds of BGMI, where strategy, survival, and skill converge. Join the adrenaline-pumping action and showcase your gaming prowess in this thrilling battle royale experience!",
+    //     form: "https://docs.google.com/forms/d/e/1FAIpQLSeGyD1TTLJWJKi-YSEWeibkgB2d97A8qaDqybz3Ey8wG-86Ow/viewform",
+    //     type: "flagship",
+    //     faq: [],
+    //     tags: [],
+    // },
+
     // Workshops and Webinars
 
     {
-        id: "31",
+        id: "34",
         status: 1,
         rules: [
             "E-certificate will be given",
@@ -1573,10 +1737,10 @@ Jumble the code and triumphal your day.`,
             },
         ],
         name: "Workshop1",
-        title: "Workshop on Blockchain",
+        title: "Augmented Reality app development",
         dateTime: "Mar 11th, 1.00 pm to 4.00 pm",
         carddescription: "Unlock the Power of Web 3",
-        description: "Unlock the Power of Web 3.0: Explore the world of blockchain technology and its impact on our digital lives. Learn about the fundamentals of blockchain and its various use cases in transforming industries today.Check out the form for more details on registration fees.",
+        description: "Making an Augmented Reality app using Unity software. The session will cover topics related to Augmented Reality and Virtual Reality.",
         type: "flagship",
         eligibility: "Anyone can join",
         pics: {
@@ -1614,7 +1778,7 @@ Jumble the code and triumphal your day.`,
     },
 
     {
-        id: "32",
+        id: "35",
         status: 1,
         rules: [
             "E-certificate will be given",
@@ -1683,7 +1847,7 @@ Jumble the code and triumphal your day.`,
     },
 
     {
-        id: "33",
+        id: "36",
         status: 1,
         rules: [
             "E-certificate will be given",
@@ -1752,7 +1916,7 @@ Jumble the code and triumphal your day.`,
     },
 
     {
-        id: "34",
+        id: "37",
         status: 1,
         rules: [
             "E-certificate will be given",
@@ -1821,7 +1985,7 @@ Jumble the code and triumphal your day.`,
     },
 
     {
-        id: "35",
+        id: "38",
         status: 1,
         rules: [
             "E-certificate will be given",
@@ -1894,7 +2058,7 @@ Jumble the code and triumphal your day.`,
     },
 
     {
-        id: "36",
+        id: "39",
         status: 1,
         rules: [
             "E-certificate will be given",

@@ -12,6 +12,7 @@ function Navbar() {
     const navbarref = useRef(null);
     const timelineref = useRef(null);
     const webref = useRef(null);
+    // const adminref = useRef(null);
 
     const clearActive = () => {
         homeref.current.classList.remove("active");
@@ -21,6 +22,7 @@ function Navbar() {
         webref.current.classList.remove("active");
         commiteeref.current.classList.remove("active");
         timelineref.current.classList.remove("active");
+        // adminref.current.classList.remove("active");
     };
     useEffect(() => {
         window.addEventListener("mouseover", (event) => {
@@ -58,7 +60,12 @@ function Navbar() {
         } else if (location.pathname === "/committee") {
             clearActive();
             commiteeref.current.classList.add("active");
-        } else {
+        }
+        //  else if (location.pathname === "/admin") {
+        //     clearActive();
+        //     adminref.current.classList.add("active");
+        // }
+        else {
             clearActive();
         }
     }, [location]);
@@ -123,6 +130,10 @@ function Navbar() {
                     <i className="fa fa-headset"></i>
                     <span>Contact Us</span>
                 </Link>
+                {/* <Link to="admin" ref={adminref} className=" navbar-link">
+                    <i className="fa fa-user"></i>
+                    <span>Admin</span>
+                </Link> */}
             </div>
             <div className="bottom-special" ref={hintref}></div>
         </div>

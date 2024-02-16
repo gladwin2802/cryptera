@@ -44,7 +44,7 @@ function Home() {
         >
             <div
                 style={{
-                    paddingTop: isMobile ? "px" : "0px",
+                    paddingTop: isMobile ? "" : "0px",
                     paddingBottom: isMobile ? "5px" : "0px",
                 }}
             >

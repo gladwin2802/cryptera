@@ -265,6 +265,46 @@ function Eventdetails() {
                                     </div>
                                 </>
                             )}
+
+                            {Event_data.determination && (
+                                <div className="e-title-m">Winner Determination</div>
+                            )}
+                            {Event_data.determination && (
+                                <div className="e-description-m">
+                                    <ul
+                                        className="list-decimal rules"
+                                        style={{ "list-style-type": "none" }}
+                                    >
+                                        <div
+                                            style={{
+                                                display: "flex",
+                                                marginTop: "10px",
+                                                alignItems: "center",
+                                            }}
+                                        >
+                                            <div>
+                                                <IoSend
+                                                    style={{
+                                                        marginRight: "15px",
+                                                        color: "#05ffa3",
+                                                        fontSize: "26px !important",
+                                                        height: "100% !important",
+                                                    }}
+                                                ></IoSend>
+                                            </div>
+
+                                            <li
+                                                style={{
+                                                    fontSize: "12px !important",
+                                                }}
+                                            >
+                                                {Event_data.determination}
+                                            </li>
+                                        </div>
+                                    </ul>
+                                </div>
+                            )}
+
                             <div className="e-title-m">Rules</div>
                             <div className="e-description-m">
                                 <ul
@@ -299,7 +339,7 @@ function Eventdetails() {
                                                     >
                                                         {rule}
                                                         {index === Event_data.rules.length - 1 && Event_data.mailto && (
-                                                            <a style={{display:"inline", color:"blueviolet"}} href={Event_data.mailto}>{Event_data.email}</a>
+                                                            <a style={{ display: "inline", color: "blueviolet" }} href={Event_data.mailto}>{Event_data.email}</a>
                                                         )}
                                                     </li>
                                                 </div>
@@ -316,10 +356,20 @@ function Eventdetails() {
                                         <div className="gold-trophy">
                                             <i class="fa fa-trophy"></i>
                                             <div>
-                                                <div><b>Winner</b></div>
+                                                <div><b>Winner {Event_data.type1}</b></div>
                                                 Rs. <b>{Event_data.prizes["gold"]}</b>
                                             </div>
                                         </div>
+
+                                        {Event_data.prizes["gold1"] &&
+                                            <div className="gold-trophy">
+                                                <i class="fa fa-trophy"></i>
+                                                <div>
+                                                    <div><b>Winner {Event_data.type2}</b></div>
+                                                    Rs. <b>{Event_data.prizes["gold1"]}</b>
+                                                </div>
+                                            </div>
+                                        }
 
                                         {Event_data.prizes["silver"] != undefined && (
                                             <div className="silver-trophy">
@@ -378,7 +428,7 @@ function Eventdetails() {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div >
         );
     }
 }
