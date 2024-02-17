@@ -1976,7 +1976,7 @@ Jumble the code and triumphal your day.`,
             },
         ],
         name: "Webinar2",
-        title: "Webinar on Database in Distributed Systems",
+        title: "Webinar on Distributed Data Mastery: Revolutionizing Cloud Architecture",
         dateTime: "March 2, 2pm to 4pm",
         carddescription: " Unlock resilience in distributed databases; revolutionize your Cloud data strategy with us.",
         description:
