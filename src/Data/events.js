@@ -290,6 +290,7 @@ Jumble the code and triumphal your day.`,
         completed: false,
         results: null,
         rules: [
+            "Solo participation event",
             "The UI design has to be for a mobile device",
             "A minimum of 4 screens must be designed",
             "The UI must fit the provided brief",
@@ -1610,7 +1611,7 @@ Jumble the code and triumphal your day.`,
     // IPL Auction
     {
         id: "32",
-        status: 1,
+        // status: 1,
         name: "IPL-Auction1",
         title: "IPL Auction",
         eligibility: "Anyone can join",
@@ -1636,7 +1637,7 @@ Jumble the code and triumphal your day.`,
         pics: {
             primary: "https://thebridge.in/h-upload/2022/02/12/23253-ipl-2022.webp",
         },
-        dateTime: "March 1, 6.00 pm",
+        dateTime: "March 2, 6.00 pm",
         duration: "",
         prizes: {
             gold: "1000",
@@ -1647,7 +1648,7 @@ Jumble the code and triumphal your day.`,
         determination: "The team with the highest total rating after player auction will be declared as the winner.",
         carddescription: "Immersive cricket experience  assemble, bid, and conquer! 🏏💰",
         description: "Join the excitement of the IPL-Auction, where strategic bidding and team-building skills will be put to the test! Form your squad, lead the bidding, and assemble a winning team to claim the coveted title. With a dynamic auction format, diverse player roles, and a challenging purse limit, the IPL-Auction promises intense competition and thrilling cricket action.",
-        form: "https://docs.google.com/forms/d/e/1FAIpQLSeGyD1TTLJWJKi-YSEWeibkgB2d97A8qaDqybz3Ey8wG-86Ow/viewform",
+        form: "",
         type: "flagship",
         faq: [
             {
@@ -1667,56 +1668,60 @@ Jumble the code and triumphal your day.`,
     },
 
     // Escape Room
-    // {
-    //     id: "33",
-    //     name: "Escape Room",
-    //     title: "Escape Room",
-    //     eligibility: "Anyone can join",
-    //     completed: false,
-    //     results: null,
-    //     rules: [
-    //         "Emulators not allowed",
-    //         "3 maps will be played",
-    //         "Based on points winners runners will be decided",
-    //         "New player will not allowed.",
-    //         "Team should present before 10 min match start",
-    //         "Moderators will be spectating the match, and any inconvenience should be brought to the Moderators",
-    //         "The moderator will share the room id and password for every match in the whatsapp group"
-    //     ],
-    //     entry: [],
-    //     pics: {
-    //         primary: "https://wallpapercave.com/wp/wp9273900.jpg",
-    //         secondary: [],
-    //     },
-    //     dateTime: "March 1, 6.00 pm",
-    //     duration: "",
-    //     prizes: {
-    //         gold: "1000",
-    //         silver: "500",
-    //     },
-    //     contact: "9043148825",
-    //     amt: "150",
-    //     color: "var(--fg-g)",
-    //     carddescription:
-    //         "Dive into the intense battlegrounds of BGMI, where strategy, survival, and skill converge.",
-    //     description:
-    //         "Dive into the intense battlegrounds of BGMI, where strategy, survival, and skill converge. Join the adrenaline-pumping action and showcase your gaming prowess in this thrilling battle royale experience!",
-    //     form: "https://docs.google.com/forms/d/e/1FAIpQLSeGyD1TTLJWJKi-YSEWeibkgB2d97A8qaDqybz3Ey8wG-86Ow/viewform",
-    //     type: "flagship",
-    //     faq: [],
-    //     tags: [],
-    // },
+    {
+        id: "33",
+        name: "Escape_Room",
+        title: "Escape Room: Operation Blitz",
+        eligibility: "Anyone can join",
+        completed: false,
+        results: null,
+        rules: [
+            "You can participate as a Duo or in Teams of three.",
+            "Entry for a team of two will be Rs.100 and a team of three will be Rs.150.",
+            "The duration of the room will be a maximum of 20 minutes within which the objective must be reached in the room to win."
+        ],
+        entry: [],
+        pics: {
+            primary: "https://i0.wp.com/www.reviewgeek.com/thumbcache/0/0/4d1ac939003e4caefdc8c63653f52d05/p/uploads/2021/01/4335a3f2.png?resize=1920%2C1080&ssl=1",
+            secondary: [],
+        },
+        dateTime: "March 1 and 2, 6.00 pm",
+        duration: "",
+        contact: "9043148825",
+        // amt: "150",
+        gift: "Detectives who crack the code will get commemorative hats for each player in the team.",
+        color: "var(--fg-g)",
+        carddescription:
+            "The clock’s ticking, the city’s fate hangs in the balance. Can you beat the mastermind in time to stop the disaster?",
+        description:
+            "Ready to test your nerve? Dive into Operation Blitz: an electrifying escape room experience where every moment counts. Crack codes, decipher clues, and race against the clock to save the city from disaster. Can your team outsmart the “Director” and uncover the next target before it's too late? Gather your team and prepare for the ultimate adrenaline rush. Visit us at Cryptera and prove your detective skills in the most nerve-wracking challenge yet!",
+        form: "",
+        type: "flagship",
+        faq: [
+            {
+                question: "Will the event be held online or offline ?",
+                answer: "Offline"
+            },
+            {
+                question: "How to register for this event ?",
+                answer: "You can register on the spot at Cryptera. The location of the event will be confirmed soon."
+            },
+            {
+                question: "What’s the objective of this event ?",
+                answer: "The objective is to find clues, solve a mystery and overall, have fun."
+            }
+        ],
+        tags: [],
+    },
 
-    // Workshops and Webinars
-
+    // Workshops
     {
         id: "34",
-        status: 1,
+        key: 1,
         rules: [
-            "E-certificate will be given",
             "Certificate will be given for the registered candidates",
             "Disocunts will be given for referrals",
-            "For further details call :9962623236",
+            "For further details call : 8668171335",
         ],
         faq: [
             {
@@ -1725,53 +1730,42 @@ Jumble the code and triumphal your day.`,
             },
             {
                 question: "Will it be a one day workshop or two days?",
-                answer: "One day,Time is mentioned above",
+                answer: "One day, Time is mentioned above",
             },
             {
                 question: "Can I get any discount?",
-                answer: "Yeah sure,contact us for further details",
+                answer: "Yeah sure, Contact us for further details",
             },
             {
                 question: "Can I get certificate?",
-                answer: "Yes,certificate will be provided",
+                answer: "Yes, Certificate will be provided in offline",
             },
         ],
         name: "Workshop1",
         title: "Augmented Reality app development",
-        dateTime: "Mar 11th, 1.00 pm to 4.00 pm",
-        carddescription: "Unlock the Power of Web 3",
-        description: "Making an Augmented Reality app using Unity software. The session will cover topics related to Augmented Reality and Virtual Reality.",
+        dateTime: "March 2, 2pm to 4pm",
+        carddescription: "Step into the future of digital creativity with our AR workshop - where innovation meets immersion",
+        description: "Dive into Augmented Reality (AR) development in our expert-led workshop. Gain practical experience and insights into AR frameworks, interface design, and implementation. Whether you're new to AR or seasoned in development, this session offers valuable skills to create immersive digital experiences. Join us to harness the power of AR and stay at the forefront of innovation in this rapidly evolving field.",
         type: "flagship",
         eligibility: "Anyone can join",
         pics: {
             primary:
-                "https://d32ijn7u0aqfv4.cloudfront.net/wp/wp-content/uploads/raw/bitcoin-cryptocurrency-vault-safelock_SOIN20003_905168316_is_1560x880.jpg",
+                "https://www.eidosmedia.com/resources/0283-1866fad6ba6e-c7eb5b7d9f63-1000/format/large/eidosmedia-ar.png",
         },
-        contact: "6382978347",
+        contact: "8668171335",
         tags: [],
         entry: [
-            {
-                type: "Single Workshop- Rs.150/- ",
-                amt: "",
-            },
-            {
-                type:
-                    "Combo A - Two Workshop- Rs.250/-",
-                amt: "",
-            },
-            {
-                type: "Combo B - Three Workshop- Rs.350/-",
-                amt: "",
-            },
+            "Single Workshop - Rs. 150/-",
+            "Combo A - Two Workshop - Rs. 250/-",
+            "Combo B - Three Workshop - Rs. 350/-",
         ],
-        form: "https://forms.gle/5GWSLDupUemUbShs5",
+        form: "https://docs.google.com/forms/u/4/d/1FyBdGuDfijIrVOUHxSZtsoDaR_hd7utw-lg3_-iSfHg/edit?usp=drivesdk&chromeless=1",
         speakerinfo:
-            "Pyashu Satapathy is a Developer and Designer by skills ( Won at world's largest Ethereum Hackathon - ETHIndia'22 ) and loves to engage with technical communities out of passion, and have scaled developer communities in India and Globally.",
-        key: 1,
+            "Divith loves games and has a lot of interest in creating visual content, his career journey as a game dev started from his college days.",
         speakers: [
             {
-                name: "Prayashu Satapathy",
-                bio: "Have brought revolution in working of Technical Clubs in my college with CodeChef SRM RMP Club , build the Hackathon and Hustle culture among the students to helping them with their career journey",
+                name: "Divith MJ",
+                bio: "He was developing a project in Augmented Reality technology as an aid for medical science students enabling them to visualize complex diseases and their treatment procedures in a interactive method through reality technology. He has experience in AR, VR, 3D game development.",
             },
         ],
         color: "red",
@@ -1779,12 +1773,12 @@ Jumble the code and triumphal your day.`,
 
     {
         id: "35",
+        key: 1,
         status: 1,
         rules: [
-            "E-certificate will be given",
             "Certificate will be given for the registered candidates",
             "Disocunts will be given for referrals",
-            "For further details call :9962623236",
+            "For further details call : 8668171335",
         ],
         faq: [
             {
@@ -1793,15 +1787,15 @@ Jumble the code and triumphal your day.`,
             },
             {
                 question: "Will it be a one day workshop or two days?",
-                answer: "One day,Time is mentioned above",
+                answer: "One day, time is mentioned above",
             },
             {
                 question: "Can I get any discount?",
-                answer: "Yeah sure,contact us for further details",
+                answer: "Yeah sure, contact us for further details",
             },
             {
                 question: "Can I get certificate?",
-                answer: "Yes,certificate will be provided",
+                answer: "Yes, Certificate will be provided in offline",
             },
         ],
         name: "Workshop2",
@@ -1819,24 +1813,13 @@ Jumble the code and triumphal your day.`,
         contact: "6382978347",
         tags: [],
         entry: [
-            {
-                type: "Single Workshop- Rs.150/- ",
-                amt: "",
-            },
-            {
-                type:
-                    "Combo A - Two Workshop- Rs.250/-",
-                amt: "",
-            },
-            {
-                type: "Combo B - Three Workshop- Rs.350/-",
-                amt: "",
-            },
+            "Single Workshop - Rs. 150/-",
+            "Combo A - Two Workshop - Rs. 250/-",
+            "Combo B - Three Workshop - Rs. 350/-",
         ],
-        form: "https://forms.gle/5GWSLDupUemUbShs5",
+        form: "https://docs.google.com/forms/u/4/d/1FyBdGuDfijIrVOUHxSZtsoDaR_hd7utw-lg3_-iSfHg/edit?usp=drivesdk&chromeless=1",
         speakerinfo:
             "Ramanathan Alagappan Passionate Full stack developer and skilled in MERN/MEAN Stack developement. Experienced in web development, all layers, from database to services to user interfaces.",
-        key: 1,
         speakers: [
             {
                 name: "Ramanathan Alagappan",
@@ -1848,12 +1831,12 @@ Jumble the code and triumphal your day.`,
 
     {
         id: "36",
+        key: 1,
         status: 1,
         rules: [
-            "E-certificate will be given",
             "Certificate will be given for the registered candidates",
             "Disocunts will be given for referrals",
-            "For further details call :9962623236",
+            "For further details call : 8668171335",
         ],
         faq: [
             {
@@ -1862,15 +1845,15 @@ Jumble the code and triumphal your day.`,
             },
             {
                 question: "Will it be a one day workshop or two days?",
-                answer: "One day,Time is mentioned above",
+                answer: "One day, time is mentioned above",
             },
             {
                 question: "Can I get any discount?",
-                answer: "Yeah sure,contact us for further details",
+                answer: "Yeah sure, contact us for further details",
             },
             {
                 question: "Can I get certificate?",
-                answer: "Yes,certificate will be provided",
+                answer: "Yes, Certificate will be provided in offline",
             },
         ],
         name: "Workshop3",
@@ -1888,24 +1871,13 @@ Jumble the code and triumphal your day.`,
         contact: "6382978347",
         tags: [],
         entry: [
-            {
-                type: "Single Workshop- Rs.150/- ",
-                amt: "",
-            },
-            {
-                type:
-                    "Combo A - Two Workshop- Rs.250/-",
-                amt: "",
-            },
-            {
-                type: "Combo B - Three Workshop- Rs.350/-",
-                amt: "",
-            },
+            "Single Workshop - Rs. 150/-",
+            "Combo A - Two Workshop - Rs. 250/-",
+            "Combo B - Three Workshop - Rs. 350/-",
         ],
-        form: "https://forms.gle/5GWSLDupUemUbShs5",
+        form: "https://docs.google.com/forms/u/4/d/1FyBdGuDfijIrVOUHxSZtsoDaR_hd7utw-lg3_-iSfHg/edit?usp=drivesdk&chromeless=1",
         speakerinfo:
             "Mohanraj Siddhuraj is an experienced Software Test Engineer with a demonstrated history of working in the information technology and services industry.",
-        key: 1,
         speakers: [
             {
                 name: "Mohanraj Siddhuraj",
@@ -1915,70 +1887,61 @@ Jumble the code and triumphal your day.`,
         color: "red",
     },
 
+    // Webinar
     {
         id: "37",
-        status: 1,
+        key: 1,
+        s: 1,
         rules: [
             "E-certificate will be given",
             "Certificate will be given for the registered candidates",
-            "Disocunts will be given for referrals",
-            "For further details call :9962623236",
+            "Discounts will be given for referrals",
+            "For further details call :9750935611",
         ],
         faq: [
             {
                 question: "Will it happen online or offline?",
-                answer: "Offline",
+                answer: "Online",
             },
             {
-                question: "Will it be a one day workshop or two days?",
-                answer: "One day,Time is mentioned above",
+                question: "Will it be a one day webinar or two days?",
+                answer: "One day, time is mentioned above",
             },
             {
                 question: "Can I get any discount?",
-                answer: "Yeah sure,contact us for further details",
+                answer: "Yeah sure, contact us for further details",
             },
             {
                 question: "Can I get certificate?",
-                answer: "Yes,certificate will be provided",
+                answer: "Yes, e-certificate will be provided",
             },
         ],
         name: "Webinar1",
-        title: "Webinar on Data Analytics",
-        dateTime: "Mar 11th, 10.00 am to 12.00 pm",
-        carddescription: "Unlock the power of data",
+        title: "Webinar on Demystifying AI and Data Science",
+        dateTime: "March 3, 10.00 am to 12.00 noon",
+        carddescription: "Demystifying AI and Data Science : Building your future career in a data driven world",
         description:
-            "Unlock the power of data with our upcoming workshop! Join us to learn how to make informed decisions and gain valuable insights from raw data. Don't miss out on this opportunity to enhance your analytical skills. Register now! Check out the form for more details on registration fees.",
+            "Demystifying AI and Data Science - Building your future career in a data driven world: Get ready to embark on an exhilarating journey through the captivating world of AI and data science! Join us for an immersive webinar where we unravel the fascinating evolution of AI over the decades. Gain valuable insights into the essential skill sets needed to thrive in this dynamic field and pave your way to a successful career in AI and data science. Don't miss out on this incredible opportunity to explore, learn, and chart your course towards a brighter future. Register now and be part of the AI revolution! Check out the form for more details on registration fees.",
         type: "flagship",
         eligibility: "Anyone can join",
         pics: {
             primary:
-                "https://bernardmarr.com/wp-content/uploads/2022/11/The-Top-5-Data-Science-And-Analytics-Trends-In-2023.jpg",
+                "https://www.analytixlabs.co.in/blog/wp-content/uploads/2021/09/Blog8_2.1-edited-1024x576.jpg",
         },
-        contact: "6382978347",
+        contact: "9750935611",
         tags: [],
         entry: [
-            {
-                type: "Single webinar- Rs.200/- ",
-                amt: "",
-            },
-            {
-                type:
-                    "Combo A - Two Webinars - Rs.300/-",
-                amt: "",
-            },
-            {
-                type: "Combo B - Three Webinars - Rs.400/-",
-                amt: "",
-            },
+            "Single Webinar - Rs. 99/- ",
+            "Combo A - Two Webinars - Rs. 199/-",
+            "Combo B - Three Webinars - Rs. 299/-",
         ],
-        form: "https://forms.gle/MRdusV5a6QX5QRvu5",
+        form: "https://docs.google.com/forms/d/1CE2njtrsNWY4KX7vJWTH54-0x4OzV4QofIWp_gOnstI/edit?chromeless=1",
         speakerinfo:
-            "Yasmin Basheer Ahmed is a highly experienced data analyst who's been in the field for more than 5 years.",
-        key: 1,
+            "Aravind Chandramouli is currently the head of the AI Center of Excellence at Tredence. He has around 17 years of industry experience all in the data science, AI/ML space. Prior to Tredence, he had stints at Fidelity Investments, GE research labs and Microsoft.",
         speakers: [
             {
-                name: "Yasmin Basheer Ahmed",
-                bio: "Skilled in using Google Analytics and Database Management Systems.",
+                name: "Aravind Chandramouli",
+                bio: "Aravind has also filed for 10 patents with 6 grants and has over 10 publications in International conferences and journals.  He completed his PhD from the University of Kansas in 2007 and graduated from Coimbatore Institute of Technology in 2002 with a Bachelors in Computer Science.",
             },
         ],
         color: "red",
@@ -1986,72 +1949,58 @@ Jumble the code and triumphal your day.`,
 
     {
         id: "38",
-        status: 1,
+        key: 1,
+        s: 1,
         rules: [
             "E-certificate will be given",
             "Certificate will be given for the registered candidates",
-            "Disocunts will be given for referrals",
-            "For further details call :9962623236",
+            "Discounts will be given for referrals",
+            "For further details call : 9750935611",
         ],
         faq: [
             {
                 question: "Will it happen online or offline?",
-                answer: "Offline",
+                answer: "Online",
             },
             {
-                question: "Will it be a one day workshop or two days?",
-                answer: "One day,Time is mentioned above",
+                question: "Will it be a one day webinar or two days?",
+                answer: "One day, time is mentioned above",
             },
             {
                 question: "Can I get any discount?",
-                answer: "Yeah sure,contact us for further details",
+                answer: "Yeah sure, contact us for further details",
             },
             {
                 question: "Can I get certificate?",
-                answer: "Yes,certificate will be provided",
+                answer: "Yes, e-certificate will be provided",
             },
         ],
         name: "Webinar2",
-        title: "Webinar on DevOps and GitHub Actions",
-        dateTime: "Mar 12th, 2.00 pm to 4.00 pm",
-        carddescription:
-            "An immersive experience that will empower your team's software development transactions",
+        title: "Webinar on Database in Distributed Systems",
+        dateTime: "March 2, 2pm to 4pm",
+        carddescription: " Unlock resilience in distributed databases; revolutionize your Cloud data strategy with us.",
         description:
-            "An immersive experience that will empower your team's software development transactions.With a focus on automation and optimization, we'll guide you through the best practices. To ensure your workflows are efficient and your code is bug-free and errorless. Check out the form for more details on registration fees.",
+            "Elevate your understanding of distributed databases and revolutionize your approach to Cloud data architecture with our empowering webinar! Learn about Cloud Data Management challenges and strategies for seamless operation. Discover how they persist during disruptions. Register now for a deeper understanding of distributed database resilience.",
         type: "flagship",
         eligibility: "Anyone can join",
         pics: {
             primary:
-                "https://miro.medium.com/max/1400/1*JLYlSLSK8-AZo8gt9UdYqA.jpeg",
+                "https://www.datamation.com/wp-content/uploads/2023/07/dm-current-database-trends-1068x702.png",
         },
-        contact: "6382978347",
+        contact: "9750935611",
         tags: [],
         entry: [
-            {
-                type: "Single webinar- Rs.200/- ",
-                amt: "",
-            },
-            {
-                type:
-                    "Combo A - Two Webinars - Rs.300/-",
-                amt: "",
-            },
-            {
-                type: "Combo B - Three Webinars - Rs.400/-",
-                amt: "",
-            },
+            "Single Webinar - Rs. 99/- ",
+            "Combo A - Two Webinars - Rs. 199/-",
+            "Combo B - Three Webinars - Rs. 299/-",
         ],
-        form: "https://forms.gle/MRdusV5a6QX5QRvu5",
+        form: "https://docs.google.com/forms/d/1CE2njtrsNWY4KX7vJWTH54-0x4OzV4QofIWp_gOnstI/edit?chromeless=1",
         speakerinfo:
-            "Harshvardhan is the lead of Student Innovation Network (SIN) & Dhando india and Maheshwaran is a devops enthusiast / Web Developer who spends time building useful products, a designer, front-end web developer and Community contributor.",
-        key: 1,
+            "Vijay Lakshminarayanan is a distinguished alumnus of CIT CSE's 2003 batch. Following his undergraduate studies, he pursued a Master's degree at the Illinois Institute of Technology, solidifying his expertise. With a career spanning multiple decades, Vijay has established himself as a seasoned industry veteran. Presently, he serves as the Senior Director of Engineering at Freshworks, where he oversees all aspects of the company's data systems.",
         speakers: [
             {
-                name: "Harshvardhan",
-                bio: "Microsoft certified Microsoft Azure AI ML expert.",
-
-                name: "Maheshwaran",
-                bio: "Proficient in DevOps and Web Development.",
+                name: "Vijay Lakshminarayanan",
+                bio: "Vijay Lakshminarayanan boasts over two decades of software engineering expertise. He held the position of Director of Engineering at Freshworks, with a brief stint in management, following roles as a Developer at Marin Software and Senior Software Developer at eBay. Earlier, he contributed as a Senior Software Development Engineer at Computer Science Corporation and worked as a Developer at GlobalScholar.com. He kickstarted his career as a Project Engineer at Wipro Technologies.",
             },
         ],
         color: "red",
@@ -2059,68 +2008,58 @@ Jumble the code and triumphal your day.`,
 
     {
         id: "39",
-        status: 1,
+        key: 1,
+        s: 1,
         rules: [
             "E-certificate will be given",
             "Certificate will be given for the registered candidates",
-            "Disocunts will be given for referrals",
-            "For further details call :9962623236",
+            "Discounts will be given for referrals",
+            "For further details call : 9750935611",
         ],
         faq: [
             {
                 question: "Will it happen online or offline?",
-                answer: "Offline",
+                answer: "Online",
             },
             {
-                question: "Will it be a one day workshop or two days?",
-                answer: "One day,Time is mentioned above",
+                question: "Will it be a one day webinar or two days?",
+                answer: "One day, time is mentioned above",
             },
             {
                 question: "Can I get any discount?",
-                answer: "Yeah sure,contact us for further details",
+                answer: "Yeah sure, contact us for further details",
             },
             {
                 question: "Can I get certificate?",
-                answer: "Yes,certificate will be provided",
+                answer: "Yes, e-certificate will be provided",
             },
         ],
-        name: "Webinar3",
-        title: "Webinar on Techniques of Share Trading and Investing",
-        dateTime: "Mar 12th, 11.00 am to 12.45 pm",
-        carddescription: "Unlock the power of data with our upcoming workshop",
+        name: "Webinar1",
+        title: "Webinar on Master the art of GENAI : Build, Create and Innovate",
+        dateTime: "March 2, 10 am to 12 pm",
+        carddescription: "Explore, Create with GENAI",
         description:
-            "Unlock the power of data with our upcoming workshop! Join us to learn how to make informed decisions and gain valuable insights from raw data. Don't miss out on this opportunity to enhance your analytical skills. Register now! Check out the form for more details on registration fees.",
+            "Elevate your understanding of distributed databases and revolutionize your approach to Cloud data architecture with our empowering webinar! Learn about Cloud Data Management challenges and strategies for seamless operation. Discover how they persist during disruptions. Register now for a deeper understanding of distributed database resilience.",
         type: "flagship",
         eligibility: "Anyone can join",
         pics: {
             primary:
-                "https://iq-study.com/wp-content/uploads/2021/01/blog_price_pattern.jpg",
+                "https://kotaielectronics.com/wp-content/uploads/2024/01/on-device-generative-ai-with-sub-10-billion-parameter-models-1024x654.jpg",
         },
-        contact: "6382978347",
+        contact: "9750935611",
         tags: [],
         entry: [
-            {
-                type: "Single webinar- Rs.200/- ",
-                amt: "",
-            },
-            {
-                type:
-                    "Combo A - Two Webinars - Rs.300/-",
-                amt: "",
-            },
-            {
-                type: "Combo B - Three Webinars - Rs.400/-",
-                amt: "",
-            },
+            "Single Webinar - Rs. 99/- ",
+            "Combo A - Two Webinars - Rs. 199/-",
+            "Combo B - Three Webinars - Rs. 299/-",
         ],
-        form: "https://forms.gle/MRdusV5a6QX5QRvu5",
+        form: "https://docs.google.com/forms/d/1CE2njtrsNWY4KX7vJWTH54-0x4OzV4QofIWp_gOnstI/edit?chromeless=1",
         speakerinfo:
-            "K.C.A. Naraayan, Founder & Qualified Personal Finance Professional of WealthSpikes.",
-        key: 1,
+            "Mohammad Sameer is a Gen AI Developer in AWS by skills (Acted as Vice Chair for IEEE Student chapter at JNTUGV CEV ,MIEEE,MIEEECS,MIEEEYP,MIEEEWIE).He is very passionate to make people learn about leading technologies like AI/ML/GEN AI/Ethical Hacking etc.Had done many workshop/webinaRs. ",
         speakers: [
             {
-                name: "K.C.A. Naraayan",
-                bio: "Seasoned Share trader and investor in Stock Market.",
+                name: "Aravind Chandramouli",
+                bio: "Aravind has also filed for 10 patents with 6 grants and has over 10 publications in International conferences and journals.  He completed his PhD from the University of Kansas in 2007 and graduated from Coimbatore Institute of Technology in 2002 with a Bachelors in Computer Science.",
             },
         ],
         color: "red",

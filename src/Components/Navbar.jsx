@@ -12,7 +12,7 @@ function Navbar() {
     const navbarref = useRef(null);
     const timelineref = useRef(null);
     const webref = useRef(null);
-    // const adminref = useRef(null);
+    const adminref = useRef(null);
 
     const clearActive = () => {
         homeref.current.classList.remove("active");

@@ -52,9 +52,18 @@ function Eventdetails() {
                                     </p>
                                 </div>
                                 <div className="button-calendar">
+                                    {Event_data.form == "" && (
+                                        <div className="final-btn">
+                                            <div className="submit-btn-event">
+                                                <div>
+                                                    Coming soon
+                                                </div>
+                                            </div>
+                                        </div>
+                                    )}
                                     {Event_data.form != "" && (
                                         <div className="final-btn">
-                                            <a href={Event_data.form} target="_blank">
+                                            <a href={Event_data.form} target={Event_data.form == "" ? "_self" : "_blank"}>
                                                 <div className="submit-btn-event">
                                                     <div>
                                                         Register Now
@@ -95,23 +104,56 @@ function Eventdetails() {
                                         );
                                     })}
                             </div>
+
                             <div className="e-description">
                                 <p>{Event_data.description}</p>
                             </div>
+
                             <div className="e-title-m">Eligibility</div>
                             <div className="e-description-m">
                                 <p>{Event_data.eligibility}</p>
                             </div>
-                            {Event_data.amt && (
-                                <>
-                                    <div className="e-title-m">Entry fee</div>
-                                    <div className="e-description-m">
-                                        <tr>
-                                            <td>Rs. {Event_data.amt}/- per team</td>
-                                        </tr>
-                                    </div>
-                                </>
-                            )}
+
+                            <div className="e-title-m">Entry fee</div>
+                            <div className="e-description-m">
+                                <ul
+                                    className="list-decimal rules"
+                                    style={{ "list-style-type": "none" }}
+                                >
+                                    {Event_data.entry && Event_data.entry.map((type, index) => {
+                                        return (
+                                            <div
+                                                style={{
+                                                    display: "flex",
+                                                    marginTop: "10px",
+                                                    alignItems: "center",
+                                                }}
+                                            >
+                                                <div>
+                                                    <IoSend
+                                                        style={{
+                                                            marginRight: "15px",
+                                                            color: "#05ffa3",
+                                                            fontSize: "26px !important",
+                                                            height: "100% !important",
+                                                        }}
+                                                    ></IoSend>
+                                                </div>
+
+                                                <span
+                                                    style={{
+                                                        fontSize: "12px !important",
+                                                    }}
+                                                >
+                                                    {type}
+                                                </span>
+                                            </div>
+                                        )
+                                    }
+                                    )}
+                                </ul>
+                            </div>
+
                             <div className="e-title-m">Event Info</div>
                             <div className="e-description-m">
                                 <ul
@@ -121,16 +163,35 @@ function Eventdetails() {
                                     {Event_data.rules &&
                                         Event_data.rules.map((rule, index) => {
                                             return (
-                                                <li style={{ display: "flex" }}>
-                                                    <IoSend
+                                                <div
+                                                    style={{
+                                                        display: "flex",
+                                                        marginTop: "10px",
+                                                        alignItems: "center",
+                                                    }}
+                                                >
+                                                    <div>
+                                                        <IoSend
+                                                            style={{
+                                                                marginRight: "15px",
+                                                                color: "#05ffa3",
+                                                                fontSize: "26px !important",
+                                                                height: "100% !important",
+                                                            }}
+                                                        ></IoSend>
+                                                    </div>
+
+                                                    <li
                                                         style={{
-                                                            marginRight: "5px",
-                                                            color: "#05ffa3",
-                                                            height: "10px",
+                                                            fontSize: "12px !important",
                                                         }}
-                                                    ></IoSend>
-                                                    {rule}
-                                                </li>
+                                                    >
+                                                        {rule}
+                                                        {index === Event_data.rules.length - 1 && Event_data.mailto && (
+                                                            <a style={{ display: "inline", color: "blueviolet" }} href={Event_data.mailto}>{Event_data.email}</a>
+                                                        )}
+                                                    </li>
+                                                </div>
                                             );
                                         })}
                                 </ul>
@@ -153,10 +214,18 @@ function Eventdetails() {
                                 </>
                             )}
 
-
+                            {Event_data.form == "" && (
+                                <div className="final-btn">
+                                    <div className="submit-btn-event">
+                                        <div>
+                                            Coming soon
+                                        </div>
+                                    </div>
+                                </div>
+                            )}
                             {Event_data.form != "" && (
                                 <div className="final-btn">
-                                    <a href={Event_data.form} target="_blank">
+                                    <a href={Event_data.form} target={Event_data.form == "" ? "_self" : "_blank"}>
                                         <div className="submit-btn-event">
                                             <div>
                                                 Register Now
@@ -349,43 +418,87 @@ function Eventdetails() {
                             </div>
 
                             <div className="e-title-m">Prize</div>
-
-                            <div className="e-description-m cen">
-                                {Event_data.prizes["gold"] ? (
-                                    <div className="trophies">
-                                        <div className="gold-trophy">
-                                            <i class="fa fa-trophy"></i>
+                            {Event_data.gift && (
+                                <div className="e-description-m">
+                                    <ul
+                                        className="list-decimal rules"
+                                        style={{ "list-style-type": "none" }}
+                                    >
+                                        <div
+                                            style={{
+                                                display: "flex",
+                                                marginTop: "10px",
+                                                alignItems: "center",
+                                            }}
+                                        >
                                             <div>
-                                                <div><b>Winner {Event_data.type1}</b></div>
-                                                Rs. <b>{Event_data.prizes["gold"]}</b>
+                                                <IoSend
+                                                    style={{
+                                                        marginRight: "15px",
+                                                        color: "#05ffa3",
+                                                        fontSize: "26px !important",
+                                                        height: "100% !important",
+                                                    }}
+                                                ></IoSend>
                                             </div>
+
+                                            <li
+                                                style={{
+                                                    fontSize: "12px !important",
+                                                }}
+                                            >
+                                                {Event_data.gift}
+                                            </li>
                                         </div>
+                                    </ul>
+                                </div>
+                            )}
 
-                                        {Event_data.prizes["gold1"] &&
-                                            <div className="gold-trophy">
-                                                <i class="fa fa-trophy"></i>
-                                                <div>
-                                                    <div><b>Winner {Event_data.type2}</b></div>
-                                                    Rs. <b>{Event_data.prizes["gold1"]}</b>
+                            {Event_data.prizes && (
+                                <div className="e-description-m">
+                                    <ul
+                                        className="list-decimal rules"
+                                        style={{ "list-style-type": "none" }}
+                                    ></ul>
+                                    <div className="e-description-m cen">
+                                        {Event_data.prizes["gold"] ? (
+                                            <div className="trophies">
+                                                <div className="gold-trophy">
+                                                    <i class="fa fa-trophy"></i>
+                                                    <div>
+                                                        <div><b>Winner {Event_data.type1}</b></div>
+                                                        Rs. <b>{Event_data.prizes["gold"]}</b>
+                                                    </div>
                                                 </div>
-                                            </div>
-                                        }
 
-                                        {Event_data.prizes["silver"] != undefined && (
-                                            <div className="silver-trophy">
-                                                <i class="fa fa-trophy"></i>
-                                                <div>
-                                                    <div><b>Runner</b></div>
-                                                    Rs. <b>{Event_data.prizes["silver"]}</b>
-                                                </div>
+                                                {Event_data.prizes["gold1"] &&
+                                                    <div className="gold-trophy">
+                                                        <i class="fa fa-trophy"></i>
+                                                        <div>
+                                                            <div><b>Winner {Event_data.type2}</b></div>
+                                                            Rs. <b>{Event_data.prizes["gold1"]}</b>
+                                                        </div>
+                                                    </div>
+                                                }
+
+                                                {Event_data.prizes["silver"] != undefined && (
+                                                    <div className="silver-trophy">
+                                                        <i class="fa fa-trophy"></i>
+                                                        <div>
+                                                            <div><b>Runner</b></div>
+                                                            Rs. <b>{Event_data.prizes["silver"]}</b>
+                                                        </div>
+                                                    </div>
+                                                )}
+
                                             </div>
+                                        ) : (
+                                            <div>{Event_data.prizes}</div>
                                         )}
-
                                     </div>
-                                ) : (
-                                    <div>{Event_data.prizes}</div>
-                                )}
-                            </div>
+                                </div>
+                            )}
+
                             <div className="e-title-m">Result</div>
                             <div className="e-description-m ">
                                 {Event_data.completed ? true : "Not yet completed"}

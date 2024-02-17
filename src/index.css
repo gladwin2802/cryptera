@@ -33,16 +33,6 @@ html {
     font-family: var(--font-primary);
 }
 
-::-webkit-scrollbar {
-    width: 5px;
-    background: transparent;
-}
-
-::-webkit-scrollbar-thumb {
-    background: rgb(2, 128, 79);
-    border-radius: 20px;
-    display: none;
-}
 
 ::selection {
     color: var(--fg-white);

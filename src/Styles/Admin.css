@@ -8,13 +8,13 @@
 }
 
 .admin-container h2 {
+    font-size: 44px;
+    color: #05ffa3;
+    font-weight: 700;
     text-align: center;
-    color: #fff;
-    font-size: 30px;
 }
 
 .admin-container img {
-    display: inherit;
     margin: 0px auto;
     width: 300px;
     height: 300px;
@@ -26,7 +26,6 @@
     padding: 8px;
     border-radius: 5px;
     border: 1px solid #ccc;
-    display: block;
 }
 
 .selection-container {
@@ -34,32 +33,106 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    width: 80%;
+    width: 100%;
     margin: 0px auto;
 }
 
 .selection-container h2 {
+    font-size: 44px;
+    color: #05ffa3;
+    font-weight: 700;
     text-align: center;
-    color: #fff;
-    font-size: 30px;
+    margin-bottom: 10px;
 }
 
-.button-flex {
+.selection-container input {
+    width: 20%;
+}
+
+/* CSS */
+.event-container {
+
+    margin-top: 20px;
+    margin-left: 30px;
+    max-width: 900px;
+    width: 70%;
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    gap: 30px;
-    margin: auto;
-    margin-top: 4%;
+    gap: 10px;
+    min-height: 80px;
+    align-items: center;
+    /* justify-content: center; */
+    overflow-x: scroll;
+}
+
+.event-container button {
+    padding: 10px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    white-space: nowrap;
+    min-width: max-content;
+}
+
+.event-container button {
+    background-color: #2980b9;
+}
+
+.event-container::-webkit-scrollbar {
+    width: 12px;
+}
+
+.count-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.count-card span {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    font-size: 40px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.count-card div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 80px;
     width: 100%;
+    height: 100px;
+    margin: 0;
+    border-radius: 10px;
+}
+
+.count-card div p {
+    background-image: linear-gradient(to right, rgb(5, 255, 163), rgb(6, 190, 216));
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
 }
 
 @media screen and (max-width: 789px) {
     .admin-container {
         margin: 200px auto 0px auto;
     }
+
+    .selection-container input {
+        width: 50%;
+    }
+
     .selection-container {
         margin: 200px auto 0px auto;
+    }
+
+    .event-container {
+        margin-right: 0px;
     }
 }
 
@@ -67,7 +140,16 @@
     .admin-container {
         margin: 200px auto 0px auto;
     }
+
+    .selection-container input {
+        width: 50%;
+    }
+
     .selection-container {
         margin: 100px auto 0px auto;
+    }
+
+    .event-container {
+        margin-right: 0px;
     }
 }
