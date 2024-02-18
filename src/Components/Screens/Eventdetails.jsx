@@ -48,7 +48,8 @@ function Eventdetails() {
                                     <h1>{Event_data.title}</h1>
                                     <p>
                                         <i className="fas fa-calendar-week mr-2 mb-3"></i>
-                                        {Event_data.dateTime.split(',')[0].trim()}
+                                        {/* {Event_data.dateTime.split(',')[0].trim()} */}
+                                        {Event_data.dateTime}
                                     </p>
                                 </div>
                                 <div className="button-calendar">
@@ -260,7 +261,7 @@ function Eventdetails() {
                                     <h1>{Event_data.title}</h1>
                                     <p>
                                         <i className="fas fa-calendar-week mr-2 mb-3"></i>
-                                        {Event_data.dateTime.split(',')[0].trim()}
+                                        {Event_data.dateTime}
                                     </p>
                                 </div>
                                 <div className="button-calendar">

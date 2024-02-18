@@ -2,13 +2,12 @@ import chess from "../Components/Screens/assets/chess.jpg";
 import blindCode from "../Assets/event/blindCode.jpg";
 import jumbledCode from "../Assets/event/jumbledCode.jpg";
 import oxdebug from "../Assets/event/0xdebug.jpg";
-import carrom from "../Assets/event/carrom.jpg"
-import workshop1 from "../Assets/event/workshop1.jpg"
+import carrom from "../Assets/event/carrom.jpg";
+import workshop1 from "../Assets/event/workshop1.jpg";
 
 const form = "https://docs.google.com/forms/d/e/1FAIpQLSdVn_M4OESw7BRTY5QJF8FREnONDoWUfAreehNLWgyF81HhHw/viewform"
 
 export default [
-
     ///////////////////////////////////////////////////////
 
     // Tecnical events
@@ -37,7 +36,7 @@ export default [
             // "https://www.zdnet.com/a/img/resize/757fc75271d8f21e8d54e61b5d0dee0a3d522971/2021/06/30/0286f74b-453c-4472-b5c1-321b18475c78/technical-visual-studio-code-extension.jpg?auto=webp&fit=crop&height=1200&width=1200",
             secondary: [],
         },
-        dateTime: "March 2, 3.00 pm",
+        dateTime: "March 2, 9.00 am",
         duration: "",
         prizes: {
             gold: "1000",
@@ -234,11 +233,11 @@ export default [
         completed: false,
         results: null,
         rules: [
-            "Team should consist of 2 members",
+            "Team should consist of 2 members.",
             "The code will be in a jumbled manner and the corresponding output will be provided to the participants.",
-            "You will be provided with 4 choices and choose the correct sequence so that it will execute correctly.",
-            "There will be totally 25 questions and the time for each question is 45 seconds.",
-            "Make sure you have an account in quizizz. If not create one",
+            "You have to reorder the jumbled code to get the correct output.",
+            "There will be totally 25 questions and the time for each question is 1 minute.",
+            "Make sure you have an account in quizizz. If not create one.",
             "Plagiarism and any kind of cheating is strictly prohibited.",
         ],
         pics: {
@@ -291,7 +290,7 @@ Jumble the code and triumphal your day.`,
         completed: false,
         results: null,
         rules: [
-            "Solo participation event",
+            "Participation in this event is limited to solo contestants, and Figma is the sole platform allowed for use.",
             "The UI design has to be for a mobile device",
             "A minimum of 4 screens must be designed",
             "The UI must fit the provided brief",
@@ -375,7 +374,7 @@ Jumble the code and triumphal your day.`,
         pieces to emerge as the 
         ultimate missing code 
         champion!`,
-        form: "https://forms.gle/L8BMvNwQSR1TpNTL7",
+        form: form,
         type: "technical",
         faq: [
             {
@@ -457,13 +456,19 @@ Jumble the code and triumphal your day.`,
         eligibility: "Anyone can join",
         completed: false,
         results: null,
-        rules: ["Each team should consist of 2 members"],
+        rules: [
+            "The team can consist of either 1 or 2 members only.",
+            "The designated platform for conducting the contest is HackerRank.",
+            "Participants must have a registered account on HackerRank. If not, it is mandatory to create one.",
+            "The event will run for a duration of 1 hour and 30 minutes.",
+            "Computers will be provided for the contest. In the event of technical issues, participants may be allowed to use their laptops, subject to approval. Otherwise, personal laptops will not be permitted."
+        ],
         pics: {
             primary:
                 "https://www.itprotoday.com/sites/itprotoday.com/files/styles/article_featured_retina/public/programming%20evolution.jpg?itok=WTj9-yNz",
             secondary: [],
         },
-        dateTime: "March 2, 10.30 am",
+        dateTime: "March 2, 10.15 am",
         duration: "",
         prizes: {
             gold: "1250",
@@ -558,10 +563,10 @@ Jumble the code and triumphal your day.`,
             //     answer: `Tools to be used during the event:
             //             1. DALL-E: DALL-E is a deep learning models developed by OpenAI to generate digital images from natural language descriptions, called "prompts". DALL-E can generate imagery in multiple styles, including photorealistic imagery, paintings, and emoji. It can "manipulate and rearrange" objects in its images, and can correctly place design elements in novel compositions without explicit instruction.
             //             https://openai.com/dall-e-2/
-                        
+
             //             2. Midjourney: Midjourney is an artificial intelligence program under the same name that creates images from textual descriptions (similar to DALL-E).
             //             https://www.midjourney.com/home/?callbackUrl=%2Fapp%2F
-                        
+
             //             3. ChatGPT: ChatGPT (Chat Generative Pre-trained Transformer[2]) is a chatbot developed by OpenAI that can write and debug computer programs, compose music, teleplays, fairy tales, and student essays; answer test questions (sometimes, depending on the test, at a level above the average human test-taker); write poetry and song lyrics. https://openai.com/blog/chatgpt/
             //         `,
             // },
@@ -590,7 +595,7 @@ Jumble the code and triumphal your day.`,
                 "https://cms-assets.themuse.com/media/lead/01212022-1047259374-coding-classes_scanrail.jpg",
             secondary: [],
         },
-        dateTime: "March 1, 12.15 pm",
+        dateTime: "March 1, 2.00 pm",
         duration: "",
         prizes: {
             gold: "1000",
@@ -654,7 +659,7 @@ Jumble the code and triumphal your day.`,
                 "https://akm-img-a-in.tosshub.com/indiatoday/images/story/202010/work-731198_1280_1_1200x768.jpeg?size=690:388"
             ],
         },
-        dateTime: "March 2",
+        dateTime: "March 2, 11.30 am",
         duration: "",
         prizes: {
             gold: "700",
@@ -725,7 +730,7 @@ Jumble the code and triumphal your day.`,
         contact: "9042776367",
         carddescription:
             "Join our singing and music competition and showcase your talent to the world",
-        dateTime: "March 1",
+        dateTime: "March 1 and 2",
         prizes: {
             gold: "250",
             gold1: "250"
@@ -775,7 +780,7 @@ Jumble the code and triumphal your day.`,
             ],
         },
         contact: "9944002367",
-        dateTime: "March 2, 4.00 pm",
+        dateTime: "March 2, 3.30 pm",
         prizes: {
             gold: "250",
         },
@@ -801,7 +806,7 @@ Jumble the code and triumphal your day.`,
         results: null,
         rules: [
             "Solo Participation",
-            "Theme : Open theme",
+            "Theme will be provided on the spot",
             "Timings : 1hr",
             "Any Photo Editing tools can be used.",
             "Participants should bring their laptops with the necessary software installed.",
@@ -810,23 +815,19 @@ Jumble the code and triumphal your day.`,
         pics: {
             primary: "https://cdn.mos.cms.futurecdn.net/6bxva8DmZvNj8kaVrQZZMP.jpg",
             secondary: [
-                "https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
-                "https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
-                "https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
-                "https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
             ],
         },
-        contact: "7708775625",
-        dateTime: "March 2, 11.00 am",
+        contact: "8778434765",
+        dateTime: "March 1, 4.00 pm",
         prizes: {
             gold: "500",
             silver: "250",
         },
         color: "var(--fg-g)",
         carddescription:
-            "Create, inspire, and win: the ultimate poster design challenge awaits!",
+            "Create, inspire, and win: the ultimate poster design challenge awaits !",
         description:
-            "Calling all designers: showcase your talent and creativity for a chance to win big in our poster design contest!",
+            "Calling all designers: showcase your talent and creativity for a chance to win big in our poster design contest !",
         form: form,
         type: "non_technical",
         faq: [],
@@ -862,7 +863,7 @@ Jumble the code and triumphal your day.`,
             ],
         },
         contact: "9342823006",
-        dateTime: "March 1",
+        dateTime: "March 1 and 2",
         prizes: {
             gold: "300",
         },
@@ -916,7 +917,7 @@ Jumble the code and triumphal your day.`,
             ],
         },
         contact: "8668165651",
-        dateTime: "March 1",
+        dateTime: "March 1 and 2",
         prizes: {
             gold: "300",
         },
@@ -953,7 +954,7 @@ Jumble the code and triumphal your day.`,
         completed: false,
         results: null,
         rules: [
-            "This event requires teams to have maximum of two members each.",
+            "This event requires teams to consist of at least one member and a maximum of two members",
             "Accessing the internet during the event is not allowed, and teams caught doing so will be disqualified.",
             "Interacting or communicating with other teams during the event is not permitted.",
             "Both team members must arrive at the event venue at least 15 minutes before the start time.",
@@ -970,7 +971,7 @@ Jumble the code and triumphal your day.`,
             ],
         },
         contact: "7806846758",
-        dateTime: "March 1",
+        dateTime: "March 1, 10.00 am",
         prizes: {
             gold: "2000",
         },
@@ -1012,7 +1013,7 @@ Jumble the code and triumphal your day.`,
             ],
         },
         contact: "6282357680",
-        dateTime: "March 2, 11.00 am",
+        dateTime: "March 1, 4.00 pm",
         prizes: {
             gold: "250",
         },
@@ -1061,7 +1062,7 @@ Jumble the code and triumphal your day.`,
             ],
         },
         contact: "9629889319",
-        dateTime: "March 1, 11",
+        dateTime: "March 1, 2.00pm",
         prizes: {
             gold: "300",
             silver: "200",
@@ -1107,7 +1108,7 @@ Jumble the code and triumphal your day.`,
             ],
         },
         contact: "7812885264",
-        dateTime: "March 2, 9.00 am",
+        dateTime: "March 1, 3.00 pm",
         prizes: {
             gold: "300",
         },
@@ -1151,7 +1152,7 @@ Jumble the code and triumphal your day.`,
             primary: "https://assets.entrepreneur.com/content/3x2/2000/20191009140007-GettyImages-1053962188.jpeg?crop=4:3",
             secondary: [],
         },
-        dateTime: "March 1",
+        dateTime: "March 1 and 2",
         duration: "",
         prizes: {
             gold: "250",
@@ -1185,7 +1186,7 @@ Jumble the code and triumphal your day.`,
             primary: "https://as01.epimg.net/meristation_en/imagenes/2022/02/18/news/1645143158_918055_1645145092_noticia_normal.jpg",
             secondary: [],
         },
-        dateTime: "March 1, 12.15 pm",
+        dateTime: "March 1, 12.00 pm",
         duration: "",
         prizes: {
             gold: "250",
@@ -1233,7 +1234,7 @@ Jumble the code and triumphal your day.`,
             primary: "https://www.incimages.com/uploaded_files/image/1920x1080/getty_505595136_20001333200092800_406810.jpg",
             secondary: [],
         },
-        dateTime: "March 1st and 2nd",
+        dateTime: "March 1 and 2",
         duration: "",
         prizes: {
             gold: "2500",
@@ -1298,7 +1299,7 @@ Jumble the code and triumphal your day.`,
         },
         amt: "150",
         contact: "9344860242",
-        dateTime: "March 1, 7.00 pm",
+        dateTime: "March 1 and 2, 6.00 pm",
         prizes: {
             gold: "1000",
             silver: "500",
@@ -1409,7 +1410,7 @@ Jumble the code and triumphal your day.`,
         },
         amt: "300",
         contact: "6369829214",
-        dateTime: "March 1, 11, 8.00 pm",
+        dateTime: "March 1 and 2, 6.00 pm",
         prizes: {
             gold: "2000",
             silver: "1000",
@@ -1450,7 +1451,7 @@ Jumble the code and triumphal your day.`,
             primary: chess,
             secondary: [],
         },
-        dateTime: "March 1, 6.00 pm",
+        dateTime: "March 1 and 2, 6.00 pm",
         duration: "",
         prizes: {
             gold: "500",
@@ -1535,7 +1536,7 @@ Jumble the code and triumphal your day.`,
             primary: carrom,
             secondary: [],
         },
-        dateTime: "March 1 and 2, 6.00 pm",
+        dateTime: "March 2, 12.00 pm",
         duration: "",
         prizes: {
             gold: "600",
@@ -1566,7 +1567,6 @@ Jumble the code and triumphal your day.`,
     // IPL Auction
     {
         id: "32",
-        // status: 1,
         name: "IPL-Auction1",
         title: "IPL Auction",
         eligibility: "Anyone can join",
@@ -1592,7 +1592,7 @@ Jumble the code and triumphal your day.`,
         pics: {
             primary: "https://thebridge.in/h-upload/2022/02/12/23253-ipl-2022.webp",
         },
-        dateTime: "March 2, 6.00 pm",
+        dateTime: "March 2, 2.00 pm",
         duration: "",
         prizes: {
             gold: "1000",
@@ -1607,17 +1607,29 @@ Jumble the code and triumphal your day.`,
         type: "flagship",
         faq: [
             {
-                question: "Are player ratings revealed during bidding?",
+                question: "Are player ratings revealed during bidding ?",
                 answer: "No"
             },
             {
-                question: "Can unsold players be bought in the acceleration auction at the end?",
+                question: "Can unsold players be bought in the acceleration auction at the end ?",
                 answer: "Yes"
             },
             {
-                question: "In case of tied ratings, who wins?",
+                question: "In case of tied ratings, who wins ?",
                 answer: "The team with the highest purse is declared the winner."
-            }
+            },
+            {
+                question: "Is retention of players allowed ?",
+                answer: "No."
+            },
+            {
+                question: "How is the team name chosen ?",
+                answer: "Team names are written on folded sheets, and the team leader randomly picks one sheet."
+            },
+            // {
+            //     question: "",
+            //     answer: ""
+            // }
         ],
         tags: [],
     },
@@ -1640,7 +1652,7 @@ Jumble the code and triumphal your day.`,
             primary: "https://i0.wp.com/www.reviewgeek.com/thumbcache/0/0/4d1ac939003e4caefdc8c63653f52d05/p/uploads/2021/01/4335a3f2.png?resize=1920%2C1080&ssl=1",
             secondary: [],
         },
-        dateTime: "March 1 and 2, 6.00 pm",
+        dateTime: "March 1 and 2",
         duration: "",
         contact: "9043148825",
         // amt: "150",
@@ -1698,7 +1710,7 @@ Jumble the code and triumphal your day.`,
         ],
         name: "Workshop1",
         title: "Augmented Reality app development",
-        dateTime: "March 2, 2pm to 4pm",
+        dateTime: "March 2, 2 pm to 4 pm",
         carddescription: "Step into the future of digital creativity with our AR workshop - where innovation meets immersion",
         description: "Dive into Augmented Reality (AR) development in our expert-led workshop. Gain practical experience and insights into AR frameworks, interface design, and implementation. Whether you're new to AR or seasoned in development, this session offers valuable skills to create immersive digital experiences. Join us to harness the power of AR and stay at the forefront of innovation in this rapidly evolving field.",
         type: "flagship",
@@ -1754,7 +1766,7 @@ Jumble the code and triumphal your day.`,
         ],
         name: "Workshop2",
         title: "Uncover Your Next Big Idea: Dive into Startup Possibilities!",
-        dateTime: "March 1, 10 am to 12 pm",
+        dateTime: " March 1, 10 am to 12 pm",
         carddescription: "Empower your entrepreneurial journey: Dive into the startup world, fail fast, succeed faster!",
         description:
             "Dive into the world of entrepreneurship with a startup that sparks innovation and meets market needs. Embrace failure as a stepping stone to success, fostering rapid iteration and unforgettable growth. Ready to kickstart your journey? Join us at our upcoming workshop to learn how to turn your vision into a thriving business!",
@@ -1847,8 +1859,7 @@ Jumble the code and triumphal your day.`,
         key: 1,
         s: 1,
         rules: [
-            "E-certificate will be given",
-            "Certificate will be given for the registered candidates",
+            "E-certificate will be given for the registered candidates",
             "Discounts will be given for referrals",
             "For further details call :9750935611",
         ],
@@ -1872,7 +1883,7 @@ Jumble the code and triumphal your day.`,
         ],
         name: "Webinar1",
         title: "Webinar on Demystifying AI and Data Science",
-        dateTime: "March 3, 10.00 am to 12.00 noon",
+        dateTime: "March 3, 10 am to 12 pm",
         carddescription: "Demystifying AI and Data Science : Building your future career in a data driven world",
         description:
             "Demystifying AI and Data Science - Building your future career in a data driven world: Get ready to embark on an exhilarating journey through the captivating world of AI and data science! Join us for an immersive webinar where we unravel the fascinating evolution of AI over the decades. Gain valuable insights into the essential skill sets needed to thrive in this dynamic field and pave your way to a successful career in AI and data science. Don't miss out on this incredible opportunity to explore, learn, and chart your course towards a brighter future. Register now and be part of the AI revolution! Check out the form for more details on registration fees.",
@@ -1906,8 +1917,7 @@ Jumble the code and triumphal your day.`,
         key: 1,
         s: 1,
         rules: [
-            "E-certificate will be given",
-            "Certificate will be given for the registered candidates",
+            "E-certificate will be given for the registered candidates",
             "Discounts will be given for referrals",
             "For further details call : 9750935611",
         ],
@@ -1931,7 +1941,7 @@ Jumble the code and triumphal your day.`,
         ],
         name: "Webinar2",
         title: "Webinar on Distributed Data Mastery: Revolutionizing Cloud Architecture",
-        dateTime: "March 2, 2pm to 4pm",
+        dateTime: "March 2, 2 pm to 4 pm",
         carddescription: " Unlock resilience in distributed databases; revolutionize your Cloud data strategy with us.",
         description:
             "Elevate your understanding of distributed databases and revolutionize your approach to Cloud data architecture with our empowering webinar! Learn about Cloud Data Management challenges and strategies for seamless operation. Discover how they persist during disruptions. Register now for a deeper understanding of distributed database resilience.",
@@ -1965,8 +1975,7 @@ Jumble the code and triumphal your day.`,
         key: 1,
         s: 1,
         rules: [
-            "E-certificate will be given",
-            "Certificate will be given for the registered candidates",
+            "E-certificate will be given for the registered candidates",
             "Discounts will be given for referrals",
             "For further details call : 9750935611",
         ],
