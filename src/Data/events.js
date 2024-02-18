@@ -553,18 +553,18 @@ Jumble the code and triumphal your day.`,
                 answer:
                     "Prompt engineering involves selecting or creating the right prompts to guide a model towards producing accurate and relevant responses.",
             },
-            {
-                question: "Which AI tools will be used during the event?",
-                answer: `Tools to be used during the event:
-                        1. DALL-E: DALL-E is a deep learning models developed by OpenAI to generate digital images from natural language descriptions, called "prompts". DALL-E can generate imagery in multiple styles, including photorealistic imagery, paintings, and emoji. It can "manipulate and rearrange" objects in its images, and can correctly place design elements in novel compositions without explicit instruction.
-                        https://openai.com/dall-e-2/
+            // {
+            //     question: "Which AI tools will be used during the event?",
+            //     answer: `Tools to be used during the event:
+            //             1. DALL-E: DALL-E is a deep learning models developed by OpenAI to generate digital images from natural language descriptions, called "prompts". DALL-E can generate imagery in multiple styles, including photorealistic imagery, paintings, and emoji. It can "manipulate and rearrange" objects in its images, and can correctly place design elements in novel compositions without explicit instruction.
+            //             https://openai.com/dall-e-2/
                         
-                        2. Midjourney: Midjourney is an artificial intelligence program under the same name that creates images from textual descriptions (similar to DALL-E).
-                        https://www.midjourney.com/home/?callbackUrl=%2Fapp%2F
+            //             2. Midjourney: Midjourney is an artificial intelligence program under the same name that creates images from textual descriptions (similar to DALL-E).
+            //             https://www.midjourney.com/home/?callbackUrl=%2Fapp%2F
                         
-                        3. ChatGPT: ChatGPT (Chat Generative Pre-trained Transformer[2]) is a chatbot developed by OpenAI that can write and debug computer programs, compose music, teleplays, fairy tales, and student essays; answer test questions (sometimes, depending on the test, at a level above the average human test-taker); write poetry and song lyrics. https://openai.com/blog/chatgpt/
-                    `,
-            },
+            //             3. ChatGPT: ChatGPT (Chat Generative Pre-trained Transformer[2]) is a chatbot developed by OpenAI that can write and debug computer programs, compose music, teleplays, fairy tales, and student essays; answer test questions (sometimes, depending on the test, at a level above the average human test-taker); write poetry and song lyrics. https://openai.com/blog/chatgpt/
+            //         `,
+            // },
         ],
         tags: [],
     },
@@ -953,7 +953,7 @@ Jumble the code and triumphal your day.`,
         completed: false,
         results: null,
         rules: [
-            "This event requires teams to have two members each.",
+            "This event requires teams to have maximum of two members each.",
             "Accessing the internet during the event is not allowed, and teams caught doing so will be disqualified.",
             "Interacting or communicating with other teams during the event is not permitted.",
             "Both team members must arrive at the event venue at least 15 minutes before the start time.",
@@ -972,7 +972,7 @@ Jumble the code and triumphal your day.`,
         contact: "7806846758",
         dateTime: "March 1",
         prizes: {
-            gold: "1500",
+            gold: "2000",
         },
         color: "var(--fg-g)",
         carddescription:
