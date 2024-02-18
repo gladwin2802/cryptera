@@ -5,6 +5,7 @@
     flex-direction: column;
     width: 500px;
     margin: 0px auto;
+    /* min-height: 900px; */
 }
 
 .admin-container h2 {
@@ -21,11 +22,21 @@
 }
 
 .admin-container input {
-    margin: 10px auto;
     color: black;
+    width: 300px;
     padding: 8px;
+    border: none;
     border-radius: 5px;
-    border: 1px solid #ccc;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    color: #333;
+    background-color: #fff;
+}
+
+.admin-container input:focus {
+    border: 3px solid purple;
+    outline: none;
 }
 
 .selection-container {
@@ -46,7 +57,20 @@
 }
 
 .selection-container input {
-    width: 20%;
+    width: 25%;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    color: #333;
+    background-color: #fff;
+}
+
+.selection-container input:focus {
+    border: 3px solid purple;
+    outline: none;
 }
 
 /* CSS */
@@ -60,7 +84,6 @@
     gap: 10px;
     min-height: 80px;
     align-items: center;
-    /* justify-content: center; */
     overflow-x: scroll;
 }
 
@@ -75,12 +98,8 @@
     min-width: max-content;
 }
 
-.event-container button {
-    background-color: #2980b9;
-}
-
-.event-container::-webkit-scrollbar {
-    width: 12px;
+.center-content {
+    justify-content: center;
 }
 
 .count-card {
@@ -118,6 +137,19 @@
     background-clip: text;
 }
 
+.loading-container {
+    margin: 20px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.loading-container img {
+    width: 60px;
+    height: 60px;
+}
+
 @media screen and (max-width: 789px) {
     .admin-container {
         margin: 200px auto 0px auto;
@@ -146,7 +178,7 @@
     }
 
     .selection-container {
-        margin: 100px auto 0px auto;
+        margin: 200px auto 0px auto;
     }
 
     .event-container {

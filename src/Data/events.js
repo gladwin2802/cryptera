@@ -3,6 +3,7 @@ import blindCode from "../Assets/event/blindCode.jpg";
 import jumbledCode from "../Assets/event/jumbledCode.jpg";
 import oxdebug from "../Assets/event/0xdebug.jpg";
 import carrom from "../Assets/event/carrom.jpg"
+import workshop1 from "../Assets/event/workshop1.jpg"
 
 const form = "https://docs.google.com/forms/d/e/1FAIpQLSdVn_M4OESw7BRTY5QJF8FREnONDoWUfAreehNLWgyF81HhHw/viewform"
 
@@ -641,7 +642,9 @@ Jumble the code and triumphal your day.`,
             'You can use any programming language of given choice (C, C++, Java, Python)',
             'Make sure you have a Hackerrank account. If not create one before the contest',
             'A total of three rounds will be conducted.',
-            'Internet and personal computer will be provided and be free to bring your own laptops to this event.'
+            "Round 1: Coding challenges on Hackerrank with time limit.",
+            "Round 2: Technical quiz with multiple-choice questions covering computer science, DSA, and OS topics etc.,.",
+            "Round 3: Combination challenge involving reverse coding,missing code and SQL Queries. The challenge will be presented in a snakes and ladders format, where each question is represented by a box. The participants who successfully navigate to the last box solving the questions in the box they cross will be declared the winners.\'Internet and personal computer will be provided and be free to bring your own laptops to this event.\'"
         ],
         pics: {
             primary:
@@ -1269,54 +1272,6 @@ Jumble the code and triumphal your day.`,
         tags: ["presentation"],
     },
 
-    // Capture The Flag
-    // {
-    //     id: "25",
-    //     name: "CTF",
-    //     title: "Capture The Flag",
-    //     eligibility: "Anyone can join",
-    //     completed: false,
-    //     results: null,
-    //     rules: [
-    //         "The competition runs from ... IST — ... IST ( 6 hours)",
-    //         "In order to claim prizes, problem writeups are required.",
-    //         "Time will act as a tie-breaker between teams with the same number of points.",
-    //         "Flags format is CRYPCTF{flag+here}, unless otherwise specified.",
-    //         "You can't play on two teams at once. Team size limit is 5 per team.",
-    //         "Being caught cheating during a game is grounds for an instant disqualification.",
-    //         "Organizers reserve rights to make decisions which are final.",
-    //         "Let's all have fun and play together!",
-    //     ],
-    //     pics: {
-    //         primary: "https://www.simplilearn.com/ice9/free_resources_article_thumb/top_5_valuable_ethical_hacking_tools.jpg",
-    //         secondary: [],
-    //     },
-    //     dateTime: "March 1, 6.00 pm",
-    //     duration: "",
-    //     prizes: {
-    //         gold: "3000",
-    //         silver: "2000",
-    //     },
-    //     contact: "9442523172",
-    //     speakers: null,
-    //     color: "var(--fg-g)",
-    //     carddescription: "A Jeopardy style CTF",
-    //     description: `A Jeopardy style CTF`,
-    //     form: "",
-    //     type: "flagship",
-    //     faq: [
-    //         {
-    //             question: "Will it happen online or offline?",
-    //             answer: "Online",
-    //         },
-    //         {
-    //             question: "Is there is a team size limit",
-    //             answer: "Yes. Maximum team size is 5.",
-    //         },
-    //     ],
-    //     tags: ["Problem Solving", "C", "C++", "Python"],
-    // },
-
     // Freefire
     {
         id: "26",
@@ -1648,7 +1603,7 @@ Jumble the code and triumphal your day.`,
         determination: "The team with the highest total rating after player auction will be declared as the winner.",
         carddescription: "Immersive cricket experience  assemble, bid, and conquer! 🏏💰",
         description: "Join the excitement of the IPL-Auction, where strategic bidding and team-building skills will be put to the test! Form your squad, lead the bidding, and assemble a winning team to claim the coveted title. With a dynamic auction format, diverse player roles, and a challenging purse limit, the IPL-Auction promises intense competition and thrilling cricket action.",
-        form: "",
+        form: "https://docs.google.com/forms/d/1ZN4qCUfnYxOw5F5UX1FJflKD3c9lKdfRiBsjm118Vug/viewform?chromeless=1&edit_requested=true",
         type: "flagship",
         faq: [
             {
@@ -1749,8 +1704,7 @@ Jumble the code and triumphal your day.`,
         type: "flagship",
         eligibility: "Anyone can join",
         pics: {
-            primary:
-                "https://www.eidosmedia.com/resources/0283-1866fad6ba6e-c7eb5b7d9f63-1000/format/large/eidosmedia-ar.png",
+            primary: workshop1,
         },
         contact: "8668171335",
         tags: [],
@@ -1774,11 +1728,11 @@ Jumble the code and triumphal your day.`,
     {
         id: "35",
         key: 1,
-        status: 1,
+        // status: 1,
         rules: [
             "Certificate will be given for the registered candidates",
             "Disocunts will be given for referrals",
-            "For further details call : 8668171335",
+            "For further details call : 9750935611",
         ],
         faq: [
             {
@@ -1799,18 +1753,18 @@ Jumble the code and triumphal your day.`,
             },
         ],
         name: "Workshop2",
-        title: "Workshop on Startup Journey and Product Development",
-        dateTime: "Mar 11th, 10.00 am to 12.00 pm",
-        carddescription: "Gain valuable insights into market research",
+        title: "Uncover Your Next Big Idea: Dive into Startup Possibilities!",
+        dateTime: "March 1, 10 am to 12 pm",
+        carddescription: "Empower your entrepreneurial journey: Dive into the startup world, fail fast, succeed faster!",
         description:
-            "Learn about the key steps involved in taking your idea from conception to launch. Gain valuable insights into market research, product design, and go-to-market strategies.Check out the form for more details on registration fees.",
+            "Dive into the world of entrepreneurship with a startup that sparks innovation and meets market needs. Embrace failure as a stepping stone to success, fostering rapid iteration and unforgettable growth. Ready to kickstart your journey? Join us at our upcoming workshop to learn how to turn your vision into a thriving business!",
         type: "flagship",
         eligibility: "Anyone can join",
         pics: {
             primary:
-                "https://m.economictimes.com/thumb/msid-93829401,width-1200,height-900,resizemode-4,imgsize-624482/learn-with-etmarkets-beginners-guide-to-fo-trading.jpg",
+                "https://as2.ftcdn.net/v2/jpg/02/38/40/55/1000_F_238405533_yyX4K55OmH2LiM7LQ01ITn6kl0b6J6K8.jpg",
         },
-        contact: "6382978347",
+        contact: "9750935611",
         tags: [],
         entry: [
             "Single Workshop - Rs. 150/-",
@@ -1819,11 +1773,11 @@ Jumble the code and triumphal your day.`,
         ],
         form: "https://docs.google.com/forms/u/4/d/1FyBdGuDfijIrVOUHxSZtsoDaR_hd7utw-lg3_-iSfHg/edit?usp=drivesdk&chromeless=1",
         speakerinfo:
-            "Ramanathan Alagappan Passionate Full stack developer and skilled in MERN/MEAN Stack developement. Experienced in web development, all layers, from database to services to user interfaces.",
+            "Vijaya Kumar Rangasamy is an Assistant Professor with over a decade of experience in Design Thinking-based Teaching and Research. He is the founder of ElectricTronics, specializing in automation products and consultancy services for industries in Tamil Nadu.He has delivered more seminars and conducted workshops with students, researchers and industry people regarding technology and creativity.Also, he is a motivational speaker to schools, colleges and industry personals",
         speakers: [
             {
-                name: "Ramanathan Alagappan",
-                bio: "Close to 9 years of experience as a Full stack developer in Software Industry and 2 years of experience as a Freelance developer and has good knowledge in Test Driven Development.",
+                name: "Vijaya Kumar Rangasamy",
+                bio: "Vijaya Kumar Rangasamy has published over 25 research papers in Electric vehicles technology and Hybrid Vehicles and has been recognized with awards such as Best Entrepreneurship Coordinator, Young Start-up, and Best Innovator. As Chief Coordinator of the Innovation and Entrepreneurship Development Cell, he evaluates and guides numerous student projects, including those for SIDP 1.0 and SIDP 2.0, showcasing his commitment to nurturing entrepreneurship. With multiple patents, he continues to inspire aspiring entrepreneurs while advocating for a greener future.",
             },
         ],
         color: "red",
@@ -1931,9 +1885,9 @@ Jumble the code and triumphal your day.`,
         contact: "9750935611",
         tags: [],
         entry: [
-            "Single Webinar - Rs. 99/- ",
-            "Combo A - Two Webinars - Rs. 199/-",
-            "Combo B - Three Webinars - Rs. 299/-",
+            "Single Webinar - Rs.100/-",
+            "Combo A - Two Webinars - Rs.150/-",
+            "Combo B - Three Webinars - Rs.250/-",
         ],
         form: "https://docs.google.com/forms/d/1CE2njtrsNWY4KX7vJWTH54-0x4OzV4QofIWp_gOnstI/edit?chromeless=1",
         speakerinfo:
@@ -1990,9 +1944,9 @@ Jumble the code and triumphal your day.`,
         contact: "9750935611",
         tags: [],
         entry: [
-            "Single Webinar - Rs. 99/- ",
-            "Combo A - Two Webinars - Rs. 199/-",
-            "Combo B - Three Webinars - Rs. 299/-",
+            "Single Webinar - Rs.100/-",
+            "Combo A - Two Webinars - Rs.150/-",
+            "Combo B - Three Webinars - Rs.250/-",
         ],
         form: "https://docs.google.com/forms/d/1CE2njtrsNWY4KX7vJWTH54-0x4OzV4QofIWp_gOnstI/edit?chromeless=1",
         speakerinfo:
@@ -2034,12 +1988,12 @@ Jumble the code and triumphal your day.`,
                 answer: "Yes, e-certificate will be provided",
             },
         ],
-        name: "Webinar1",
+        name: "Webinar3",
         title: "Webinar on Master the art of GENAI : Build, Create and Innovate",
         dateTime: "March 2, 10 am to 12 pm",
         carddescription: "Explore, Create with GENAI",
         description:
-            "Elevate your understanding of distributed databases and revolutionize your approach to Cloud data architecture with our empowering webinar! Learn about Cloud Data Management challenges and strategies for seamless operation. Discover how they persist during disruptions. Register now for a deeper understanding of distributed database resilience.",
+            "Explore the realm of Generative AI with our interactive webinar! Unleash your imagination and build creative AI models with Hugging Face and OpenAI. Check out the form for further details.",
         type: "flagship",
         eligibility: "Anyone can join",
         pics: {
@@ -2049,16 +2003,16 @@ Jumble the code and triumphal your day.`,
         contact: "9750935611",
         tags: [],
         entry: [
-            "Single Webinar - Rs. 99/- ",
-            "Combo A - Two Webinars - Rs. 199/-",
-            "Combo B - Three Webinars - Rs. 299/-",
+            "Single Webinar - Rs.100/-",
+            "Combo A - Two Webinars - Rs.150/-",
+            "Combo B - Three Webinars - Rs.250/-",
         ],
         form: "https://docs.google.com/forms/d/1CE2njtrsNWY4KX7vJWTH54-0x4OzV4QofIWp_gOnstI/edit?chromeless=1",
         speakerinfo:
-            "Mohammad Sameer is a Gen AI Developer in AWS by skills (Acted as Vice Chair for IEEE Student chapter at JNTUGV CEV ,MIEEE,MIEEECS,MIEEEYP,MIEEEWIE).He is very passionate to make people learn about leading technologies like AI/ML/GEN AI/Ethical Hacking etc.Had done many workshop/webinaRs. ",
+            "Mohammad Sameer is a AWS Gen AI Developer by skills at Tata Consultancy services Ltd ( Acted as Vice Chair for IEEE Student chapter at JNTUGV CEV ,MIEEE,MIEEECS,MIEEEYP,MIEEEWIE).He is very passionate to make people learn about leading technologies like AI/ML/GEN AI/Ethical Hacking etc.Had done many workshop/webinars.",
         speakers: [
             {
-                name: "Aravind Chandramouli",
+                name: "Mohammad Sameer",
                 bio: "Aravind has also filed for 10 patents with 6 grants and has over 10 publications in International conferences and journals.  He completed his PhD from the University of Kansas in 2007 and graduated from Coimbatore Institute of Technology in 2002 with a Bachelors in Computer Science.",
             },
         ],

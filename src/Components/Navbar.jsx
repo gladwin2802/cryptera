@@ -12,7 +12,7 @@ function Navbar() {
     const navbarref = useRef(null);
     const timelineref = useRef(null);
     const webref = useRef(null);
-    const adminref = useRef(null);
+    // const adminref = useRef(null);
 
     const clearActive = () => {
         homeref.current.classList.remove("active");
@@ -60,11 +60,11 @@ function Navbar() {
         } else if (location.pathname === "/committee") {
             clearActive();
             commiteeref.current.classList.add("active");
-        }
-        //  else if (location.pathname === "/admin") {
+        } 
+        // else if (location.pathname === "/admin") {
         //     clearActive();
         //     adminref.current.classList.add("active");
-        // }
+        // } 
         else {
             clearActive();
         }
