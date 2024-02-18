@@ -1,4 +1,4 @@
-import { React, useState } from "react";
+import { React, useState, useEffect } from "react";
 import "../../Styles/Home.css";
 import { useNavigate } from "react-router-dom";
 // import { Carousel } from "react-responsive-carousel";
@@ -23,6 +23,27 @@ function Home() {
 
     const isMobile = window.innerWidth <= 768;
 
+
+    const [autoClickInterval, setAutoClickInterval] = useState(null);
+
+    useEffect(() => {
+
+        const interval = setInterval(() => {
+            // Trigger click on the next button
+            const nextButton = document.getElementById("next");
+            if (nextButton) {
+                nextButton.click();
+            }
+        }, 3500); 
+
+        // Store interval ID in state to clear it later
+        setAutoClickInterval(interval);
+
+        // Clear interval when component unmounts
+        return () => clearInterval(interval);
+    }, []); // Run effect only once after initial render
+
+
     const clickhandler = (category) => {
         navigator(`/events?category=${encodeURIComponent(category)}`);
     };
@@ -38,6 +59,9 @@ function Home() {
         const prevButton = document.getElementById("prev");
         const caroussel1 = document.querySelector(".caroussel-1");
         const listHTML = document.querySelector(".caroussel-1 .list");
+        
+        // Clear existing interval
+        clearInterval(autoClickInterval);
 
         nextButton.style.pointerEvents = "none";
         prevButton.style.pointerEvents = "none";
@@ -58,7 +82,17 @@ function Home() {
         setUnAcceptClick(setTimeout(() => {
             nextButton.style.pointerEvents = "auto";
             prevButton.style.pointerEvents = "auto";
-        }, 2000));
+        }, 10));
+
+
+        // Start new interval
+        const interval = setInterval(() => {
+            const nextButton = document.getElementById("next");
+            if (nextButton) {
+                nextButton.click();
+            }
+        }, 3000);
+        setAutoClickInterval(interval);
     }
 
 
@@ -84,48 +118,28 @@ function Home() {
                     <img src={bg} alt="" />
                     <div className="list">
                         <div className="item">
-                            <div className="item">
-                                {/* <div onClick={() => clickhandler("Technical")} className="submit-btn-event" style={{ backgroundImage: `url(${isMobile ? img5 : img1})` }}>
-                                        <div>Explore</div>
-                                    </div> */}
                                 <img src={isMobile ? img5 : img1} alt="" />
-                                <div onClick={() => clickhandler("Technical")} className="submit-btn-event">
-                                    <div>Explore</div>
+                                <div onClick={() => handleClick()} className="item-button">
+                                    <div>Register Now</div>
                                 </div>
-                            </div>
-                            {/*<div className="content">
-                                    <div className="tag" style={{backgroundColor: '#C18EF1'}}>EVENT</div>
-                                    <h2>Tea and Technology<span> Visual Studio Miniseries</span></h2>
-                                    <p className="des">Now streaming on YouTube: Unlock new coding insights with our 7-episode miniseries featuring Visual Studio product managers.</p>
-                                    <a href="">Watch on YouTube</a>
-                                </div>*/}
                         </div>
                         <div className="item">
                             <img src={isMobile ? img6 : img2} alt="" />
-                            {/*<div className="content">
-                                <div className="tag" style={{backgroundColor: '#4DA64D'}}>FEATURE</div>
-                                <h2> GitHub Copilot and Visual Studio 2022</h2>
-                                <p className="des">Stay in your flow and complete tasks faster with the help of multi-line suggestions prompted by your code and code comments. Building new functionality, writing unit tests, and learning new technologies has never been easier or more fun.</p>
-                                <a href="">Get GitHub Copilot</a>
-            </div>*/}
+                            <div onClick={() => clickhandler("Technical")} className="item-button">
+                                    <div>Explore</div>
+                            </div>
                         </div>
                         <div className="item">
                             <img src={isMobile ? img7 : img3} alt="" />
-                            {/*<div className="content">
-                                <div className="tag" style={{backgroundColor: '#28AFEA'}}>GENERAL AVAILABILITY</div>
-                                <h2>New features come to Microsoft Dev Box</h2>
-                                <p className="des">Microsoft Dev Box provides developers with self-service access to high-performance, cloud-based workstations preconfigured for your projects.</p>
-                                <a href="">Learn More</a>
-        </div>*/}
+                            <div onClick={() => clickhandler("Non-Technical")} className="item-button">
+                                    <div>Explore</div>
+                            </div>
                         </div>
                         <div className="item">
                             <img src={isMobile ? img8 : img4} alt="" />
-                            {/*<div className="content">
-                                <div className="tag" style={{backgroundColor: '#28AFEA'}}>GENERAL AVAILABILITY</div>
-                                <h2>New features come to Microsoft Dev Box</h2>
-                                <p className="des">Microsoft Dev Box provides developers with self-service access to high-performance, cloud-based workstations preconfigured for your projects.</p>
-                                <a href="">Learn More</a>
-        </div>*/}
+                            <div onClick={() => clickhandler("Flagship")} className="item-button">
+                                    <div>Explore</div>
+                            </div>
                         </div>
 
                     </div>
@@ -134,91 +148,7 @@ function Home() {
                         <button id="next" onClick={() => showSlider("next")}>{">"}</button>
                     </div>
                 </section>
-                {/* <section style="height: 500px;"></section> */}
-                {/*           <Carousel
-                    style={{ height: "100vh" }}
-                    dynamicHeight={true}
-                    autoPlay={true}
-                    interval={2000}
-                    stopOnHover={false}
-                    infiniteLoop={true}
-                    showThumbs={false}
-                    showStatus={false}
-                >
-                    {Array.from({ length: 4 }).map((_, index) => (
-                        <div
-                            key={index}
-                            style={{
-                                position: "relative",
-                                height: "100%",
-                                display: "flex",
-                                justifyContent: "center",
-                                alignItems: "center",
-                            }}
-                        >
-                            <img
-                                src={getImagePath(index)}
-                                style={{
-                                    width: "100%",
-                                    height: "100%",
-                                    objectFit: "cover",
-                                    maxHeight: "900px",
-                                }}
-                                alt={`Image ${index + 1}`}
-                            />
-                            <div
-                                className="legend"
-                                style={{
-                                    maxWidth: "300px",
-                                    position: "absolute",
-                                    textAlign: "center",
-                                    marginLeft: "auto",
-                                    marginRight: "auto",
-                                    left: 0,
-                                    right: 0,
-                                    fontSize: "20px",
-                                    borderRadius: "50px",
-                                    background: "transparent",
-                                    opacity: 1,
-                                    marginBottom: "0px",
-                                    display: "flex",
-                                    alignItems: "center",
-                                    justifyContent: "center"
-                                }}
-                            >
-                                {index === 0 ? (
-                                    <div
-                                        onClick={() => handleClick()}
-                                        className="submit-btn-event"
-                                    >
-                                        <div>Register Now</div>
-                                    </div>
-                                ) : index === 1 ? (
-                                    <div
-                                        onClick={() => clickhandler("Technical")}
-                                        className="submit-btn-event"
-                                    >
-                                        <div>Explore</div>
-                                    </div>
-                                ) : index === 2 ? (
-                                    <div
-                                        onClick={() => clickhandler("Non-Technical")}
-                                        className="submit-btn-event"
-                                    >
-                                        <div>Explore</div>
-                                    </div>
-                                ) : (
-                                    <div
-                                        onClick={() => clickhandler("Flagship")}
-                                        className="submit-btn-event"
-                                    >
-                                        <div>Explore</div>
-                                    </div>
-                                )}
-                            </div>
-                        </div>
-                    ))}
-                </Carousel> */}
+                
             </div>
         </div>
     );
