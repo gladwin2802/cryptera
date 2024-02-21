@@ -95,7 +95,7 @@ function Main({ movetohomepage }) {
                 <div></div>
                 <div>
                     <a
-                        class="ca3-scroll-down-link ca3-scroll-down-arrow"
+                        className="ca3-scroll-down-link ca3-scroll-down-arrow"
                         data-ca3_iconfont="ETmodules"
                         data-ca3_icon=""
                         style={{ fontSize: "20px", margin: "auto", textAlign: "center" }}

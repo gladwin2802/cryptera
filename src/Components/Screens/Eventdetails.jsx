@@ -375,6 +375,50 @@ function Eventdetails() {
                                 </div>
                             )}
 
+                            {Event_data.rounds && (
+                                <>
+                                    <div className="e-title-m">Round details</div>
+                                    <div className="e-description-m">
+                                        <ul
+                                            className="list-decimal rules"
+                                            style={{ "list-style-type": "none" }}
+                                        >
+                                            {Event_data.rounds &&
+                                                Event_data.rounds.map((round, index) => {
+                                                    return (
+                                                        <div
+                                                            style={{
+                                                                display: "flex",
+                                                                marginTop: "10px",
+                                                                alignItems: "center",
+                                                            }}
+                                                        >
+                                                            <div>
+                                                                <IoSend
+                                                                    style={{
+                                                                        marginRight: "15px",
+                                                                        color: "#05ffa3",
+                                                                        fontSize: "26px !important",
+                                                                        height: "100% !important",
+                                                                    }}
+                                                                ></IoSend>
+                                                            </div>
+
+                                                            <li
+                                                                style={{
+                                                                    fontSize: "12px !important",
+                                                                }}
+                                                            >
+                                                                {round}
+                                                            </li>
+                                                        </div>
+                                                    );
+                                                })}
+                                        </ul>
+                                    </div>
+                                </>
+                            )}
+
                             <div className="e-title-m">Rules</div>
                             <div className="e-description-m">
                                 <ul

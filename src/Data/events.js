@@ -4,6 +4,7 @@ import jumbledCode from "../Assets/event/jumbledCode.jpg";
 import oxdebug from "../Assets/event/0xdebug.jpg";
 import carrom from "../Assets/event/carrom.jpg";
 import workshop1 from "../Assets/event/workshop1.jpg";
+import prompt from "../Assets/event/prompteng.jpeg";
 
 const form = "https://docs.google.com/forms/d/e/1FAIpQLSdVn_M4OESw7BRTY5QJF8FREnONDoWUfAreehNLWgyF81HhHw/viewform"
 
@@ -528,14 +529,28 @@ Jumble the code and triumphal your day.`,
         eligibility: "Anyone can join",
         completed: false,
         results: null,
+        rounds: [
+            "Round 1 - Image Replication:",
+            `Participants will be provided with a reference image.
+            Using any one of the given image generation platform (Gemini/Copilot/Designer.microsoft/Artbreeder), participants must create an image that closely resembles the provided reference.
+            Creativity is encouraged in terms of interpretation and execution, but the final image should closely match the reference in terms of content, composition, and style.
+            Time limit and submission guidelines will be provided before the start of the round.`,
+            "Round 2 - Imaginative Creation",
+            `Participants will be given a theme or a scenario.
+            Using the above said image generation platform, participants must create an original image inspired by the given theme.
+            Creativity and imagination are key in this round. Participants are encouraged to explore new ideas, concepts, and visual styles.
+            The final image should be visually appealing and demonstrate the participant's ability to think creatively and outside the box.
+            Time limit and submission guidelines will be provided before the start of the round.`,
+        ],
         rules: [
-            "All participants should bring their personal laptops with internet connectivity (Mobile Hotspot).",
-            "Scoring will be based originality of the prompt and uniqueness of the image generated",
-            "Any AI tools can be used",
+            "Participants must adhere to the given time limits for each round.",
+            "All submissions must be original works created by the participants themselves.",
+            "Judges' decisions are final and binding.",
+            "Any violation of the rules may result in disqualification.",
+            "Have fun and unleash your creativity!",
         ],
         pics: {
-            primary:
-                "https://www.secondnature.com.au/wp-content/uploads/2019/12/shutterstock_1361250578__1_-1024x576.jpg",
+            primary: prompt,
             secondary: [],
         },
         dateTime: "March 2, 9.30 am",
@@ -549,7 +564,7 @@ Jumble the code and triumphal your day.`,
         color: "var(--fg-g)",
         carddescription:
             "Unleash your creativity with our AI image generation contest!",
-        description: `Unleash your creativity with our AI image generation contest! Create stunning and images based on our themes. Join the competition and show us your creative skills.`,
+        description: `Ready to flex your creative muscles? Our prompt engineering event is the perfect opportunity to showcase your talent and imagination. Let's see what you can dream up!`,
         form: form,
         type: "technical",
         faq: [
@@ -705,7 +720,7 @@ Jumble the code and triumphal your day.`,
         results: null,
         free: "yes",
         rules: [
-            "This event is a free participation event, no entry free or special fee needed",
+            "This event is a free participation event, no entry fee or special fee needed",
             "Event is conducted for vocals and instruments separately",
             "Participants are requested to record video with duration of 1-3 minutes.",
             "Both solo and team performance are accepted",
@@ -845,7 +860,7 @@ Jumble the code and triumphal your day.`,
         results: null,
         free: "yes",
         rules: [
-            "This event is a free participation event, no entry free or special fee needed",
+            "This event is a free participation event, no entry fee or special fee needed",
             "Theme : Open theme",
             "All kind of artistic styles are welcomed (eg: Pencil sketch, water colour, doodle art, oil painting, etc).",
             "Plagiarism is strictly prohibited.",
@@ -899,7 +914,7 @@ Jumble the code and triumphal your day.`,
         results: null,
         free: "yes",
         rules: [
-            "This event is a free participation event, no entry free or special fee needed",
+            "This event is a free participation event, no entry fee or special fee needed",
             "Solo Participation",
             "Languages allowed : Tamil, English",
             "Upload your file in jpg/jpeg format",
@@ -1143,7 +1158,7 @@ Jumble the code and triumphal your day.`,
         results: null,
         free: "yes",
         rules: [
-            "This event is a free participation event, no entry free or special fee needed",
+            "This event is a free participation event, no entry fee or special fee needed",
             "Selfies and portraits are not allowed.",
             "Photo uploading formats(.jpg or .png)",
         ],
@@ -1379,7 +1394,7 @@ Jumble the code and triumphal your day.`,
         carddescription: "You must do the thing you think you cannot do",
         description:
             "Hackathon is a national-level, brainstorming event that encourages young talents to generate solutions to real-world problems. Participants can work in teams of 4 members and use innovative ideation practices to brainstorm and work with specialized tools and come up with the most suitable and feasible one. The event aims to encourage students to find a solution and provide a kickstart to implement them in the future.",
-        form: "https://docs.google.com/forms/d/e/1FAIpQLSeSqEDX5Lyp7maO52THyN9UYYbZl4ARDAV0wdGwYkvYHs842A/viewform",
+        form: "https://docs.google.com/forms/d/1QX93EKN6TQTdauH-7kj7fErct_qVfJHFTRKQvxg0dWU/edit?usp=drivesdk",
         type: "flagship",
         faq: [],
         speakers: [],
@@ -1626,10 +1641,10 @@ Jumble the code and triumphal your day.`,
                 question: "How is the team name chosen ?",
                 answer: "Team names are written on folded sheets, and the team leader randomly picks one sheet."
             },
-            // {
-            //     question: "",
-            //     answer: ""
-            // }
+            {
+                question: "Does ODI and Test performance considered for ranking ?",
+                answer: "No."
+            }
         ],
         tags: [],
     },
@@ -1662,7 +1677,7 @@ Jumble the code and triumphal your day.`,
             "The clock’s ticking, the city’s fate hangs in the balance. Can you beat the mastermind in time to stop the disaster?",
         description:
             "Ready to test your nerve? Dive into Operation Blitz: an electrifying escape room experience where every moment counts. Crack codes, decipher clues, and race against the clock to save the city from disaster. Can your team outsmart the “Director” and uncover the next target before it's too late? Gather your team and prepare for the ultimate adrenaline rush. Visit us at Cryptera and prove your detective skills in the most nerve-wracking challenge yet!",
-        form: "",
+        form: "https://docs.google.com/forms/d/1iz_tGiXvHyijd7zJ90i-VrcivnFmDMSQySd2dMiJJAM/viewform?chromeless=1&edit_requested=true",
         type: "flagship",
         faq: [
             {
@@ -1709,7 +1724,7 @@ Jumble the code and triumphal your day.`,
             },
         ],
         name: "Workshop1",
-        title: "Augmented Reality app development",
+        title: "Augmented Reality App development",
         dateTime: "March 2, 2 pm to 4 pm",
         carddescription: "Step into the future of digital creativity with our AR workshop - where innovation meets immersion",
         description: "Dive into Augmented Reality (AR) development in our expert-led workshop. Gain practical experience and insights into AR frameworks, interface design, and implementation. Whether you're new to AR or seasoned in development, this session offers valuable skills to create immersive digital experiences. Join us to harness the power of AR and stay at the forefront of innovation in this rapidly evolving field.",
@@ -1722,8 +1737,9 @@ Jumble the code and triumphal your day.`,
         tags: [],
         entry: [
             "Single Workshop - Rs. 150/-",
-            "Combo A - Two Workshop - Rs. 250/-",
-            "Combo B - Three Workshop - Rs. 350/-",
+            "Combo A - Two Workshops - Rs. 250/-",
+            "Combo B - Three Workshops - Rs. 350/-",
+            "Combo C - Four Workshops - Rs. 450/-"
         ],
         form: "https://docs.google.com/forms/u/4/d/1FyBdGuDfijIrVOUHxSZtsoDaR_hd7utw-lg3_-iSfHg/edit?usp=drivesdk&chromeless=1",
         speakerinfo:
@@ -1780,8 +1796,9 @@ Jumble the code and triumphal your day.`,
         tags: [],
         entry: [
             "Single Workshop - Rs. 150/-",
-            "Combo A - Two Workshop - Rs. 250/-",
-            "Combo B - Three Workshop - Rs. 350/-",
+            "Combo A - Two Workshops - Rs. 250/-",
+            "Combo B - Three Workshops - Rs. 350/-",
+            "Combo C - Four Workshops - Rs. 450/-"
         ],
         form: "https://docs.google.com/forms/u/4/d/1FyBdGuDfijIrVOUHxSZtsoDaR_hd7utw-lg3_-iSfHg/edit?usp=drivesdk&chromeless=1",
         speakerinfo:
@@ -1798,11 +1815,11 @@ Jumble the code and triumphal your day.`,
     {
         id: "36",
         key: 1,
-        status: 1,
+        // status: 1,
         rules: [
             "Certificate will be given for the registered candidates",
             "Disocunts will be given for referrals",
-            "For further details call : 8668171335",
+            "For further details call : 9629888319",
         ],
         faq: [
             {
@@ -1823,31 +1840,90 @@ Jumble the code and triumphal your day.`,
             },
         ],
         name: "Workshop3",
-        title: "Workshop on Startup Journey and Product Development",
-        dateTime: "Mar 10th, 2.00 pm to 4.00 pm",
-        carddescription: "Gain valuable insights on Startups of Today",
+        title: "Charged Up: Exploring the Potential of Electric Vehicles",
+        dateTime: "March 1, 2pm to 4pm",
+        carddescription: "Switch gears with us at our Electric Vehicle Workshop - igniting excitement for eco-friendly driving!",
         description:
-            "Join our workshop on Startups of Today: Developing a Viable Product and gain insights on creating successful products that meet market needs. Our experienced speakersand interactive sessions will equip you with the knowledgeand tools needed to turn your startup idea into a reality. Check out the form for more details on registration fees.",
+            "Curious about electric vehicles? Join us for a workshop where we'll break down everything you need to know! From how they work to why they're important for the environment, we'll cover it all. Whether you're a bike lover or simply interested in sustainable transportation, this workshop is your chance to get the inside scoop on electric vehicles. Don't miss out - reserve your spot today!",
         type: "flagship",
         eligibility: "Anyone can join",
         pics: {
             primary:
-                "https://sergiocaredda.eu/wp-content/uploads/2020/01/workshop-facilitation.jpg",
+                "https://i0.wp.com/evehicleshop.in/wp-content/uploads/2020/09/Untitled-design.jpg",
         },
-        contact: "6382978347",
+        contact: "9629888319",
         tags: [],
         entry: [
             "Single Workshop - Rs. 150/-",
-            "Combo A - Two Workshop - Rs. 250/-",
-            "Combo B - Three Workshop - Rs. 350/-",
+            "Combo A - Two Workshops - Rs. 250/-",
+            "Combo B - Three Workshops - Rs. 350/-",
+            "Combo C - Four Workshops - Rs. 450/-"
         ],
         form: "https://docs.google.com/forms/u/4/d/1FyBdGuDfijIrVOUHxSZtsoDaR_hd7utw-lg3_-iSfHg/edit?usp=drivesdk&chromeless=1",
         speakerinfo:
-            "Mohanraj Siddhuraj is an experienced Software Test Engineer with a demonstrated history of working in the information technology and services industry.",
+            "Mohanraj Ramasamy is a visionary leader, the Founder and CEO of SRIVARU Motors (SVM), SRIVARU has developed a high performance motorcycle, 'Prana' powered by sustainable energy. He is a former Senior Manager at Tesla Motors and built and Managed Infrastructure and System services team for supporting entire Tesla Motors business functions. ",
         speakers: [
             {
-                name: "Mohanraj Siddhuraj",
-                bio: "Skilled in Agile Methodologies, Linux, Test Management, Automation and Manual Testing and a strong quality assurance professional.",
+                name: "Mohanraj Ramasamy",
+                bio: "His skills in storage and unix architecture are unmatched. He is an experienced Information & Technology leader in operating cutting-edge infrastructure solutions enterprise-wide in large, complex global organizations",
+            },
+        ],
+        color: "red",
+    },
+
+    {
+        id: "37",
+        key: 1,
+        rules: [
+            "Certificate will be given for the registered candidates",
+            "Disocunts will be given for referrals",
+            "For further details call : 9750935611",
+        ],
+        faq: [
+            {
+                question: "Will it happen online or offline?",
+                answer: "Offline",
+            },
+            {
+                question: "Will it be a one day workshop or two days?",
+                answer: "One day, time is mentioned above",
+            },
+            {
+                question: "Can I get any discount?",
+                answer: "Yeah sure, contact us for further details",
+            },
+            {
+                question: "Can I get certificate?",
+                answer: "Yes, Certificate will be provided in offline",
+            },
+        ],
+        name: "Workshop4",
+        title: "Unleashing the Power of Machine Learning: Real-Time Applications in Action",
+        dateTime: "March 2, 10 am to 12 pm",
+        carddescription: "Unlock Data's Potential: Discover Machine Learning Applications!",
+        description:
+            "Unlock the magic of real-time machine learning, transforming data into actionable insights. Predict trends, optimize operations, and unleash your data's full potential. Reserve your spot now for a transformative journey towards success!",
+        type: "flagship",
+        eligibility: "Anyone can join",
+        pics: {
+            primary:
+                "https://www.simplilearn.com/ice9/free_resources_article_thumb/Deep-Learning-vs-Machine-Learning.jpg",
+        },
+        contact: "9750935611",
+        tags: [],
+        entry: [
+            "Single Workshop - Rs. 150/-",
+            "Combo A - Two Workshops - Rs. 250/-",
+            "Combo B - Three Workshops - Rs. 350/-",
+            "Combo C - Four Workshops - Rs. 450/-"
+        ],
+        form: "https://docs.google.com/forms/u/4/d/1FyBdGuDfijIrVOUHxSZtsoDaR_hd7utw-lg3_-iSfHg/edit?usp=drivesdk&chromeless=1",
+        speakerinfo:
+            "Kiruthika embarked on her journey after completing her M.E. in Computer Science from Anna University. Passionate about pedagogy, she's now an Assistant Professor at KPR Institute of Engineering and Technology, with 6 years of experience and a focus on continuous growth. Kiruthika also serves as a Board member for Agenesinfo Omics Private Limited, Hyderabad.",
+        speakers: [
+            {
+                name: "Kiruthika J K",
+                bio: "Kiruthika J K is a dedicated educator with a passion for nurturing young minds. She holds key roles as InCharge of the Music Club, Student Event Coordinator, and Timetable Coordinator, showcasing her commitment to both academic and extracurricular excellence. Additionally, her expertise extends to spearheading the Machine Learning Special Lab, reflecting her keen interest and proficiency in Artificial Intelligence and Machine Learning.Ms. Kiruthika's work has been published in reputable journals and conference proceedings, including the IOP Conference Series and the Annals of the Romanian Society for Cell Biology.",
             },
         ],
         color: "red",

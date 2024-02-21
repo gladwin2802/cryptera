@@ -547,6 +547,7 @@
 /* Additional styling for spacing and alignment if needed */
 .contentx {
     margin: 40px auto;
+    margin-bottom: 0px;
 }
 
 

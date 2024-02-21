@@ -1,13 +1,33 @@
-import React from "react";
+import { React, useState, useEffect } from "react";
 import "../../Styles/Home.css";
 import { useNavigate } from "react-router-dom";
-import { Carousel } from "react-responsive-carousel";
-import "react-responsive-carousel/lib/styles/carousel.min.css";
+import img1 from "../../Assets/Caroussel/images/crypterabg.png"
+import img2 from "../../Assets/Caroussel/images/technical.png"
+import img3 from "../../Assets/Caroussel/images/non-technical.png"
+import img4 from "../../Assets/Caroussel/images/flagship.png";
+import img5 from "../../Assets/Caroussel/images/pcrypterabg.png";
+import img6 from "../../Assets/Caroussel/images/ptechnical.png";
+import img7 from "../../Assets/Caroussel/images/pnon-technical.png";
+import img8 from "../../Assets/Caroussel/images/pflagship.png";
+import bg from "../../Assets/Caroussel/images/space5.jpg"
 
 function Home() {
     const navigator = useNavigate();
-
+    const [unAcceptClick, setUnAcceptClick] = useState(null);
     const isMobile = window.innerWidth <= 768;
+    const [autoClickInterval, setAutoClickInterval] = useState(null);
+
+    useEffect(() => {
+        const interval = setInterval(() => {
+            const nextButton = document.getElementById("next");
+            if (nextButton) {
+                nextButton.click();
+            }
+        }, 3500);
+        setAutoClickInterval(interval);
+
+        return () => clearInterval(interval);
+    }, []);
 
     const clickhandler = (category) => {
         navigator(`/events?category=${encodeURIComponent(category)}`);
@@ -16,19 +36,42 @@ function Home() {
         window.location.href =
             "https://docs.google.com/forms/d/e/1FAIpQLSdVn_M4OESw7BRTY5QJF8FREnONDoWUfAreehNLWgyF81HhHw/viewform";
     };
-    function getImagePath(index) {
-        switch (index) {
-            case 0:
-                return isMobile ? "pcrypterabg.png" : "crypterabg.png";
-            case 1:
-                return isMobile ? "ptechnical.png" : "technical.png";
-            case 2:
-                return isMobile ? "pnon-technical.png" : "non-technical.png";
-            case 3:
-                return isMobile ? "pflagship.png" : "flagship.png";
-            default:
-                return "";
+
+    const showSlider = (type) => {
+        const nextButton = document.getElementById("next");
+        const prevButton = document.getElementById("prev");
+        const caroussel1 = document.querySelector(".caroussel-1");
+        const listHTML = document.querySelector(".caroussel-1 .list");
+        clearInterval(autoClickInterval);
+
+        nextButton.style.pointerEvents = "none";
+        prevButton.style.pointerEvents = "none";
+
+        caroussel1.classList.remove("prev", "next");
+        let items = document.querySelectorAll(".caroussel-1 .list .item");
+
+        if (type === "next") {
+            listHTML.append(items[0]);
+            caroussel1.classList.add("next");
+        } else {
+            let positionLast = items.length - 1;
+            listHTML.prepend(items[positionLast]);
+            caroussel1.classList.add("prev");
         }
+
+        clearTimeout(unAcceptClick);
+        setUnAcceptClick(setTimeout(() => {
+            nextButton.style.pointerEvents = "auto";
+            prevButton.style.pointerEvents = "auto";
+        }, 10));
+
+        const interval = setInterval(() => {
+            const nextButton = document.getElementById("next");
+            if (nextButton) {
+                nextButton.click();
+            }
+        }, 3000);
+        setAutoClickInterval(interval);
     }
 
     return (
@@ -44,94 +87,43 @@ function Home() {
         >
             <div
                 style={{
-                    paddingTop: isMobile ? "" : "0px",
+                    paddingTop: isMobile ? "px" : "0px",
                     paddingBottom: isMobile ? "5px" : "0px",
                 }}
             >
-                <Carousel
-                    style={{ height: "100vh" }}
-                    dynamicHeight={true}
-                    autoPlay={true}
-                    interval={2000}
-                    stopOnHover={false}
-                    infiniteLoop={true}
-                    showThumbs={false}
-                    showStatus={false}
-                >
-                    {Array.from({ length: 4 }).map((_, index) => (
-                        <div
-                            key={index}
-                            style={{
-                                position: "relative",
-                                height: "100%",
-                                display: "flex",
-                                justifyContent: "center",
-                                alignItems: "center",
-                            }}
-                        >
-                            <img
-                                src={getImagePath(index)}
-                                style={{
-                                    width: "100%",
-                                    height: "100%",
-                                    objectFit: "cover",
-                                    maxHeight: "900px",
-                                }}
-                                alt={`Image ${index + 1}`}
-                            />
-                            <div
-                                className="legend"
-                                style={{
-                                    maxWidth: "300px",
-                                    position: "absolute",
-                                    textAlign: "center",
-                                    marginLeft: "auto",
-                                    marginRight: "auto",
-                                    left: 0,
-                                    right: 0,
-                                    fontSize: "20px",
-                                    borderRadius: "50px",
-                                    background: "transparent",
-                                    opacity: 1,
-                                    marginBottom: "0px",
-                                    display: "flex",
-                                    alignItems: "center",
-                                    justifyContent: "center"
-                                }}
-                            >
-                                {index === 0 ? (
-                                    <div
-                                        onClick={() => handleClick()}
-                                        className="submit-btn-event"
-                                    >
-                                        <div>Register Now</div>
-                                    </div>
-                                ) : index === 1 ? (
-                                    <div
-                                        onClick={() => clickhandler("Technical")}
-                                        className="submit-btn-event"
-                                    >
-                                        <div>Explore</div>
-                                    </div>
-                                ) : index === 2 ? (
-                                    <div
-                                        onClick={() => clickhandler("Non-Technical")}
-                                        className="submit-btn-event"
-                                    >
-                                        <div>Explore</div>
-                                    </div>
-                                ) : (
-                                    <div
-                                        onClick={() => clickhandler("Flagship")}
-                                        className="submit-btn-event"
-                                    >
-                                        <div>Explore</div>
-                                    </div>
-                                )}
+                <section className="caroussel-1">
+                    <img src={bg} alt="" />
+                    <div className="list">
+                        <div className="item">
+                            <img src={isMobile ? img8 : img4} alt="" />
+                            <div onClick={() => clickhandler("Flagship")} className="item-button">
+                                <div>Explore</div>
                             </div>
                         </div>
-                    ))}
-                </Carousel>
+                        <div className="item">
+                            <img src={isMobile ? img5 : img1} alt="" />
+                            <div onClick={() => handleClick()} className="item-button">
+                                <div>Register Now</div>
+                            </div>
+                        </div>
+                        <div className="item">
+                            <img src={isMobile ? img6 : img2} alt="" />
+                            <div onClick={() => clickhandler("Technical")} className="item-button">
+                                <div>Explore</div>
+                            </div>
+                        </div>
+                        <div className="item">
+                            <img src={isMobile ? img7 : img3} alt="" />
+                            <div onClick={() => clickhandler("Non-Technical")} className="item-button">
+                                <div>Explore</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="arrows">
+                        <button id="prev" onClick={() => showSlider("prev")}>{"<"}</button>
+                        <button id="next" onClick={() => showSlider("next")}>{">"}</button>
+                    </div>
+                </section>
             </div>
         </div>
     );

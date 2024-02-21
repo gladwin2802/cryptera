@@ -1,3 +1,32 @@
+.timeline-main {
+    width: 100%;
+    height: 100vh;
+    scroll-behavior: smooth;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.button-flex {
+    width: 100%;
+    margin: 10px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.timeline-main-container {
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+.timeline-title {
+    font-size: 44px;
+    color: #05ffa3;
+    font-weight: 700;
+}
+
 .timeline {
     width: 100%;
     height: 100vh;
@@ -67,10 +96,94 @@
 
 .event_name:hover {
     color: #05ffa3 !important;
-
 }
 
-@media only screen and (max-width: 800px) {
+.scroll-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 30px;
+    border: none;
+    font-weight: bold;
+    font-size: 14px;
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.item-button1 {
+    background-color: var(--fg-green);
+    font-size: 14px;
+    width: 45px;
+    height: 45px;
+    background-image: linear-gradient(90deg, #24B47E, #50e40c) !important;
+    padding: 3px;
+    border-radius: 50px;
+    color: white;
+    text-align: center;
+}
+
+.item-button1>div {
+    width: 40px;
+    height: 40px;
+    background-color: var(--bg-black);
+    border-radius: 50px;
+    padding: 10px 0px;
+    font-size: 14px;
+    font-weight: 800;
+}
+
+.scroll-to-top:hover {
+    opacity: 1;
+}
+
+.rocket1 {
+    width: 300px;
+    position: fixed;
+    top: 20px;
+    right: -30px;
+    transform: rotate(180deg);
+}
+
+.rocket2 {
+    width: 300px;
+    position: fixed;
+    bottom: 0px;
+    left: 150px;
+}
+
+@media only screen and (max-width: 1200px) {
+    .rocket2 {
+        left: 0px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .button-flex {
+        margin: 0;
+    }
+
+    .button-flex>.item-button {
+        background-color: var(--fg-green);
+        font-size: 14px;
+        width: 80px;
+        background-image: linear-gradient(90deg, #24B47E, #50e40c) !important;
+        padding: 3px;
+        border-radius: 50px;
+        color: white;
+        text-align: center;
+        margin: 0;
+        margin-bottom: 20px;
+    }
+
+    .button-flex>.item-button>div {
+        width: 74px;
+        background-color: var(--bg-black);
+        border-radius: 50px;
+        padding: 10px 0px;
+        font-size: 14px;
+        font-weight: 800;
+    }
+
     .event_name {
         font-weight: 900 !important;
         font-size: 18px !important;
@@ -80,28 +193,31 @@
         font-size: 12px !important;
     }
 
-    .rocket {
+    .timeline-title {
+        margin-top: 40px;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+
+    .rocket1 {
         display: none;
     }
 
-    .astronaut {
+    .rocket2 {
         display: none;
-
     }
 }
 
-.rocket {
-    width: 300px;
-    position: fixed;
-    top: 20px;
-    right: -30px;
-    transform: rotate(180deg);
+@media only screen and (max-width: 500px) {
+    .event_name {
+        font-weight: 900 !important;
+        font-size: 16px !important;
+    }
 }
 
-.astronaut {
-    width: 300px;
-    position: fixed;
-    bottom: 0px;
-    left: 130px;
-
+@media only screen and (max-width: 400px) {
+    .event_name {
+        font-weight: 900 !important;
+        font-size: 14px !important;
+    }
 }

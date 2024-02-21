@@ -123,7 +123,7 @@ function Navmobile() {
             <div>
                 <div className="sidenav" ref={sidenavref}>
                     <div className="close-btn-x" onClick={toggleMenu}>
-                        <i class="fas fa-times"></i>
+                        <i className="fas fa-times"></i>
                     </div>
                     <div className="hint" ref={hintref}></div>
 
@@ -176,7 +176,7 @@ function Navmobile() {
                                         ref={galref}
                                         className="navbar-linkx"
                                         >
-                                        <i class="fa-brands fa-envira"></i>
+                                        <i className="fa-brands fa-envira"></i>
                                         <span>Gallery</span>
                             </Link>
                         */}
@@ -217,20 +217,20 @@ function Navmobile() {
                                     href="https://www.instagram.com/cryptera_2k24?igsh=MTQ3aGF3MHlrNHNyaA=="
                                     style={{ padding: "10px" }}
                                 >
-                                    <i class="fab fa-instagram"></i>
+                                    <i className="fab fa-instagram"></i>
                                 </a>
 
                                 <a
                                     style={{ padding: "10px" }}
                                     href="https://www.youtube.com/channel/UCsiIbEbaefrwPFmJ_cxwoJg"
                                 >
-                                    <i class="fab fa-youtube"></i>
+                                    <i className="fab fa-youtube"></i>
                                 </a>
                                 <a
                                     style={{ padding: "10px" }}
                                     href="mailto:cryptera.cit@gmail.com"
                                 >
-                                    <i class="fa-solid fa-envelope"></i>
+                                    <i className="fa-solid fa-envelope"></i>
                                 </a>
                             </div>
                         </div>
@@ -243,7 +243,7 @@ function Navmobile() {
                         </Link>
                     </div>
                     <div onClick={toggleMenu} className="close-btn">
-                        <i class="fas fa-bars"></i>
+                        <i className="fas fa-bars"></i>
                     </div>
                 </div>
             </div>

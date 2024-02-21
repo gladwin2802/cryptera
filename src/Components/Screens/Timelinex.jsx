@@ -1,5 +1,5 @@
-import React, { useRef } from "react";
-import { Navigate, useNavigate } from "react-router-dom";
+import React, { useRef, useState, useEffect } from "react";
+import { useNavigate } from "react-router-dom";
 import Timeline from "@mui/lab/Timeline";
 import TimelineItem from "@mui/lab/TimelineItem";
 import TimelineSeparator from "@mui/lab/TimelineSeparator";
@@ -8,64 +8,74 @@ import TimelineContent from "@mui/lab/TimelineContent";
 import TimelineOppositeContent from "@mui/lab/TimelineOppositeContent";
 import TimelineDot from "@mui/lab/TimelineDot";
 import Typography from "@mui/material/Typography";
-import { events } from "../../Data/timelinedata";
+import { events } from "../../Data/timelinedata1";
 import "../../Styles/Timeline.css";
-function Timelinex() {
-    const navigate = useNavigate();
-    const greenTopref = useRef(null);
-    const greenBottomref = useRef(null);
-    const contentref = useRef(null);
-    let h = 10;
-    let i = 10;
 
-    const wheelhandler = (event) => {
-        if (event.deltaY < 0) {
-            h = 0;
-            greenBottomref.current.style.height = "0px";
-            if (contentref.current.scrollTop == 0) {
-                i += 3;
-                greenTopref.current.style.height = `${i}px`;
-                if (i > 60) {
-                    greenTopref.current.style.height = `0px`;
-                    navigate("/events");
-                }
-            }
-        } else {
-            greenTopref.current.style.height = "0px";
-            i = 0;
-            if (
-                contentref.current.offsetHeight + contentref.current.scrollTop >=
-                contentref.current.scrollHeight
-            ) {
-                h += 3;
-                greenBottomref.current.style.height = h + "px";
-                if (h > 60) {
-                    greenBottomref.current.style.height = "0px";
-                    navigate("/web_devs");
-                }
-            }
+function Timelinex() {
+    const navigator = useNavigate();
+    const [showScrollButton, setShowScrollButton] = useState(false);
+
+    const timelineRefs = useRef([]);
+
+    const navigateToEventPage = (eventRef) => {
+        navigator(`/events/${eventRef}`);
+    };
+
+    const scrollToTimeline = (index) => {
+        if (timelineRefs.current[index]) {
+            timelineRefs.current[index].scrollIntoView({ behavior: 'smooth' });
         }
     };
+
+    const scrollToTop = () => {
+        window.scrollTo({ top: 0, behavior: "auto" });
+    };
+
+    useEffect(() => {
+        const handleScroll = () => {
+            console.log('Handling scroll...');
+            console.log(window.scrollY)
+            if (window.scrollY > 300) {
+                setShowScrollButton(true);
+            } else {
+                setShowScrollButton(false);
+            }
+        };
+
+        window.addEventListener("scroll", handleScroll);
+        return () => {
+            window.removeEventListener("scroll", handleScroll);
+        };
+    }, []);
+
     return (
         <div
-            className="webdevs"
-            ref={contentref}
-            onWheel={wheelhandler}
-
+            className="timeline-main"
         >
-            <div className="webdevs-container">
+            <div className="timeline-main-container">
                 <div>
                     <h1
-                        className="webdevs-title"
+                        className="timeline-title"
                         style={{ textAlign: "left", color: "#05ffa3" }}
                     >
                         Timeline
                     </h1>
                 </div>
+                <div className="button-flex">
+                    <div onClick={() => scrollToTimeline(0)} className="item-button">
+                        <div>March 1</div>
+                    </div>
+                    <div onClick={() => scrollToTimeline(17)} className="item-button">
+                        <div>March 2</div>
+                    </div>
+                    <div onClick={() => scrollToTimeline(35)} className="item-button">
+                        <div>March 3</div>
+                    </div>
+                </div>
                 <>
                     {events.map((event, index) => {
                         return (
-                            <Timeline position="alternate">
+                            <Timeline position="alternate" key={index} ref={(el) => (timelineRefs.current[index] = el)}>
                                 {index % 2 == 0 ? (
                                     <TimelineItem>
                                         <TimelineOppositeContent
@@ -97,7 +107,11 @@ function Timelinex() {
                                             />
                                         </TimelineSeparator>
                                         <TimelineContent sx={{ py: "50px", px: 2, fw: "900" }}>
-                                            <Typography className="event_name" component="span">
+                                            <Typography
+                                                className="event_name"
+                                                component="span"
+                                                onClick={() => navigateToEventPage(event.ref)}
+                                            >
                                                 {event.title.toUpperCase()}
                                             </Typography>
                                         </TimelineContent>
@@ -108,7 +122,11 @@ function Timelinex() {
                                             sx={{ py: "50px", px: 2 }}
                                             variant="body2"
                                         >
-                                            <Typography className="event_name" component="span">
+                                            <Typography
+                                                className="event_name"
+                                                component="span"
+                                                onClick={() => navigateToEventPage(event.ref)}
+                                            >
                                                 {event.title.toUpperCase()}
                                             </Typography>
                                         </TimelineOppositeContent>
@@ -143,7 +161,14 @@ function Timelinex() {
                     })}
                 </>
             </div>
-            <div className="rocket">
+
+            {showScrollButton && (
+                <div onClick={scrollToTop} className="scroll-to-top item-button1">
+                    <div>Up</div>
+                </div>
+            )}
+
+            <div className="rocket1">
                 <lottie-player
                     autoplay
                     loop
@@ -153,7 +178,18 @@ function Timelinex() {
                     }
                 ></lottie-player>
             </div>
-            <div className="astronaut">
+            <div className="rocket2">
+                <lottie-player
+                    autoplay
+                    loop
+                    mode="normal"
+                    src={
+                        "https://lottie.host/2bb1bc54-83bf-46bf-a363-c86e0a294085/zbxKu3vW3m.json"
+                    }
+                ></lottie-player>
+            </div>
+
+            {/* <div className="astronaut">
                 <lottie-player
                     autoplay
                     loop
@@ -162,8 +198,9 @@ function Timelinex() {
                         "https://lottie.host/eb296674-d2b8-400f-8cd4-dfce9a6c2fa3/qgK0JoLgWU.json"
                     }
                 ></lottie-player>
-            </div>
+            </div> */}
         </div>
+
     );
 }
 

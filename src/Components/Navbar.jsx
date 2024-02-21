@@ -118,7 +118,7 @@ function Navbar() {
                 </Link>
                 {/*
                     <Link to="gallery" ref={galref} className="navbar-link">
-                        <i class="fa-brands fa-envira"></i>
+                        <i className="fa-brands fa-envira"></i>
                         <span>Gallery</span>
                     </Link>
                 */}

@@ -96,11 +96,11 @@ function ContactUs() {
                                 marginRight: "3vw"
                             }}
                         >
-                            <div class="submit-btn-event">
+                            <div className="submit-btn-event">
                                 <div style={{ padding: "0px" }}>
                                     <button
                                         type="submit"
-                                        class="submit"
+                                        className="submit"
                                         style={{ width: "200px", height: "50px" }}
                                     >
                                         Submit

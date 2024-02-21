@@ -11,8 +11,9 @@ import ContactUs from './Components/Screens/ContactUs';
 import Gallery from './Components/Screens/Gallery';
 import Committee from './Components/Screens/Committee';
 import Events from './Components/Screens/Events';
-import Countdown from './Components/Screens/Countdown'
-import WebDevs from './Components/Screens/WebDevs'
+import Countdown from './Components/Screens/Countdown';
+import Timelinex from './Components/Screens/Timelinex';
+import WebDevs from './Components/Screens/WebDevs';
 import Eventdetails from './Components/Screens/Eventdetails';
 import Navmobile from './Components/Navmobile';
 import Queries from './Components/Screens/Queries';
@@ -68,7 +69,8 @@ function App() {
                         <Route path="/" element={<Home />}></Route>
                         <Route path="/about_us" element={<AboutUs />}></Route>
                         <Route path="/events" element={<Events />}></Route>
-                        <Route path="/timeline" element={<Countdown />}></Route>
+                        {/* <Route path="/timeline" element={<Countdown />}></Route> */}
+                        <Route path="/timeline" element={<Timelinex />}></Route>
                         <Route path="/web_devs" element={<WebDevs />}></Route>
                         <Route path="/gallery" element={<Gallery />}></Route>
                         <Route path="/committee" element={<Committee />}></Route>
@@ -77,7 +79,6 @@ function App() {
                         {/* <Route path="/admin" element={<Admin />}></Route> */}
                         <Route path='/access_code_8870' element={<Queries />}></Route>
                         <Route path='/access_code_8870499146_ji' element={<Update_event />}></Route>
-
                     </Routes>
                 </div>
             </BrowserRouter>
