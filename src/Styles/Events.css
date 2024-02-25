@@ -387,3 +387,9 @@
 
     }
 }
+
+@media only screen and (max-width: 350px) {
+    .event-card {
+        width: 270px;
+    }
+}

@@ -137,7 +137,7 @@
 }
 
 .rocket1 {
-    width: 300px;
+    width: 200px;
     position: fixed;
     top: 20px;
     right: -30px;
@@ -145,19 +145,20 @@
 }
 
 .rocket2 {
-    width: 300px;
+    width: 200px;
     position: fixed;
     bottom: 0px;
-    left: 150px;
+    left: 210px;
 }
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1300px) {
     .rocket2 {
+        position: sticky;
         left: 0px;
     }
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 800px) {
     .button-flex {
         margin: 0;
     }
@@ -186,7 +187,7 @@
 
     .event_name {
         font-weight: 900 !important;
-        font-size: 18px !important;
+        font-size: 19px !important;
     }
 
     .event-date {

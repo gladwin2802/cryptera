@@ -8,11 +8,11 @@ function Navbar() {
     const contactref = useRef(null);
     const eventref = useRef(null);
     const commiteeref = useRef(null);
-    const hintref = useRef(null);
+    // const hintref = useRef(null);
     const navbarref = useRef(null);
     const timelineref = useRef(null);
     const webref = useRef(null);
-    // const adminref = useRef(null);
+    const adminref = useRef(null);
 
     const clearActive = () => {
         homeref.current.classList.remove("active");
@@ -22,17 +22,17 @@ function Navbar() {
         webref.current.classList.remove("active");
         commiteeref.current.classList.remove("active");
         timelineref.current.classList.remove("active");
-        // adminref.current.classList.remove("active");
+        adminref.current.classList.remove("active");
     };
-    useEffect(() => {
-        window.addEventListener("mouseover", (event) => {
-            if (event.clientX > window.innerWidth / 3) {
-                navbarref.current.style.width = "20px";
-            } else {
-                navbarref.current.style.width = "100%";
-            }
-        });
-    }, []);
+    // useEffect(() => {
+    //     window.addEventListener("mouseover", (event) => {
+    //         if (event.clientX > window.innerWidth / 3) {
+    //             navbarref.current.style.width = "20px";
+    //         } else {
+    //             navbarref.current.style.width = "100%";
+    //         }
+    //     });
+    // }, []);
     useEffect(() => {
         if (location.pathname === "/") {
             clearActive();
@@ -61,10 +61,10 @@ function Navbar() {
             clearActive();
             commiteeref.current.classList.add("active");
         } 
-        // else if (location.pathname === "/admin") {
-        //     clearActive();
-        //     adminref.current.classList.add("active");
-        // } 
+        else if (location.pathname === "/admin") {
+            clearActive();
+            adminref.current.classList.add("active");
+        } 
         else {
             clearActive();
         }
@@ -130,12 +130,12 @@ function Navbar() {
                     <i className="fa fa-headset"></i>
                     <span>Contact Us</span>
                 </Link>
-                {/* <Link to="admin" ref={adminref} className=" navbar-link">
+                <Link to="admin" ref={adminref} className=" navbar-link">
                     <i className="fa fa-user"></i>
                     <span>Admin</span>
-                </Link> */}
+                </Link>
             </div>
-            <div className="bottom-special" ref={hintref}></div>
+            {/* <div className="bottom-special" ref={hintref}></div> */}
         </div>
     );
 }

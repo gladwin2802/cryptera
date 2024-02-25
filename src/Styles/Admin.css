@@ -150,21 +150,9 @@
     height: 60px;
 }
 
-@media screen and (max-width: 789px) {
-    .admin-container {
-        margin: 200px auto 0px auto;
-    }
-
-    .selection-container input {
-        width: 50%;
-    }
-
+@media screen and (max-width: 1400px) {
     .selection-container {
         margin: 200px auto 0px auto;
-    }
-
-    .event-container {
-        margin-right: 0px;
     }
 }
 
@@ -185,3 +173,22 @@
         margin-right: 0px;
     }
 }
+
+@media screen and (max-width: 789px) {
+    .admin-container {
+        margin: 200px auto 0px auto;
+    }
+
+    .selection-container input {
+        width: 50%;
+    }
+
+    .selection-container {
+        margin: 200px auto 0px auto;
+    }
+
+    .event-container {
+        margin-right: 0px;
+    }
+}
+

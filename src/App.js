@@ -22,7 +22,7 @@ import Update_event from './Components/Screens/Update_event';
 import { initializeApp } from "firebase/app";
 import { getFirestore } from "firebase/firestore";
 import { getevent_details_data } from './Data/events_data';
-// import Admin from './Components/Screens/Admin';
+import Admin from './Components/Screens/Admin';
 
 const firebaseConfig = {
     apiKey: "AIzaSyCjDtQ-hsyXk876DZLyyeC6UpXMFFjF5EY",
@@ -76,7 +76,7 @@ function App() {
                         <Route path="/committee" element={<Committee />}></Route>
                         <Route path="/contact_us" element={<ContactUs />}></Route>
                         <Route path="/events/:name" element={<Eventdetails />}></Route>
-                        {/* <Route path="/admin" element={<Admin />}></Route> */}
+                        <Route path="/admin" element={<Admin />}></Route>
                         <Route path='/access_code_8870' element={<Queries />}></Route>
                         <Route path='/access_code_8870499146_ji' element={<Update_event />}></Route>
                     </Routes>

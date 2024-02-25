@@ -26,6 +26,12 @@ export const events = [
         ref:"Workshop2"
     },
     {
+        title: "Escape Room",
+        time: "10:00 AM to 5:00 PM",
+        date: "March 1",
+        ref:"Escape_Room"
+    },
+    {
         title: "UI design contest",
         time: "11:00 AM",
         date: "March 1",
@@ -133,6 +139,12 @@ export const events = [
         time: "10:00 AM",
         date: "March 2",
         ref: "Workshop4"
+    },
+    {
+        title: "Escape Room",
+        time: "10:00 AM to 5:00 PM",
+        date: "March 2",
+        ref:"Escape_Room"
     },
     {
         title: "Cryptera Coding Contest",

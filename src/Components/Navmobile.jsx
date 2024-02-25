@@ -13,11 +13,11 @@ function Navmobile() {
     const contactref = useRef(null);
     const eventref = useRef(null);
     const commiteeref = useRef(null);
-    const hintref = useRef(null);
+    // const hintref = useRef(null);
     const linkxref = useRef(null);
     const sociallinksref = useRef(null);
     const webref = useRef(null);
-    // const adminref = useRef(null);
+    const adminref = useRef(null);
 
     const clickhandler = () => {
         linkxref.current.style.display = "flex";
@@ -39,44 +39,44 @@ function Navmobile() {
         webref.current.classList.remove("active");
         commiteeref.current.classList.remove("active");
         timelineref.current.classList.remove("active");
-        // adminref.current.classList.remove("active");
+        adminref.current.classList.remove("active");
     };
     useEffect(() => {
         closenav();
         if (location.pathname === "/") {
             clearActive();
             homeref.current.classList.add("active");
-            hintref.current.innerHTML = "Scroll";
-            hintref.current.addEventListener("click", () => { });
+            // hintref.current.innerHTML = "Scroll";
+            // hintref.current.addEventListener("click", () => { });
         } else if (location.pathname.includes("/events")) {
             clearActive();
             eventref.current.classList.add("active");
             if (location.pathname === "/events") {
-                hintref.current.innerHTML = "Web devs";
-                hintref.current.addEventListener("click", () => {
-                    navigate("/gallery");
-                });
+                // hintref.current.innerHTML = "Web devs";
+                // hintref.current.addEventListener("click", () => {
+                //     navigate("/gallery");
+                // });
             } else {
                 closenav();
-                hintref.current.innerHTML = "Back";
-                hintref.current.addEventListener("click", () => {
-                    navigate("/events");
-                });
+                // hintref.current.innerHTML = "Back";
+                // hintref.current.addEventListener("click", () => {
+                //     navigate("/events");
+                // });
             }
         } else if (location.pathname === "/about_us") {
             clearActive();
             aboutref.current.classList.add("active");
-            hintref.current.innerHTML = "Events";
-            hintref.current.addEventListener("click", () => {
-                navigate("/events");
-            });
+            // hintref.current.innerHTML = "Events";
+            // hintref.current.addEventListener("click", () => {
+            //     navigate("/events");
+            // });
         } else if (location.pathname === "/contact_us") {
             clearActive();
             contactref.current.classList.add("active");
-            hintref.current.innerHTML = "To top";
-            hintref.current.addEventListener("click", () => {
-                navigate("/");
-            });
+            // hintref.current.innerHTML = "To top";
+            // hintref.current.addEventListener("click", () => {
+            //     navigate("/");
+            // });
         } else if (location.pathname === "/events") {
             clearActive();
             eventref.current.classList.add("active");
@@ -84,31 +84,31 @@ function Navmobile() {
         } else if (location.pathname === "/timeline") {
             clearActive();
             timelineref.current.classList.add("active");
-            hintref.current.innerHTML = "Web devs";
-            hintref.current.addEventListener("click", () => {
-                navigate("/gallery");
-            });
+            // hintref.current.innerHTML = "Web devs";
+            // hintref.current.addEventListener("click", () => {
+            //     navigate("/gallery");
+            // });
         } else if (location.pathname === "/gallery") {
             clearActive();
-            hintref.current.innerHTML = "Committee";
-            hintref.current.addEventListener("click", () => {
-                navigate("/committee");
-            });
+            // hintref.current.innerHTML = "Committee";
+            // hintref.current.addEventListener("click", () => {
+            //     navigate("/committee");
+            // });
         } else if (location.pathname === "/web_devs") {
             clearActive();
             webref.current.classList.add("active");
-            hintref.current.innerHTML = "Committee";
-            hintref.current.addEventListener("click", () => {
-                navigate("/committee");
-            });
+            // hintref.current.innerHTML = "Committee";
+            // hintref.current.addEventListener("click", () => {
+            //     navigate("/committee");
+            // });
         } else if (location.pathname === "/committee") {
             clearActive();
             commiteeref.current.classList.add("active");
         }
-        // else if (location.pathname === "/admin") {
-        //     clearActive();
-        //     adminref.current.classList.add("active");
-        // }
+        else if (location.pathname === "/admin") {
+            clearActive();
+            adminref.current.classList.add("active");
+        }
         else {
             clearActive();
         }
@@ -125,7 +125,7 @@ function Navmobile() {
                     <div className="close-btn-x" onClick={toggleMenu}>
                         <i className="fas fa-times"></i>
                     </div>
-                    <div className="hint" ref={hintref}></div>
+                    {/*<div className="hint" ref={hintref}></div>*/}
 
                     <div className="linkx" ref={linkxref}>
                         <Link
@@ -207,10 +207,10 @@ function Navmobile() {
                             <i className="fa fa-headset"></i>
                             <span>Contact Us</span>
                         </Link>
-                        {/* <Link onClick={toggleMenu} to="admin" ref={adminref} className=" navbar-linkx">
+                        <Link onClick={toggleMenu} to="admin" ref={adminref} className=" navbar-linkx">
                             <i className="fa fa-user"></i>
                             <span>Admin</span>
-                        </Link> */}
+                        </Link>
                         <div>
                             <div className="social-linksx" ref={sociallinksref}>
                                 <a
@@ -237,13 +237,13 @@ function Navmobile() {
                     </div>
                 </div>
                 <div className="nav-mobile">
+                    <div onClick={toggleMenu} className="close-btn">
+                        <i className="fas fa-bars"></i>
+                    </div>
                     <div className="logo-x">
                         <Link to="/" ref={homeref} className=" navbar-linkx" id="Home-link">
                             <img src={Logo} alt="logo" />
                         </Link>
-                    </div>
-                    <div onClick={toggleMenu} className="close-btn">
-                        <i className="fas fa-bars"></i>
                     </div>
                 </div>
             </div>

@@ -14,7 +14,7 @@ import "../../Styles/Timeline.css";
 function Timelinex() {
     const navigator = useNavigate();
     const [showScrollButton, setShowScrollButton] = useState(false);
-
+    const h1Ref = useRef(null);
     const timelineRefs = useRef([]);
 
     const navigateToEventPage = (eventRef) => {
@@ -28,25 +28,38 @@ function Timelinex() {
     };
 
     const scrollToTop = () => {
-        window.scrollTo({ top: 0, behavior: "auto" });
+        if (h1Ref.current) {
+            h1Ref.current.scrollIntoView({ behavior: 'smooth', block: 'start', inline: 'nearest' });
+        }
+    };
+
+    const handleIntersection = (entries, observer) => {
+        entries.forEach((entry) => {
+            if (!entry.isIntersecting) {
+                // h1 is out of the screen
+                setShowScrollButton(true);
+            } else {
+                // h1 is in the screen
+                setShowScrollButton(false);
+            }
+        });
     };
 
     useEffect(() => {
-        const handleScroll = () => {
-            console.log('Handling scroll...');
-            console.log(window.scrollY)
-            if (window.scrollY > 300) {
-                setShowScrollButton(true);
-            } else {
-                setShowScrollButton(false);
+        const h1Observer = new IntersectionObserver(handleIntersection, {
+            threshold: 0.5, // Adjust as needed
+        });
+
+        if (h1Ref.current) {
+            h1Observer.observe(h1Ref.current);
+        }
+
+        return () => {
+            if (h1Ref.current) {
+                h1Observer.unobserve(h1Ref.current);
             }
         };
-
-        window.addEventListener("scroll", handleScroll);
-        return () => {
-            window.removeEventListener("scroll", handleScroll);
-        };
-    }, []);
+    }, [h1Ref]);
 
     return (
         <div
@@ -57,6 +70,7 @@ function Timelinex() {
                     <h1
                         className="timeline-title"
                         style={{ textAlign: "left", color: "#05ffa3" }}
+                        ref={h1Ref}
                     >
                         Timeline
                     </h1>
@@ -162,11 +176,15 @@ function Timelinex() {
                 </>
             </div>
 
-            {showScrollButton && (
-                <div onClick={scrollToTop} className="scroll-to-top item-button1">
-                    <div>Up</div>
+            {showScrollButton &&
+                <div
+                    onClick={scrollToTop}
+                    className="scroll-to-top item-button1">
+                    <div>
+                        <i className="fa fa-arrow-up"></i>
+                    </div>
                 </div>
-            )}
+            }
 
             <div className="rocket1">
                 <lottie-player
