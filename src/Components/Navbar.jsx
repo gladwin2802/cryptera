@@ -13,6 +13,7 @@ function Navbar() {
     const timelineref = useRef(null);
     const webref = useRef(null);
     const adminref = useRef(null);
+    const venueref = useRef(null);
 
     const clearActive = () => {
         homeref.current.classList.remove("active");
@@ -23,16 +24,9 @@ function Navbar() {
         commiteeref.current.classList.remove("active");
         timelineref.current.classList.remove("active");
         adminref.current.classList.remove("active");
+        venueref.current.classList.remove("active");
     };
-    // useEffect(() => {
-    //     window.addEventListener("mouseover", (event) => {
-    //         if (event.clientX > window.innerWidth / 3) {
-    //             navbarref.current.style.width = "20px";
-    //         } else {
-    //             navbarref.current.style.width = "100%";
-    //         }
-    //     });
-    // }, []);
+
     useEffect(() => {
         if (location.pathname === "/") {
             clearActive();
@@ -60,11 +54,15 @@ function Navbar() {
         } else if (location.pathname === "/committee") {
             clearActive();
             commiteeref.current.classList.add("active");
-        } 
+        }
         else if (location.pathname === "/admin") {
             clearActive();
             adminref.current.classList.add("active");
-        } 
+        }
+        else if (location.pathname === "/venue") {
+            clearActive();
+            venueref.current.classList.add("active");
+        }
         else {
             clearActive();
         }
@@ -89,7 +87,7 @@ function Navbar() {
                     className="active navbar-link"
                     id="Home-link"
                 >
-                    {" "}
+                    {/* {" "} */}
                     <i className="fa fa-home"></i>
                     <span>Home</span>
                 </Link>
@@ -103,12 +101,17 @@ function Navbar() {
                     <span>About us</span>
                 </Link>
                 <Link to="events" ref={eventref} className=" navbar-link">
-                    {" "}
+                    {/* {" "} */}
                     <i className="fa fa-calendar-minus"></i>
                     <span>Events</span>
                 </Link>
+                <Link to="venue" ref={venueref} className=" navbar-link">
+                    {/* {" "} */}
+                    <i class="fas fa-map-marker-alt mr-2 mb-3"></i>
+                    <span style={{marginLeft: "2px"}}>Venue</span>
+                </Link>
                 <Link to="timeline" ref={timelineref} className="navbar-link">
-                    {" "}
+                    {/* {" "} */}
                     <i className="fa fa-calendar-check"></i>
                     <span>Timeline</span>
                 </Link>

@@ -37,6 +37,7 @@
 
 .eventdetails-container {
     margin-top: 70px;
+    margin-bottom: 80px;
 }
 
 .image-container {
@@ -278,7 +279,7 @@
     color: white;
     margin-top: 60px;
     margin-left: 10px;
-    margin-bottom: 90px;
+    margin-bottom: 10px;
     text-align: center;
 }
 
@@ -290,7 +291,6 @@
     font-size: 14px;
     font-weight: 800;
     cursor: pointer;
-
 }
 
 .final-btn {
@@ -298,7 +298,6 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-
 }
 
 .faq {

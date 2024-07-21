@@ -6,7 +6,8 @@ import pf5 from '../Assets/Profile/Aniruthan.jpeg'
 import pf6 from '../Assets/Profile/Jawahar.jpeg'
 import pf7 from '../Assets/Profile/Ajai.jpeg'
 import pf8 from '../Assets/Profile/Gladwin.jpeg'
-import pf9 from '../Assets/Profile/Hanush.jpeg'
+import avatar from '../Assets/Profile/male-avatar.jpeg'
+import pf10 from '../Assets/Profile/Hanush.jpeg'
 
 const web_devs_data = [
     {
@@ -99,7 +100,7 @@ const web_devs_data = [
     },
     {
         id: 9,
-        profile: pf9,
+        profile: pf10,
         name: "Hanush M",
         about: "Skilled professional optimizing user interfaces for seamless experiences.",
         instagram: "https://www.instagram.com/hanushjain21?igsh=MWJrbGJmaTlwYWlmYg==",
@@ -107,6 +108,17 @@ const web_devs_data = [
         medium: "",
         portfolio: "",
         linkedin: "https://www.linkedin.com/in/m-hanush-936367227/"
+    },
+    {
+        id: 10,
+        profile: avatar,
+        name: "Arunkumar S",
+        about: "Backend Developer focused on APIs and server-side logic",
+        instagram: "https://www.instagram.com/iams_arunn",
+        github: "https://github.com/arunn03",
+        medium: "",
+        portfolio: "",
+        linkedin: "https://www.linkedin.com/in/arunn03"
     },
 ]
 

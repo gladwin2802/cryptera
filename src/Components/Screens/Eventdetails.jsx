@@ -12,8 +12,8 @@ function Eventdetails() {
 
     useEffect(() => {
         const data = JSON.parse(localStorage.getItem("event_details"));
-        console.log("data is ", data);
-        console.warn(event_name_from_path);
+        // console.log("data is ", data);
+        // console.warn(event_name_from_path);
 
         const temp = data.filter((event) => event.name === event_name_from_path)[0];
         setTimeout(() => {
@@ -48,7 +48,6 @@ function Eventdetails() {
                                     <h1>{Event_data.title}</h1>
                                     <p>
                                         <i className="fas fa-calendar-week mr-2 mb-3"></i>
-                                        {/* {Event_data.dateTime.split(',')[0].trim()} */}
                                         {Event_data.dateTime}
                                     </p>
                                 </div>
@@ -89,6 +88,18 @@ function Eventdetails() {
                                     ></div>
                                 </div>
                             </div>
+
+                            {
+                                Event_data.venue &&
+                                <div className="e-title">
+                                    <div className="header">
+                                        <p>
+                                            <i class="fas fa-map-marker-alt mr-2 mb-3"></i>
+                                            VENUE: {Event_data.venue}
+                                        </p>
+                                    </div>
+                                </div>
+                            }
 
                             <div className="tags">
                                 {Event_data.tags &&
@@ -286,6 +297,19 @@ function Eventdetails() {
                                             </a>
                                         </div>
                                     )}
+
+                                    {Event_data.form1 && (
+                                        <div className="final-btn">
+                                            <a href={Event_data.form1} target="_blank">
+                                                <div className="submit-btn-event">
+                                                    <div>
+                                                        {Event_data.s ? <>Open contest</> : <>Register Now (Online)</>}
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    )}
+
                                     <div
                                         className="google-calendar"
                                         ref={contactref}
@@ -302,6 +326,18 @@ function Eventdetails() {
                                     ></div>
                                 </div>
                             </div>
+
+                            {
+                                Event_data.venue &&
+                                <div className="e-title">
+                                    <div className="header">
+                                        <p>
+                                            <i class="fas fa-map-marker-alt mr-2 mb-3"></i>
+                                            VENUE: {Event_data.venue}
+                                        </p>
+                                    </div>
+                                </div>
+                            }
 
                             <div className="tags">
                                 {Event_data.tags &&
@@ -583,6 +619,18 @@ function Eventdetails() {
                                     </a>
                                 </div>
                             )}
+                            {Event_data.form1 && (
+                                <div className="final-btn">
+                                    <a href={Event_data.form1} target="_blank">
+                                        <div className="submit-btn-event">
+                                            <div>
+                                                {Event_data.s ? <>Open contest</> : <>Register Now (Online)</>}
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            )}
+
                         </div>
                     </div>
                 </div>

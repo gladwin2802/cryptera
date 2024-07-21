@@ -23,6 +23,7 @@ import { initializeApp } from "firebase/app";
 import { getFirestore } from "firebase/firestore";
 import { getevent_details_data } from './Data/events_data';
 import Admin from './Components/Screens/Admin';
+import Venue from './Components/Screens/Venue';
 
 const firebaseConfig = {
     apiKey: "AIzaSyCjDtQ-hsyXk876DZLyyeC6UpXMFFjF5EY",
@@ -77,6 +78,7 @@ function App() {
                         <Route path="/contact_us" element={<ContactUs />}></Route>
                         <Route path="/events/:name" element={<Eventdetails />}></Route>
                         <Route path="/admin" element={<Admin />}></Route>
+                        <Route path="/venue" element={<Venue />}></Route>
                         <Route path='/access_code_8870' element={<Queries />}></Route>
                         <Route path='/access_code_8870499146_ji' element={<Update_event />}></Route>
                     </Routes>

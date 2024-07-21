@@ -18,6 +18,7 @@ function Navmobile() {
     const sociallinksref = useRef(null);
     const webref = useRef(null);
     const adminref = useRef(null);
+    const venueref = useRef(null);
 
     const clickhandler = () => {
         linkxref.current.style.display = "flex";
@@ -40,12 +41,15 @@ function Navmobile() {
         commiteeref.current.classList.remove("active");
         timelineref.current.classList.remove("active");
         adminref.current.classList.remove("active");
+        venueref.current.classList.remove("active");
     };
     useEffect(() => {
         closenav();
         if (location.pathname === "/") {
             clearActive();
             homeref.current.classList.add("active");
+            homeref.current.classList.add("active");
+
             // hintref.current.innerHTML = "Scroll";
             // hintref.current.addEventListener("click", () => { });
         } else if (location.pathname.includes("/events")) {
@@ -81,20 +85,27 @@ function Navmobile() {
             clearActive();
             eventref.current.classList.add("active");
             closenav();
-        } else if (location.pathname === "/timeline") {
+        }
+        else if (location.pathname === "/venue") {
+            clearActive();
+            venueref.current.classList.add("active");
+        }
+        else if (location.pathname === "/timeline") {
             clearActive();
             timelineref.current.classList.add("active");
             // hintref.current.innerHTML = "Web devs";
             // hintref.current.addEventListener("click", () => {
             //     navigate("/gallery");
             // });
-        } else if (location.pathname === "/gallery") {
-            clearActive();
+        } 
+        // else if (location.pathname === "/gallery") {
+        //     clearActive();
             // hintref.current.innerHTML = "Committee";
             // hintref.current.addEventListener("click", () => {
             //     navigate("/committee");
             // });
-        } else if (location.pathname === "/web_devs") {
+        // }
+         else if (location.pathname === "/web_devs") {
             clearActive();
             webref.current.classList.add("active");
             // hintref.current.innerHTML = "Committee";
@@ -159,6 +170,17 @@ function Navmobile() {
                             <i className="fa fa-calendar-minus"></i>
                             <span>Events</span>
                         </Link>
+                        <Link
+                            onClick={toggleMenu}
+                            to="venue"
+                            ref={venueref}
+                            className=" navbar-linkx"
+                        >
+                            {" "}
+                            <i class="fas fa-map-marker-alt mr-2 mb-3"></i>
+                            <span>Venue</span>
+                        </Link>
+
                         <Link
                             onClick={toggleMenu}
                             to="timeline"

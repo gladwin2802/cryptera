@@ -9,8 +9,8 @@ function gallerycard(props) {
                     <img style={{ objectFit: "cover" }} src={props.image} alt="event" />
                 </div>
                 <div className="gallery-container-name">
-                    <div style={{ fontSize: "16px" }}>
-                        <h1>{props.name}</h1>
+                    <div>
+                        <h1 style={{ fontSize: "20px" }}>{props.name}</h1>
                     </div>
                 </div>
             </div>

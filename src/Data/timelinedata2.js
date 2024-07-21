@@ -5,7 +5,14 @@ export const events = [
         title: "CSS battle",
         time: "9:00 AM",
         date: "March 1",
-        ref: "CSS_Battle"
+        ref: "CSS_Battle",
+        venue: "L108, L104"
+    },
+    {
+        title: "Paper Presentation",
+        time: "9:00 AM to 4:00 PM",
+        date: "March 1",
+        ref: "Paper_Presentation"
     },
     {
         title: "Jumbled Code",
@@ -23,13 +30,13 @@ export const events = [
         title: "Workshop on Startups",
         time: "10:00 AM",
         date: "March 1",
-        ref:"Workshop2"
+        ref: "Workshop2"
     },
     {
         title: "Escape Room",
         time: "10:00 AM to 5:00 PM",
         date: "March 1",
-        ref:"Escape_Room"
+        ref: "Escape_Room"
     },
     {
         title: "UI design contest",
@@ -113,7 +120,7 @@ export const events = [
         title: "BGMI",
         time: "6:00 PM",
         date: "March 1",
-        ref:"BGMI"
+        ref: "BGMI"
     },
     // March 2
     {
@@ -121,6 +128,12 @@ export const events = [
         time: "9:00 AM",
         date: "March 2",
         ref: "0xdebug"
+    },
+    {
+        title: "Paper Presentation",
+        time: "9:00 AM to 4:00 PM",
+        date: "March 2",
+        ref: "Paper_Presentation"
     },
     {
         title: "Prompt Engineering",
@@ -144,7 +157,7 @@ export const events = [
         title: "Escape Room",
         time: "10:00 AM to 5:00 PM",
         date: "March 2",
-        ref:"Escape_Room"
+        ref: "Escape_Room"
     },
     {
         title: "Cryptera Coding Contest",
@@ -204,7 +217,7 @@ export const events = [
         title: "Movie Quiz",
         time: "4:00 PM",
         date: "March 2",
-        ref:"Movie_quiz"
+        ref: "Movie_quiz"
     },
     {
         title: "Free fire ",
@@ -236,6 +249,6 @@ export const events = [
         title: "Webinar on AI and Data Science",
         time: "10:00 AM",
         date: "March 3",
-        ref:"Webinar1"
+        ref: "Webinar1"
     }
 ];

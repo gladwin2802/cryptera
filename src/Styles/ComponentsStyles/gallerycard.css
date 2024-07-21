@@ -37,7 +37,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 30%;
+    height: 20%;
     /* Adjust the percentage based on your design */
     padding: 15px;
     background-color: var(--fg-green);

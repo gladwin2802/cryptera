@@ -8,7 +8,7 @@ import TimelineContent from "@mui/lab/TimelineContent";
 import TimelineOppositeContent from "@mui/lab/TimelineOppositeContent";
 import TimelineDot from "@mui/lab/TimelineDot";
 import Typography from "@mui/material/Typography";
-import { events } from "../../Data/timelinedata1";
+import { events } from "../../Data/timelinedata";
 import "../../Styles/Timeline.css";
 
 function Timelinex() {
@@ -100,6 +100,11 @@ function Timelinex() {
                                         >
                                             {event.date}
                                             <Typography>{event.time}</Typography>
+                                            {event.venue &&
+                                                <>
+                                                    <i class="fas fa-map-marker-alt mr-2 mb-3"></i>{event.venue}
+                                                </>
+                                            }
                                         </TimelineOppositeContent>
                                         <TimelineSeparator>
                                             <TimelineConnector
@@ -167,6 +172,11 @@ function Timelinex() {
                                         >
                                             {event.date}
                                             <Typography>{event.time}</Typography>
+                                            {event.venue &&
+                                                <>
+                                                    <i class="fas fa-map-marker-alt mr-2 mb-3"></i>{event.venue}
+                                                </>
+                                            }
                                         </TimelineContent>
                                     </TimelineItem>
                                 )}
@@ -218,7 +228,6 @@ function Timelinex() {
                 ></lottie-player>
             </div> */}
         </div>
-
     );
 }
 

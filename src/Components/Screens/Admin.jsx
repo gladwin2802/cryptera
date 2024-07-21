@@ -48,12 +48,14 @@ const events = {
     'Tune Up': 'Tune Up',
     'Movie quiz': 'Main',
     'Poster Design': 'Main',
+    'Poster Design (Online)': 'Online Poster & Typing',
     'Arts N Emotions': 'Arts N Emotions',
     'Spill Some Ink': 'Spill Some Ink',
-    'Treasure Hunt': 'Treasure Hunt',
+    'Treasure Hunt': 'Main',
     'Marvel/DC quiz': 'Main',
     'Sales Talk': 'Main',
     'Type racer': 'Main',
+    'Type Racer (Online)': 'Online Poster & Typing',
     'Snap Quest': 'Snap Quest',
     'Attack on Anime': 'Main',
 
@@ -149,6 +151,8 @@ const Admin = () => {
             event: event,
             passkey: passkey,
         };
+        // CrYpTeRa$#@!2K24
+
         const options = {
             method: "POST",
             headers: {
@@ -175,7 +179,7 @@ const Admin = () => {
                 setResponse(result);
                 setIsLoggedIn(true);
                 setIsLoaded(true);
-                console.log(response);
+                console.log(eventResponses);
             }
         } catch (error) {
             console.error("Error:", error.message);
@@ -223,7 +227,6 @@ const Admin = () => {
                     />
                     <div className='event-container' style={{ justifyContent: filteredEvents.length > 4 ? 'flex-start' : 'center' }}>
                         {filteredEvents
-                            .filter(([event]) => event !== 'All')
                             .map(([event, value]) => (
                                 <button
                                     key={event}
