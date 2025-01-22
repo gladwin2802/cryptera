@@ -4,6 +4,7 @@ import "../../Styles/ComponentsStyles/Staff_card.css";
 import Staffcard from "../../Components/StaffCard";
 import college_logo from "../../Assets/CIT-Coimbatore.jpg";
 import final_logo from "../../Assets/logo_final.png";
+import principal from "../../Assets/Staffs/principal.jpg"
 import * as LottiePlayer from "@lottiefiles/lottie-player";
 
 import { useNavigate } from "react-router-dom";
@@ -162,7 +163,7 @@ function AboutUs() {
             </div>
             <div className="container5 ">
                 <Staffcard
-                    image={require("../../Assets/Staffs/principal.jpg")}
+                    image={principal}
                     name="Dr.A.Rajeswari"
                     position={"Principal"}
                 />
