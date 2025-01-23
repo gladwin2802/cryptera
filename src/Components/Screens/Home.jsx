@@ -65,13 +65,23 @@ function Home() {
             prevButton.style.pointerEvents = "auto";
         }, 10));
 
-        const interval = setInterval(() => {
-            const nextButton = document.getElementById("next");
-            if (nextButton) {
-                nextButton.click();
-            }
+        // const interval = setInterval(() => {
+        //     const nextButton = document.getElementById("next");
+        //     if (nextButton) {
+        //         nextButton.click();
+        //     }
+        // }, 4000);
+        // setAutoClickInterval(interval);
+
+        setTimeout(() => {
+            const interval = setInterval(() => {
+                const nextButton = document.getElementById("next");
+                if (nextButton) {
+                    nextButton.click();
+                }
+            }, 3000); // Resume auto-sliding every 3 seconds
+            setAutoClickInterval(interval);
         }, 3000);
-        setAutoClickInterval(interval);
     }
 
     return (

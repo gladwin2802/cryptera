@@ -176,23 +176,52 @@ function AboutUs() {
                 />
                 <Staffcard
                     image={
-                        "https://adm.cit.edu.in/assets/files/rcms_faculties/images/2023/07/FAC3443922/1689849651.jpg"
+                        "http://irins.org/assets/profile_images/1202869.jpg"
                     }
-                    name="Dr.M.Mohanapriya"
+                    name="Dr.R.Nedunchezhian"
                     position={"Senior tutor"}
                 />
                 <Staffcard
                     image={
-                        "https://adm.cit.edu.in/assets/files/rcms_faculties/images/2023/07/FAC3598255/1689850395.jpg"
+                        "http://irins.org/assets/profile_images/1195821.jpg"
                     }
-                    name="Dr.S.Sangeetha Maariammal"
+                    name="Dr.R.Saveeth"
                     position={"Tutor"}
                 />
                 <Staffcard
                     image={
-                        "https://adm.cit.edu.in/assets/files/rcms_faculties/images/2023/07/FAC8738273/1689851306.jpg"
+                        "http://irins.org/assets/profile_images/120275.jpg"
                     }
-                    name="Dr.S.Priya"
+                    name="Dr.S.P.Abirami"
+                    position={"Tutor"}
+                />
+                <Staffcard
+                    image={
+                        "http://irins.org/assets/profile_images/1204191.jpg"
+                    }
+                    name="Mr.S.Ravisankar"
+                    position={"Tutor"}
+                />
+                <Staffcard
+                    image={
+                        "http://irins.org/assets/profile_images/118215.jpg"
+                    }
+                    name="Dr.G.Karthikeyan"
+                    position={"Tutor"}
+                />
+                <Staffcard
+                    image={
+                        "https://adm.cit.edu.in/assets/files/rcms_faculties/images/2024/08/FAC3994311/1722499429.png"
+                    }
+                    name="Dr.S.Saranya"
+                    position={"Tutor"}
+                />
+
+                <Staffcard
+                    image={
+                        "http://irins.org/assets/profile_images/5437251.jpg"
+                    }
+                    name="Mrs.P.Anitha"
                     position={"Tutor"}
                 />
             </div>
