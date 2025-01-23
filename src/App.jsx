@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react';
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 //Components
 import Navbar from './Components/Navbar';
-import events from '../src/Data/events';
+import events from './Data/events';
 //Screens
 import Home from './Components/Screens/Home';
 import AboutUs from './Components/Screens/AboutUs';

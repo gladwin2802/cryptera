@@ -1,6 +1,7 @@
 import React, { useEffect, useRef } from "react";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import "../Styles/ComponentsStyles/Navbar.css";
+import logo from "../Assets/logo_final.png";
 function Navbar() {
     const location = useLocation();
     const homeref = useRef(null);
@@ -77,7 +78,7 @@ function Navbar() {
                     className="active navbar-link"
                     id="Home-link"
                 >
-                    <img src={require("../Assets/logo_final.png")} alt="logo" />
+                    <img src={logo} alt="logo" />
                 </Link>
             </div>
             <div className="navbar-links" ref={navbarref}>
