@@ -175,8 +175,8 @@ export default [
     // Blind Code
     {
         id: "4",
-        name: "Blind_Code",
-        title: "Blind Code",
+        name: "Code_in_Chaos",
+        title: "Code in Chaos",
         status: 1,
         venue: "IT442, IT443, L103, L210, IOT",
         eligibility: "Anyone can join",
@@ -415,59 +415,6 @@ Jumble the code and triumphal your day.`,
             },
         ],
         tags: ["Problem Solving", "C", "C++", "Python", "Java"],
-    },
-
-    // PC Building
-    {
-        id: "8",
-        name: "PC_Building",
-        title: "PC Building",
-        status: 1,
-        venue: "L109",
-        eligibility: "College Students",
-        completed: false,
-        results: null,
-        rules: [
-            "Team should consist of 2 members",
-            "A shelf with all the required PC parts will be provided, and participants should choose the parts from the shelf.",
-            "To encourage participants to choose the correct parts, points will be awarded for accuracy.",
-            "Points will be awarded based on how fast participants can build their PC.",
-            "Participants will be required to boot up their PC to demonstrate that it is working correctly. Points should be awarded for successful booting.",
-            "Points should be awarded for accurate fitting of the parts. For example, a RAM stick that is not inserted properly could result in a penalty.",
-        ],
-        pics: {
-            primary:
-                "https://staticg.sportskeeda.com/editor/2022/01/5f21e-16433417948778-1920.jpg",
-            secondary: [],
-        },
-        dateTime: "March 1, 2.00 pm",
-        duration: "",
-        prizes: {
-            gold: "1000",
-            silver: "500",
-        },
-        contact: "8838903439",
-        speakers: null,
-        color: "var(--fg-g)",
-        carddescription: "Are you the ultimate PC enthusiast?",
-        description: `Are you the ultimate PC enthusiast? Join our PC building competition and showcase your skills ! With challenges to push your limits, it's time to build the ultimate machine and claim the PC building throne!`,
-        form: form,
-        type: "technical",
-        faq: [
-            {
-                question: "Will it happen in online or offline?",
-                answer: "Offline",
-            },
-            {
-                question: "Is it a team event?",
-                answer: " Yes it is a team event",
-            },
-            {
-                question: "What is the limit on team size? ",
-                answer: " Maximum team size is 2",
-            },
-        ],
-        tags: ["PC Building"],
     },
 
     // Cryptera Coding Contest
@@ -742,11 +689,11 @@ Jumble the code and triumphal your day.`,
 
     // Non Technical Events
 
-    // Tune up
+    // MUSIC MANIA
     {
         id: "13",
-        name: "Tune_up",
-        title: "Tune up",
+        name: "Music_Mania",
+        title: "Music Mania",
         status: 1,
         eligibility: "Anyone can join",
         completed: false,
@@ -889,11 +836,11 @@ Jumble the code and triumphal your day.`,
         tags: [],
     },
 
-    // Arts N Emotion
+    // ARTISTIC AURAS
     {
         id: "16",
-        name: "Arts_N_Emotion",
-        title: "Arts N Emotion",
+        name: "Artistic_Auras",
+        title: "Artistic Auras",
         status: 1,
         eligibility: "Anyone can join",
         completed: false,
@@ -944,11 +891,11 @@ Jumble the code and triumphal your day.`,
         tags: [],
     },
 
-    // Spill Some Ink
+    // Rhyme and Rhythm
     {
         id: "17",
-        name: "Spill_Some_Ink",
-        title: "Spill Some Ink",
+        name: "Rhyme and Rhythm",
+        title: "Rhyme and Rhythm",
         status: 1,
         eligibility: "Anyone can join",
         completed: false,
@@ -1099,11 +1046,11 @@ Jumble the code and triumphal your day.`,
         tags: [],
     },
 
-    // Sales Talk
+    // Selling Showdown
     {
         id: "20",
-        name: "Sales_Talk",
-        title: "Sales Talk",
+        name: "Selling_Showdown",
+        title: "Selling Showdown",
         status: 1,
         venue: "L102",
         eligibility: "Anyone can join",
@@ -1148,11 +1095,11 @@ Jumble the code and triumphal your day.`,
         tags: [],
     },
 
-    // Type Racer
+    // Typing Thunder
     {
         id: "21",
-        name: "Type_Racer",
-        title: "Type Racer",
+        name: "Typing_Thunder",
+        title: "Typing Thunder",
         status: 1,
         venue: "L210, L201(waiting room )",
         eligibility: "Anyone can join",
@@ -1200,11 +1147,11 @@ Jumble the code and triumphal your day.`,
         tags: [],
     },
 
-    // Snap Quest
+    // Shutterbug Showcase
     {
         id: "22",
-        name: "Snap_Quest",
-        title: "SnapQuest",
+        name: "Shutterbug_Showcase",
+        title: "Shutterbug Showcase",
         status: 1,
         eligibility: "Anyone can join",
         completed: false,
@@ -1254,6 +1201,51 @@ Jumble the code and triumphal your day.`,
         entry: [],
         pics: {
             primary: "https://as01.epimg.net/meristation_en/imagenes/2022/02/18/news/1645143158_918055_1645145092_noticia_normal.jpg",
+            secondary: [],
+        },
+        dateTime: "March 1, 12.00 pm",
+        duration: "",
+        prizes: {
+            gold: "250",
+        },
+        contact: "9363195676",
+        color: "var(--fg-g)",
+        carddescription:
+            "From Chainsaw Man to Sailor Moon, who will come out on top as the ultimate anime trivia master?",
+        description: `Are you a true anime fan? Put your otaku knowledge to the test and go head-to-head with other enthusiasts in our anime quiz. From Chainsaw Man to Sailor Moon, who will come out on top as the ultimate anime trivia master?
+    The quiz consists of 3 rounds:
+    1. Guess the anime name (English or Romanji) from the played OPs and EDs
+    2. Arrange the images based on the progression of the episodes
+    3. General anime Trivia (Knowledge and facts)`,
+        form: form,
+        type: "non_technical",
+        faq: [
+            {
+                question: "Will it happen online or offline?",
+                answer: "Offline",
+            },
+        ],
+        tags: ["Fun Event", "Anime", "Quiz"],
+    },
+
+    // Recall Rumble
+    {
+        id: "40",
+        name: "Recall_Rumble",
+        title: "Recall Rumble",
+        venue: "LBCH",
+        status: 1,
+        eligibility: "Anyone can join",
+        completed: false,
+        results: null,
+        rules: [
+            "Scoring will be based on difficulty of the question in each round and there will not be any -ve markings",
+            "All participants should bring Mobile phones with internet connectivity.",
+            "Any kind of cheating will lead to immediate disqualification.",
+        ],
+        entry: [],
+        pics: {
+            primary: "https://img.freepik.com/free-photo/gradient-technology-background_23-2151895872.jpg?t=st=1737654417~exp=1737658017~hmac=80848eaf744e83a2d9a4f9f6b7e17cb1e36d22ff6987c940795e72a1de1d5d48&w=360",
             secondary: [],
         },
         dateTime: "March 1, 12.00 pm",
@@ -1765,6 +1757,60 @@ Jumble the code and triumphal your day.`,
         tags: [],
     },
 
+    // PC Building
+    {
+            id: "8",
+            name: "PC_Building",
+            title: "PC Building",
+            status: 1,
+            venue: "L109",
+            eligibility: "College Students",
+            completed: false,
+            results: null,
+            rules: [
+                "Team should consist of 2 members",
+                "A shelf with all the required PC parts will be provided, and participants should choose the parts from the shelf.",
+                "To encourage participants to choose the correct parts, points will be awarded for accuracy.",
+                "Points will be awarded based on how fast participants can build their PC.",
+                "Participants will be required to boot up their PC to demonstrate that it is working correctly. Points should be awarded for successful booting.",
+                "Points should be awarded for accurate fitting of the parts. For example, a RAM stick that is not inserted properly could result in a penalty.",
+            ],
+            pics: {
+                primary:
+                    "https://staticg.sportskeeda.com/editor/2022/01/5f21e-16433417948778-1920.jpg",
+                secondary: [],
+            },
+            dateTime: "March 1, 2.00 pm",
+            duration: "",
+            prizes: {
+                gold: "1000",
+                silver: "500",
+            },
+            contact: "8838903439",
+            speakers: null,
+            color: "var(--fg-g)",
+            carddescription: "Are you the ultimate PC enthusiast?",
+            description: `Are you the ultimate PC enthusiast? Join our PC building competition and showcase your skills ! With challenges to push your limits, it's time to build the ultimate machine and claim the PC building throne!`,
+            form: form,
+            type: "flagship",
+            faq: [
+                {
+                    question: "Will it happen in online or offline?",
+                    answer: "Offline",
+                },
+                {
+                    question: "Is it a team event?",
+                    answer: " Yes it is a team event",
+                },
+                {
+                    question: "What is the limit on team size? ",
+                    answer: " Maximum team size is 2",
+                },
+            ],
+            tags: ["PC Building"],
+        },
+
+
     // // Workshops
     // {
     //     id: "34",
@@ -2183,4 +2229,6 @@ Jumble the code and triumphal your day.`,
     // },
 
     ///////////////////////////////////////////////////////
+    
+
 ];
