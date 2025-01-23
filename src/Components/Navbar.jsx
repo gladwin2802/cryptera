@@ -13,8 +13,8 @@ function Navbar() {
     const navbarref = useRef(null);
     const timelineref = useRef(null);
     const webref = useRef(null);
-    const adminref = useRef(null);
-    const venueref = useRef(null);
+    // const adminref = useRef(null);
+    // const venueref = useRef(null);
 
     const clearActive = () => {
         homeref.current.classList.remove("active");
@@ -24,8 +24,8 @@ function Navbar() {
         webref.current.classList.remove("active");
         commiteeref.current.classList.remove("active");
         timelineref.current.classList.remove("active");
-        adminref.current.classList.remove("active");
-        venueref.current.classList.remove("active");
+        // adminref.current.classList.remove("active");
+        // venueref.current.classList.remove("active");
     };
 
     useEffect(() => {
@@ -56,14 +56,14 @@ function Navbar() {
             clearActive();
             commiteeref.current.classList.add("active");
         }
-        else if (location.pathname === "/admin") {
-            clearActive();
-            adminref.current.classList.add("active");
-        }
-        else if (location.pathname === "/venue") {
-            clearActive();
-            venueref.current.classList.add("active");
-        }
+        // else if (location.pathname === "/admin") {
+        //     clearActive();
+        //     adminref.current.classList.add("active");
+        // }
+        // else if (location.pathname === "/venue") {
+        //     clearActive();
+        //     venueref.current.classList.add("active");
+        // }
         else {
             clearActive();
         }
@@ -106,12 +106,11 @@ function Navbar() {
                     <i className="fa fa-calendar-minus"></i>
                     <span>Events</span>
                 </Link>
-                <Link to="venue" ref={venueref} className=" navbar-link">
-                    {/* {" "} */}
+                {/* <Link to="venue" ref={venueref} className=" navbar-link">
                     <i class="fas fa-map-marker-alt mr-2 mb-3"></i>
                     <span style={{marginLeft: "2px"}}>Venue</span>
-                </Link>
-                <Link to="timeline" ref={timelineref} className="navbar-link">
+                </Link> */}
+                <Link to="timeline" ref={timelineref} className="navbar-link"> 
                     {/* {" "} */}
                     <i className="fa fa-calendar-check"></i>
                     <span>Timeline</span>
@@ -134,10 +133,10 @@ function Navbar() {
                     <i className="fa fa-headset"></i>
                     <span>Contact Us</span>
                 </Link>
-                <Link to="admin" ref={adminref} className=" navbar-link">
+                {/* <Link to="admin" ref={adminref} className=" navbar-link">
                     <i className="fa fa-user"></i>
                     <span>Admin</span>
-                </Link>
+                </Link> */}
             </div>
             {/* <div className="bottom-special" ref={hintref}></div> */}
         </div>

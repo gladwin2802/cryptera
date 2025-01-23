@@ -112,9 +112,9 @@ function Home() {
                         </div>
                         <div className="item">
                             <img src={isMobile ? img5 : img1} alt="" />
-                            <div onClick={() => handleClick()} className="item-button">
+                            {/* <div onClick={() => handleClick()} className="item-button">
                                 <div>Register Now</div>
-                            </div>
+                            </div> */}
                         </div>
                         <div className="item">
                             <img src={isMobile ? img6 : img2} alt="" />

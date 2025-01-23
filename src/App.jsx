@@ -70,15 +70,15 @@ function App() {
                         <Route path="/" element={<Home />}></Route>
                         <Route path="/about_us" element={<AboutUs />}></Route>
                         <Route path="/events" element={<Events />}></Route>
-                        {/* <Route path="/timeline" element={<Countdown />}></Route> */}
-                        <Route path="/timeline" element={<Timelinex />}></Route>
+                        <Route path="/timeline" element={<Countdown />}></Route>
+                        {/* <Route path="/timeline" element={<Timelinex />}></Route> */}
                         <Route path="/web_devs" element={<WebDevs />}></Route>
-                        <Route path="/gallery" element={<Gallery />}></Route>
+                        {/* <Route path="/gallery" element={<Gallery />}></Route> */}
                         <Route path="/committee" element={<Committee />}></Route>
                         <Route path="/contact_us" element={<ContactUs />}></Route>
                         <Route path="/events/:name" element={<Eventdetails />}></Route>
-                        <Route path="/admin" element={<Admin />}></Route>
-                        <Route path="/venue" element={<Venue />}></Route>
+                        {/* <Route path="/admin" element={<Admin />}></Route> */}
+                        {/* <Route path="/venue" element={<Venue />}></Route> */}
                         <Route path='/access_code_8870' element={<Queries />}></Route>
                         <Route path='/access_code_8870499146_ji' element={<Update_event />}></Route>
                     </Routes>

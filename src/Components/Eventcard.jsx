@@ -19,7 +19,8 @@ function Eventcard({ data, primary, status }) {
                         <TbReportMoney id="general-event"></TbReportMoney>
                     )}
                 <div className="event-card-header">
-                    <span>{data.type === "flagship" && status === 1 ? data.name.slice(0, -1) : data.title}</span>
+                    {/* <span>{data.type === "flagship" && status === 1 ? data.name.slice(0, -1) : data.title}</span> */}
+                    <span>{data.title}</span>
                 </div>
 
                 <div className="event-card-body">

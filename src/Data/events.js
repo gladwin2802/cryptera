@@ -18,6 +18,7 @@ export default [
         id: "1",
         name: "0xdebug",
         title: "0xdebug",
+        status: 1,
         venue: "L103, L210, L303, L308, L315",
         eligibility: "Anyone can join",
         completed: false,
@@ -60,6 +61,7 @@ export default [
         id: "2",
         name: "CSS_Battle",
         title: "CSS Battle",
+        status: 1,
         venue: "IT442, IT443, L103",
         eligibility: "Anyone can join",
         completed: false,
@@ -108,6 +110,7 @@ export default [
         name: "Tech_Feud",
         title: "Tech Feud",
         venue: "IT442, IT443",
+        status: 1,
         eligibility: "Anyone can join",
         completed: false,
         results: null,
@@ -174,6 +177,7 @@ export default [
         id: "4",
         name: "Blind_Code",
         title: "Blind Code",
+        status: 1,
         venue: "IT442, IT443, L103, L210, IOT",
         eligibility: "Anyone can join",
         completed: false,
@@ -235,6 +239,7 @@ export default [
         id: "5",
         name: "Jumbled_Code",
         title: "Jumbled Code",
+        status: 1,
         venue: "L103, L210, L303, L310, L315, IOT",
         eligibility: "Anyone can join",
         completed: false,
@@ -297,6 +302,7 @@ Jumble the code and triumphal your day.`,
         id: "6",
         name: "UI_Design_Contest",
         title: "UI Design Contest",
+        status: 1,
         venue: "IT442, IT443",
         eligibility: "Anyone can join",
         completed: false,
@@ -354,6 +360,7 @@ Jumble the code and triumphal your day.`,
         id: "7",
         name: "Missing_Code",
         title: "Missing Code",
+        status: 1,
         venue: "L103, L210, L303, L308, L315",
         eligibility: "Anyone can join",
         completed: false,
@@ -415,6 +422,7 @@ Jumble the code and triumphal your day.`,
         id: "8",
         name: "PC_Building",
         title: "PC Building",
+        status: 1,
         venue: "L109",
         eligibility: "College Students",
         completed: false,
@@ -467,6 +475,7 @@ Jumble the code and triumphal your day.`,
         id: "9",
         name: "Cryptera_Coding_Contest",
         title: "Cryptera Coding Contest",
+        status: 1,
         venue: "L103, L210, L303, L308, L315",
         eligibility: "Anyone can join",
         completed: false,
@@ -480,7 +489,8 @@ Jumble the code and triumphal your day.`,
         ],
         pics: {
             primary:
-                "https://www.itprotoday.com/sites/itprotoday.com/files/styles/article_featured_retina/public/programming%20evolution.jpg?itok=WTj9-yNz",
+                "https://static.vecteezy.com/system/resources/previews/022/966/113/non_2x/binary-code-digital-cryptocurrency-background-generative-ai-photo.jpg",
+                // "https://www.itprotoday.com/sites/itprotoday.com/files/styles/article_featured_retina/public/programming%20evolution.jpg?itok=WTj9-yNz",
             secondary: [],
         },
         dateTime: "March 2, 10.30 am",
@@ -540,6 +550,7 @@ Jumble the code and triumphal your day.`,
         id: "10",
         name: "Prompt_Engineering",
         title: "Prompt Engineering",
+        status: 1,
         venue: "IT442, IT443",
         eligibility: "Anyone can join",
         completed: false,
@@ -611,6 +622,7 @@ Jumble the code and triumphal your day.`,
         id: "11",
         name: "Reverse_Coding",
         title: "Reverse Coding",
+        status: 1,
         venue: "L103, L210, L303, L308, L315",
         eligibility: "Anyone can join",
         completed: false,
@@ -672,6 +684,7 @@ Jumble the code and triumphal your day.`,
         id: "12",
         name: "Clash_Of_Code",
         title: "Clash Of Code",
+        status: 1,
         venue: "L303, L308, IT443",
         eligibility: "Anyone can join",
         completed: false,
@@ -734,6 +747,7 @@ Jumble the code and triumphal your day.`,
         id: "13",
         name: "Tune_up",
         title: "Tune up",
+        status: 1,
         eligibility: "Anyone can join",
         completed: false,
         results: null,
@@ -795,6 +809,7 @@ Jumble the code and triumphal your day.`,
         id: "14",
         name: "Movie_quiz",
         title: "Movie quiz",
+        status: 1,
         venue: "MBCH",
         eligibility: "Anyone can join",
         completed: false,
@@ -836,6 +851,7 @@ Jumble the code and triumphal your day.`,
         id: "15",
         name: "Poster_Design",
         title: "Poster Design",
+        status: 1,
         venue: "IT442, L210",
         eligibility: "Anyone can join",
         completed: false,
@@ -878,6 +894,7 @@ Jumble the code and triumphal your day.`,
         id: "16",
         name: "Arts_N_Emotion",
         title: "Arts N Emotion",
+        status: 1,
         eligibility: "Anyone can join",
         completed: false,
         results: null,
@@ -932,6 +949,7 @@ Jumble the code and triumphal your day.`,
         id: "17",
         name: "Spill_Some_Ink",
         title: "Spill Some Ink",
+        status: 1,
         eligibility: "Anyone can join",
         completed: false,
         results: null,
@@ -946,7 +964,8 @@ Jumble the code and triumphal your day.`,
         ],
         pics: {
             primary:
-                "https://cdn.shopify.com/s/files/1/0600/3720/2069/collections/AP18280_TRUE_WRITER_CREATE_HERRINGBONE_FOUNTAIN_PEN_i2_cat.jpg?v=1659619448",
+                "https://www.independent.org/publications/tir/img/pen_closeup_mobile_1520x800.jpg",
+                // "https://cdn.shopify.com/s/files/1/0600/3720/2069/collections/AP18280_TRUE_WRITER_CREATE_HERRINGBONE_FOUNTAIN_PEN_i2_cat.jpg?v=1659619448",
             secondary: [
                 "https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
                 "https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
@@ -988,6 +1007,7 @@ Jumble the code and triumphal your day.`,
         id: "18",
         name: "Treasure_Hunt",
         title: "Treasure Hunt",
+        status: 1,
         venue: "L102",
         eligibility: "Anyone can join",
         completed: false,
@@ -1031,6 +1051,7 @@ Jumble the code and triumphal your day.`,
         id: "19",
         name: "MarvelDC_Quiz",
         title: "Marvel/DC Quiz",
+        status: 1,
         venue: "MBCH",
         eligibility: "Anyone can join",
         completed: false,
@@ -1083,6 +1104,7 @@ Jumble the code and triumphal your day.`,
         id: "20",
         name: "Sales_Talk",
         title: "Sales Talk",
+        status: 1,
         venue: "L102",
         eligibility: "Anyone can join",
         completed: false,
@@ -1131,6 +1153,7 @@ Jumble the code and triumphal your day.`,
         id: "21",
         name: "Type_Racer",
         title: "Type Racer",
+        status: 1,
         venue: "L210, L201(waiting room )",
         eligibility: "Anyone can join",
         completed: false,
@@ -1182,6 +1205,7 @@ Jumble the code and triumphal your day.`,
         id: "22",
         name: "Snap_Quest",
         title: "SnapQuest",
+        status: 1,
         eligibility: "Anyone can join",
         completed: false,
         results: null,
@@ -1218,6 +1242,7 @@ Jumble the code and triumphal your day.`,
         name: "Attack_on_Anime",
         title: "Attack on Anime",
         venue: "LBCH",
+        status: 1,
         eligibility: "Anyone can join",
         completed: false,
         results: null,
@@ -1263,6 +1288,7 @@ Jumble the code and triumphal your day.`,
         id: "24",
         name: "Paper_Presentation",
         title: "Paper Presentation",
+        status: 1,
         venue: "IT214",
         eligibility: "Anyone can join",
         completed: false,
@@ -1324,6 +1350,7 @@ Jumble the code and triumphal your day.`,
         id: "26",
         name: "Freefire",
         title: "Freefire",
+        status: 1,
         eligibility: "Anyone can join",
         completed: false,
         results: null,
@@ -1388,6 +1415,7 @@ Jumble the code and triumphal your day.`,
         id: "27",
         name: "Hackathon",
         title: "Hackathon",
+        status: 1,
         venue: "L102, L101(Waiting Room)",
         eligibility: "Anyone can join",
         completed: false,
@@ -1438,6 +1466,7 @@ Jumble the code and triumphal your day.`,
         id: "28",
         name: "Valorant",
         title: "Valorant",
+        status: 1,
         eligibility: "Anyone can join",
         completed: false,
         results: null,
@@ -1479,6 +1508,7 @@ Jumble the code and triumphal your day.`,
         id: "29",
         name: "Chess",
         title: "Chess",
+        status: 1,
         eligibility: "Anyone can join",
         completed: false,
         results: null,
@@ -1523,6 +1553,7 @@ Jumble the code and triumphal your day.`,
         id: "30",
         name: "BGMI",
         title: "BGMI",
+        status: 1,
         eligibility: "Anyone can join",
         completed: false,
         results: null,
@@ -1564,6 +1595,7 @@ Jumble the code and triumphal your day.`,
         id: "31",
         name: "Carrom",
         title: "Carrom",
+        status: 1,
         venue: "L201",
         eligibility: "Anyone can join",
         completed: false,
@@ -1617,6 +1649,7 @@ Jumble the code and triumphal your day.`,
         id: "32",
         name: "IPL-Auction1",
         title: "IPL Auction",
+        status: 1,
         venue: "LBCH",
         eligibility: "Anyone can join",
         completed: false,
@@ -1688,6 +1721,7 @@ Jumble the code and triumphal your day.`,
         id: "33",
         name: "Escape_Room",
         title: "Escape Room: Operation Blitz",
+        status: 1,
         venue: "L109",
         eligibility: "Anyone can join",
         completed: false,
@@ -1731,417 +1765,422 @@ Jumble the code and triumphal your day.`,
         tags: [],
     },
 
-    // Workshops
-    {
-        id: "34",
-        key: 1,
-        rules: [
-            "Certificate will be given for the registered candidates",
-            "Disocunts will be given for referrals",
-            "For further details call : 8668171335",
-        ],
-        faq: [
-            {
-                question: "Will it happen online or offline?",
-                answer: "Offline",
-            },
-            {
-                question: "Will it be a one day workshop or two days?",
-                answer: "One day, Time is mentioned above",
-            },
-            {
-                question: "Can I get any discount?",
-                answer: "Yeah sure, Contact us for further details",
-            },
-            {
-                question: "Can I get certificate?",
-                answer: "Yes, Certificate will be provided in offline",
-            },
-        ],
-        name: "Workshop1",
-        title: "Workshop on Augmented Reality App development",
-        venue: " IT211 or MBCH or LBCH",
-        dateTime: "March 2, 2 pm to 4 pm",
-        carddescription: "Step into the future of digital creativity with our AR workshop - where innovation meets immersion",
-        description: "Dive into Augmented Reality (AR) development in our expert-led workshop. Gain practical experience and insights into AR frameworks, interface design, and implementation. Whether you're new to AR or seasoned in development, this session offers valuable skills to create immersive digital experiences. Join us to harness the power of AR and stay at the forefront of innovation in this rapidly evolving field.",
-        type: "flagship",
-        eligibility: "Anyone can join",
-        pics: {
-            primary: workshop1,
-        },
-        contact: "8668171335",
-        tags: [],
-        entry: [
-            "Single Workshop - Rs. 150/-",
-            "Combo A - Two Workshops - Rs. 250/-",
-            "Combo B - Three Workshops - Rs. 350/-",
-            "Combo C - Four Workshops - Rs. 450/-"
-        ],
-        form: "https://docs.google.com/forms/u/4/d/1FyBdGuDfijIrVOUHxSZtsoDaR_hd7utw-lg3_-iSfHg/edit?usp=drivesdk&chromeless=1",
-        speakerinfo:
-            "Divith loves games and has a lot of interest in creating visual content, his career journey as a game dev started from his college days.",
-        speakers: [
-            {
-                name: "Divith MJ",
-                bio: "He was developing a project in Augmented Reality technology as an aid for medical science students enabling them to visualize complex diseases and their treatment procedures in a interactive method through reality technology. He has experience in AR, VR, 3D game development.",
-            },
-        ],
-        color: "red",
-    },
+    // // Workshops
+    // {
+    //     id: "34",
+    //     key: 1,
+    //     status: 1,
+    //     rules: [
+    //         "Certificate will be given for the registered candidates",
+    //         "Disocunts will be given for referrals",
+    //         "For further details call : 8668171335",
+    //     ],
+    //     faq: [
+    //         {
+    //             question: "Will it happen online or offline?",
+    //             answer: "Offline",
+    //         },
+    //         {
+    //             question: "Will it be a one day workshop or two days?",
+    //             answer: "One day, Time is mentioned above",
+    //         },
+    //         {
+    //             question: "Can I get any discount?",
+    //             answer: "Yeah sure, Contact us for further details",
+    //         },
+    //         {
+    //             question: "Can I get certificate?",
+    //             answer: "Yes, Certificate will be provided in offline",
+    //         },
+    //     ],
+    //     name: "Workshop1",
+    //     title: "Workshop on Augmented Reality App development",
+    //     venue: " IT211 or MBCH or LBCH",
+    //     dateTime: "March 2, 2 pm to 4 pm",
+    //     carddescription: "Step into the future of digital creativity with our AR workshop - where innovation meets immersion",
+    //     description: "Dive into Augmented Reality (AR) development in our expert-led workshop. Gain practical experience and insights into AR frameworks, interface design, and implementation. Whether you're new to AR or seasoned in development, this session offers valuable skills to create immersive digital experiences. Join us to harness the power of AR and stay at the forefront of innovation in this rapidly evolving field.",
+    //     type: "flagship",
+    //     eligibility: "Anyone can join",
+    //     pics: {
+    //         primary: workshop1,
+    //     },
+    //     contact: "8668171335",
+    //     tags: [],
+    //     entry: [
+    //         "Single Workshop - Rs. 150/-",
+    //         "Combo A - Two Workshops - Rs. 250/-",
+    //         "Combo B - Three Workshops - Rs. 350/-",
+    //         "Combo C - Four Workshops - Rs. 450/-"
+    //     ],
+    //     form: "https://docs.google.com/forms/u/4/d/1FyBdGuDfijIrVOUHxSZtsoDaR_hd7utw-lg3_-iSfHg/edit?usp=drivesdk&chromeless=1",
+    //     speakerinfo:
+    //         "Divith loves games and has a lot of interest in creating visual content, his career journey as a game dev started from his college days.",
+    //     speakers: [
+    //         {
+    //             name: "Divith MJ",
+    //             bio: "He was developing a project in Augmented Reality technology as an aid for medical science students enabling them to visualize complex diseases and their treatment procedures in a interactive method through reality technology. He has experience in AR, VR, 3D game development.",
+    //         },
+    //     ],
+    //     color: "red",
+    // },
 
-    {
-        id: "35",
-        key: 1,
-        // status: 1,
-        rules: [
-            "Certificate will be given for the registered candidates",
-            "Disocunts will be given for referrals",
-            "For further details call : 9750935611",
-        ],
-        faq: [
-            {
-                question: "Will it happen online or offline?",
-                answer: "Offline",
-            },
-            {
-                question: "Will it be a one day workshop or two days?",
-                answer: "One day, time is mentioned above",
-            },
-            {
-                question: "Can I get any discount?",
-                answer: "Yeah sure, contact us for further details",
-            },
-            {
-                question: "Can I get certificate?",
-                answer: "Yes, Certificate will be provided in offline",
-            },
-        ],
-        name: "Workshop2",
-        title: "Workshop on Uncover Your Next Big Idea: Dive into Startup Possibilities!",
-        venue: " IT211 or MBCH or LBCH",
-        dateTime: " March 1, 10 am to 12 pm",
-        carddescription: "Empower your entrepreneurial journey: Dive into the startup world, fail fast, succeed faster!",
-        description:
-            "Dive into the world of entrepreneurship with a startup that sparks innovation and meets market needs. Embrace failure as a stepping stone to success, fostering rapid iteration and unforgettable growth. Ready to kickstart your journey? Join us at our upcoming workshop to learn how to turn your vision into a thriving business!",
-        type: "flagship",
-        eligibility: "Anyone can join",
-        pics: {
-            primary:
-                "https://as2.ftcdn.net/v2/jpg/02/38/40/55/1000_F_238405533_yyX4K55OmH2LiM7LQ01ITn6kl0b6J6K8.jpg",
-        },
-        contact: "9750935611",
-        tags: [],
-        entry: [
-            "Single Workshop - Rs. 150/-",
-            "Combo A - Two Workshops - Rs. 250/-",
-            "Combo B - Three Workshops - Rs. 350/-",
-            "Combo C - Four Workshops - Rs. 450/-"
-        ],
-        form: "https://docs.google.com/forms/u/4/d/1FyBdGuDfijIrVOUHxSZtsoDaR_hd7utw-lg3_-iSfHg/edit?usp=drivesdk&chromeless=1",
-        speakerinfo:
-            "Vijaya Kumar Rangasamy is an Assistant Professor with over a decade of experience in Design Thinking-based Teaching and Research. He is the founder of ElectricTronics, specializing in automation products and consultancy services for industries in Tamil Nadu.He has delivered more seminars and conducted workshops with students, researchers and industry people regarding technology and creativity.Also, he is a motivational speaker to schools, colleges and industry personals",
-        speakers: [
-            {
-                name: "Vijaya Kumar Rangasamy",
-                bio: "Vijaya Kumar Rangasamy has published over 25 research papers in Electric vehicles technology and Hybrid Vehicles and has been recognized with awards such as Best Entrepreneurship Coordinator, Young Start-up, and Best Innovator. As Chief Coordinator of the Innovation and Entrepreneurship Development Cell, he evaluates and guides numerous student projects, including those for SIDP 1.0 and SIDP 2.0, showcasing his commitment to nurturing entrepreneurship. With multiple patents, he continues to inspire aspiring entrepreneurs while advocating for a greener future.",
-            },
-        ],
-        color: "red",
-    },
+    // {
+    //     id: "35",
+    //     key: 1,
+    //     status: 1,
+    //     rules: [
+    //         "Certificate will be given for the registered candidates",
+    //         "Disocunts will be given for referrals",
+    //         "For further details call : 9750935611",
+    //     ],
+    //     faq: [
+    //         {
+    //             question: "Will it happen online or offline?",
+    //             answer: "Offline",
+    //         },
+    //         {
+    //             question: "Will it be a one day workshop or two days?",
+    //             answer: "One day, time is mentioned above",
+    //         },
+    //         {
+    //             question: "Can I get any discount?",
+    //             answer: "Yeah sure, contact us for further details",
+    //         },
+    //         {
+    //             question: "Can I get certificate?",
+    //             answer: "Yes, Certificate will be provided in offline",
+    //         },
+    //     ],
+    //     name: "Workshop2",
+    //     title: "Workshop on Uncover Your Next Big Idea: Dive into Startup Possibilities!",
+    //     venue: " IT211 or MBCH or LBCH",
+    //     dateTime: " March 1, 10 am to 12 pm",
+    //     carddescription: "Empower your entrepreneurial journey: Dive into the startup world, fail fast, succeed faster!",
+    //     description:
+    //         "Dive into the world of entrepreneurship with a startup that sparks innovation and meets market needs. Embrace failure as a stepping stone to success, fostering rapid iteration and unforgettable growth. Ready to kickstart your journey? Join us at our upcoming workshop to learn how to turn your vision into a thriving business!",
+    //     type: "flagship",
+    //     eligibility: "Anyone can join",
+    //     pics: {
+    //         primary:
+    //             "https://as2.ftcdn.net/v2/jpg/02/38/40/55/1000_F_238405533_yyX4K55OmH2LiM7LQ01ITn6kl0b6J6K8.jpg",
+    //     },
+    //     contact: "9750935611",
+    //     tags: [],
+    //     entry: [
+    //         "Single Workshop - Rs. 150/-",
+    //         "Combo A - Two Workshops - Rs. 250/-",
+    //         "Combo B - Three Workshops - Rs. 350/-",
+    //         "Combo C - Four Workshops - Rs. 450/-"
+    //     ],
+    //     form: "https://docs.google.com/forms/u/4/d/1FyBdGuDfijIrVOUHxSZtsoDaR_hd7utw-lg3_-iSfHg/edit?usp=drivesdk&chromeless=1",
+    //     speakerinfo:
+    //         "Vijaya Kumar Rangasamy is an Assistant Professor with over a decade of experience in Design Thinking-based Teaching and Research. He is the founder of ElectricTronics, specializing in automation products and consultancy services for industries in Tamil Nadu.He has delivered more seminars and conducted workshops with students, researchers and industry people regarding technology and creativity.Also, he is a motivational speaker to schools, colleges and industry personals",
+    //     speakers: [
+    //         {
+    //             name: "Vijaya Kumar Rangasamy",
+    //             bio: "Vijaya Kumar Rangasamy has published over 25 research papers in Electric vehicles technology and Hybrid Vehicles and has been recognized with awards such as Best Entrepreneurship Coordinator, Young Start-up, and Best Innovator. As Chief Coordinator of the Innovation and Entrepreneurship Development Cell, he evaluates and guides numerous student projects, including those for SIDP 1.0 and SIDP 2.0, showcasing his commitment to nurturing entrepreneurship. With multiple patents, he continues to inspire aspiring entrepreneurs while advocating for a greener future.",
+    //         },
+    //     ],
+    //     color: "red",
+    // },
 
-    {
-        id: "36",
-        key: 1,
-        // status: 1,
-        rules: [
-            "Certificate will be given for the registered candidates",
-            "Disocunts will be given for referrals",
-            "For further details call : 9629888319",
-        ],
-        faq: [
-            {
-                question: "Will it happen online or offline?",
-                answer: "Offline",
-            },
-            {
-                question: "Will it be a one day workshop or two days?",
-                answer: "One day, time is mentioned above",
-            },
-            {
-                question: "Can I get any discount?",
-                answer: "Yeah sure, contact us for further details",
-            },
-            {
-                question: "Can I get certificate?",
-                answer: "Yes, Certificate will be provided in offline",
-            },
-        ],
-        name: "Workshop3",
-        title: "Workshop on Charged Up: Exploring the Potential of Electric Vehicles",
-        venue: "IT211 or MBCH or LBCH",
-        dateTime: "March 1, 2pm to 4pm",
-        carddescription: "Switch gears with us at our Electric Vehicle Workshop - igniting excitement for eco-friendly driving!",
-        description:
-            "Curious about electric vehicles? Join us for a workshop where we'll break down everything you need to know! From how they work to why they're important for the environment, we'll cover it all. Whether you're a bike lover or simply interested in sustainable transportation, this workshop is your chance to get the inside scoop on electric vehicles. Don't miss out - reserve your spot today!",
-        type: "flagship",
-        eligibility: "Anyone can join",
-        pics: {
-            primary:
-                "https://i0.wp.com/evehicleshop.in/wp-content/uploads/2020/09/Untitled-design.jpg",
-        },
-        contact: "9629888319",
-        tags: [],
-        entry: [
-            "Single Workshop - Rs. 150/-",
-            "Combo A - Two Workshops - Rs. 250/-",
-            "Combo B - Three Workshops - Rs. 350/-",
-            "Combo C - Four Workshops - Rs. 450/-"
-        ],
-        form: "https://docs.google.com/forms/u/4/d/1FyBdGuDfijIrVOUHxSZtsoDaR_hd7utw-lg3_-iSfHg/edit?usp=drivesdk&chromeless=1",
-        speakerinfo:
-            "Mohanraj Ramasamy is a visionary leader, the Founder and CEO of SRIVARU Motors (SVM), SRIVARU has developed a high performance motorcycle, 'Prana' powered by sustainable energy. He is a former Senior Manager at Tesla Motors and built and Managed Infrastructure and System services team for supporting entire Tesla Motors business functions. ",
-        speakers: [
-            {
-                name: "Mohanraj Ramasamy",
-                bio: "His skills in storage and unix architecture are unmatched. He is an experienced Information & Technology leader in operating cutting-edge infrastructure solutions enterprise-wide in large, complex global organizations",
-            },
-        ],
-        color: "red",
-    },
+    // {
+    //     id: "36",
+    //     key: 1,
+    //     status: 1,
+    //     rules: [
+    //         "Certificate will be given for the registered candidates",
+    //         "Disocunts will be given for referrals",
+    //         "For further details call : 9629888319",
+    //     ],
+    //     faq: [
+    //         {
+    //             question: "Will it happen online or offline?",
+    //             answer: "Offline",
+    //         },
+    //         {
+    //             question: "Will it be a one day workshop or two days?",
+    //             answer: "One day, time is mentioned above",
+    //         },
+    //         {
+    //             question: "Can I get any discount?",
+    //             answer: "Yeah sure, contact us for further details",
+    //         },
+    //         {
+    //             question: "Can I get certificate?",
+    //             answer: "Yes, Certificate will be provided in offline",
+    //         },
+    //     ],
+    //     name: "Workshop3",
+    //     title: "Workshop on Charged Up: Exploring the Potential of Electric Vehicles",
+    //     venue: "IT211 or MBCH or LBCH",
+    //     dateTime: "March 1, 2pm to 4pm",
+    //     carddescription: "Switch gears with us at our Electric Vehicle Workshop - igniting excitement for eco-friendly driving!",
+    //     description:
+    //         "Curious about electric vehicles? Join us for a workshop where we'll break down everything you need to know! From how they work to why they're important for the environment, we'll cover it all. Whether you're a bike lover or simply interested in sustainable transportation, this workshop is your chance to get the inside scoop on electric vehicles. Don't miss out - reserve your spot today!",
+    //     type: "flagship",
+    //     eligibility: "Anyone can join",
+    //     pics: {
+    //         primary:
+    //             "https://i0.wp.com/evehicleshop.in/wp-content/uploads/2020/09/Untitled-design.jpg",
+    //     },
+    //     contact: "9629888319",
+    //     tags: [],
+    //     entry: [
+    //         "Single Workshop - Rs. 150/-",
+    //         "Combo A - Two Workshops - Rs. 250/-",
+    //         "Combo B - Three Workshops - Rs. 350/-",
+    //         "Combo C - Four Workshops - Rs. 450/-"
+    //     ],
+    //     form: "https://docs.google.com/forms/u/4/d/1FyBdGuDfijIrVOUHxSZtsoDaR_hd7utw-lg3_-iSfHg/edit?usp=drivesdk&chromeless=1",
+    //     speakerinfo:
+    //         "Mohanraj Ramasamy is a visionary leader, the Founder and CEO of SRIVARU Motors (SVM), SRIVARU has developed a high performance motorcycle, 'Prana' powered by sustainable energy. He is a former Senior Manager at Tesla Motors and built and Managed Infrastructure and System services team for supporting entire Tesla Motors business functions. ",
+    //     speakers: [
+    //         {
+    //             name: "Mohanraj Ramasamy",
+    //             bio: "His skills in storage and unix architecture are unmatched. He is an experienced Information & Technology leader in operating cutting-edge infrastructure solutions enterprise-wide in large, complex global organizations",
+    //         },
+    //     ],
+    //     color: "red",
+    // },
 
-    {
-        id: "37",
-        key: 1,
-        rules: [
-            "Certificate will be given for the registered candidates",
-            "Disocunts will be given for referrals",
-            "For further details call : 9750935611",
-        ],
-        faq: [
-            {
-                question: "Will it happen online or offline?",
-                answer: "Offline",
-            },
-            {
-                question: "Will it be a one day workshop or two days?",
-                answer: "One day, time is mentioned above",
-            },
-            {
-                question: "Can I get any discount?",
-                answer: "Yeah sure, contact us for further details",
-            },
-            {
-                question: "Can I get certificate?",
-                answer: "Yes, Certificate will be provided in offline",
-            },
-        ],
-        name: "Workshop4",
-        title: "Workshop on Machine learning and it's real time applications",
-        venue: "IT211 or MBCH or LBCH",
-        dateTime: "March 2, 10 am to 12 pm",
-        carddescription: "Unlock Data's Potential: Discover Machine Learning Applications!",
-        description:
-            "Unlock the magic of real-time machine learning, transforming data into actionable insights. Predict trends, optimize operations, and unleash your data's full potential. Reserve your spot now for a transformative journey towards success!",
-        type: "flagship",
-        eligibility: "Anyone can join",
-        pics: {
-            primary:
-                "https://www.simplilearn.com/ice9/free_resources_article_thumb/Deep-Learning-vs-Machine-Learning.jpg",
-        },
-        contact: "9750935611",
-        tags: [],
-        entry: [
-            "Single Workshop - Rs. 150/-",
-            "Combo A - Two Workshops - Rs. 250/-",
-            "Combo B - Three Workshops - Rs. 350/-",
-            "Combo C - Four Workshops - Rs. 450/-"
-        ],
-        form: "https://docs.google.com/forms/u/4/d/1FyBdGuDfijIrVOUHxSZtsoDaR_hd7utw-lg3_-iSfHg/edit?usp=drivesdk&chromeless=1",
-        speakerinfo:
-            "Kiruthika embarked on her journey after completing her M.E. in Computer Science from Anna University. Passionate about pedagogy, she's now an Assistant Professor at KPR Institute of Engineering and Technology, with 6 years of experience and a focus on continuous growth. Kiruthika also serves as a Board member for Agenesinfo Omics Private Limited, Hyderabad.",
-        speakers: [
-            {
-                name: "Kiruthika J K",
-                bio: "Kiruthika J K is a dedicated educator with a passion for nurturing young minds. She holds key roles as InCharge of the Music Club, Student Event Coordinator, and Timetable Coordinator, showcasing her commitment to both academic and extracurricular excellence. Additionally, her expertise extends to spearheading the Machine Learning Special Lab, reflecting her keen interest and proficiency in Artificial Intelligence and Machine Learning.Ms. Kiruthika's work has been published in reputable journals and conference proceedings, including the IOP Conference Series and the Annals of the Romanian Society for Cell Biology.",
-            },
-        ],
-        color: "red",
-    },
+    // {
+    //     id: "37",
+    //     key: 1,
+    //     status: 1,
+    //     rules: [
+    //         "Certificate will be given for the registered candidates",
+    //         "Disocunts will be given for referrals",
+    //         "For further details call : 9750935611",
+    //     ],
+    //     faq: [
+    //         {
+    //             question: "Will it happen online or offline?",
+    //             answer: "Offline",
+    //         },
+    //         {
+    //             question: "Will it be a one day workshop or two days?",
+    //             answer: "One day, time is mentioned above",
+    //         },
+    //         {
+    //             question: "Can I get any discount?",
+    //             answer: "Yeah sure, contact us for further details",
+    //         },
+    //         {
+    //             question: "Can I get certificate?",
+    //             answer: "Yes, Certificate will be provided in offline",
+    //         },
+    //     ],
+    //     name: "Workshop4",
+    //     title: "Workshop on Machine learning and it's real time applications",
+    //     venue: "IT211 or MBCH or LBCH",
+    //     dateTime: "March 2, 10 am to 12 pm",
+    //     carddescription: "Unlock Data's Potential: Discover Machine Learning Applications!",
+    //     description:
+    //         "Unlock the magic of real-time machine learning, transforming data into actionable insights. Predict trends, optimize operations, and unleash your data's full potential. Reserve your spot now for a transformative journey towards success!",
+    //     type: "flagship",
+    //     eligibility: "Anyone can join",
+    //     pics: {
+    //         primary:
+    //             "https://www.simplilearn.com/ice9/free_resources_article_thumb/Deep-Learning-vs-Machine-Learning.jpg",
+    //     },
+    //     contact: "9750935611",
+    //     tags: [],
+    //     entry: [
+    //         "Single Workshop - Rs. 150/-",
+    //         "Combo A - Two Workshops - Rs. 250/-",
+    //         "Combo B - Three Workshops - Rs. 350/-",
+    //         "Combo C - Four Workshops - Rs. 450/-"
+    //     ],
+    //     form: "https://docs.google.com/forms/u/4/d/1FyBdGuDfijIrVOUHxSZtsoDaR_hd7utw-lg3_-iSfHg/edit?usp=drivesdk&chromeless=1",
+    //     speakerinfo:
+    //         "Kiruthika embarked on her journey after completing her M.E. in Computer Science from Anna University. Passionate about pedagogy, she's now an Assistant Professor at KPR Institute of Engineering and Technology, with 6 years of experience and a focus on continuous growth. Kiruthika also serves as a Board member for Agenesinfo Omics Private Limited, Hyderabad.",
+    //     speakers: [
+    //         {
+    //             name: "Kiruthika J K",
+    //             bio: "Kiruthika J K is a dedicated educator with a passion for nurturing young minds. She holds key roles as InCharge of the Music Club, Student Event Coordinator, and Timetable Coordinator, showcasing her commitment to both academic and extracurricular excellence. Additionally, her expertise extends to spearheading the Machine Learning Special Lab, reflecting her keen interest and proficiency in Artificial Intelligence and Machine Learning.Ms. Kiruthika's work has been published in reputable journals and conference proceedings, including the IOP Conference Series and the Annals of the Romanian Society for Cell Biology.",
+    //         },
+    //     ],
+    //     color: "red",
+    // },
 
-    // Webinar
-    {
-        id: "37",
-        key: 1,
-        s: 1,
-        rules: [
-            "E-certificate will be given for the registered candidates",
-            "Discounts will be given for referrals",
-            "For further details call :9750935611",
-        ],
-        faq: [
-            {
-                question: "Will it happen online or offline?",
-                answer: "Online",
-            },
-            {
-                question: "Will it be a one day webinar or two days?",
-                answer: "One day, time is mentioned above",
-            },
-            {
-                question: "Can I get any discount?",
-                answer: "Yeah sure, contact us for further details",
-            },
-            {
-                question: "Can I get certificate?",
-                answer: "Yes, e-certificate will be provided",
-            },
-        ],
-        name: "Webinar1",
-        title: "Webinar on Demystifying AI and Data Science",
-        dateTime: "March 3, 10 am to 12 pm",
-        carddescription: "Demystifying AI and Data Science : Building your future career in a data driven world",
-        description:
-            "Demystifying AI and Data Science - Building your future career in a data driven world: Get ready to embark on an exhilarating journey through the captivating world of AI and data science! Join us for an immersive webinar where we unravel the fascinating evolution of AI over the decades. Gain valuable insights into the essential skill sets needed to thrive in this dynamic field and pave your way to a successful career in AI and data science. Don't miss out on this incredible opportunity to explore, learn, and chart your course towards a brighter future. Register now and be part of the AI revolution! Check out the form for more details on registration fees.",
-        type: "flagship",
-        eligibility: "Anyone can join",
-        pics: {
-            primary:
-                "https://www.analytixlabs.co.in/blog/wp-content/uploads/2021/09/Blog8_2.1-edited-1024x576.jpg",
-        },
-        contact: "9750935611",
-        tags: [],
-        entry: [
-            "Single Webinar - Rs.100/-",
-            "Combo A - Two Webinars - Rs.150/-",
-            "Combo B - Three Webinars - Rs.250/-",
-        ],
-        form: "https://docs.google.com/forms/d/1CE2njtrsNWY4KX7vJWTH54-0x4OzV4QofIWp_gOnstI/edit?chromeless=1",
-        speakerinfo:
-            "Aravind Chandramouli is currently the head of the AI Center of Excellence at Tredence. He has around 17 years of industry experience all in the data science, AI/ML space. Prior to Tredence, he had stints at Fidelity Investments, GE research labs and Microsoft.",
-        speakers: [
-            {
-                name: "Aravind Chandramouli",
-                bio: "Aravind has also filed for 10 patents with 6 grants and has over 10 publications in International conferences and journals.  He completed his PhD from the University of Kansas in 2007 and graduated from Coimbatore Institute of Technology in 2002 with a Bachelors in Computer Science.",
-            },
-        ],
-        color: "red",
-    },
+    // // Webinar
+    // {
+    //     id: "37",
+    //     key: 1,
+    //     status: 1,
+    //     s: 1,
+    //     rules: [
+    //         "E-certificate will be given for the registered candidates",
+    //         "Discounts will be given for referrals",
+    //         "For further details call :9750935611",
+    //     ],
+    //     faq: [
+    //         {
+    //             question: "Will it happen online or offline?",
+    //             answer: "Online",
+    //         },
+    //         {
+    //             question: "Will it be a one day webinar or two days?",
+    //             answer: "One day, time is mentioned above",
+    //         },
+    //         {
+    //             question: "Can I get any discount?",
+    //             answer: "Yeah sure, contact us for further details",
+    //         },
+    //         {
+    //             question: "Can I get certificate?",
+    //             answer: "Yes, e-certificate will be provided",
+    //         },
+    //     ],
+    //     name: "Webinar1",
+    //     title: "Webinar on Demystifying AI and Data Science",
+    //     dateTime: "March 3, 10 am to 12 pm",
+    //     carddescription: "Demystifying AI and Data Science : Building your future career in a data driven world",
+    //     description:
+    //         "Demystifying AI and Data Science - Building your future career in a data driven world: Get ready to embark on an exhilarating journey through the captivating world of AI and data science! Join us for an immersive webinar where we unravel the fascinating evolution of AI over the decades. Gain valuable insights into the essential skill sets needed to thrive in this dynamic field and pave your way to a successful career in AI and data science. Don't miss out on this incredible opportunity to explore, learn, and chart your course towards a brighter future. Register now and be part of the AI revolution! Check out the form for more details on registration fees.",
+    //     type: "flagship",
+    //     eligibility: "Anyone can join",
+    //     pics: {
+    //         primary:
+    //             "https://www.analytixlabs.co.in/blog/wp-content/uploads/2021/09/Blog8_2.1-edited-1024x576.jpg",
+    //     },
+    //     contact: "9750935611",
+    //     tags: [],
+    //     entry: [
+    //         "Single Webinar - Rs.100/-",
+    //         "Combo A - Two Webinars - Rs.150/-",
+    //         "Combo B - Three Webinars - Rs.250/-",
+    //     ],
+    //     form: "https://docs.google.com/forms/d/1CE2njtrsNWY4KX7vJWTH54-0x4OzV4QofIWp_gOnstI/edit?chromeless=1",
+    //     speakerinfo:
+    //         "Aravind Chandramouli is currently the head of the AI Center of Excellence at Tredence. He has around 17 years of industry experience all in the data science, AI/ML space. Prior to Tredence, he had stints at Fidelity Investments, GE research labs and Microsoft.",
+    //     speakers: [
+    //         {
+    //             name: "Aravind Chandramouli",
+    //             bio: "Aravind has also filed for 10 patents with 6 grants and has over 10 publications in International conferences and journals.  He completed his PhD from the University of Kansas in 2007 and graduated from Coimbatore Institute of Technology in 2002 with a Bachelors in Computer Science.",
+    //         },
+    //     ],
+    //     color: "red",
+    // },
 
-    {
-        id: "38",
-        key: 1,
-        s: 1,
-        rules: [
-            "E-certificate will be given for the registered candidates",
-            "Discounts will be given for referrals",
-            "For further details call : 9750935611",
-        ],
-        faq: [
-            {
-                question: "Will it happen online or offline?",
-                answer: "Online",
-            },
-            {
-                question: "Will it be a one day webinar or two days?",
-                answer: "One day, time is mentioned above",
-            },
-            {
-                question: "Can I get any discount?",
-                answer: "Yeah sure, contact us for further details",
-            },
-            {
-                question: "Can I get certificate?",
-                answer: "Yes, e-certificate will be provided",
-            },
-        ],
-        name: "Webinar2",
-        title: "Webinar on Distributed Data Mastery: Revolutionizing Cloud Architecture",
-        dateTime: "March 2, 2 pm to 4 pm",
-        carddescription: " Unlock resilience in distributed databases; revolutionize your Cloud data strategy with us.",
-        description:
-            "Elevate your understanding of distributed databases and revolutionize your approach to Cloud data architecture with our empowering webinar! Learn about Cloud Data Management challenges and strategies for seamless operation. Discover how they persist during disruptions. Register now for a deeper understanding of distributed database resilience.",
-        type: "flagship",
-        eligibility: "Anyone can join",
-        pics: {
-            primary:
-                "https://www.datamation.com/wp-content/uploads/2023/07/dm-current-database-trends-1068x702.png",
-        },
-        contact: "9750935611",
-        tags: [],
-        entry: [
-            "Single Webinar - Rs.100/-",
-            "Combo A - Two Webinars - Rs.150/-",
-            "Combo B - Three Webinars - Rs.250/-",
-        ],
-        form: "https://docs.google.com/forms/d/1CE2njtrsNWY4KX7vJWTH54-0x4OzV4QofIWp_gOnstI/edit?chromeless=1",
-        speakerinfo:
-            "Vijay Lakshminarayanan is a distinguished alumnus of CIT CSE's 2003 batch. Following his undergraduate studies, he pursued a Master's degree at the Illinois Institute of Technology, solidifying his expertise. With a career spanning multiple decades, Vijay has established himself as a seasoned industry veteran. Presently, he serves as the Senior Director of Engineering at Freshworks, where he oversees all aspects of the company's data systems.",
-        speakers: [
-            {
-                name: "Vijay Lakshminarayanan",
-                bio: "Vijay Lakshminarayanan boasts over two decades of software engineering expertise. He held the position of Director of Engineering at Freshworks, with a brief stint in management, following roles as a Developer at Marin Software and Senior Software Developer at eBay. Earlier, he contributed as a Senior Software Development Engineer at Computer Science Corporation and worked as a Developer at GlobalScholar.com. He kickstarted his career as a Project Engineer at Wipro Technologies.",
-            },
-        ],
-        color: "red",
-    },
+    // {
+    //     id: "38",
+    //     key: 1,
+    //     status: 1,
+    //     s: 1,
+    //     rules: [
+    //         "E-certificate will be given for the registered candidates",
+    //         "Discounts will be given for referrals",
+    //         "For further details call : 9750935611",
+    //     ],
+    //     faq: [
+    //         {
+    //             question: "Will it happen online or offline?",
+    //             answer: "Online",
+    //         },
+    //         {
+    //             question: "Will it be a one day webinar or two days?",
+    //             answer: "One day, time is mentioned above",
+    //         },
+    //         {
+    //             question: "Can I get any discount?",
+    //             answer: "Yeah sure, contact us for further details",
+    //         },
+    //         {
+    //             question: "Can I get certificate?",
+    //             answer: "Yes, e-certificate will be provided",
+    //         },
+    //     ],
+    //     name: "Webinar2",
+    //     title: "Webinar on Distributed Data Mastery: Revolutionizing Cloud Architecture",
+    //     dateTime: "March 2, 2 pm to 4 pm",
+    //     carddescription: " Unlock resilience in distributed databases; revolutionize your Cloud data strategy with us.",
+    //     description:
+    //         "Elevate your understanding of distributed databases and revolutionize your approach to Cloud data architecture with our empowering webinar! Learn about Cloud Data Management challenges and strategies for seamless operation. Discover how they persist during disruptions. Register now for a deeper understanding of distributed database resilience.",
+    //     type: "flagship",
+    //     eligibility: "Anyone can join",
+    //     pics: {
+    //         primary:
+    //             "https://www.datamation.com/wp-content/uploads/2023/07/dm-current-database-trends-1068x702.png",
+    //     },
+    //     contact: "9750935611",
+    //     tags: [],
+    //     entry: [
+    //         "Single Webinar - Rs.100/-",
+    //         "Combo A - Two Webinars - Rs.150/-",
+    //         "Combo B - Three Webinars - Rs.250/-",
+    //     ],
+    //     form: "https://docs.google.com/forms/d/1CE2njtrsNWY4KX7vJWTH54-0x4OzV4QofIWp_gOnstI/edit?chromeless=1",
+    //     speakerinfo:
+    //         "Vijay Lakshminarayanan is a distinguished alumnus of CIT CSE's 2003 batch. Following his undergraduate studies, he pursued a Master's degree at the Illinois Institute of Technology, solidifying his expertise. With a career spanning multiple decades, Vijay has established himself as a seasoned industry veteran. Presently, he serves as the Senior Director of Engineering at Freshworks, where he oversees all aspects of the company's data systems.",
+    //     speakers: [
+    //         {
+    //             name: "Vijay Lakshminarayanan",
+    //             bio: "Vijay Lakshminarayanan boasts over two decades of software engineering expertise. He held the position of Director of Engineering at Freshworks, with a brief stint in management, following roles as a Developer at Marin Software and Senior Software Developer at eBay. Earlier, he contributed as a Senior Software Development Engineer at Computer Science Corporation and worked as a Developer at GlobalScholar.com. He kickstarted his career as a Project Engineer at Wipro Technologies.",
+    //         },
+    //     ],
+    //     color: "red",
+    // },
 
-    {
-        id: "39",
-        key: 1,
-        s: 1,
-        rules: [
-            "E-certificate will be given for the registered candidates",
-            "Discounts will be given for referrals",
-            "For further details call : 9750935611",
-        ],
-        faq: [
-            {
-                question: "Will it happen online or offline?",
-                answer: "Online",
-            },
-            {
-                question: "Will it be a one day webinar or two days?",
-                answer: "One day, time is mentioned above",
-            },
-            {
-                question: "Can I get any discount?",
-                answer: "Yeah sure, contact us for further details",
-            },
-            {
-                question: "Can I get certificate?",
-                answer: "Yes, e-certificate will be provided",
-            },
-        ],
-        name: "Webinar3",
-        title: "Webinar on Master the art of GENAI : Build, Create and Innovate",
-        dateTime: "March 2, 10 am to 12 pm",
-        carddescription: "Explore, Create with GENAI",
-        description:
-            "Explore the realm of Generative AI with our interactive webinar! Unleash your imagination and build creative AI models with Hugging Face and OpenAI. Check out the form for further details.",
-        type: "flagship",
-        eligibility: "Anyone can join",
-        pics: {
-            primary:
-                "https://kotaielectronics.com/wp-content/uploads/2024/01/on-device-generative-ai-with-sub-10-billion-parameter-models-1024x654.jpg",
-        },
-        contact: "9750935611",
-        tags: [],
-        entry: [
-            "Single Webinar - Rs.100/-",
-            "Combo A - Two Webinars - Rs.150/-",
-            "Combo B - Three Webinars - Rs.250/-",
-        ],
-        form: "https://docs.google.com/forms/d/1CE2njtrsNWY4KX7vJWTH54-0x4OzV4QofIWp_gOnstI/edit?chromeless=1",
-        speakerinfo:
-            "Mohammad Sameer is a AWS Gen AI Developer by skills at Tata Consultancy services Ltd ( Acted as Vice Chair for IEEE Student chapter at JNTUGV CEV ,MIEEE,MIEEECS,MIEEEYP,MIEEEWIE).He is very passionate to make people learn about leading technologies like AI/ML/GEN AI/Ethical Hacking etc.Had done many workshop/webinars.",
-        speakers: [
-            {
-                name: "Mohammad Sameer",
-                bio: "Aravind has also filed for 10 patents with 6 grants and has over 10 publications in International conferences and journals.  He completed his PhD from the University of Kansas in 2007 and graduated from Coimbatore Institute of Technology in 2002 with a Bachelors in Computer Science.",
-            },
-        ],
-        color: "red",
-    },
+    // {
+    //     id: "39",
+    //     key: 1,
+    //     status: 1,
+    //     s: 1,
+    //     rules: [
+    //         "E-certificate will be given for the registered candidates",
+    //         "Discounts will be given for referrals",
+    //         "For further details call : 9750935611",
+    //     ],
+    //     faq: [
+    //         {
+    //             question: "Will it happen online or offline?",
+    //             answer: "Online",
+    //         },
+    //         {
+    //             question: "Will it be a one day webinar or two days?",
+    //             answer: "One day, time is mentioned above",
+    //         },
+    //         {
+    //             question: "Can I get any discount?",
+    //             answer: "Yeah sure, contact us for further details",
+    //         },
+    //         {
+    //             question: "Can I get certificate?",
+    //             answer: "Yes, e-certificate will be provided",
+    //         },
+    //     ],
+    //     name: "Webinar3",
+    //     title: "Webinar on Master the art of GENAI : Build, Create and Innovate",
+    //     dateTime: "March 2, 10 am to 12 pm",
+    //     carddescription: "Explore, Create with GENAI",
+    //     description:
+    //         "Explore the realm of Generative AI with our interactive webinar! Unleash your imagination and build creative AI models with Hugging Face and OpenAI. Check out the form for further details.",
+    //     type: "flagship",
+    //     eligibility: "Anyone can join",
+    //     pics: {
+    //         primary:
+    //             "https://kotaielectronics.com/wp-content/uploads/2024/01/on-device-generative-ai-with-sub-10-billion-parameter-models-1024x654.jpg",
+    //     },
+    //     contact: "9750935611",
+    //     tags: [],
+    //     entry: [
+    //         "Single Webinar - Rs.100/-",
+    //         "Combo A - Two Webinars - Rs.150/-",
+    //         "Combo B - Three Webinars - Rs.250/-",
+    //     ],
+    //     form: "https://docs.google.com/forms/d/1CE2njtrsNWY4KX7vJWTH54-0x4OzV4QofIWp_gOnstI/edit?chromeless=1",
+    //     speakerinfo:
+    //         "Mohammad Sameer is a AWS Gen AI Developer by skills at Tata Consultancy services Ltd ( Acted as Vice Chair for IEEE Student chapter at JNTUGV CEV ,MIEEE,MIEEECS,MIEEEYP,MIEEEWIE).He is very passionate to make people learn about leading technologies like AI/ML/GEN AI/Ethical Hacking etc.Had done many workshop/webinars.",
+    //     speakers: [
+    //         {
+    //             name: "Mohammad Sameer",
+    //             bio: "Aravind has also filed for 10 patents with 6 grants and has over 10 publications in International conferences and journals.  He completed his PhD from the University of Kansas in 2007 and graduated from Coimbatore Institute of Technology in 2002 with a Bachelors in Computer Science.",
+    //         },
+    //     ],
+    //     color: "red",
+    // },
 
     ///////////////////////////////////////////////////////
 ];
