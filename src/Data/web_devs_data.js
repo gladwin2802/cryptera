@@ -1,13 +1,12 @@
 import pf1 from '../Assets/Profile/NaveenKumar.jpeg'
 import pf2 from '../Assets/Profile/Karupaiya.jpeg'
 import pf3 from '../Assets/Profile/Gowtham.jpeg'
-import pf4 from '../Assets/Profile/HarshalRam.jpeg'
-import pf5 from '../Assets/Profile/Aniruthan.jpeg'
-import pf6 from '../Assets/Profile/Jawahar.jpeg'
-import pf7 from '../Assets/Profile/Ajai.jpeg'
-import pf8 from '../Assets/Profile/Gladwin.jpeg'
-import avatar from '../Assets/Profile/male-avatar.jpeg'
-import pf10 from '../Assets/Profile/Hanush.jpeg'
+import pf4 from '../Assets/Profile/Gladwin.jpeg'
+import pf5 from '../Assets/Profile/Ashwin.jpeg'
+import pf6 from '../Assets/Profile/ganeshprasad.jpeg'
+import pf7 from '../Assets/Profile/Yatin.jpg'
+import pf8 from '../Assets/Profile/Nirmal.jpg'
+
 
 const web_devs_data = [
     {
@@ -46,50 +45,6 @@ const web_devs_data = [
     {
         id: 4,
         profile: pf4,
-        name: "Harshal Ram R V",
-        about: "Web and app development enthusiast. Messing up with MERN.",
-        instagram: "https://instagram.com/rv_harshal_ram?igshid=YmMyMTA2M2Y=",
-        github: "https://github.com/HarshalRamRV",
-        medium: "",
-        portfolio: "",
-        linkedin: "https://www.linkedin.com/in/harshal-ram-r-v-05a1a81b5"
-    },
-    {
-        id: 5,
-        profile: pf5,
-        name: "Aniruthan M",
-        about: "An avid web developer, passionate about building cool and dynamic web applications.",
-        instagram: "https://www.instagram.com/aniruth_19/",
-        github: "https://github.com/Aniruth19",
-        medium: "",
-        portfolio: "",
-        linkedin: ""
-    },
-    {
-        id: 6,
-        profile: pf6,
-        name: "Muthu Jawahar K",
-        about: "Web development enthusiast specializing in creating engaging interfaces.",
-        instagram: "https://www.instagram.com/km_jawahar1718?igsh=MW8zZmxwbTMwNWc4Yg==",
-        github: "https://github.com/MuthuJawahar1108",
-        medium: "",
-        portfolio: "",
-        linkedin: "https://www.linkedin.com/in/muthujawahar-k"
-    },
-    {
-        id: 7,
-        profile: pf7,
-        name: "Ajai Prasath R K",
-        about: "Experienced developer building scalable and efficient web applications.",
-        instagram: "https://www.instagram.com/ajaiprasathrk?igsh=MWU3NWU2aTd6NmF2ZA==",
-        github: "https://github.com/AjaiPrasath02",
-        medium: "",
-        portfolio: "",
-        linkedin: "https://www.linkedin.com/in/ajai-prasath-r-k-6b427b227/"
-    },
-    {
-        id: 8,
-        profile: pf8,
         name: "Gladwin A J",
         about: "Enthusiastic coder crafting user-friendly and innovative web solutions.",
         instagram: "https://www.instagram.com/gladwinaj2802?igsh=MTZhOXpsbmZ3NWl5Mw==",
@@ -99,27 +54,49 @@ const web_devs_data = [
         linkedin: "https://www.linkedin.com/in/gladwin-a-j-a89516226?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
     },
     {
-        id: 9,
-        profile: pf10,
-        name: "Hanush M",
-        about: "Skilled professional optimizing user interfaces for seamless experiences.",
-        instagram: "https://www.instagram.com/hanushjain21?igsh=MWJrbGJmaTlwYWlmYg==",
-        github: "https://github.com/mhanush",
+        id: 5,
+        profile: pf5,
+        name: "Ashwin S",
+        about: "An enthusiastic web developer building scalable web applications.",
+        instagram: "https://www.instagram.com/ashwin_sk19",
+        github: "https://github.com/Ash19032005",
         medium: "",
         portfolio: "",
-        linkedin: "https://www.linkedin.com/in/m-hanush-936367227/"
+        linkedin: "www.linkedin.com/in/ashwin-sathishkumar"
     },
     {
-        id: 10,
-        profile: avatar,
-        name: "Arunkumar S",
-        about: "Backend Developer focused on APIs and server-side logic",
-        instagram: "https://www.instagram.com/iams_arunn",
-        github: "https://github.com/arunn03",
+        id: 6,
+        profile: pf6,
+        name: "Ganeshprasad A",
+        about: "A web developer specializing in crafting highly interactive and engaging websites.",
+        instagram: "https://www.instagram.com/_arun.ganesh_",
+        github: "https://github.com/Ganeshprasad-A",
         medium: "",
         portfolio: "",
-        linkedin: "https://www.linkedin.com/in/arunn03"
+        linkedin: "https://www.linkedin.com/in/ganeshprasada"
     },
+    {
+        id: 6,
+        profile: pf7,
+        name: "Yatin S P",
+        about: "Passionate web developer creating impactful and efficient tech solutions for real-world challenges.",
+        instagram: "https://www.instagram.com/_iamyatin_",
+        github: "https://github.com/iamyatin-14",
+        medium: "",
+        portfolio: "",
+        linkedin: "https://www.linkedin.com/in/yatinsp"
+    },
+    {
+        id: 6,
+        profile: pf8,
+        name: "Nirmal K",
+        about: "Backend Developer focused on APIs and server-side logic",
+        instagram: "https://www.instagram.com/nk007.ig",
+        github: "https://github.com/nirmal-k-007",
+        medium: "",
+        portfolio: "",
+        linkedin: "https://www.linkedin.com/in/"
+    }
 ]
 
 export default web_devs_data;

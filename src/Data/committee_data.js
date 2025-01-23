@@ -1,40 +1,40 @@
-import pf1 from "../Assets/Profile/Arshad.jpeg"
-import pf2 from "../Assets/Profile/HarshalRam.jpeg"
-import pf3 from "../Assets/Profile/Rajaponpriya.jpeg"
-import pf4 from "../Assets/Profile/Krithika.jpeg"
-import pf5 from "../Assets/Profile/Anuvarshini.jpeg"
-import pf6 from "../Assets/Profile/Janani.jpeg"
-import pf7 from "../Assets/Profile/Gokulajay.jpeg"
-import pf8 from "../Assets/Profile/Narmada.jpeg"
-import pf9 from "../Assets/Profile/Niranjan.jpeg"
-import pf10 from "../Assets/Profile/Muthu.jpeg"
-import pf11 from "../Assets/Profile/Mukilan.jpeg"
-import pf12 from "../Assets/Profile/AkshayaRB.jpeg"
-import pf13 from "../Assets/Profile/Prakash.jpeg"
-import pf14 from "../Assets/Profile/Priyanth.jpeg"
-import pf15 from "../Assets/Profile/Faizan.jpeg"
-import pf16 from "../Assets/Profile/Priyadharshini.jpeg"
+import pf1 from "../Assets/Profile/Lohith.png"
+import pf2 from "../Assets/Profile/Srihari.png"
+import pf3 from "../Assets/Profile/Balaji.png"
+import pf4 from "../Assets/Profile/Siddhaarth.jpg"
+import pf5 from "../Assets/Profile/Janarthan.png"
+import pf6 from "../Assets/Profile/Naharaj.png"
+import pf7 from "../Assets/Profile/Harsida.png"
+import pf8 from "../Assets/Profile/Sanjay.jpg"
+import pf9 from "../Assets/Profile/Priyanga.png"
+import pf10 from "../Assets/Profile/Adithi.png"
+import pf11 from "../Assets/Profile/Hemabharathi.png"
+import pf12 from "../Assets/Profile/Charulatha.png"
+import pf13 from "../Assets/Profile/Varun.png"
+import pf14 from "../Assets/Profile/Princy.png"
+import pf15 from "../Assets/Profile/Ranjith.jpg"
+import pf16 from "../Assets/Profile/Arun.png"
 
 export default [
     {
         id: 1,
-        name: "Arshad Ahmed A",
-        position: "Chairman",
+        name: "Lohit Ragavendra N",
+        position: "President",
         year: "Third year",
         x: "CSE",
         profile: pf1
     },
     {
         id: 2,
-        name: "Harshal Ram R V",
-        position: "Vice Chairman",
+        name: "Sri Hari Nagarajan N",
+        position: "Vice President",
         year: "Third year",
         x: "CSE",
         profile: pf2
     },
     {
         id: 3,
-        name: "Rajaponpriya R",
+        name: "Balaji V",
         position: "Secretary",
         year: "Third year",
         x: "CSE",
@@ -42,79 +42,79 @@ export default [
     },
     {
         id: 4,
-        name: "Krithika T",
-        position: "Secretary",
+        name: "Siddhaarth R",
+        position: "Joint Secretary",
         year: "Third year",
         x: "CSE",
         profile: pf4
     },
     {
         id: 5,
-        name: "Anuvarshini K",
-        position: "Joint Secretary",
+        name: "Janarthanan K",
+        position: "Treasurer",
         year: "Third year",
         x: "CSE",
         profile: pf5
     },
     {
         id: 6,
-        name: "Janani M",
-        position: "Joint Secretary",
+        name: "Naharaj R",
+        position: "Treasurer",
         year: "Third year",
         x: "CSE",
         profile: pf6
     },
     {
         id: 7,
-        name: "Gokul Ajay P",
-        position: "Treasurer",
+        name: "Harsida K",
+        position: "Technical Events Head",
         year: "Third year",
         x: "CSE",
         profile: pf7
     },
     {
         id: 8,
-        name: "Narmatha R",
-        position: "Treasurer",
+        name: "Sanjay S M",
+        position: "Technical Events Head",
         year: "Third year",
         x: "CSE",
         profile: pf8
     },
     {
         id: 9,
-        name: 'Muthu Jawahar K',
-        position: 'Technical Event Head',
+        name: 'Adithi Murali',
+        position: 'Joint Technical Events Head',
         year: 'Third year',
         x: 'CSE',
         profile: pf10
     },
     {
         id: 10,
-        name: 'Niranjan R M',
-        position: 'Technical Event Head',
+        name: 'Priyanga M',
+        position: 'Joint Technical Events Head',
         year: 'Third year',
         x: 'CSE',
         profile: pf9
     },
     {
         id: 11,
-        name: 'Mukilan S',
-        position: 'Non-Technical Event Head',
+        name: 'Hemabharathi P',
+        position: 'Non-Technical Events Head',
         year: 'Third year',
         x: 'CSE',
         profile: pf11
     },
     {
         id: 12,
-        name: 'Akshaya R B',
-        position: 'Non-Technical Event Head',
+        name: 'Chaarulatha K',
+        position: 'Non-Technical Events Head',
         year: 'Third year',
         x: 'CSE',
         profile: pf12
     },
     {
         id: 13,
-        name: 'Prakash S',
+        name: 'Varun Shankar G',
         position: 'Design Head',
         year: 'Third year',
         x: 'CSE',
@@ -122,7 +122,7 @@ export default [
     },
     {
         id: 14,
-        name: 'Priyanth V',
+        name: 'Princy Nivetha I',
         position: 'Design Head',
         year: 'Third year',
         x: 'CSE',
@@ -130,7 +130,7 @@ export default [
     },
     {
         id: 15,
-        name: 'Faizan F',
+        name: 'Ranjith N',
         position: 'Public Relations Head',
         year: 'Third year',
         x: 'CSE',
@@ -138,7 +138,7 @@ export default [
     },
     {
         id: 16,
-        name: 'Priyadarshni S',
+        name: 'Arunpravin R K',
         position: 'Public Relations Head',
         year: 'Third year',
         x: 'CSE',
