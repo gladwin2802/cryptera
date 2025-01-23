@@ -17,8 +17,8 @@ function Navmobile() {
     const linkxref = useRef(null);
     const sociallinksref = useRef(null);
     const webref = useRef(null);
-    const adminref = useRef(null);
-    const venueref = useRef(null);
+    // const adminref = useRef(null);
+    // const venueref = useRef(null);
 
     const clickhandler = () => {
         linkxref.current.style.display = "flex";
@@ -40,8 +40,8 @@ function Navmobile() {
         webref.current.classList.remove("active");
         commiteeref.current.classList.remove("active");
         timelineref.current.classList.remove("active");
-        adminref.current.classList.remove("active");
-        venueref.current.classList.remove("active");
+        // adminref.current.classList.remove("active");
+        // venueref.current.classList.remove("active");
     };
     useEffect(() => {
         closenav();
@@ -86,10 +86,10 @@ function Navmobile() {
             eventref.current.classList.add("active");
             closenav();
         }
-        else if (location.pathname === "/venue") {
-            clearActive();
-            venueref.current.classList.add("active");
-        }
+        // else if (location.pathname === "/venue") {
+        //     clearActive();
+        //     venueref.current.classList.add("active");
+        // }
         else if (location.pathname === "/timeline") {
             clearActive();
             timelineref.current.classList.add("active");
@@ -116,10 +116,10 @@ function Navmobile() {
             clearActive();
             commiteeref.current.classList.add("active");
         }
-        else if (location.pathname === "/admin") {
-            clearActive();
-            adminref.current.classList.add("active");
-        }
+        // else if (location.pathname === "/admin") {
+        //     clearActive();
+        //     adminref.current.classList.add("active");
+        // }
         else {
             clearActive();
         }
@@ -170,7 +170,7 @@ function Navmobile() {
                             <i className="fa fa-calendar-minus"></i>
                             <span>Events</span>
                         </Link>
-                        <Link
+                        {/* <Link
                             onClick={toggleMenu}
                             to="venue"
                             ref={venueref}
@@ -179,7 +179,7 @@ function Navmobile() {
                             {" "}
                             <i class="fas fa-map-marker-alt mr-2 mb-3"></i>
                             <span>Venue</span>
-                        </Link>
+                        </Link> */}
 
                         <Link
                             onClick={toggleMenu}
@@ -229,10 +229,10 @@ function Navmobile() {
                             <i className="fa fa-headset"></i>
                             <span>Contact Us</span>
                         </Link>
-                        <Link onClick={toggleMenu} to="admin" ref={adminref} className=" navbar-linkx">
+                        {/* <Link onClick={toggleMenu} to="admin" ref={adminref} className=" navbar-linkx">
                             <i className="fa fa-user"></i>
                             <span>Admin</span>
-                        </Link>
+                        </Link> */}
                         <div>
                             <div className="social-linksx" ref={sociallinksref}>
                                 <a
