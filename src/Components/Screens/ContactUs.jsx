@@ -55,7 +55,7 @@ function ContactUs() {
                             borderRadius: "500px",
                         }}
                     >
-                        <a href="tel:+91 9363195676">
+                        <a href="tel:+91 8270099872">
                             <i className="fa fa-phone"></i>
                         </a>
                     </div>
