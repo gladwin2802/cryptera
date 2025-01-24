@@ -95,7 +95,7 @@ const web_devs_data = [
         github: "https://github.com/nirmal-k-007",
         medium: "",
         portfolio: "",
-        linkedin: "https://www.linkedin.com/in/"
+        linkedin: "https://in.linkedin.com/in/nirmal-k-08ab27348"
     }
 ]
 

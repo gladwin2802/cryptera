@@ -236,7 +236,7 @@ function Navmobile() {
                         <div>
                             <div className="social-linksx" ref={sociallinksref}>
                                 <a
-                                    href="https://www.instagram.com/cryptera_2k24?igsh=MTQ3aGF3MHlrNHNyaA=="
+                                    href="https://www.instagram.com/cryptera_2k25"
                                     style={{ padding: "10px" }}
                                 >
                                     <i className="fab fa-instagram"></i>
