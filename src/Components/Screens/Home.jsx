@@ -19,8 +19,18 @@ function Home() {
   const isMobile = window.innerWidth <= 768;
   const [autoClickInterval, setAutoClickInterval] = useState(null);
 
-  // Single auto-slide interval
-  useEffect(() => {
+  // --- Helper functions to manage autoplay -----------------------------------
+  const stopAutoplay = () => {
+    if (autoClickInterval) {
+      clearInterval(autoClickInterval);
+      setAutoClickInterval(null);
+    }
+  };
+
+  const startAutoplay = () => {
+    // Stop any existing timer first:
+    stopAutoplay();
+    // Create a new 4-second interval
     const interval = setInterval(() => {
       const nextButton = document.getElementById("next");
       if (nextButton) {
@@ -28,9 +38,13 @@ function Home() {
       }
     }, 3500);
     setAutoClickInterval(interval);
+  };
+  // ---------------------------------------------------------------------------
 
-    // Cleanup on unmount
-    return () => clearInterval(interval);
+  useEffect(() => {
+    startAutoplay(); // Begin autoplay on component mount
+    return stopAutoplay; // Cleanup on unmount
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   const clickhandler = (category) => {
@@ -43,9 +57,11 @@ function Home() {
   };
 
   /**
-   * Move slides manually (without recreating intervals).
+   * Move slides manually (reset the autoplay so it starts counting from 4s again).
    */
   const showSlider = (type) => {
+    stopAutoplay(); // Stop any ongoing timer to avoid conflict
+
     const nextButton = document.getElementById("next");
     const prevButton = document.getElementById("prev");
     const caroussel1 = document.querySelector(".caroussel-1");
@@ -56,13 +72,13 @@ function Home() {
     prevButton.style.pointerEvents = "none";
 
     caroussel1.classList.remove("prev", "next");
-    let items = document.querySelectorAll(".caroussel-1 .list .item");
+    const items = document.querySelectorAll(".caroussel-1 .list .item");
 
     if (type === "next") {
       listHTML.append(items[0]);
       caroussel1.classList.add("next");
     } else {
-      let positionLast = items.length - 1;
+      const positionLast = items.length - 1;
       listHTML.prepend(items[positionLast]);
       caroussel1.classList.add("prev");
     }
@@ -73,8 +89,11 @@ function Home() {
       setTimeout(() => {
         nextButton.style.pointerEvents = "auto";
         prevButton.style.pointerEvents = "auto";
-      }, 10)
+      }, 100)
     );
+
+    // Restart the autoplay timer
+    startAutoplay();
   };
 
   return (
