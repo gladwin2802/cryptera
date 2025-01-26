@@ -12,6 +12,7 @@ import img6 from "../../Assets/Caroussel/images/ptechnical.png";
 import img7 from "../../Assets/Caroussel/images/pnon-technical.png";
 import img8 from "../../Assets/Caroussel/images/pflagship.png";
 import bg from "../../Assets/Caroussel/images/space5.jpg";
+import CountDownHome from "./CountDownHome";
 
 function Home() {
   const navigator = useNavigate();
@@ -88,10 +89,21 @@ function Home() {
         position: isMobile ? "fixed" : "relative",
       }}
     >
+      <div style={{
+        position:"absolute",
+        zIndex:10,
+        padding:"20px 0",
+        textAlign:"center",
+        marginTop:"-500px"
+      }}>
+        <CountDownHome/>
+      </div>
       <div
         style={{
           paddingTop: isMobile ? "0px" : "0px",
           paddingBottom: isMobile ? "5px" : "0px",
+          position:"absolute",
+          top:100
         }}
       >
         <section className="caroussel-1">
