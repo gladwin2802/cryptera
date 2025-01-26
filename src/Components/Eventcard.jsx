@@ -24,13 +24,13 @@ function Eventcard({ data, primary, status }) {
                 </div>
 
                 <div className="event-card-body">
-                    {status === 1 ? (
+                    {status === 0 ? (
                         <span>Coming Soon...</span>
                     ) : (
                         <span>{data.carddescription}</span>
                     )}
                 </div>
-                {status !== 1 && (
+                {status === 1 && (
                     <div
                         className="read-more"
                         style={{ backgroundColor: primary }}
@@ -44,4 +44,5 @@ function Eventcard({ data, primary, status }) {
         </div>
     )
 }
+
 export default Eventcard;

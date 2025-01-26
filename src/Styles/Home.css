@@ -100,8 +100,6 @@
     justify-content: center;
 }
 
-/* Caroussel */
-
 .caroussel-1 {
     height: 1000px;
     width: 100%;
@@ -469,3 +467,6 @@
         height: 130vh;
     }
 }
+
+
+

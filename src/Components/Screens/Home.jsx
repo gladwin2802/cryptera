@@ -1,7 +1,7 @@
 import { React, useState, useEffect } from "react";
 import "../../Styles/Home.css";
-import { useNavigate } from "react-router-dom";
 import img1 from "../../Assets/Caroussel/images/crypterabg.png"
+import { useNavigate } from "react-router-dom";
 import img2 from "../../Assets/Caroussel/images/technical.png"
 import img3 from "../../Assets/Caroussel/images/non-technical.png"
 import img4 from "../../Assets/Caroussel/images/flagship.png";
@@ -10,7 +10,7 @@ import img6 from "../../Assets/Caroussel/images/ptechnical.png";
 import img7 from "../../Assets/Caroussel/images/pnon-technical.png";
 import img8 from "../../Assets/Caroussel/images/pflagship.png";
 import bg from "../../Assets/Caroussel/images/space5.jpg"
-
+// import Countdown from './Countdown';
 function Home() {
     const navigator = useNavigate();
     const [unAcceptClick, setUnAcceptClick] = useState(null);
@@ -85,6 +85,7 @@ function Home() {
     }
 
     return (
+
         <div
             className="home main-section"
             id="Home"
@@ -140,3 +141,4 @@ function Home() {
 }
 
 export default Home;
+

@@ -1,5 +1,5 @@
 import chess from "../Components/Screens/assets/chess.jpg";
-import blindCode from "../Assets/event/blindCode.jpg";
+import CodeInChaos from "../Assets/event/CodeInChaos.jpg";
 import jumbledCode from "../Assets/event/jumbledCode.jpg";
 import oxdebug from "../Assets/event/0xdebug.jpg";
 import carrom from "../Assets/event/carrom.jpg";
@@ -19,7 +19,7 @@ export default [
         name: "0xdebug",
         title: "0xdebug",
         status: 1,
-        venue: "L103, L210, L303, L308, L315",
+        // venue: "L103, L210, L303, L308, L315",
         eligibility: "Anyone can join",
         completed: false,
         results: null,
@@ -39,7 +39,7 @@ export default [
             // "https://www.zdnet.com/a/img/resize/757fc75271d8f21e8d54e61b5d0dee0a3d522971/2021/06/30/0286f74b-453c-4472-b5c1-321b18475c78/technical-visual-studio-code-extension.jpg?auto=webp&fit=crop&height=1200&width=1200",
             secondary: [],
         },
-        dateTime: "March 2, 9.00 am",
+        dateTime: "February 21, 22",
         duration: "",
         prizes: {
             gold: "1000",
@@ -62,7 +62,7 @@ export default [
         name: "CSS_Battle",
         title: "CSS Battle",
         status: 1,
-        venue: "IT442, IT443, L103",
+        // venue: "IT442, IT443, L103",
         eligibility: "Anyone can join",
         completed: false,
         results: null,
@@ -81,7 +81,7 @@ export default [
                 "https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
             ],
         },
-        dateTime: "March 1, 9.00am",
+        dateTime: "February 21, 22",
         duration: "",
         prizes: {
             gold: "1000",
@@ -109,7 +109,7 @@ export default [
         id: "3",
         name: "Tech_Feud",
         title: "Tech Feud",
-        venue: "IT442, IT443",
+        // venue: "IT442, IT443",
         status: 1,
         eligibility: "Anyone can join",
         completed: false,
@@ -139,7 +139,7 @@ export default [
                 "https://www.billboard.com/wp-content/uploads/2022/07/salt-n-pepa-celebrity-family-feud-2022-billboard-1548.png",
             secondary: [],
         },
-        dateTime: "March 2, 2.30 pm",
+        dateTime: "February 21, 22",
         duration: "",
         prizes: {
             gold: "1000",
@@ -172,7 +172,7 @@ export default [
         tags: ["Problem Solving", "C", "C++", "Python"],
     },
 
-    // Blind Code
+    // Code In Chaos
     {
         id: "4",
         name: "Code_in_Chaos",
@@ -191,7 +191,7 @@ export default [
             "Round 3 - code in blind screen"
         ],
         pics: {
-            primary: blindCode,
+            primary: CodeInChaos,
             secondary: [],
         },
         dateTime: "March 1, 3.00 pm",
