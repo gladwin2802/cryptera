@@ -5,6 +5,7 @@ import oxdebug from "../Assets/event/0xdebug.jpg";
 import carrom from "../Assets/event/carrom.jpg";
 import workshop1 from "../Assets/event/workshop1.jpg";
 import prompt from "../Assets/event/prompteng.jpeg";
+import { duration } from "@mui/material";
 
 const form = "https://docs.google.com/forms/d/e/1FAIpQLSdVn_M4OESw7BRTY5QJF8FREnONDoWUfAreehNLWgyF81HhHw/viewform"
 
@@ -636,19 +637,19 @@ export default [
         eligibility: "Anyone can join",
         completed: false,
         results: null,
+        duration:"Online",
         free: "yes",
         rules: [
-            "Perform solo with original content—no karaoke tracks, backing tracks, or pre-recorded vocals allowed",  
-            "Video duration: Vocal (1–3 minutes), Instrumental (up to 4 minutes)",  
-            "Clear audio quality is mandatory; avoid background noise",  
-            "Specify the instrument in the registration form (for instrumental performances)",  
-            "Any genre or language is allowed, but ensure content is free of offensive material",  
-            "All performances must maintain originality, with no lip-syncing or additional sound effects",
-
-            "FREE Registration: Submit a video showcasing your talent",
-            "Video Submission: Upload your performance; faces can be blurred if shared on Cryptera's Instagram",
-            "Winner Selection: Winners will be chosen based on 40% likes and 60% panel judgment. Prizes include ₹500 for both vocal and instrumental winners, and E-certificates for all participants",
-            "Instagram Feature: All performances will be featured on Cryptera's Instagram page",
+           "Mode: Online",  
+           "Perform solo with original content—no karaoke tracks, backing tracks, or pre-recorded vocals allowed",  
+           "Video duration: Vocal (1–3 minutes), Instrumental (up to 4 minutes)",  
+           "Clear audio quality is mandatory; avoid background noise",  
+           "Specify the instrument in the registration form (for instrumental performances)",  
+           "Any genre or language is allowed, but ensure content is free of offensive material",  
+           "All performances must maintain originality, with no lip-syncing or additional sound effects",  
+           "Video Submission: Upload your performance; faces can be blurred if shared on Cryptera's Instagram",  
+           "Winner Selection: Winners will be chosen based on 40% likes and 60% panel judgment. Prizes include ₹300 for both vocal and instrumental winners, and E-certificates for all participants",  
+           "Instagram Feature: All performances will be featured on Cryptera's Instagram page",  
         ],
         pics: {
             primary:
@@ -660,13 +661,13 @@ export default [
                 "https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
             ],
         },
-        contact: "9042776367",
+        contact: "8438845719",
         carddescription:
             "Join our singing and music competition and showcase your talent to the world",
         dateTime: "February 21, 22",
         prizes: {
-            gold: "250",
-            gold1: "250"
+            gold: "300",
+            gold1: "300"
         },
         type1: "Vocals",
         type2: "Instruments",
@@ -703,9 +704,8 @@ export default [
             "Each team will consist of two members",
             "Use of mobile phones is strictly prohibited",
             "The quiz will have three rounds",
-
         ],
-        duration:"1 hr to 1.5 hrs",
+        duration:"1.5 hrs",
         pics: {
             primary:
                 "https://i0.wp.com/www.socialnews.xyz/wp-content/uploads/2019/12/31/Great-Tamil-Movies-Of-The-Decade-Editors-Choice-scaled.jpg?quality=80&zoom=1&ssl=1",
@@ -716,10 +716,11 @@ export default [
                 "https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
             ],
         },
-        contact: "9944002367",
+        contact: "8438845719",
         dateTime: "February 21, 22",
         prizes: {
-            gold: "250",
+            gold: "500",
+            silver:"250",
         },
         carddescription:
             "Test your knowledge of cinema Kollywood and compete with your fellow movie buffs",
@@ -749,6 +750,7 @@ export default [
             "All editing tools are allowed to use",
             "Participants should bring their own laptop with necessary tools installed",
             "Posters need to be designed on the venue",
+            "Theme: Onspot"
 
         ],
         pics: {
@@ -756,11 +758,11 @@ export default [
             secondary: [
             ],
         },
-        contact: "8778434765",
+        contact: "8438845719",
         dateTime: "February 21, 22",
         prizes: {
-            gold: "500",
-            silver: "250",
+            gold: "600",
+            silver: "400",
         },
         color: "var(--fg-g)",
         carddescription:
@@ -785,6 +787,7 @@ export default [
         completed: false,
         results: null,
         free: "yes",
+        duration:"Online",
         rules: [
             "All kind of artistic styles are welcomed (Pencil sketch,water colour,doodle art,oil painting etc.)",
             "Your drawings will be posted on our Instagram page", 
@@ -802,10 +805,11 @@ export default [
                 "https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
             ],
         },
-        contact: "9342823006",
+        contact: "8438845719",
         dateTime: "February 21, 22",
         prizes: {
             gold: "300",
+            silver:"150",
         },
         color: "var(--fg-g)",
         carddescription:
@@ -839,13 +843,19 @@ export default [
         eligibility: "Anyone can join",
         completed: false,
         results: null,
+        duration:"Online",
         free:"yes",
         rules: [
-            "Solo participation",
-            "Languages allowed: ,amil, English",
-            "Upload your file in JPG/JPEG format",
-            "Clearly attach your file in the shared Google form",
-            "Plagiarism is strictly prohibited",
+            "MODE: Online ",
+            "Solo participation only.",
+        "Languages allowed: Tamil, English.",
+        "Upload your file in JPG/JPEG format.",
+        "Clearly attach your file in the shared Google form.",
+        "Plagiarism is strictly prohibited.",
+        "Participants must choose any one of the following prompts to write their poem:",
+        "1) Lighthouse of Lost Souls",
+        "2) The Clockmaker’s Laments",
+        "3) Stardust on My Fingertips"
         ],
         pics: {
             primary:
@@ -858,10 +868,11 @@ export default [
                 "https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
             ],
         },
-        contact: "9944002367",
+        contact: "8438845719",
         dateTime: "February 21, 22",
         prizes: {
-            gold: "300",
+            gold: "350",
+            silver:"150",
         },
         carddescription: "Where Words Flow and Creativity Takes Shape",
         color: "var(--fg-g)",
@@ -898,11 +909,12 @@ export default [
         results: null,
         duration:"5 hrs",
         rules: [
-            "Team Size: A team can contain 1 or 2 persons as its members( If there are  more registrations , participants may be set to form each team with three members.)",
-            "Rounds: In total ,this event contains 3 rounds",
-            "No Splitting: Team members must stay together throughout the hunt and communicating with other teams during the event is not permitted",
-            "Punctuality: Both team members must arrive at the event venue at least 15 minutes before the start time",
+            "Team Size: A team can contain 1 or 2 persons as its members (if there are more registrations, participants may be required to form each team with three members)",
+            "Rounds: This event contains a total of 3 rounds",
+            "No Splitting: Team members must stay together throughout the hunt, and communicating with other teams during the event is not permitted",
+            "Punctuality: All team members must arrive at the event venue at least 15 minutes before the start time",
             "No Outside Help: Teams cannot use external assistance (e.g., phones, internet, or non-participants)",
+            "Note: Only the team that successfully finds the treasure will be awarded the prize; we encourage all teams to give their best effort and enjoy the experience",        
         ],
         pics: {
             primary:
@@ -914,7 +926,7 @@ export default [
                 "https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
             ],
         },
-        contact: "7806846758",
+        contact: "8438845719",
         dateTime: "February 21, 22",
         prizes: {
             gold: "2000",
@@ -941,13 +953,14 @@ export default [
         eligibility: "Anyone can join",
         completed: false,
         results: null,
-        duration:"1.5 hrs to 2 hrs",
+        duration:"2 hrs",
         rules: [
             "The questions will be based on the cinematic and comic of both MARVEL and DC Universes",
             "Marks for each question might vary based on the difficulty of the questions (Easy/Medium/Hard)",
             "Each wrong response or unnecessary press leads to negative markings",
             "Individual or a team of two members are allowed to attend this event",
-            "Any kind of plagiarism or illegal methods leads to immediate disqualification"
+            "Any kind of plagiarism or illegal methods leads to immediate disqualification",
+            "Note: Mobile Phones are needed for buzzer  and Participants should bring their laptop."
         ],
         pics: {
             primary:
@@ -959,10 +972,11 @@ export default [
                 "https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
             ],
         },
-        contact: "6282357680",
+        contact: "8438845719",
         dateTime: "February 21, 22",
         prizes: {
-            gold: "250",
+            gold: "300",
+            silver:"150",
         },
         color: "var(--fg-g)",
         carddescription:
@@ -991,18 +1005,19 @@ export default [
         name: "Selling_Showdown",
         title: "Selling Showdown",
         status: 1,
-        venue: "L102",
+        // venue: "L102",
         eligibility: "Anyone can join",
         completed: false,
         results: null,
         rules: [
-            "Each participant will compete individually",
+           "Each participant will compete individually",
             "The event will consist of two rounds",
             "Participants can present their pitch in either Tamil or English",
-            "Judging criteria include: Fluency, Creativity, Clarity, Pronunciation, Body Language",
+            "Judging criteria include: 1) Fluency, 2) Creativity, 3) Clarity, 4) Pronunciation, 5) Body Language",
             "Time limits will be strictly enforced for all tasks",
             "Winners will be selected based on their cumulative performance in both rounds",
             "Judges’ decisions are final and binding",
+            "Note: E-Certificate to be provided",
 
         ],
         pics: {
@@ -1015,11 +1030,11 @@ export default [
                 "https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
             ],
         },
-        contact: "9629889319",
+        contact: "8438845719",
         dateTime: "February 21, 22",
         duration:"1.5 hrs",
         prizes: {
-            gold: "300",
+            gold: "400",
             silver: "200",
         },
         color: "var(--fg-g)",
@@ -1049,7 +1064,7 @@ export default [
         // venue: "L210, L201(waiting room )",
         eligibility: "Anyone can join",
         completed: false,
-        duration:"30 mins to 45 mins",
+        duration:"45 mins",
         results: null,
         rules: [
             "Online participations not allowed",
@@ -1068,10 +1083,11 @@ export default [
                 "https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
             ],
         },
-        contact: "7812885264",
+        contact: "8438845719",
         dateTime: "February 21, 22",
         prizes: {
-            gold: "300",
+            gold: "400",
+            silver:"200",
         },
         color: "var(--fg-g)",
         carddescription:
@@ -1106,9 +1122,19 @@ export default [
         results: null,
         free: "yes",
         rules: [
-            "This event is a free participation event",
-            "Selfies and portraits are not allowed",
-            "Photo uploading formats: .jpg or.png",
+            "MODE: Online",
+            "Theme 1: The Joyful Lens",
+            "Description: Capture the essence of unfiltered joy, where laughter echoes and smiles are contagious. This theme invites photographers to showcase the moments that fill our hearts with warmth—be it the quiet joy of a child’s laughter, the exuberant celebration of a victory, or a serene sunset that reminds us of life’s simple pleasures",
+            "Theme 2: Grit and Grind",
+            "Description: Hard work is the silent hero of every success story. Through this theme, we challenge photographers to capture the raw energy, determination, and perseverance that fuel achievement. Whether it’s the sweat on a laborer’s brow or the focused gaze of an artist at work, show us the relentless drive behind every effort.",
+            "Theme 3: Staring into Depths",
+            "Description: Our eyes are the windows to our souls, and they hold stories of introspection, experiences, and the world we see. This theme invites photographers to dive into the depth of reflection, whether through a portrait, a glimmer of thought in someone’s gaze, or an abstract view that mirrors inner thoughts. Explore the power of seeing beyond the surface.",
+            "A participant can choose only one theme from the above mentioned and send only one photo and in cases of multiple entries found, the participant will be eliminated from the challenge.",
+            "No selfies/portraits allowed and if found, will subsequently result in disqualification.",
+            "No editing is allowed.",
+            "Photos taken must be authentic and if found that the photo has been taken from any of the online resources or has been AI-generated, it will lead to elimination.",
+            "Photo format must be .jpg, .jpeg, .png and size must not exceed 25MB.",
+            "Last date for submission of entry is on or before 19/02/2025, 11:59 pm.",
         ],
         entry: [],
         pics: {
@@ -1116,11 +1142,12 @@ export default [
             secondary: [],
         },
         dateTime: "February 21, 22",
-        duration: "",
+        duration: "Online",
         prizes: {
             gold: "250",
+            silver:"150",
         },
-        contact: "9488337757",
+        contact: "8438845719",
         color: "var(--fg-g)",
         carddescription: "Best photographs that capture the beauty and creativity.",
         description:
@@ -1154,11 +1181,12 @@ export default [
             secondary: [],
         },
         dateTime: "February 21, 22",
-        duration: "",
+        duration: "1.5 hrs",
         prizes: {
-            gold: "250",
+            gold: "400",
+            silver:"200",
         },
-        contact: "9363195676",
+        contact: "8438845719",
         color: "var(--fg-g)",
         duration:"1.5 hrs",
         carddescription:
@@ -1197,14 +1225,14 @@ export default [
             secondary: [],
         },
         dateTime: "February 21, 22",
-        duration: "1.5 hrs to 2 hrs",
+        duration: "2 hrs",
         prizes: {
-            gold: "250",
+            gold: "400",
         },
-        contact: "9363195676",
+        contact: "8438845719",
         color: "var(--fg-g)",
         carddescription:
-            "From Chainsaw Man to Sailor Moon, who will come out on top as the ultimate anime trivia master?",
+            "Test your memory, speed, and wit in this ultimate showdown of brains and buzzers!",
         description: "Get ready to test your memory in an epic showdown! The Memory Game, where you'll face challenges that will push your recall abilities to the limit. Who will rise above the rest to become the ultimate memory master? ",
         form: form,
         type: "non_technical",
@@ -1214,7 +1242,7 @@ export default [
                 answer: "Offline",
             },
         ],
-        tags: ["Fun Event", "Anime", "Quiz"],
+        tags: ["Fun Event"],
     },
 
     // cinematic Snippets 
@@ -1243,27 +1271,29 @@ export default [
             secondary: [],
         },
         dateTime: "February 21, 22",
-        // duration: "",
+        duration: "Online",
         prizes: {
-            gold: "250",
+            gold: "500",
+            sliver:"200",
         },
-        contact: "9363195676",
+        contact: "8438845719",
         color: "var(--fg-g)",
         carddescription:
-            " Users can incorporate music, filters, text, and transitions to enhance their videos.",
+            "Unleash your creativity and let your story shine, one reel at a time!",
         description: "Step into the spotlight with Cinematic Snippet! Create a stand-out reel, whether it’s stand-up comedy, a recreation, or your own unique idea. Compete, impress, and win exciting prizes. Don’t miss your chance—join now and let your creativity shine!",
         form: form,
         type: "non_technical",
         faq: [
             {
                 question: "Will it happen online or offline?",
-                answer: "Offline",
+                answer: "Online",
             },
         ],
-        tags: ["Fun Event", "Anime", "Quiz"],
+        tags: [],
     },
     
 
+    
     // Flagship Events
 
     // Paper Presentation

@@ -13,7 +13,6 @@ import img7 from "../../Assets/Caroussel/images/pnon-technical.png";
 import img8 from "../../Assets/Caroussel/images/pflagship.png";
 import bg from "../../Assets/Caroussel/images/space5.jpg";
 import CountDownHome from "./CountDownHome";
-
 function Home() {
   const navigator = useNavigate();
   const [unAcceptClick, setUnAcceptClick] = useState(null);
@@ -131,8 +130,9 @@ function Home() {
             </button>
           </div>
         </section>
-      </div>
+      
     </div>
+      </div>
   );
 }
 

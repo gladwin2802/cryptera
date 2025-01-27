@@ -24,7 +24,6 @@ import { getFirestore } from "firebase/firestore";
 import { getevent_details_data } from './Data/events_data';
 import Admin from './Components/Screens/Admin';
 import Venue from './Components/Screens/Venue';
-
 const firebaseConfig = {
     apiKey: "AIzaSyCjDtQ-hsyXk876DZLyyeC6UpXMFFjF5EY",
     authDomain: "cryptera.firebaseapp.com",
@@ -71,9 +70,9 @@ function App() {
                         <Route path="/about_us" element={<AboutUs />}></Route>
                         <Route path="/events" element={<Events />}></Route>
                         <Route path="/timeline" element={<Countdown />}></Route>
+                        <Route path="/gallery" element={<Gallery />}></Route>
                         {/* <Route path="/timeline" element={<Timelinex />}></Route> */}
                         <Route path="/web_devs" element={<WebDevs />}></Route>
-                        {/* <Route path="/gallery" element={<Gallery />}></Route> */}
                         <Route path="/committee" element={<Committee />}></Route>
                         <Route path="/contact_us" element={<ContactUs />}></Route>
                         <Route path="/events/:name" element={<Eventdetails />}></Route>
