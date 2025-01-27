@@ -9,6 +9,13 @@ function Eventdetails() {
     const pathname = useLocation().pathname;
     const event_name_from_path = pathname.split("/")[2];
     const contactref = useRef(null);
+    const searchParams = new URLSearchParams(location.search);
+    const category = searchParams.get("category") || "Technical";
+
+    const handleBackClick = () => {
+        // Go back to /events with the same category
+        navigate(`/events?category=${category}`);
+    };
 
     useEffect(() => {
         const data = JSON.parse(localStorage.getItem("event_details"));
@@ -30,7 +37,7 @@ function Eventdetails() {
     } else if (Event_data.key) {
         return (
             <div className="eventdetails">
-                <div className="back-btn-container" onClick={() => navigate("/events")}>
+                <div className="back-btn-container" onClick={handleBackClick}>
                     <i class="fas fa-arrow-left"></i>
                 </div>
                 <div className="eventdetails-container">
@@ -254,7 +261,7 @@ function Eventdetails() {
     } else {
         return (
             <div className="eventdetails">
-                <div className="back-btn-container" onClick={() => navigate("/events")}>
+                <div className="back-btn-container" onClick={handleBackClick}>
                     <i class="fas fa-arrow-left"></i>
                 </div>
                 <div className="eventdetails-container">

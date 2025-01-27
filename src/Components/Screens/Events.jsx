@@ -87,8 +87,12 @@ function Events() {
                         if ((data.type === "technical" && curr === 0) ||
                             (data.type === "non_technical" && curr === 1) ||
                             (data.type === "flagship" && curr === 2)) {
+                            let categoryStr;
+                            if (curr === 0) categoryStr = "Technical";
+                            else if (curr === 1) categoryStr = "Non-Technical";
+                            else if (curr === 2) categoryStr = "Flagship";
                             return (
-                                <Eventcard primary={data.color} data={data} key={index} status={data.status === 1 ? data.status : undefined} />
+                                <Eventcard primary={data.color} data={data} key={index} status={data.status === 1 ? data.status : undefined} category={categoryStr} />
                             );
                         } else {
                             return null;
