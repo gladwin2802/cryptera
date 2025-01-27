@@ -19,7 +19,7 @@ function Navmobile() {
     const webref = useRef(null);
     // const adminref = useRef(null);
     // const venueref = useRef(null);
-
+    const [timeLeft, setTimeLeft] = useState({ days: 0, hours: 0, minutes: 0, seconds: 0 });
     const clickhandler = () => {
         linkxref.current.style.display = "flex";
         sociallinksref.current.style.display = "block";
@@ -126,8 +126,35 @@ function Navmobile() {
     }, [location]);
 
     useEffect(() => {
+        const eventDate = new Date("2025-02-20T00:00:00");
+        const timer = setInterval(() => {
+            const now = new Date();
+            const timeDifference = eventDate - now;
+
+            if (timeDifference <= 0) {
+                clearInterval(timer);
+                setTimeLeft({ days: 0, hours: 0, minutes: 0, seconds: 0 });
+            } else {
+                const days = Math.floor(timeDifference / (1000 * 60 * 60 * 24));
+                const hours = Math.floor((timeDifference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                const minutes = Math.floor((timeDifference % (1000 * 60 * 60)) / (1000 * 60));
+                const seconds = Math.floor((timeDifference % (1000 * 60)) / 1000);
+                setTimeLeft({ days, hours, minutes, seconds });
+            }
+        }, 1000);
+
+        return () => clearInterval(timer);
+    }, []);
+
+    useEffect(() => {
         closenav();
     }, []);
+
+    const gradientStyle = {
+        background: `linear-gradient(to right, #05FFA3, #06BED8)`,
+        WebkitBackgroundClip: "text",
+        color: "transparent",
+    };
 
     return (
         <>
@@ -257,7 +284,14 @@ function Navmobile() {
                             </div>
                         </div>
                     </div>
+                    <div className="countdownx">
+                                <p className="tagNamex">Commencing in</p>
+                                <p className="tagNamex1"style={gradientStyle}>
+                                {timeLeft.days} Days {timeLeft.hours} Hrs {timeLeft.minutes} Mins {timeLeft.seconds} Secs
+                                </p>
+                    </div>
                 </div>
+
                 <div className="nav-mobile">
                     <div onClick={toggleMenu} className="close-btn">
                         <i className="fas fa-bars"></i>

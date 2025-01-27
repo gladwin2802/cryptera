@@ -111,9 +111,11 @@
     height: 100%;
     width: 100%;
     position: relative;
-    z-index: -1;
 }
 
+.bg{
+    visibility:hidden;
+}
 .caroussel-1 .list {
     position: absolute;
     top: 0;

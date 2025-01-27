@@ -85,25 +85,16 @@ function Home() {
         position: isMobile ? "fixed" : "relative",
       }}
     >
-      <div style={{
-        position:"absolute",
-        zIndex:10,
-        padding:"20px 0",
-        textAlign:"center",
-        marginTop:"-500px"
-      }}>
-        <CountDownHome/>
-      </div>
       <div
         style={{
           paddingTop: isMobile ? "0px" : "0px",
           paddingBottom: isMobile ? "5px" : "0px",
           position:"absolute",
-          top:100
+          // top:100
         }}
       >
         <section className="caroussel-1">
-          <img src={bg} alt="" />
+          <img className='bg' src={bg} alt="" />
           <div className="list">
             <div className="item">
               <img src={isMobile ? img8 : img4} alt="" />

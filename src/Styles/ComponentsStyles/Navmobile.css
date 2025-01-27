@@ -33,6 +33,18 @@
     overflow: hidden;
 }
 
+.tagNamex{
+    font-size:12px;
+    text-align:center;
+    margin:0;
+}
+
+.tagNamex1{
+    font-size:14px;
+    text-align:center;
+}
+
+
 .activeo {
     width: 250px;
 }
