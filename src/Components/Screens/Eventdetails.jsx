@@ -3,18 +3,18 @@ import "../../Styles/Eventdetails.css";
 import Faq from "../Faq";
 import { useLocation, useNavigate } from "react-router-dom";
 import { IoSend } from "react-icons/io5";
+import { use } from "react";
+import Events from "./Events";
 function Eventdetails() {
     const [Event_data, seteventt_data] = useState(null);
     const navigate = useNavigate();
     const pathname = useLocation().pathname;
     const event_name_from_path = pathname.split("/")[2];
     const contactref = useRef(null);
-
     useEffect(() => {
         const data = JSON.parse(localStorage.getItem("event_details"));
         // console.log("data is ", data);
         // console.warn(event_name_from_path);
-
         const temp = data.filter((event) => event.name === event_name_from_path)[0];
         setTimeout(() => {
             contactref.current.innerHTML = `
@@ -22,7 +22,6 @@ function Eventdetails() {
                 <i class="fas fa-phone"></i>
             </a>`;
         }, 100);
-
         seteventt_data(temp);
     }, []);
     if (!Event_data) {
@@ -274,6 +273,11 @@ function Eventdetails() {
                                         <i className="fas fa-calendar-week mr-2 mb-3"></i>
                                         {Event_data.dateTime}
                                     </p>
+                                    {Event_data.duration && (
+                                <div>
+                                    <p className="text-lg">Duration : {Event_data.duration}</p>
+                                </div>
+                            )}
                                 </div>
                                 <div className="button-calendar">
                                     {Event_data.form == "" && (
@@ -497,7 +501,7 @@ function Eventdetails() {
                                         })}
                                 </ul>
                             </div>
-
+                            
                             <div className="e-title-m">Prize</div>
                             {Event_data.gift && (
                                 <div className="e-description-m">
@@ -580,10 +584,10 @@ function Eventdetails() {
                                 </div>
                             )}
 
-                            <div className="e-title-m">Result</div>
+                            {/* <div className="e-title-m">Result</div>
                             <div className="e-description-m ">
                                 {Event_data.completed ? true : "Not yet completed"}
-                            </div>
+                            </div> */}
 
                             {Event_data.faq && Event_data.faq.length > 0 && (
                                 <>
@@ -640,6 +644,8 @@ function Eventdetails() {
 }
 
 export default Eventdetails;
+
+
 
 // import dummyprofile from "../../Assets/1905098.png";
 // const ManagerProfile = ({ name, instagram }) => {

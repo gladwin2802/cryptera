@@ -1,5 +1,5 @@
 import chess from "../Components/Screens/assets/chess.jpg";
-import CodeInChaos from "../Assets/event/CodeInChaos.jpg";
+import blindCode from "../Assets/event/blindCode.jpg"
 import jumbledCode from "../Assets/event/jumbledCode.jpg";
 import oxdebug from "../Assets/event/0xdebug.jpg";
 import carrom from "../Assets/event/carrom.jpg";
@@ -191,7 +191,7 @@ export default [
             "Round 3 - code in blind screen"
         ],
         pics: {
-            primary: CodeInChaos,
+            primary: blindCode,
             secondary: [],
         },
         dateTime: "March 1, 3.00 pm",
@@ -689,7 +689,7 @@ Jumble the code and triumphal your day.`,
 
     // Non Technical Events
 
-    // MUSIC MANIA
+    // MUSIC MANIA 
     {
         id: "13",
         name: "Music_Mania",
@@ -700,17 +700,17 @@ Jumble the code and triumphal your day.`,
         results: null,
         free: "yes",
         rules: [
-            "This event is a free participation event, no entry fee or special fee needed",
-            "Event is conducted for vocals and instruments separately",
-            "Participants are requested to record video with duration of 1-3 minutes.",
-            "Both solo and team performance are accepted",
-            "Maximum team size is 2",
-            "The Music/singing video should be uploaded in the link provided.",
-            "Those videos are posted in Cryptera instagram page.",
-            "Latest video should be uploaded.",
-            "Any kind of plagiarism is strictly prohibited",
-            "Winners are decided based on 40% likes and remaining 60% through panel member decision.",
-            "Winners are decided for vocals and instruments separately each having cash price of Rs. 250"
+            "Perform solo with original content—no karaoke tracks, backing tracks, or pre-recorded vocals allowed",  
+            "Video duration: Vocal (1–3 minutes), Instrumental (up to 4 minutes)",  
+            "Clear audio quality is mandatory; avoid background noise",  
+            "Specify the instrument in the registration form (for instrumental performances)",  
+            "Any genre or language is allowed, but ensure content is free of offensive material",  
+            "All performances must maintain originality, with no lip-syncing or additional sound effects",
+
+            "FREE Registration: Submit a video showcasing your talent",
+            "Video Submission: Upload your performance; faces can be blurred if shared on Cryptera's Instagram",
+            "Winner Selection: Winners will be chosen based on 40% likes and 60% panel judgment. Prizes include ₹500 for both vocal and instrumental winners, and E-certificates for all participants",
+            "Instagram Feature: All performances will be featured on Cryptera's Instagram page",
         ],
         pics: {
             primary:
@@ -725,7 +725,7 @@ Jumble the code and triumphal your day.`,
         contact: "9042776367",
         carddescription:
             "Join our singing and music competition and showcase your talent to the world",
-        dateTime: "March 1 and 2",
+        dateTime: "February 21, 22",
         prizes: {
             gold: "250",
             gold1: "250"
@@ -734,7 +734,7 @@ Jumble the code and triumphal your day.`,
         type2: "Instruments",
         color: "var(--fg-g)",
         description:
-            "Get ready to hit all the right notes and make some sweet music! Join our singing and music competition and showcase your talent to the world. Whether you're a seasoned pro or a fresh face on the scene, this is your chance to shine and take center stage. So tune up your instruments, warm up your vocals, and let's make some unforgettable melodies together!",
+            "Calling all music enthusiasts! Participate in our Singing and Instrumental Contest to showcase your talent. Whether you’re a seasoned performer or just love music, this is your chance to shine. Who will be the star of the event?",
         form: "https://docs.google.com/forms/d/e/1FAIpQLScZ3OP1rKPbmSF_6s-Ro--7TnzV4QhN2TIaA9oNiBC0Dvh2bw/viewform",
         type: "non_technical",
         faq: [
@@ -751,21 +751,23 @@ Jumble the code and triumphal your day.`,
         tags: [],
     },
 
-    // Movie quiz
+    // Movie quiz 
     {
         id: "14",
         name: "Movie_quiz",
         title: "Movie quiz",
         status: 1,
-        venue: "MBCH",
+        // venue: "MBCH",
         eligibility: "Anyone can join",
         completed: false,
         results: null,
         rules: [
-            "A team can have maximum of two members.",
-            "Make sure you have a quizziz account. If not create one.",
-            "Three rounds will be conducted.",
+            "Each team will consist of two members",
+            "Use of mobile phones is strictly prohibited",
+            "The quiz will have three rounds",
+
         ],
+        duration:"1 hr to 1.5 hrs",
         pics: {
             primary:
                 "https://i0.wp.com/www.socialnews.xyz/wp-content/uploads/2019/12/31/Great-Tamil-Movies-Of-The-Decade-Editors-Choice-scaled.jpg?quality=80&zoom=1&ssl=1",
@@ -777,7 +779,7 @@ Jumble the code and triumphal your day.`,
             ],
         },
         contact: "9944002367",
-        dateTime: "March 2, 3.30 pm",
+        dateTime: "February 21, 22",
         prizes: {
             gold: "250",
         },
@@ -785,7 +787,7 @@ Jumble the code and triumphal your day.`,
             "Test your knowledge of cinema Kollywood and compete with your fellow movie buffs",
         color: "var(--fg-g)",
         description:
-            "Welcome to the Movie Quiz! This event is a fun-filled opportunity to test your knowledge of cinema Kollywood and compete with your fellow movie buffs.",
+            "Calling all movie lovers! Challenge yourself with our exciting Movie Quiz. From classic Tamil films to new releases, find out who knows the most about the world of movies!",
         form: form,
         type: "non_technical",
         faq: [],
@@ -793,24 +795,23 @@ Jumble the code and triumphal your day.`,
         tags: [],
     },
 
-    // Poster Design
+    // Poster Design 
     {
         id: "15",
         name: "Poster_Design",
         title: "Poster Design",
         status: 1,
-        venue: "IT442, L210",
+        // venue: "IT442, L210",
         eligibility: "Anyone can join",
         completed: false,
         results: null,
+        duration:"1 hr",
         rules: [
             "Solo Participation",
-            "Online participation is not included in the general registration (separate form)",
-            "Theme will be provided on the spot",
-            "Timings : 1hr",
-            "Any Photo Editing tools can be used.",
-            "Participants should bring their laptops with the necessary software installed.",
-            "Posters need to be designed on the venue.",
+            "All editing tools are allowed to use",
+            "Participants should bring their own laptop with necessary tools installed",
+            "Posters need to be designed on the venue",
+
         ],
         pics: {
             primary: "https://cdn.mos.cms.futurecdn.net/6bxva8DmZvNj8kaVrQZZMP.jpg",
@@ -818,7 +819,7 @@ Jumble the code and triumphal your day.`,
             ],
         },
         contact: "8778434765",
-        dateTime: "March 1, 4.00 pm",
+        dateTime: "February 21, 22",
         prizes: {
             gold: "500",
             silver: "250",
@@ -827,16 +828,16 @@ Jumble the code and triumphal your day.`,
         carddescription:
             "Create, inspire, and win: the ultimate poster design challenge awaits !",
         description:
-            "Calling all designers: showcase your talent and creativity for a chance to win big in our poster design contest !",
+            "Unleash your inner artist! Let your imagination run wild. Create a stunning poster that captures the theme, and you could be crowned the top designer of the event!",
         form: form,
-        form1: "https://docs.google.com/forms/u/4/d/1pZQ5VNFsgXUN8WnvIr2dbs84OzN1Vndp9v547IXqel8/edit?usp=drivesdk&chromeless=1",
+        // form1: "https://docs.google.com/forms/u/4/d/1pZQ5VNFsgXUN8WnvIr2dbs84OzN1Vndp9v547IXqel8/edit?usp=drivesdk&chromeless=1",
         type: "non_technical",
         faq: [],
         speakers: [],
         tags: [],
     },
 
-    // ARTISTIC AURAS
+    // ARTISTIC AURAS 
     {
         id: "16",
         name: "Artistic_Auras",
@@ -847,12 +848,11 @@ Jumble the code and triumphal your day.`,
         results: null,
         free: "yes",
         rules: [
-            "This event is a free participation event, no entry fee or special fee needed",
-            "Theme : Open theme",
-            "All kind of artistic styles are welcomed (eg: Pencil sketch, water colour, doodle art, oil painting, etc).",
-            "Plagiarism is strictly prohibited.",
-            "Maximum number of enteries per person is 3.",
-            "Winners and runners will be selected based the number of likes(40%) and jury decision(60%).",
+            "All kind of artistic styles are welcomed (Pencil sketch,water colour,doodle art,oil painting etc.)",
+            "Your drawings will be posted on our Instagram page", 
+            "Plagiarism is strictly prohibited" , 
+            "Maximum number of entries per person is 3",
+            "Winners and runners will be selected based the number of likes(40%) and jury decision(60%)", 
         ],
         pics: {
             primary:
@@ -865,7 +865,7 @@ Jumble the code and triumphal your day.`,
             ],
         },
         contact: "9342823006",
-        dateTime: "March 1 and 2",
+        dateTime: "February 21, 22",
         prizes: {
             gold: "300",
         },
@@ -873,7 +873,7 @@ Jumble the code and triumphal your day.`,
         carddescription:
             "Drawing is not what one sees, but what one can make others see",
         description:
-            "Drawing is not what one sees, but what one can make others see ―  Edgar Degas. The participants are asked to take a clear picture of their drawing/painting and upload them in the respective circulated gform in jpg format.Any misbehaviour or copyright infringement will not be considered.",
+            "Dive into a world of colours and emotions at our Art and Emotions event. Create artwork that captures the essence of your feelings. From vibrant hues to subtle shades, express your innermost emotions through your art.",
         form: "https://docs.google.com/forms/d/e/1FAIpQLScElFOCsEJBTGN8a1FQ_lWjpe-kHz-U8QJuNOaOGBXrhywYSw/viewform",
         type: "non_technical",
         faq: [
@@ -891,22 +891,22 @@ Jumble the code and triumphal your day.`,
         tags: [],
     },
 
-    // Rhyme and Rhythm
+    // Rhyme and Rhythm 
     {
         id: "17",
-        name: "Rhyme and Rhythm",
+        name: "Rhyme_and_Rhythm",
         title: "Rhyme and Rhythm",
         status: 1,
+        // venue: "MBCH",
         eligibility: "Anyone can join",
         completed: false,
         results: null,
-        free: "yes",
+        free:"yes",
         rules: [
-            "This event is a free participation event, no entry fee or special fee needed",
-            "Solo Participation",
-            "Languages allowed : Tamil, English",
-            "Upload your file in jpg/jpeg format",
-            "Clearly attach your  in the shared Google form",
+            "Solo participation",
+            "Languages allowed: ,amil, English",
+            "Upload your file in JPG/JPEG format",
+            "Clearly attach your file in the shared Google form",
             "Plagiarism is strictly prohibited",
         ],
         pics: {
@@ -920,16 +920,15 @@ Jumble the code and triumphal your day.`,
                 "https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
             ],
         },
-        contact: "8668165651",
-        dateTime: "March 1 and 2",
+        contact: "9944002367",
+        dateTime: "February 21, 22",
         prizes: {
             gold: "300",
         },
-        color: "var(--fg-g)",
         carddescription: "Where Words Flow and Creativity Takes Shape",
-        description:
-            "Where Words Flow and Creativity Takes Shape! Unleash your inner wordsmith at Spill Some Ink! Join us for a night of writing, inspiration, and community as we come together to share our stories and explore the power of the written word.",
-        form: "https://forms.gle/XARxtZro6VQarX8T8",
+        color: "var(--fg-g)",
+        description:"Calling all poets! Participate in our Poetry Event and showcase your talent. Share your poems that touch on themes of love, loss, joy, and everything in between. Connect with others through the shared experience of poetry.",
+        form: form,
         type: "non_technical",
         faq: [
             {
@@ -948,23 +947,24 @@ Jumble the code and triumphal your day.`,
         speakers: [],
         tags: [],
     },
-
-    // Tresure hunt
+    
+    // Tresure hunt 
     {
         id: "18",
         name: "Treasure_Hunt",
         title: "Treasure Hunt",
         status: 1,
-        venue: "L102",
+        // venue: "L102",
         eligibility: "Anyone can join",
         completed: false,
         results: null,
+        duration:"5 hrs",
         rules: [
-            "This event requires teams to consist of at least one member and a maximum of two members",
-            "Accessing the internet during the event is not allowed, and teams caught doing so will be disqualified.",
-            "Interacting or communicating with other teams during the event is not permitted.",
-            "Both team members must arrive at the event venue at least 15 minutes before the start time.",
-            "The event comprises three rounds: the first round involves locating the map of Ponce de León, the second round requires reaching the youth fountain, and the third round involves finding the Aqua de Vida.",
+            "Team Size: A team can contain 1 or 2 persons as its members( If there are  more registrations , participants may be set to form each team with three members.)",
+            "Rounds: In total ,this event contains 3 rounds",
+            "No Splitting: Team members must stay together throughout the hunt and communicating with other teams during the event is not permitted",
+            "Punctuality: Both team members must arrive at the event venue at least 15 minutes before the start time",
+            "No Outside Help: Teams cannot use external assistance (e.g., phones, internet, or non-participants)",
         ],
         pics: {
             primary:
@@ -977,7 +977,7 @@ Jumble the code and triumphal your day.`,
             ],
         },
         contact: "7806846758",
-        dateTime: "March 1, 10.00 am",
+        dateTime: "February 21, 22",
         prizes: {
             gold: "2000",
         },
@@ -985,7 +985,7 @@ Jumble the code and triumphal your day.`,
         carddescription:
             "Solve the clues and follow the trail, find the treasure that will prevail.",
         description:
-            "An adventure, a game of the mind, a quest for treasure, that you'll surely find. Follow clues and solve puzzles, step by step, to uncover the prize, that will make you rare.",
+            "Ready for an adventure? Put your puzzle-solving skills to the test. Follow the clues, solve the puzzles, and find the hidden treasures. Who will be the ultimate treasure hunter?",
         form: "https://docs.google.com/forms/d/e/1FAIpQLSeTlzTsWcmaK89WOtjPhWXLgkFjBo3GFaMccVIM8CAWY7SCiQ/viewform",
         type: "non_technical",
         faq: [],
@@ -993,22 +993,23 @@ Jumble the code and triumphal your day.`,
         tags: [],
     },
 
-    // Marvel/DC_Quiz
+    // Marvel/DC_Quiz 
     {
         id: "19",
         name: "MarvelDC_Quiz",
         title: "Marvel/DC Quiz",
         status: 1,
-        venue: "MBCH",
+        // venue: "MBCH",
         eligibility: "Anyone can join",
         completed: false,
         results: null,
+        duration:"1.5 hrs to 2 hrs",
         rules: [
-            "The questions will be based on the cinematic and comic of both MARVEL and DC Universes.",
-            "Marks for each questions might vary based on the difficulty of the questions (Easy/Medium/Hard).",
-            "Each wrong response or unecessary press leads to -ve markings",
-            "Individual or a team of two members are allowed to attend this event.",
-            "Any kind of plagiarism or illegal methods leads to immediate disqualification.",
+            "The questions will be based on the cinematic and comic of both MARVEL and DC Universes",
+            "Marks for each question might vary based on the difficulty of the questions (Easy/Medium/Hard)",
+            "Each wrong response or unnecessary press leads to negative markings",
+            "Individual or a team of two members are allowed to attend this event",
+            "Any kind of plagiarism or illegal methods leads to immediate disqualification"
         ],
         pics: {
             primary:
@@ -1021,7 +1022,7 @@ Jumble the code and triumphal your day.`,
             ],
         },
         contact: "6282357680",
-        dateTime: "March 1, 4.00 pm",
+        dateTime: "February 21, 22",
         prizes: {
             gold: "250",
         },
@@ -1046,7 +1047,7 @@ Jumble the code and triumphal your day.`,
         tags: [],
     },
 
-    // Selling Showdown
+    // Selling Showdown 
     {
         id: "20",
         name: "Selling_Showdown",
@@ -1057,9 +1058,14 @@ Jumble the code and triumphal your day.`,
         completed: false,
         results: null,
         rules: [
-            "Solo Participation",
-            "Only english should be used",
-            "Each contestant will have exactly 1 minute to perpare for the pitch.",
+            "Each participant will compete individually",
+            "The event will consist of two rounds",
+            "Participants can present their pitch in either Tamil or English",
+            "Judging criteria include: Fluency, Creativity, Clarity, Pronunciation, Body Language",
+            "Time limits will be strictly enforced for all tasks",
+            "Winners will be selected based on their cumulative performance in both rounds",
+            "Judges’ decisions are final and binding",
+
         ],
         pics: {
             primary:
@@ -1072,7 +1078,8 @@ Jumble the code and triumphal your day.`,
             ],
         },
         contact: "9629889319",
-        dateTime: "March 1, 2.00pm",
+        dateTime: "February 21, 22",
+        duration:"1.5 hrs",
         prizes: {
             gold: "300",
             silver: "200",
@@ -1080,7 +1087,7 @@ Jumble the code and triumphal your day.`,
         color: "var(--fg-g)",
         carddescription: "Showcase your pitching skills",
         description:
-            "Sales talk is an execellent opportunity to showcase your pitching skills.",
+            "Ready to unleash your inner sales guru? You'll pitch products like a maestro and dazzle the audience with your creativity. Let’s wait who will take the spotlight as the ultimate sales champion?",
         form: form,
         type: "non_technical",
 
@@ -1095,20 +1102,23 @@ Jumble the code and triumphal your day.`,
         tags: [],
     },
 
-    // Typing Thunder
+    // Typing Thunder 
     {
         id: "21",
         name: "Typing_Thunder",
         title: "Typing Thunder",
         status: 1,
-        venue: "L210, L201(waiting room )",
+        // venue: "L210, L201(waiting room )",
         eligibility: "Anyone can join",
         completed: false,
+        duration:"30 mins to 45 mins",
         results: null,
         rules: [
-            "Online participation is not included in the general registration (separate form)",
-            "Round 1 : Top contestants who have best WPM in average over 5 racing rounds will be qualified for round 2.",
-            "Round 2 : To determine the winner , the personal highest WPM achieved by each contestant accross 2 racing rounds will be compared and the contestant with the highest WPM will be declared as winner.",
+            "Online participations not allowed",
+            "Participants can use own laptop",
+            "No second chance",
+            "Two rounds will be conducted",
+
         ],
         pics: {
             primary:
@@ -1121,7 +1131,7 @@ Jumble the code and triumphal your day.`,
             ],
         },
         contact: "7812885264",
-        dateTime: "March 1, 3.00 pm",
+        dateTime: "February 21, 22",
         prizes: {
             gold: "300",
         },
@@ -1129,9 +1139,9 @@ Jumble the code and triumphal your day.`,
         carddescription:
             "Join us for an adrenaline-fueled competition that will have your fingers flying across the keyboard!",
         description:
-            "Put your typing skills to the test and take on the ultimate type racer challenge.",
+            "Get ready to showcase your typing prowess! Join our Typewriting Challenge and see how you stack up against other typists. Type out passages quickly and accurately to win fantastic prizes. It's time to let those fingers fly!",
         form: form,
-        form1: "https://docs.google.com/forms/u/4/d/1pZQ5VNFsgXUN8WnvIr2dbs84OzN1Vndp9v547IXqel8/edit?usp=drivesdk&chromeless=1",
+        // form1: "https://docs.google.com/forms/u/4/d/1pZQ5VNFsgXUN8WnvIr2dbs84OzN1Vndp9v547IXqel8/edit?usp=drivesdk&chromeless=1",
         type: "non_technical",
         faq: [
             {
@@ -1147,7 +1157,7 @@ Jumble the code and triumphal your day.`,
         tags: [],
     },
 
-    // Shutterbug Showcase
+    // Shutterbug Showcase 
     {
         id: "22",
         name: "Shutterbug_Showcase",
@@ -1158,16 +1168,16 @@ Jumble the code and triumphal your day.`,
         results: null,
         free: "yes",
         rules: [
-            "This event is a free participation event, no entry fee or special fee needed",
-            "Selfies and portraits are not allowed.",
-            "Photo uploading formats(.jpg or .png)",
+            "This event is a free participation event",
+            "Selfies and portraits are not allowed",
+            "Photo uploading formats: .jpg or.png",
         ],
         entry: [],
         pics: {
             primary: "https://assets.entrepreneur.com/content/3x2/2000/20191009140007-GettyImages-1053962188.jpeg?crop=4:3",
             secondary: [],
         },
-        dateTime: "March 1 and 2",
+        dateTime: "February 21, 22",
         duration: "",
         prizes: {
             gold: "250",
@@ -1176,47 +1186,46 @@ Jumble the code and triumphal your day.`,
         color: "var(--fg-g)",
         carddescription: "Best photographs that capture the beauty and creativity.",
         description:
-            "We are looking for the best photographs that capture the beauty and creativity of the world around us.Stop the moment from slipping away.",
+            "Get ready to freeze the moments! Participate in our Photography Event and share your unique perspective. From the smallest details to the grandest vistas, bring your best photos to life. Let your view of world will shown to others!",
         form: "https://docs.google.com/forms/d/e/1FAIpQLSd2JYaCJW4kgijFE5W69625vbxRzEdMffcds-v-jCMTA3drHQ/viewform",
         type: "non_technical",
         faq: [],
         tags: ["Fun Event"],
     },
 
-    // Attack on anime
+    // Attack on anime 
     {
         id: "23",
         name: "Attack_on_Anime",
         title: "Attack on Anime",
-        venue: "LBCH",
+        // venue: "LBCH",
         status: 1,
         eligibility: "Anyone can join",
         completed: false,
         results: null,
         rules: [
-            "Scoring will be based on difficulty of the question in each round and there will not be any -ve markings",
-            "All participants should bring Mobile phones with internet connectivity.",
-            "Any kind of cheating will lead to immediate disqualification.",
+            "The quiz will feature questions from famous anime across various genres",
+            "Participants can compete individually or as a team of two members",
+            "Scoring will be based on the difficulty of the questions in each round, and there will not be any negative markings",
+            "All participants should bring mobile phones with internet connectivity",
+            "Any kind of cheating will lead to immediate disqualification",
         ],
         entry: [],
         pics: {
             primary: "https://as01.epimg.net/meristation_en/imagenes/2022/02/18/news/1645143158_918055_1645145092_noticia_normal.jpg",
             secondary: [],
         },
-        dateTime: "March 1, 12.00 pm",
+        dateTime: "February 21, 22",
         duration: "",
         prizes: {
             gold: "250",
         },
         contact: "9363195676",
         color: "var(--fg-g)",
+        duration:"1.5 hrs",
         carddescription:
             "From Chainsaw Man to Sailor Moon, who will come out on top as the ultimate anime trivia master?",
-        description: `Are you a true anime fan? Put your otaku knowledge to the test and go head-to-head with other enthusiasts in our anime quiz. From Chainsaw Man to Sailor Moon, who will come out on top as the ultimate anime trivia master?
-    The quiz consists of 3 rounds:
-    1. Guess the anime name (English or Romanji) from the played OPs and EDs
-    2. Arrange the images based on the progression of the episodes
-    3. General anime Trivia (Knowledge and facts)`,
+        description: "Are you a true anime fan? Put your otaku knowledge to the test and go head-to-head with other enthusiasts in our anime quiz. From Naruto to Sailor Moon, who will come out on top as the ultimate anime trivia master?",
         form: form,
         type: "non_technical",
         faq: [
@@ -1228,28 +1237,29 @@ Jumble the code and triumphal your day.`,
         tags: ["Fun Event", "Anime", "Quiz"],
     },
 
-    // Recall Rumble
+    // Recall Rumble 
     {
         id: "40",
         name: "Recall_Rumble",
         title: "Recall Rumble",
-        venue: "LBCH",
+        // venue: "LBCH",
         status: 1,
         eligibility: "Anyone can join",
         completed: false,
         results: null,
         rules: [
-            "Scoring will be based on difficulty of the question in each round and there will not be any -ve markings",
-            "All participants should bring Mobile phones with internet connectivity.",
-            "Any kind of cheating will lead to immediate disqualification.",
+            "Participants have to form a team of two members",
+            "Negative markings for the wrong answers",
+            "Total rounds: 3",
+            "Participants will be shortlisted in each round based on their performances",
         ],
         entry: [],
         pics: {
             primary: "https://img.freepik.com/free-photo/gradient-technology-background_23-2151895872.jpg?t=st=1737654417~exp=1737658017~hmac=80848eaf744e83a2d9a4f9f6b7e17cb1e36d22ff6987c940795e72a1de1d5d48&w=360",
             secondary: [],
         },
-        dateTime: "March 1, 12.00 pm",
-        duration: "",
+        dateTime: "February 21, 22",
+        duration: "1.5 hrs to 2 hrs",
         prizes: {
             gold: "250",
         },
@@ -1257,11 +1267,7 @@ Jumble the code and triumphal your day.`,
         color: "var(--fg-g)",
         carddescription:
             "From Chainsaw Man to Sailor Moon, who will come out on top as the ultimate anime trivia master?",
-        description: `Are you a true anime fan? Put your otaku knowledge to the test and go head-to-head with other enthusiasts in our anime quiz. From Chainsaw Man to Sailor Moon, who will come out on top as the ultimate anime trivia master?
-    The quiz consists of 3 rounds:
-    1. Guess the anime name (English or Romanji) from the played OPs and EDs
-    2. Arrange the images based on the progression of the episodes
-    3. General anime Trivia (Knowledge and facts)`,
+        description: "Get ready to test your memory in an epic showdown! The Memory Game, where you'll face challenges that will push your recall abilities to the limit. Who will rise above the rest to become the ultimate memory master? ",
         form: form,
         type: "non_technical",
         faq: [
@@ -1272,6 +1278,53 @@ Jumble the code and triumphal your day.`,
         ],
         tags: ["Fun Event", "Anime", "Quiz"],
     },
+
+    // cinematic Snippets 
+    {
+        id: "41",
+        name: "Cinematic_Snippets",
+        title: "Cinematic Snippets",
+        // venue: "LBCH" ,
+        status: 1,
+        eligibility: "Anyone can join",
+        completed: false,
+        results: null,
+        rules: [
+           "Reels must be a maximum of 60 seconds", 
+            "Submit reels by 19th February, 6 PM; late entries will not be accepted",
+            "Content must not be offensive, abusive, or harmful", 
+            "Reels must not harm or damage anyone’s reputation or personality", 
+            "Reels can include stand-up comedy, recreations, or original creative ideas", 
+            "Judges’ decisions are final",
+            "All entries must be original and follow guidelines", 
+            "Eligibility: Open to everyone",
+        ],
+        entry: [],
+        pics: {
+            primary:"https://plus.unsplash.com/premium_photo-1682125771198-f7cbed7cb868?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Y2luZW1hfGVufDB8fDB8fHww",
+            secondary: [],
+        },
+        dateTime: "February 21, 22",
+        // duration: "",
+        prizes: {
+            gold: "250",
+        },
+        contact: "9363195676",
+        color: "var(--fg-g)",
+        carddescription:
+            " Users can incorporate music, filters, text, and transitions to enhance their videos.",
+        description: "Step into the spotlight with Cinematic Snippet! Create a stand-out reel, whether it’s stand-up comedy, a recreation, or your own unique idea. Compete, impress, and win exciting prizes. Don’t miss your chance—join now and let your creativity shine!",
+        form: form,
+        type: "non_technical",
+        faq: [
+            {
+                question: "Will it happen online or offline?",
+                answer: "Offline",
+            },
+        ],
+        tags: ["Fun Event", "Anime", "Quiz"],
+    },
+    
 
     // Flagship Events
 
@@ -1281,33 +1334,37 @@ Jumble the code and triumphal your day.`,
         name: "Paper_Presentation",
         title: "Paper Presentation",
         status: 1,
-        venue: "IT214",
+        // venue: "IT214",
         eligibility: "Anyone can join",
         completed: false,
         results: null,
         rules: [
-            "Participation can either be an individual participant or as a team of maximum 4.",
-            "Oral presentation for the conference has been allocated 10 minutes of effective presentation time and 2-3 minutes given to Q/A session. Time  limit must not be exceeded.",
-            "Abstract should not exceed more than 300 words. Paper should not exceed more than 20 pages.",
-            `Paper should be in IEEE format. Avoid using animations and videos in the ppt.`,
-            `All the documents must use Times New Roman format.`,
-            `Soft copies of the paper must be submitted in the .doc/.pdf format.`,
-            "The submitted papers will be screened and selected candidates will be asked to complete their registration by paying the event fee",
+            "Participation can be individual or in teams of up to 4 members",
+            "The abstract should be at most one page and must be submitted after paying the 'Entry Fee'",
+            "Participants will be shortlisted based on the innovative ideas submitted",
+            "Shortlisted participants are required to complete their registration by paying the 'Registration Fee' based on their team size",
+            "The oral presentation is allotted 10 minutes, followed by a 2-3 minute Q&A session; the time limit must not be exceeded",
+            "Documents must use the 'Times New Roman' font",
+            "The paper must follow the IEEE format",
+            "Soft copies of the paper must be submitted in .doc or .pdf format",
+            "Animations and videos should be avoided in the PowerPoint presentation",
+            "You need to present your idea according to the allotted time slot and date",
         ],
         pics: {
             primary: "https://www.incimages.com/uploaded_files/image/1920x1080/getty_505595136_20001333200092800_406810.jpg",
             secondary: [],
         },
-        dateTime: "March 1 and 2",
+        dateTime: "February 21, 22",
         duration: "",
         prizes: {
-            gold: "2500",
+            gold: "2000",
+            silver:"1000",
         },
-        contact: "6369602656",
+        contact: "9865714310",
         speakers: null,
         color: "var(--fg-g)",
         carddescription: "Are you ready to showcase your ideas on the big stage?",
-        description: `Are you ready to showcase your ideas on the big stage? Join us to get an exclusive platform to bring out your unique ideas and insights into cutting edge topics in the field of tech. Oh wait, these ideas should be original by the way !`,
+        description: "Showcase your research, ideas, and innovation in our Paper Presentation event.Impress the panel with your knowledge and communication skills while addressing key topics in your field!  ",
         form: "https://docs.google.com/forms/d/e/1FAIpQLScN_V0-20BQgpvXtz2NvS1siVmJ_lxtPmEA3nCGXDjJnyjRHA/viewform",
         type: "flagship",
         faq: [
@@ -1337,20 +1394,32 @@ Jumble the code and triumphal your day.`,
         tags: ["presentation"],
     },
 
-    // Freefire
+    // Freefire 1
     {
         id: "26",
         name: "Freefire",
         title: "Freefire",
         status: 1,
+        duration:"3 hrs",
         eligibility: "Anyone can join",
         completed: false,
         results: null,
         rules: [
-            "Game Mode : Clash Squad",
-            "Moderators will be spectating the match, and any inconvenience should be brought to the Moderators.",
-            "The moderator will share the room id and password for every match in the whatsapp group.",
-            "Freefire room will be created and the room's name and password will be shared before the match start.",
+            "A Clash Squad match will be held",
+            "Teams that lose their match will be eliminated from the tournament",
+            "The team that wins the final round will be declared the winner, while the losing team in the final round will be the runner-up",
+            "Fixtures will be created based on the number of teams enrolled",
+            "The use of grenades is strictly prohibited",
+            "Unlimited ammo will be provided",
+            "Emotes are not allowed during the match",
+            "Moderators will spectate the matches, and any issues should be reported to them immediately",
+            "The moderator will share the room ID and password for each match in the WhatsApp group created for the event",
+            "A Free Fire room will be created, and its name and password will be shared shortly before the match begins",
+            "Character skills are not allowed",
+            "Emulators are not allowed",
+            "Gun attributes are not allowed",
+            "Loadout is disabled",
+            "Roof climbing is allowed",
         ],
         pics: {
             primary:
@@ -1363,8 +1432,8 @@ Jumble the code and triumphal your day.`,
             ],
         },
         amt: "150",
-        contact: "9344860242",
-        dateTime: "March 1 and 2, 6.00 pm",
+        contact: "6374330882",
+        dateTime: "February 21, 22",
         prizes: {
             gold: "1000",
             silver: "500",
@@ -1373,7 +1442,7 @@ Jumble the code and triumphal your day.`,
         carddescription:
             "Get ready to battle it out and be the last one standing in the ultimate Free Fire showdown!",
         description:
-            "Join the hottest battleground with Free Fire! Experience heart-pumping action and be the last one standing.",
+            "Engage in the intense action of Clash Squad in Free Fire, where teamwork and tactics are the keys to victory. Battle it out in fast-paced 4v4 matches and prove your skills to dominate the battlefield!",
         form: "https://docs.google.com/forms/d/e/1FAIpQLSfmCfHZOQkHfyZPA71G1PRjzTk4F0r-kHdM2ljluM0-KIMobQ/viewform?usp=sf_link",
         type: "flagship",
         faq: [
@@ -1402,28 +1471,28 @@ Jumble the code and triumphal your day.`,
         tags: [],
     },
 
-    // Hackathon
+    // Hackathon 1
     {
         id: "27",
         name: "Hackathon",
         title: "Hackathon",
         status: 1,
-        venue: "L102, L101(Waiting Room)",
+        // venue: "L102, L101(Waiting Room)",
         eligibility: "Anyone can join",
         completed: false,
         results: null,
-        mailto: "mailto:crypterahackathon@gmail.com?subject=Hackathon%20Submission&body=Dear%20Organizers,%0D%0A%0D%0AAttached%20are%20my%20PPT%20and%20other%20necessary%20files%20for%20the%20hackathon.%20Please%20let%20me%20know%20if%20there%20are%20any%20issues.%0D%0A%0D%0AKind%20regards,%0D%0A[Your%20Name]",
-        email: "crypterahackathon@gmail.com",
+        // mailto: "mailto:crypterahackathon@gmail.com?subject=Hackathon%20Submission&body=Dear%20Organizers,%0D%0A%0D%0AAttached%20are%20my%20PPT%20and%20other%20necessary%20files%20for%20the%20hackathon.%20Please%20let%20me%20know%20if%20there%20are%20any%20issues.%0D%0A%0D%0AKind%20regards,%0D%0A[Your%20Name]",
+        // email: "crypterahackathon@gmail.com",
         rules: [
-            "A team should consist of 4 members",
+            "A team shall consist of a maximum of 4 participants",
             "ENTRY FEE PER TEAM : Rs. 250",
-            "Theme - Open Theme (Smart City and Home Automation - Preferred)",
-            "The teams should submit the topic on 28th February",
+            "Theme - Open Theme (AIML and IoT - Preferred)",
+            "The teams should submit the topic on February 21",
             "The final solution must be demonstrated through presentation and implementation of the project",
             "Panel members decision is final",
             "Simulation can be done through any software",
             "PPT should contain theme, introduction, problem statement, objective, target users, proposed solution, sequence diagram, conclusion",
-            "Students should upload their PPT and other necessary files before March 1st, 12 pm at "
+            "Students should upload their PPT and other necessary files before February 21, 11:59 pm."
         ],
         pics: {
             primary:
@@ -1435,8 +1504,8 @@ Jumble the code and triumphal your day.`,
                 "https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
             ],
         },
-        contact: "9952792500",
-        dateTime: "March 2, 2.00 pm",
+        contact: "9025451507",
+        dateTime: "February 21, 22",
         prizes: {
             gold: "2000",
             silver: "1000",
@@ -1444,16 +1513,38 @@ Jumble the code and triumphal your day.`,
         amt: "250",
         color: "var(--fg-g)",
         carddescription: "You must do the thing you think you cannot do",
-        description:
-            "Hackathon is a national-level, brainstorming event that encourages young talents to generate solutions to real-world problems. Participants can work in teams of 4-5 members and use innovative ideation practices to brainstorm and work with specialized tools and come up with the most suitable and feasible one. The event aims to encourage students to find a solution and provide a kickstart to implement them in the future.",
+        description:"Join the coding marathon in our Hackathon and unleash your programming skills.Collaborate, innovate, and build solutions to real-world challenges!",
         form: "https://docs.google.com/forms/d/1QX93EKN6TQTdauH-7kj7fErct_qVfJHFTRKQvxg0dWU/edit?usp=drivesdk",
         type: "flagship",
-        faq: [],
+        faq: [{
+            question: "Can we register on the spot for the hackathon ?",
+            answer: "No, registrations close on February 21, and no registrations are permitted thereafter."
+        },
+        {
+            question: "Is it mandatory to follow the preferred themes (AIML and IOT) ?",
+            answer: "No, the theme is open. However, projects related to Artificial Intelligence and IOT are preferred."
+        },
+        {
+            question: "In case of tied ratings, who wins ?",
+            answer: "The team with the highest purse is declared the winner."
+        },
+        {
+            question: "Can we change the project topic after submission ?",
+            answer: "No."
+        },
+        {
+            question: "What criteria will the panel use to judge the projects ?",
+            answer: "The judging criteria include innovation, relevance to the theme, problem-solving approach, implementation, and presentation quality. The panel's decision is final."
+        },
+        {
+            question: "How and when will the winners be announced ?",
+            answer: "The winners will be announced on the day of the final presentation after the evaluation by the panel."
+        }],
         speakers: [],
-        tags: [],
-    },
+        tags: [],
+     },
 
-    // Valorant
+    // Valorant 1
     {
         id: "28",
         name: "Valorant",
@@ -1463,8 +1554,19 @@ Jumble the code and triumphal your day.`,
         completed: false,
         results: null,
         rules: [
-            "Team size: 5+2 ( 5 Main players, 2 Substitutes )",
-            "If the team fails to show up, the opponents automatically get a walk over",
+            "Players are expected to use a single account for each player",  
+            "Each team must consist of 5 players and 2 substitute players",  
+            "Substitutes can be included only at the beginning of a new match; the moderator has to be informed about the substitutes included",  
+            "Players must be available at least 15 minutes in the lobby before the match is scheduled to begin",  
+            "Failure of the entire team to show up on time will lead to forfeiture of the match",  
+            "The team captain needs to add all their members and the coordinator (whose details will be subsequently revealed) as their friends with their RIOT IDs",  
+            "The captains will be responsible for adding their team players into the game lobby; add your teammates to your friend list well ahead of the match",  
+            "Cheating in any form (including exploiting bugs) will not be tolerated and will lead to the disqualification of the entire team from the event",  
+            "Team captains must send a screenshot of the final scorecard to the coordinator at the end of the match, for future reference",  
+            "Only the base (vanilla) version of the game is to be used (i.e., no mods of any sort)",  
+            "In case of any changes in the schedule of matches, team captains will be informed",  
+            "The coordinator will let the team leader know regarding match fixtures, tournament schedules, and other updates regarding further stages of the tournament",  
+            "If the team fails to show up, the opponents automatically get a walkover",
         ],
         pics: {
             primary:
@@ -1477,8 +1579,8 @@ Jumble the code and triumphal your day.`,
             ],
         },
         amt: "300",
-        contact: "6369829214",
-        dateTime: "March 1 and 2, 6.00 pm",
+        contact: "7418039493",
+        dateTime: "February 21, 22",
         prizes: {
             gold: "2000",
             silver: "1000",
@@ -1487,7 +1589,7 @@ Jumble the code and triumphal your day.`,
         carddescription:
             "Rise to the challenge and take on the competition in a high-stakes battle for supremacy",
         description:
-            "Rise to the challenge and take on the competition in a high-stakes battle for supremacy. The ultimate test of skill and strategy awaits in the epic Valorant tournament.",
+            "Gear up for high-octane tactical gameplay in the Valorant tournament. Team up, strategize, and outplay your opponents in this thrilling esports competition!",
         form: "https://docs.google.com/forms/d/e/1FAIpQLScFDqxw1lkE99beZkDLID8AB4LSk5GPSD4st3revyHCl6nZ3A/viewform",
         type: "flagship",
         faq: [],
@@ -1495,7 +1597,7 @@ Jumble the code and triumphal your day.`,
         tags: [],
     },
 
-    // Chess
+    // Chess 1
     {
         id: "29",
         name: "Chess",
@@ -1505,42 +1607,42 @@ Jumble the code and triumphal your day.`,
         completed: false,
         results: null,
         rules: [
-            "Matches are conducted in online mode.",
-            `Matches are conducted through the platform “lichess.org”.`,
-            "Timing for each match is 5 minutes.",
-            "Players should have proper internet connection during the match.",
-            "Players are requested to join half an hour prior to the match timing.",
-            "Late entries are not allowed.",
-            "Panel members decision will be final in case of any disputes.",
-            "Cheating or malpractice will lead to immediate disqualification.",
-            "Cash prize will be awarded for the winner and runner.",
+            "Matches are conducted in online mode",
+            "Matches are conducted through the platform lichess.org; ensure that you have an account at the time of registration",
+            "Timing for each match is 5 minutes (Blitz)",
+            "Players should have a proper internet connection during the match",
+            "Players are requested to join at least 15 minutes prior to the match timing",
+            "Late entries are not allowed",
+            "If a player doesn't make the first move of the game within 20 seconds, it leads to the opponent's victory",
+            "Panel members' decision will be final in case of any disputes",
+            "Cheating or malpractice will lead to immediate disqualification",
         ],
         entry: [],
         pics: {
             primary: chess,
             secondary: [],
         },
-        dateTime: "March 1 and 2, 6.00 pm",
+        dateTime: "February 21, 22",
         duration: "",
         prizes: {
             gold: "500",
-            silver: "250",
+            silver: "300",
         },
-        contact: "9043148825",
+        contact: "8489888983",
         amt: "50",
         team: "no",
         color: "var(--fg-g)",
         carddescription:
             "Enter the world of strategy and intellect with our exciting chess tournament!",
         description:
-            "Enter the world of strategy and intellect with our exciting chess tournament!",
+            "Put your strategic thinking to the test in our Chess competition.Outsmart your opponents and prove yourself as a grandmaster in the making!  ",
         form: "https://docs.google.com/forms/d/e/1FAIpQLSd_XqKFigNtReNdvVejryuzeIYhhnuc2A44sITUhoFRK1gevQ/viewform",
         type: "flagship",
         faq: [],
         tags: ["Fun Event", "Chess"],
     },
 
-    // BGMI
+    // BGMI 1
     {
         id: "30",
         name: "BGMI",
@@ -1550,77 +1652,88 @@ Jumble the code and triumphal your day.`,
         completed: false,
         results: null,
         rules: [
-            "Emulators not allowed",
-            "3 maps will be played",
-            "Based on points winners runners will be decided",
-            "New player will not allowed.",
-            "Team should present before 10 min match start",
-            "Moderators will be spectating the match, and any inconvenience should be brought to the Moderators",
-            "The moderator will share the room id and password for every match in the whatsapp group"
+            "Each team must consist of 2-4 players with an optional 1 substitute player",
+            "Substitutes can only be used once, at the beginning of a new match; the moderator has to be informed about the substitutes included",
+            "Players must be available at least 10 minutes in the lobby before the match is scheduled to begin",
+            "The captains will be responsible for adding their team players into the game lobby",
+            "All players should download all the maps",
+            "Cheating in any form (including exploiting bugs) will not be tolerated and will lead to the disqualification of the entire team from the event",
+            "Team captains must send a screenshot of the final scorecard in the WhatsApp group, for future reference",
+            "In case of any changes in the schedule of matches, team captains will be informed",
+            "If the team fails to show up, the opponents automatically get a walkover",
         ],
         entry: [],
         pics: {
             primary: "https://wallpapercave.com/wp/wp9273900.jpg",
             secondary: [],
         },
-        dateTime: "March 1, 6.00 pm",
+        dateTime: "February 21, 22",
         duration: "",
         prizes: {
             gold: "1000",
             silver: "500",
         },
-        contact: "6369518374",
+        contact: "7305615307",
         amt: "150",
         color: "var(--fg-g)",
         carddescription:
             "Dive into the intense battlegrounds of BGMI, where strategy, survival, and skill converge.",
         description:
-            "Dive into the intense battlegrounds of BGMI, where strategy, survival, and skill converge. Join the adrenaline-pumping action and showcase your gaming prowess in this thrilling battle royale experience!",
+            "Get ready for an intense battle of skills, strategy, and survival in our BGMI tournament.Show off your gaming prowess and fight your way to the top in this action-packed flagship event!",
         form: "https://docs.google.com/forms/d/e/1FAIpQLSeGyD1TTLJWJKi-YSEWeibkgB2d97A8qaDqybz3Ey8wG-86Ow/viewform",
         type: "flagship",
         faq: [],
         tags: [],
     },
 
-    // Carrom
+    // Carrom 1
     {
         id: "31",
         name: "Carrom",
         title: "Carrom",
         status: 1,
-        venue: "L201",
+        // venue: "L201",
         eligibility: "Anyone can join",
         completed: false,
         results: null,
         rules: [
-            "2 players per team(doubles)",
-            "Matches will be in league format",
-            "4 teams per pool",
-            "Each team will play 1 match with other 3 teams in the pool",
-            "Points will be awarded for each match",
-            "Top 2 team will qualify for knockouts",
-            "Base game(No thumping & Scissoring)",
-            "Black & white game",
-            "Refree's decision is final",
+            "Each team consists of 2 players (doubles format); no substitutes are allowed once the tournament begins",
+            "The tournament follows a knockout format with approximately 16 teams; teams are eliminated after losing a match",
+            "Winners progress to the next round (Round of 16 → Quarterfinals → Semifinals → Final)",
+            "Matches are played until a winner is decided, with no ties",
+            "Each match lasts up to 30 minutes; the team that scores 30 points first or has the higher score at the end of 30 minutes wins",
+            "In case of a tie, the match goes into a sudden death round",
+            "A coin toss determines which team strikes first, and players alternate turns throughout the match",
+            "Black Coin: 1 point (Team 1 will pocket black coins)",
+            "White Coin: 1 point (Team 2 will pocket white coins)",
+            "Red Coin (Queen): 3 points",
+            "The Queen must be covered by pocketing either a black or white coin in the same turn; if not, it is returned to the center",
+            "Pocketing the striker results in a 1-point penalty",
+            "Failing to cover the Queen results in the Queen being returned to the center",
+            "Touching or crossing the baseline results in a 1-point penalty",
+            "Pocketing both a coin and the striker at the same time is considered a foul; in this case, 2 coins must be placed back on the board",
+            "Pocketing the last coin before covering the Queen results in a 1-point penalty, and the Queen is returned to the center",
+            "The match timer starts when the referee declares the game open",
+            "The referee's decision on fouls and disputes is final and binding",
         ],
         entry: [],
         pics: {
             primary: carrom,
             secondary: [],
         },
-        dateTime: "March 2, 12.00 pm",
+        dateTime: "February 21, 22",
         duration: "",
         prizes: {
             gold: "600",
             silver: "300",
         },
-        contact: "7867800830",
+        contact: "7075946973",
         amt: "50",
         color: "var(--fg-g)",
         carddescription:
             "Let the striker talk !",
         description:
-            "Are you prepared to master the art of precision and stratergy ? Let the coins fly and the striker slide as you embark on a journey to become the ultimate carrom champion !",
+            "Sharpen your aim and test your precision in the ultimate Carrom challenge.Compete with the best and showcase your mastery in this classic indoor game!",
         form: "https://docs.google.com/forms/d/e/1FAIpQLSdh89b7jTQENvRUYblX9sP2tV4LJ-f1tl1B_pI0yNPmkutqVA/viewform",
         type: "flagship",
         faq: [
@@ -1636,47 +1749,39 @@ Jumble the code and triumphal your day.`,
         tags: [],
     },
 
-    // IPL Auction
+    // IPL Auction 1
     {
         id: "32",
         name: "IPL-Auction1",
         title: "IPL Auction",
         status: 1,
-        venue: "LBCH",
+        // venue: "LBCH",
         eligibility: "Anyone can join",
         completed: false,
         results: null,
         rules: [
-            "Each team must consist of 4 members in a group.",
-            "The team leader's name should be announced in the form.",
-            "Only the team leader can bid during the auction; other team members' bids are not considerable.",
-            "Bidding will be conducted with the player's name, base price, country, and rating (e.g., Name: Virat Kohli, Base Price: 200L, Country: India, Rating: 10). However, the player's rating will not be revealed initially. The rating will only be disclosed after each player selection. Each team must consider the revealed rating for strategic decision-making during subsequent bids.",
-            `Each team is required to select 6 players:
-                - 2 Batsmen
-                - 1 Wicket Keeper
-                - 1 All-Rounder
-                - 2 Bowlers`,
-            "A maximum of 2 foreign players can be in the playing 6.",
-            "If a team successfully buys the maximum number of players in each category (role), subsequent bids for players in the same category will not be considerable. For example, if Team 1 has already bought 2 batsmen, any further bids for batsmen from Team 1 will not be considered.",
-            `Purse: Each team starts with a total purse of 50cr.
-                - Bids under 5cr are increased by 20L.
-                - Bids after reaching 50Cr are increased by 50L.`,
+            "Each team will receive a fixed amount of virtual cash for building their team along with the players' list",
+            "Bidding starts with the base price; the first bid will be considered in case of a tie",
+            "Each player will have a base price and a set number of points on a 10-point scale",
+            "Bid increments will follow the guidelines set by the event coordinators",
+            "The team with the highest points will be declared the winner",
         ],
         entry: [],
         pics: {
             primary: "https://thebridge.in/h-upload/2022/02/12/23253-ipl-2022.webp",
         },
-        dateTime: "March 2, 2.00 pm",
+        dateTime: "February 21, 22",
         duration: "",
         prizes: {
             gold: "1000",
+            silver:"500",
         },
-        contact: "9344860242",
+        contact: "9962539073",
         amt: "150",
         color: "var(--fg-g)",
         determination: "The team with the highest total rating after player auction will be declared as the winner.",
         carddescription: "Immersive cricket experience  assemble, bid, and conquer! 🏏💰",
-        description: "Join the excitement of the IPL-Auction, where strategic bidding and team-building skills will be put to the test! Form your squad, lead the bidding, and assemble a winning team to claim the coveted title. With a dynamic auction format, diverse player roles, and a challenging purse limit, the IPL-Auction promises intense competition and thrilling cricket action.",
+        description:"Step into the shoes of a team manager in our thrilling IPL Auction event. Strategize, bid, and create your dream cricket team to dominate the league!",
         form: "https://docs.google.com/forms/d/1ZN4qCUfnYxOw5F5UX1FJflKD3c9lKdfRiBsjm118Vug/viewform?chromeless=1&edit_requested=true",
         type: "flagship",
         faq: [
@@ -1708,36 +1813,40 @@ Jumble the code and triumphal your day.`,
         tags: [],
     },
 
-    // Escape Room
+    // Escape Room 1
     {
         id: "33",
         name: "Escape_Room",
-        title: "Escape Room: Operation Blitz",
+        title: "Escape Room",
         status: 1,
-        venue: "L109",
+        // venue: "L109",
         eligibility: "Anyone can join",
         completed: false,
         results: null,
         rules: [
-            "You can participate as a Duo or in Teams of three.",
-            "Entry for a team of two will be Rs.100 and a team of three will be Rs.150.",
-            "The duration of the room will be a maximum of 20 minutes within which the objective must be reached in the room to win."
+            "Participants must solve puzzles or find clues to progress",
+            "Time limits must be strictly adhered to (15–20 minutes for Round 1 and 10–15 minutes for the final round)",
+            "Clues and props should not be damaged or removed from the room",
+            "The final decision of the organizer is binding and final",
         ],
         entry: [],
         pics: {
             primary: "https://i0.wp.com/www.reviewgeek.com/thumbcache/0/0/4d1ac939003e4caefdc8c63653f52d05/p/uploads/2021/01/4335a3f2.png?resize=1920%2C1080&ssl=1",
             secondary: [],
         },
-        dateTime: "March 1 and 2",
+        dateTime: "February 21, 22",
         duration: "",
-        contact: "9585711131",
+        prizes:{
+            gold:"750",
+        },
+        contact: "6379478948",
         // amt: "150",
         gift: "Detectives who crack the code will get commemorative hats for each player in the team.",
         color: "var(--fg-g)",
         carddescription:
             "The clock’s ticking, the city’s fate hangs in the balance. Can you beat the mastermind in time to stop the disaster?",
         description:
-            "Ready to test your nerve? Dive into Operation Blitz: an electrifying escape room experience where every moment counts. Crack codes, decipher clues, and race against the clock to save the city from disaster. Can your team outsmart the “Director” and uncover the next target before it's too late? Gather your team and prepare for the ultimate adrenaline rush. Visit us at Cryptera and prove your detective skills in the most nerve-wracking challenge yet!",
+            "Challenge your mind and teamwork in this thrilling Escape Room experience. Solve puzzles, find clues, and race against time to secure your freedom! ",
         form: "https://docs.google.com/forms/d/1iz_tGiXvHyijd7zJ90i-VrcivnFmDMSQySd2dMiJJAM/viewform?chromeless=1&edit_requested=true",
         type: "flagship",
         faq: [
@@ -1757,40 +1866,41 @@ Jumble the code and triumphal your day.`,
         tags: [],
     },
 
-    // PC Building
+    // PC Building 1
     {
             id: "8",
             name: "PC_Building",
             title: "PC Building",
             status: 1,
-            venue: "L109",
+            // venue: "L109",
             eligibility: "College Students",
             completed: false,
             results: null,
             rules: [
-                "Team should consist of 2 members",
-                "A shelf with all the required PC parts will be provided, and participants should choose the parts from the shelf.",
-                "To encourage participants to choose the correct parts, points will be awarded for accuracy.",
-                "Points will be awarded based on how fast participants can build their PC.",
-                "Participants will be required to boot up their PC to demonstrate that it is working correctly. Points should be awarded for successful booting.",
-                "Points should be awarded for accurate fitting of the parts. For example, a RAM stick that is not inserted properly could result in a penalty.",
+                "Each team consists of 2 members",
+                "A shelf with all the required PC parts will be provided",
+                "Participants must select the appropriate parts from the shelf",
+                "Teams must assemble and boot a fully functional PC within a time limit of 15 minutes",
+                "The team that assembles and boots a working PC in the shortest time will win the event",
+                "Participants must demonstrate that their PC is functional by booting it up",
+                "All components, including the cabinet, must be properly fitted; even if the PC boots successfully, teams will not qualify if any part is improperly installed or left unfitted",
             ],
             pics: {
                 primary:
                     "https://staticg.sportskeeda.com/editor/2022/01/5f21e-16433417948778-1920.jpg",
                 secondary: [],
             },
-            dateTime: "March 1, 2.00 pm",
+            dateTime: "February 21, 22",
             duration: "",
             prizes: {
-                gold: "1000",
-                silver: "500",
+                gold: "1500",
+                silver: "750",
             },
-            contact: "8838903439",
+            contact: "8825526817",
             speakers: null,
             color: "var(--fg-g)",
             carddescription: "Are you the ultimate PC enthusiast?",
-            description: `Are you the ultimate PC enthusiast? Join our PC building competition and showcase your skills ! With challenges to push your limits, it's time to build the ultimate machine and claim the PC building throne!`,
+            description:"Combine creativity and technical expertise in the PC Building challenge.Assemble and design the ultimate system to showcase your hardware knowledge and skills!",
             form: form,
             type: "flagship",
             faq: [

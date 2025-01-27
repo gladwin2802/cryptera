@@ -1,13 +1,12 @@
 import { React } from "react";
 import { useNavigate } from "react-router-dom";
 import { TbReportMoney } from "react-icons/tb";
-
-function Eventcard({ data, primary, status }) {
+import Eventdetails from "./Screens/Eventdetails";
+function Eventcard({ curr,data, primary, status }) {
     const navigate = useNavigate();
     const clickhandler = (e) => {
         navigate(`/events/${data.name}`);
     };
-
     return (
         <div className="event-card" style={{ borderTopColor: primary }}>
             <div className="backdrop"></div>
@@ -36,8 +35,7 @@ function Eventcard({ data, primary, status }) {
                         style={{ backgroundColor: primary }}
                         onClick={clickhandler}
                     >
-                        <button>
-                            View<i className="fa fas-angle-right"></i>{" "}
+                        <button>View<i className="fa fas-angle-right"></i>{" "}
                         </button>
                     </div>)}
             </div>

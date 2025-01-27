@@ -70,3 +70,7 @@
 .navbar-link:hover {
     color: #05ffa3;
 }
+
+.social-links a i:hover{
+    color:#05ffa3;
+}
