@@ -1,13 +1,12 @@
 import { React } from "react";
 import { useNavigate } from "react-router-dom";
 import { TbReportMoney } from "react-icons/tb";
-
-function Eventcard({ data, primary, status }) {
+import Eventdetails from "./Screens/Eventdetails";
+function Eventcard({ curr,data, primary, status }) {
     const navigate = useNavigate();
     const clickhandler = (e) => {
         navigate(`/events/${data.name}`);
     };
-
     return (
         <div className="event-card" style={{ borderTopColor: primary }}>
             <div className="backdrop"></div>
@@ -24,24 +23,24 @@ function Eventcard({ data, primary, status }) {
                 </div>
 
                 <div className="event-card-body">
-                    {status === 1 ? (
+                    {status === 0 ? (
                         <span>Coming Soon...</span>
                     ) : (
                         <span>{data.carddescription}</span>
                     )}
                 </div>
-                {status !== 1 && (
+                {status === 1 && (
                     <div
                         className="read-more"
                         style={{ backgroundColor: primary }}
                         onClick={clickhandler}
                     >
-                        <button>
-                            View<i className="fa fas-angle-right"></i>{" "}
+                        <button>View<i className="fa fas-angle-right"></i>{" "}
                         </button>
                     </div>)}
             </div>
         </div>
     )
 }
+
 export default Eventcard;
