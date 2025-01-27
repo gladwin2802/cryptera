@@ -12,6 +12,71 @@ export default [
     ///////////////////////////////////////////////////////
 
     // Tecnical events
+    // Cryptera Coding Contest
+    {
+        id: "9",
+        name: "Cryptera_Coding_Contest",
+        title: "Cryptera Coding Contest",
+        status: 1,
+        // venue: "L103, L210, L303, L308, L315",
+        eligibility: "Anyone can join",
+        completed: false,
+        results: null,
+        rules: [
+            "The team can consist of either 1 or 2 members only.",
+            "The designated platform for conducting the contest is HackerRank.",
+            "Participants must have a registered account on HackerRank. If not, it is mandatory to create one.",
+            "The event will run for a duration of 1 hour and 30 minutes.",
+            "Computers will be provided for the contest. In the event of technical issues, participants may be allowed to use their laptops, subject to approval. Otherwise, personal laptops will not be permitted."
+        ],
+        pics: {
+            primary:
+                "https://media.licdn.com/dms/image/v2/D5612AQGGQByZuoyFgg/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1728788803479?e=2147483647&v=beta&t=oXdZs38msHZsBQU_osQG6CNNkC5tAZLOu-CCdS-Hp84",
+                // "https://static.vecteezy.com/system/resources/previews/022/966/113/non_2x/binary-code-digital-cryptocurrency-background-generative-ai-photo.jpg",
+                // "https://www.itprotoday.com/sites/itprotoday.com/files/styles/article_featured_retina/public/programming%20evolution.jpg?itok=WTj9-yNz",
+            secondary: [],
+        },
+        dateTime: "February 21, 22",
+        duration: "2 hrs",
+        prizes: {
+            gold: "1500",
+            silver: "1000",
+        },
+        contact: "9361673354",
+        speakers: null,
+        color: "var(--fg-g)",
+        carddescription: "Ready to put your coding skills to the test?",
+        description: "Are you ready to showcase your programming talent? Are you ready to showcase your programming talent? Enter our competitive coding contest and display your skills. Solve challenging problems, push your abilities to new heights, and claim the prestigious coding crown!our competitive coding contest and display your skills. Solve challenging problems, push your abilities to new heights, and claim the prestigious coding crown👑!",
+        form: form,
+        type: "technical",
+        faq: [
+            {
+                question: "Will it happen online or offline?",
+                answer: "Offline",
+            },
+            {
+                question: "Can I get certificate?",
+                answer: "Yes,certificate will be provided",
+            },
+            {
+                question: "Is it a team event?",
+                answer: " Yes it is a team event",
+            },
+            {
+                question: "What is the limit on team size? ",
+                answer: " Maximum team size is 2",
+            },
+            {
+                question: "Is there a penalty for wrong submission? ",
+                answer: "Yes.",
+            },
+            {
+                question: "Is it language specific?",
+                answer: "No",
+            },
+        ],
+        tags: ["Problem Solving", "C", "C++", "Python","Java","JavaScript"],
+    },
 
     // 0xedebug
     {
@@ -26,13 +91,13 @@ export default [
         rules: [
             "The programming language given will be C ,C++, Python and Java.",
             "A total of 2 rounds will be conducted.",
-            "Round 1 : Code snippets with multiple choice questions.",
+            "Round 1 : Code snippets with multiple-choice questions and logical reasoning questions.Participants will be shortlisted based on the marks awarded.",
             "Round 2 : Code snippets to debug in the above languages.",
             "Marks for each questions will be provided based on the difficulty and there will not be any -ve markings ",
             "Any kind of plagiarism will lead to immediate disqualification.",
             "Internet and personal computer will be provided and be free to bring you own laptops to this event.",
             "Use of compilers and debugging tools is prohibited.",
-            "Winner will be decided based on the number of questions answered and time of submission.",
+            "The winner will be decided based on the marks awarded for correctly answered questions. In case of a tie, the winner will be decided by the time taken to answer.",
         ],
         pics: {
             primary: oxdebug,
@@ -40,21 +105,22 @@ export default [
             secondary: [],
         },
         dateTime: "February 21, 22",
-        duration: "",
+        duration: "1.5 hrs",
         prizes: {
             gold: "1000",
             silver: "500",
         },
-        contact: "9342222369",
+        contact: "9361673354",
         color: "var(--fg-g)",
         carddescription:
             "Are you the next Sherlock? Unleash your coding prowess and solve the mystery",
-        description: `Think you have what it takes to be a debugging pro? Join our code event and put your skills to the test. With bugs and glitches to fix, it's time to show off your skills and emerge as the ultimate debugging champion!`,
+        description: "Think you've got what it takes to be a debugging pro? Join our exciting code event and put your skills to the test! With bugs and glitches waiting to be fixed, it’s your chance to shine and claim the title of ultimate debugging champion! Don’t miss out—sign up now and let the debugging showdown begin!",
         form: form,
         type: "technical",
         faq: [],
         tags: ["Python", "Java", "C++", "C", "Coding"],
     },
+
 
     // CSS Battle
     {
@@ -67,9 +133,9 @@ export default [
         completed: false,
         results: null,
         rules: [
-            "You will be given a simple picture and you just need to recreate the image using HTML and CSS within stipulated time.",
-            "Number of rounds will be based on the number of participants.",
-            "Personal computer will be provided and be free to bring your own laptops to this event.",
+            "You will be given a simple design to recreate using HTML and CSS within the stipulated time.",
+            "The number of rounds will depend on the number of participants, with eliminations based on speed of completion and accuracy of the recreated design.",
+            "Personal computers will be provided, and also you may bring your own laptops to the event.",
         ],
         pics: {
             primary:
@@ -82,17 +148,17 @@ export default [
             ],
         },
         dateTime: "February 21, 22",
-        duration: "",
+        duration: "1.5 hrs",
         prizes: {
             gold: "1000",
             silver: "500",
         },
-        contact: "9585596220",
+        contact: "9361673354",
         color: "var(--fg-g)",
         carddescription:
             "Unleash your creativity and compete to be the CSS champion in a battle of styles!",
         description:
-            "Compete to create the most visually stunning CSS design in a head-to-head coding battle!",
+            "Ready to unleash your CSS skills? Join our epic CSS Battle Contest and dive into creative challenges that will push your design limits! Compete against fellow wizards for the ultimate title of CSS Champion! Don’t miss out—sign up now and let the battle begin!",
         form: form,
         type: "technical",
         faq: [
@@ -101,7 +167,7 @@ export default [
                 answer: " HTML and CSS",
             },
         ],
-        tags: [],
+        tags: ["Python", "Java", "C++", "C", "Problem Solving"],
     },
 
     // Tech Feud
@@ -111,28 +177,15 @@ export default [
         title: "Tech Feud",
         // venue: "IT442, IT443",
         status: 1,
-        eligibility: "Anyone can join",
+        eligibility: "College Students",
         completed: false,
         results: null,
         rules: [
-            "Team should have exactly 2 members",
-            "Shortlisted teams from each round will be eligible for next round.",
-            `Round 1 : TECH QUIZ
-            Questions are based on Data Structures and Algorithm , C Programming , SQL , Computer Networks , Operating System`,
-            `Round 2 : CODE SHARING
-            Each member of a team will be given one of the two question and both should solve simultaneously.
-            After 15 minutes, 
-            If one of the teammate have completed his problem. Then he will be given two 
-            options,(1) Either replace his teammate to solve the teammate's question or (2) Wait for his teammate to complete
-            If none of them have completed, swapping is not possible.
-            Discussion among team members is not permitted.`,
-            `Round 3 :	RAPID FIRE
-            For each battle,
-                1.One from each team will represent the team for each question.
-                2.After completion of each question the swapping of team members will happen.
-                3.The questions will be displayed simultaneously for both teams.
-                4.The one who rings the buzzer first gets to answer.
-            Each battle is knockout stage."`,
+            "Each team must have exactly 2 members.",
+            "The event consists of 2 rounds.",
+            "Shortlisted teams from round 1 will be eligible for the final round.",
+            "Round 1 : CODE SHARING - Two Coding Questions will be given(1 easy and 1 medium) for a total of 45 minutes. Initially, one member from each team is allowed to solve. After 15 minutes swapping option is available  and can be exercised if preferred.",
+            "Round 2 : RAPID FIRE -  Buzzer Round:Quiz questions based on DSA, C Programming, OOPS Concepts, DBMS, Computer Networks, Operating System. The team that rings the buzzer first gets to answer.",
         ],
         pics: {
             primary:
@@ -140,19 +193,16 @@ export default [
             secondary: [],
         },
         dateTime: "February 21, 22",
-        duration: "",
+        duration: "1.5 hrs",
         prizes: {
             gold: "1000",
             silver: "500",
         },
-        contact: "9080951925",
+        contact: "9361673354",
         speakers: null,
         color: "var(--fg-g)",
         carddescription: "Ready to flex some of that team skills?",
-        description: `Tech Feud is an excellent oppurtunity to showcase your skills and compete with the techies around you.
-        So gather your tech-savvy friends, form a team, and get ready to battle it out for tech dominance.
-        With thrilling challenges and exciting prizes, Tech Feud promises to be a day you won't forget. 
-        Get ready to flex your tech muscles at Tech Feud.`,
+        description: "Prepare for an epic tech showdown like never before! From algorithms to operating systems, test your knowledge. Teams of two will compete to claim the title of tech champions!!",
         form: form,
         type: "technical",
         faq: [
@@ -169,69 +219,48 @@ export default [
                 answer: "Yes,certificate will be provided",
             },
         ],
-        tags: ["Problem Solving", "C", "C++", "Python"],
+        tags: ["Problem Solving", "C", "C++", "Python","Java"],
     },
 
-    // Code In Chaos
+
+    // Code in chaos
     {
         id: "4",
         name: "Code_in_Chaos",
         title: "Code in Chaos",
         status: 1,
-        venue: "IT442, IT443, L103, L210, IOT",
-        eligibility: "Anyone can join",
+        // venue: "IT442, IT443, L103, L210, IOT",
+        eligibility: "College Students",
         completed: false,
         results: null,
         rules: [
-            "Solo Participation",
-            "Make sure you have a Hackerrank account. If not create one before the contest",
-            "You can use any programming language of given choice (C, C++, Java, Python)",
-            "Round 1 - code in blind screen",
-            "Round 2 - code in blind screen",
-            "Round 3 - code in blind screen"
+             "Each team must have exactly 2 members.",
+             "At least one of the participants in the team must possess a Hackerrank account.",
+             "Data Structures concepts and coding prowess will be tested.",
+             "Round 1 is for shortlisting teams for Round 2.",
+             "Round 1: Decode the Logic - Analyze a buggy code snippet and collaborate as a team to fix it. Only top teams advance.",
+             "Round 2: Blind Code Relay - One codes blind, while the other continues without communication. Switch places and take turns to complete the solution.",
         ],
         pics: {
-            primary: blindCode,
+            primary:"https://img.freepik.com/premium-photo/composite-image-angry-hipster-businessman-holding-his-hairs_1134-35309.jpg?uid=R27846696&ga=GA1.1.388313583.1706188067&semt=ais_hybrid",
             secondary: [],
         },
-        dateTime: "March 1, 3.00 pm",
-        duration: "",
+        dateTime: "February 21, 22",
+        duration: "2 hrs",
         prizes: {
             gold: "1000",
             silver: "500",
         },
-        contact: "8248548663",
+        contact: "9361673354",
         speakers: null,
         color: "var(--fg-g)",
-        carddescription: "Typing without sight, coding with insight.",
-        description: `Typing without sight, coding with insight. Code the problem WITHOUT LOOKING AT THE EDITOR. Not so easy now is it? Even better…. There is a time limit. If all these won’t stop you. We admit it…. you deserve this cash award… Good Luck.`,
+        carddescription: "Crack the chaos,claim the glory",
+        description:"A high-stakes challenge where teamwork and adaptability shine. With unexpected twists, success depends on trust, communication, and quick thinking. Only the most coordinated teams will emerge victorious",
         form: form,
         type: "technical",
         faq: [
-            {
-                question: "Will it happen online or offline?",
-                answer: "Offline",
-            },
-            {
-                question: "Will it be a one member or two member?",
-                answer: "one member",
-            },
-            {
-                question: "Can I get certificate?",
-                answer: "Yes,certificate will be provided",
-            },
-            {
-                question: "What is the event ?",
-                answer:
-                    "You will be provided with the editor where you can't see what you type. Copy and paste options disabled.",
-            },
-            {
-                question: "How is the winner declared?",
-                answer:
-                    "The most optimized code of all will be selected as the winner.",
-            },
         ],
-        tags: ["Problem Solving", "C", "C++", "Python"],
+        tags: ["Problem Solving", "C", "C++", "Python","Java"],
     },
 
     // Jumbled Code
@@ -240,39 +269,38 @@ export default [
         name: "Jumbled_Code",
         title: "Jumbled Code",
         status: 1,
-        venue: "L103, L210, L303, L310, L315, IOT",
+        // venue: "L103, L210, L303, L310, L315, IOT",
         eligibility: "Anyone can join",
         completed: false,
         results: null,
-        rounds: [
-            "Round 1: Quiz Round Participants are required to have an account on Quixizz. This round consists of 25 questions, each presenting jumbled code. Participants must select the  option that contains the correct rearranged sequence within a minute. 30 participants will be shortlisted to advance to the second round.",
-            "Round 2: Hackerrank Round Participants are required to have an account on Hackerrank. This round consists of three questions where participants are provided with code where the lines are jumbled. Participants must rearrange the lines and execute the code. The winner and runner-up will be selected from the top 30 participants."
-        ],
+        // rounds: [
+        //     "Round 1: Quiz Round Participants are required to have an account on Quixizz. This round consists of 25 questions, each presenting jumbled code. Participants must select the  option that contains the correct rearranged sequence within a minute. 30 participants will be shortlisted to advance to the second round.",
+        //     "Round 2: Hackerrank Round Participants are required to have an account on Hackerrank. This round consists of three questions where participants are provided with code where the lines are jumbled. Participants must rearrange the lines and execute the code. The winner and runner-up will be selected from the top 30 participants."
+        // ],
         rules: [
-            "Team should consist of 2 members.",
-            "The code will be in a jumbled manner and the corresponding output will be provided to the participants.",
-            "You will be provided with four options. Choose the correct option to ensure the code executes properly.",
-            "There will be totally 25 questions and the time for each question is 1 minute.",
-            "Make sure you have an account in testportal. If not create one.",
-            "Plagiarism and any kind of cheating is strictly prohibited.",
+            "Round 1: Quiz - The code will be provided in a jumbled manner.",
+            "You will be given four options. Choose the correct one to make the code execute properly.",
+            "The quiz will consist of 20 questions, with 1 minute allocated for each question.",
+            "Round 2: Coding - This round will involve solving 2 coding questions within 40 minutes.",
+            "You can use any programming language of your choice to solve the problems.",
+            "Ensure you have an account on the Test Portal (HackerRank). If you don't have one, create an account before the competition.",
+            "Plagiarism and any kind of cheating are strictly prohibited.",
         ],
         pics: {
             primary: jumbledCode,
             secondary: [],
         },
-        dateTime: "March 1, 10.00 am",
-        duration: "",
+        dateTime: "February 21, 22",
+        duration: "1 hr",
         prizes: {
-            gold: "650",
-            silver: "350",
+            gold: "800",
+            silver: "450",
         },
-        contact: "7598096466",
+        contact: "9361673354",
         speakers: null,
         color: "var(--fg-g)",
-        carddescription: "Not just any code… a jumbled one",
-        description: `Participants will be given a code…. Not just any code… a jumbled one.
-Jumble the code and obtain the final code which executes perfectly.
-Jumble the code and triumphal your day.`,
+        carddescription: "Connect the dots,complete the logic",
+        description:"Decode the mystery and unleash your inner genius! Navigate two intense rounds—crack timed questions and piece together scrambled logic. With no shortcuts or help, it’s a battle of wit and skill. Will you rise as the ultimate solver?",
         form: form,
         type: "technical",
         faq: [
@@ -294,7 +322,7 @@ Jumble the code and triumphal your day.`,
                     "It's based on time and the number of questions you answer correctly.",
             },
         ],
-        tags: ["Problem Solving", "Python"],
+        tags: [ "Python"],
     },
 
     // UI Design Contest
@@ -303,9 +331,9 @@ Jumble the code and triumphal your day.`,
         name: "UI_Design_Contest",
         title: "UI Design Contest",
         status: 1,
-        venue: "IT442, IT443",
+        // venue: "IT442, IT443",
         eligibility: "Anyone can join",
-        completed: false,
+        // completed: false,
         results: null,
         rules: [
             "Participation in this event is limited to solo contestants, and Figma is the sole platform allowed for use.",
@@ -313,23 +341,25 @@ Jumble the code and triumphal your day.`,
             "A minimum of 4 screens must be designed",
             "The UI must fit the provided brief",
             "Submission must include - User flow, UI screens, a brief description of each screen and justifications for design decisions made",
+            "Participants can bring their own laptops.",
+            "No prototyping is required.",
         ],
         pics: {
             primary:
                 "https://s3images.coroflot.com/user_files/individual_files/large_1020744_aontiqjc9mm3_aggdhrcsmvnh.png",
             secondary: [],
         },
-        dateTime: "March 1, 11.00 am",
-        duration: "",
+        dateTime: "February 21, 22",
+        duration: "1.5 hrs",
         prizes: {
             gold: "1000",
             silver: "500",
         },
-        contact: "9677762808",
+        contact: "9361673354",
         speakers: null,
         color: "var(--fg-g)",
         carddescription: "Good Design, when done well, should be invisible",
-        description: `Good Design, when done well, should be invisible - Jared Spool In today's age of screens and keyboards, we spend more time staring at screens than anything else. A well designed UI has become a basic requirement to attract users and generate interaction. This is an opportunity to showcase your UI design skills by designing a UI for a specific problem statement.`,
+        description:"Design your way to victory in our thrilling UI/UX Design Contest! With creativity and innovation leading the charge, it’s your chance to showcase your skills and craft a user experience that truly stands out. Don’t miss out—join the competition and let your design brilliance shine!",
         form: form,
         type: "technical",
         faq: [
@@ -361,39 +391,38 @@ Jumble the code and triumphal your day.`,
         name: "Missing_Code",
         title: "Missing Code",
         status: 1,
-        venue: "L103, L210, L303, L308, L315",
+        // venue: "L103, L210, L303, L308, L315",
         eligibility: "Anyone can join",
         completed: false,
         results: null,
         rules: [
-            "Participants can bring their own laptops.",
-            "Plagiarism and any kind of cheating is strictly prohibited.",
+            "Individual participation only is allowed in the event.",
+             "Plagiarism and any form of cheating are strictly prohibited during the event.",
+             "Participants can bring their own laptops to the event.",
+             "The questions will cover programming languages C, C++, Python, and Java.",
+            "The questions will vary in difficulty.",
+             "The questions will be in the form of multiple-choice questions (MCQs).",
+             "The event will be conducted on quizizz platform.",
+             "Certificates will be provided to all participants after the event.",
+             "The event will run for a duration of 1 hour.",
+            
         ],
         pics: {
             primary:
                 "https://akm-img-a-in.tosshub.com/indiatoday/images/story/202012/chris-ried-ieic5Tq8YMk-unsplas_1200x768.jpeg?size=690:388",
             secondary: [],
         },
-        dateTime: "March 2, 2.00 pm",
-        duration: "",
+        dateTime: "February 21, 22",
+        duration: "1.5 hrs",
         prizes: {
             gold: "1000",
             silver: "500",
         },
-        contact: "9150067211",
+        contact: "9361673354",
         speakers: null,
         color: "var(--fg-g)",
-        carddescription: "Not just any code… a missed one",
-        description: `Join our missing code 
-        contest and test your 
-        programming skills to the 
-        limit. With code snippets 
-        missing, it's time to put 
-        your knowledge to the 
-        test and find the missing 
-        pieces to emerge as the 
-        ultimate missing code 
-        champion!`,
+        carddescription: "Bridge the blanks connect the solution",
+        description:"Step into the Missing Code challenge and push your programming skills to the edge! With crucial code snippets missing, it’s your time to shine and complete the puzzle. Test your knowledge, find the missing pieces, and become the ultimate code champion!",
         form: form,
         type: "technical",
         faq: [
@@ -416,130 +445,56 @@ Jumble the code and triumphal your day.`,
         ],
         tags: ["Problem Solving", "C", "C++", "Python", "Java"],
     },
-
-    // Cryptera Coding Contest
-    {
-        id: "9",
-        name: "Cryptera_Coding_Contest",
-        title: "Cryptera Coding Contest",
-        status: 1,
-        venue: "L103, L210, L303, L308, L315",
-        eligibility: "Anyone can join",
-        completed: false,
-        results: null,
-        rules: [
-            "The team can consist of either 1 or 2 members only.",
-            "The designated platform for conducting the contest is HackerRank.",
-            "Participants must have a registered account on HackerRank. If not, it is mandatory to create one.",
-            "The event will run for a duration of 1 hour and 30 minutes.",
-            "Computers will be provided for the contest. In the event of technical issues, participants may be allowed to use their laptops, subject to approval. Otherwise, personal laptops will not be permitted."
-        ],
-        pics: {
-            primary:
-                "https://static.vecteezy.com/system/resources/previews/022/966/113/non_2x/binary-code-digital-cryptocurrency-background-generative-ai-photo.jpg",
-                // "https://www.itprotoday.com/sites/itprotoday.com/files/styles/article_featured_retina/public/programming%20evolution.jpg?itok=WTj9-yNz",
-            secondary: [],
-        },
-        dateTime: "March 2, 10.30 am",
-        duration: "",
-        prizes: {
-            gold: "1250",
-            silver: "750",
-        },
-        contact: "6282357680",
-        speakers: null,
-        color: "var(--fg-g)",
-        carddescription: "Ready to put your coding skills to the test?",
-        description: `Ready to put your coding 
-    skills to the test? Join our 
-    competitive coding 
-    contest and showcase 
-    your programming 
-    prowess. With challenges 
-    designed to push you to 
-    the limit, it's time to show 
-    off your skills and claim 
-    the ultimate coding 
-    crown 👑!`,
-        form: form,
-        type: "technical",
-        faq: [
-            {
-                question: "Will it happen online or offline?",
-                answer: "Offline",
-            },
-            {
-                question: "Can I get certificate?",
-                answer: "Yes,certificate will be provided",
-            },
-            {
-                question: "Is it a team event?",
-                answer: " Yes it is a team event",
-            },
-            {
-                question: "What is the limit on team size? ",
-                answer: " Maximum team size is 2",
-            },
-            {
-                question: "Is there a penalty for wrong submission? ",
-                answer: "Yes.",
-            },
-            {
-                question: "Is it language specific?",
-                answer: "No",
-            },
-        ],
-        tags: ["Problem Solving", "C", "C++", "Python"],
-    },
-
+    
     // Prompt Engineering
     {
         id: "10",
         name: "Prompt_Engineering",
         title: "Prompt Engineering",
         status: 1,
-        venue: "IT442, IT443",
+        // venue: "IT442, IT443",
         eligibility: "Anyone can join",
         completed: false,
         results: null,
-        rounds: [
-            "Round 1 - Image Replication:",
-            `Participants will be provided with a reference image.
-            Using any one of the given image generation platform (Gemini/Copilot/Designer.microsoft/Artbreeder), participants must create an image that closely resembles the provided reference.
-            Creativity is encouraged in terms of interpretation and execution, but the final image should closely match the reference in terms of content, composition, and style.
-            Time limit and submission guidelines will be provided before the start of the round.`,
-            "Round 1 Submission Link - https://forms.gle/Dtkpc6FN9ypxizGx5",
-            "Round 2 - Imaginative Creation",
-            `Participants will be given a theme or a scenario.
-            Using the above said image generation platform, participants must create an original image inspired by the given theme.
-            Creativity and imagination are key in this round. Participants are encouraged to explore new ideas, concepts, and visual styles.
-            The final image should be visually appealing and demonstrate the participant's ability to think creatively and outside the box.
-            Time limit and submission guidelines will be provided before the start of the round.`,
-            "Round 2 Submission Link - https://forms.gle/zVjyAzTsZkjt8v8J9"
-        ],
+        // rounds: [
+        //     "Round 1 - Image Replication:",
+        //     `Participants will be provided with a reference image.
+        //     Using any one of the given image generation platform (Gemini/Copilot/Designer.microsoft/Artbreeder), participants must create an image that closely resembles the provided reference.
+        //     Creativity is encouraged in terms of interpretation and execution, but the final image should closely match the reference in terms of content, composition, and style.
+        //     Time limit and submission guidelines will be provided before the start of the round.`,
+        //     "Round 1 Submission Link - https://forms.gle/Dtkpc6FN9ypxizGx5",
+        //     "Round 2 - Imaginative Creation",
+        //     `Participants will be given a theme or a scenario.
+        //     Using the above said image generation platform, participants must create an original image inspired by the given theme.
+        //     Creativity and imagination are key in this round. Participants are encouraged to explore new ideas, concepts, and visual styles.
+        //     The final image should be visually appealing and demonstrate the participant's ability to think creatively and outside the box.
+        //     Time limit and submission guidelines will be provided before the start of the round.`,
+        //     "Round 2 Submission Link - https://forms.gle/zVjyAzTsZkjt8v8J9"
+        // ],
         rules: [
             "Participants must adhere to the given time limits for each round.",
             "All submissions must be original works created by the participants themselves.",
             "Judges' decisions are final and binding.",
             "Any violation of the rules may result in disqualification.",
             "Have fun and unleash your creativity!",
+            "Platforms that can be used:Gemini, Copilot, Designer.microsoft,  Artbreeder.",
         ],
         pics: {
             primary: prompt,
             secondary: [],
         },
-        dateTime: "March 2, 9.30 am",
-        duration: "45 mins",
+        dateTime: "February 21, 22",
+        duration: "1.5 hrs",
         prizes: {
             gold: "1000",
             silver: "500",
         },
-        contact: "9345857774",
+        contact: "9361673354",
         speakers: null,
         color: "var(--fg-g)",
         carddescription:
             "Unleash your creativity with our AI image generation contest!",
-        description: `Ready to flex your creative muscles? Our prompt engineering event is the perfect opportunity to showcase your talent and imagination. Let's see what you can dream up!`,
+        description:"Unleash your creativity in our DALL-E Image Generation Contest! Dive into a world of imagination and craft stunning images based on our exciting themes using DALL-E. Join the competition and showcase your artistic flair—let’s see what you can create! Don’t miss out—sign up now and let your creativity shine!",
         form: form,
         type: "technical",
         faq: [
@@ -570,7 +525,7 @@ Jumble the code and triumphal your day.`,
         name: "Reverse_Coding",
         title: "Reverse Coding",
         status: 1,
-        venue: "L103, L210, L303, L308, L315",
+        // venue: "L103, L210, L303, L308, L315",
         eligibility: "Anyone can join",
         completed: false,
         results: null,
@@ -587,18 +542,17 @@ Jumble the code and triumphal your day.`,
                 "https://pythonweb.org/wp-content/uploads/2021/04/Programming-HD-Wallpapers-Python-And-Other-Coding.jpg",
             secondary: [],
         },
-        dateTime: "March 1, 2.00 pm",
-        duration: "",
+        dateTime: "February 21, 22",
+        duration: "1.5 hrs",
         prizes: {
             gold: "1000",
             silver: "500",
         },
-        contact: "9629198546",
+        contact: "9361673354",
         speakers: null,
         color: "var(--fg-g)",
         carddescription: "Figure and configure your magic on Code",
-        description: `The input and the corresponding output will be provided to the participants.You need to figure out the logic and code it.
-        Figure and configure your magic.`,
+        description: "Think you have what it takes to crack the code? Step into our Reverse Coding Challenge and prove your mettle! Solve mind-bending puzzles, decode logic from outputs, and push your creativity to the limit. Unleash your coding prowess and claim the title of Reverse Coding Champion!",
         form: form,
         type: "technical",
         faq: [
@@ -626,24 +580,23 @@ Jumble the code and triumphal your day.`,
         tags: ["Problem Solving", "C", "C++", "Python", "Java"],
     },
 
-    // Clash of Code
+    // Logic Unchained
     {
         id: "12",
-        name: "Clash_Of_Code",
-        title: "Clash Of Code",
+        name: "Logic_Unchained",
+        title: "Logic Unchained",
         status: 1,
-        venue: "L303, L308, IT443",
-        eligibility: "Anyone can join",
+        // venue: "L303, L308, IT443",
+        eligibility: "College Students",
         completed: false,
         results: null,
         rules: [
-            'Individual Participation Only.',
-            'You can use any programming language of given choice (C, C++, Java, Python)',
-            'Make sure you have a Hackerrank account. If not create one before the contest',
-            'A total of three rounds will be conducted.',
-            "Round 1: Coding challenges on Hackerrank with time limit.",
-            "Round 2: Technical quiz with multiple-choice questions covering computer science, DSA, and OS topics etc.,.",
-            "Round 3: Combination challenge involving reverse coding,missing code and SQL Queries. The challenge will be presented in a snakes and ladders format, where each question is represented by a box. The participants who successfully navigate to the last box solving the questions in the box they cross will be declared the winners.\'Internet and personal computer will be provided and be free to bring your own laptops to this event.\'"
+            "Individual Participation Only.",
+            "Any programming language of choice can be used (C, C++, Java, Python).",
+            "An active Hackerrank account is required before the contest.",
+            "A total of 2 rounds will be conducted.",
+            "Round 1: Rapid Logic Challenge",
+            "A rapid-fire round featuring logic-based questions to be solved within a set time limit.",
         ],
         pics: {
             primary:
@@ -653,39 +606,24 @@ Jumble the code and triumphal your day.`,
                 "https://akm-img-a-in.tosshub.com/indiatoday/images/story/202010/work-731198_1280_1_1200x768.jpeg?size=690:388"
             ],
         },
-        dateTime: "March 2, 11.30 am",
-        duration: "",
+        dateTime: "February 21, 22",
+        duration: "1.5 hrs",
         prizes: {
-            gold: "700",
-            silver: "300",
+            gold: "800",
+            silver: "450",
         },
-        contact: "9944998238",
+        contact: "9361673354",
         speakers: null,
         color: "var(--fg-g)",
         carddescription: "Fast Minds, Quick Keys, Ignite Coding Excellence",
-        description: `Join the contest where speed is key! 
-        Compete against others to solve coding challenges rapidly, 
-        whether it's unjumbling code, cracking reverse puzzles, 
-        or mastering competitive programming. 
-        Ready to prove your quick coding skills? Join now and give it your best shot!`,
+        description:"An exciting coding competition designed to challenge your problem-solving skills and precision. Compete with the best, showcase your talent, and rise to the top. Are you ready to take on the challenge?",
         form: form,
         type: "technical",
         faq: [
-            {
-                question: "Will the event be held in an offline or online manner?",
-                answer: "Offline",
-            },
-            {
-                question: "Is Clash Of Code like regular reverse coding and competitive programming?",
-                answer: "No, the questions provided are simpler and focuses mainly on quick solving.",
-            },
-            {
-                question: "How is the leaderboard determined?",
-                answer: "The leaderboard rankings are based on submission times and the number of passed test cases.",
-            },
         ],
-        tags: ["C", "C++", "Java", "Python"],
+        tags: ["Problem Solving", "C", "C++", "Python", "Java"],
     },
+
 
     // Non Technical Events
 
