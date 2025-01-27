@@ -3,9 +3,10 @@ import Eventcard from '../Eventcard';
 import '../../Styles/Events.css';
 import { useLocation } from 'react-router-dom';
 import { TbReportMoney } from 'react-icons/tb';
-
+import { useNavigate } from 'react-router-dom';
 function Events() {
     const location = useLocation();
+    const navigate = useNavigate();
     const [curr, setcurr] = useState(0);
     const technicalref = useRef(null);
     const nontechnicalref = useRef(null);
@@ -24,12 +25,15 @@ function Events() {
         // Set the appropriate current category based on the query parameter
         switch (category) {
             case 'Technical':
+                navigate('/events/Technical');
                 setcurr(0);
                 break;
             case 'Non-Technical':
+                navigate('/events/Non-technical');
                 setcurr(1);
                 break;
             case 'Flagship':
+                navigate('/events/Flagship');
                 setcurr(2);
                 break;
             default:
@@ -124,3 +128,6 @@ const Nontechnical = () => {
 };
 
 export { Technical, Nontechnical };
+
+
+

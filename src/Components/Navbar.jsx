@@ -2,7 +2,7 @@ import React, { useEffect, useRef } from "react";
 import { Link, useLocation } from "react-router-dom";
 import "../Styles/ComponentsStyles/Navbar.css";
 import logo from "../Assets/logo_final.png";
-
+import { useState } from "react";
 function Navbar() {
     const location = useLocation();
     const homeref = useRef(null);
@@ -13,6 +13,7 @@ function Navbar() {
     const timelineref = useRef(null);
     const webref = useRef(null);
     const socialLinksRef = useRef(null);
+    const [timeLeft, setTimeLeft] = useState({ days: 0, hours: 0, minutes: 0, seconds: 0 });
 
     const clearActive = () => {
         homeref.current.classList.remove("active");
@@ -51,6 +52,33 @@ function Navbar() {
         }
     }, [location]);
 
+    useEffect(() => {
+        const eventDate = new Date("2025-02-20T00:00:00");
+        const timer = setInterval(() => {
+            const now = new Date();
+            const timeDifference = eventDate - now;
+
+            if (timeDifference <= 0) {
+                clearInterval(timer);
+                setTimeLeft({ days: 0, hours: 0, minutes: 0, seconds: 0 });
+            } else {
+                const days = Math.floor(timeDifference / (1000 * 60 * 60 * 24));
+                const hours = Math.floor((timeDifference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                const minutes = Math.floor((timeDifference % (1000 * 60 * 60)) / (1000 * 60));
+                const seconds = Math.floor((timeDifference % (1000 * 60)) / 1000);
+                setTimeLeft({ days, hours, minutes, seconds });
+            }
+        }, 1000);
+
+        return () => clearInterval(timer);
+    }, []);
+
+    const gradientStyle = {
+        background: `linear-gradient(to right, #05FFA3, #06BED8)`,
+        WebkitBackgroundClip: "text",
+        color: "transparent",
+    };
+
     return (
         <div className="navbar">
             <div className="navbar-logo">
@@ -88,6 +116,14 @@ function Navbar() {
                     <span>Contact Us</span>
                 </Link>
             </div>
+
+            <div className="countdown">
+                <p className="tagName">Commencing in</p>
+                <p style={gradientStyle}>
+                    {timeLeft.days} Days {timeLeft.hours} Hrs {timeLeft.minutes} Mins {timeLeft.seconds} Secs
+                </p>
+            </div>
+
             {/* Social Media Links */}
             <div className="social-links" ref={socialLinksRef}>
                 <a href="https://www.instagram.com/cryptera_2k25" style={{ padding: "10px" }}>
