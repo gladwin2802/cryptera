@@ -20,7 +20,6 @@ import Main1 from './Components/Screens/Main1';
 import { initializeApp } from "firebase/app";
 import { getFirestore } from "firebase/firestore";
 import { getevent_details_data } from './Data/events_data';
-import Update_event from './Components/Screens/Update_event';
 import Gallery from './Components/Screens/Gallery';
 import Admin from './Components/Screens/Admin';
 import Venue from './Components/Screens/Venue';
@@ -80,7 +79,6 @@ function App() {
                         {/* <Route path="/admin" element={<Admin />}></Route> */}
                         {/* <Route path="/venue" element={<Venue />}></Route> */}
                         <Route path='/queries2025' element={<Queries />}></Route>
-                        {/* <Route path='/access_code_8870499146_ji' element={<Update_event />}></Route> */}
                     </Routes>
                 </div>
             </BrowserRouter>

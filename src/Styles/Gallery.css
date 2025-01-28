@@ -96,9 +96,18 @@
 
 /* MEDIA QUERIES */
 
+@media only screen and (max-width: 900px) {
+    .slider-container {
+        /* position: unset; */
+        width: 95%;
+        /* overflow: unset; */
+    }
+}
+
 /* For tablets (width <= 768px) */
 @media (max-width: 768px) {
     .slider-container {
+        /* position: unset; */
         width: 95%;
     }
 

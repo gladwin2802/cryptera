@@ -126,7 +126,7 @@ function Navmobile() {
     }, [location]);
 
     useEffect(() => {
-        const eventDate = new Date("2025-02-20T00:00:00");
+        const eventDate = new Date("2025-02-21T12:00:00");
         const timer = setInterval(() => {
             const now = new Date();
             const timeDifference = eventDate - now;
