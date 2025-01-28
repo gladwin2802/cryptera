@@ -1,285 +1,293 @@
 export const events = [
 
-    // March 1
+    // February 21
     {
         title: "CSS battle",
         time: "9:00 AM",
-        date: "March 1",
+        date: "February 21",
         ref: "CSS_Battle",
-        venue: "IT442, IT443, L103"
+        // venue: "IT442, IT443, L103"
     },
     {
         title: "Paper Presentation",
         time: "9:00 AM to 4:00 PM",
-        date: "March 1",
+        date: "February 21",
         ref: "Paper_Presentation",
-        venue: "IT214"
+        // venue: "IT214"
     },
     {
         title: "Jumbled Code",
-        time: "10:00 AM",
-        date: "March 1",
+        time: "09:45 AM",
+        date: "February 21",
         ref: "Jumbled_Code",
-        venue: "L103, L210, L303, L310, L315, IOT"
+        // venue: "L103, L210, L303, L310, L315, IOT"
     },
     {
         title: "Treasure hunt",
         time: "10:00 AM",
-        date: "March 1",
+        date: "February 21",
         ref: "Treasure_Hunt",
-        venue: "L102"
+        // venue: "L102"
 
     },
     {
-        title: "Workshop on Startups",
-        time: "10:00 AM",
-        date: "March 1",
-        ref: "Workshop2",
-        venue: "IT211 or MBCH or LBCH"
+        title: "Workshop (coming soon..)",
+        time: "10:00 AM to 12:00 PM",
+        date: "February 21",
+        // ref: "Workshop1",
+        // venue: "IT211 or MBCH or LBCH"
     },
     {
-        title: "Escape Room",
-        time: "10:00 AM to 5:00 PM",
-        date: "March 1",
-        ref: "Escape_Room",
-        venue: "L101"
+        title: "Poster Design",
+        time: "10:45 AM",
+        date: "February 21",
+        ref: "Poster_Design",
+        // venue: "L101"
     },
     {
-        title: "UI design contest",
+        title: "Escape room",
         time: "11:00 AM",
-        date: "March 1",
-        ref: "UI_Design_Contest",
-        venue: "IT442, IT443"
+        date: "February 21",
+        ref: "Escape_Room",
+        // venue: "IT442, IT443"
     },
     {
-        title: "Attack on Anime",
-        time: "12:00 PM",
-        date: "March 1",
-        ref: "Attack_on_Anime",
-        venue: "LBCH"
+        title: "Prompt engineering",
+        time: "11:30 AM",
+        date: "February 21",
+        ref: "Prompt_Engineering",
+        // venue: "LBCH"
     },
     {
-        title: "PC building",
+        title: "Attack On Anime",
+        time: "11:30 AM",
+        date: "February 21",
+        ref: "Attack_On_Anime",
+        // venue: "L109"
+    },
+    {
+        title: "Typing Thunder",
+        time: "12:30 PM",
+        date: "February 21",
+        ref: "Typing_Thunder",
+        // venue: "L103, L210, L303, L308, L315"
+    },
+    {
+        title: "PC Building",
         time: "2:00 PM",
-        date: "March 1",
-        ref: "PC_Building",
-        venue: "L109"
+        date: "February 21",
+        ref: "Pc_Building",
+        // venue: "L102"
     },
     {
-        title: "Reverse Coding",
+        title: "Workshop (Coming Soon..)",
+        time: "2:00 PM to 4:00 PM",
+        date: "February 21",
+        ref: "Workshop2",
+        // venue: "IT211 or MBCH or LBCH"
+    },
+    {
+        title: "UI Design Contest",
         time: "2:00 PM",
-        date: "March 1",
-        ref: "Reverse_Coding",
-        venue: "L103, L210, L303, L308, L315"
+        date: "February 21",
+        ref: "Ui_Design_Contest",
+        // venue: "IT442, IT443, L103, L210, IOT"
     },
     {
         title: "Sales Talk",
         time: "2:00 PM",
-        date: "March 1",
+        date: "February 21",
         ref: "Sales_Talk",
-        venue: "L102"
+        // venue: "L210, L201 (waiting room )"
     },
     {
-        title: "Workshop on Electric Vehicles",
-        time: "2:00 PM",
-        date: "March 1",
-        ref: "Workshop3",
-        venue: "IT211 or MBCH or LBCH"
-    },
-    {
-        title: "Blind Code",
-        time: "3:00 PM",
-        date: "March 1",
-        ref: "Blind_Code",
-        venue: "IT442, IT443, L103, L210, IOT"
-    },
-    {
-        title: "Type Racer",
-        time: "3:00 PM",
-        date: "March 1",
-        ref: "Type_Racer",
-        venue: "L210, L201 (waiting room )"
-    },
-    {
-        title: "Poster Design",
-        time: "4:00 PM",
-        date: "March 1",
-        ref: "Poster_Design",
-        venue: "IT442,L210"
+        title: "Code In Chaos",
+        time: "2:30 PM",
+        date: "February 21",
+        ref: "Code_In_Chaos",
+        // venue: "IT442,L210"
 
     },
     {
         title: "Marvel/DC",
         time: "3:30 PM",
-        date: "March 1",
+        date: "February 21",
         ref: "MarvelDC_Quiz",
-        venue: "MBCH"
+        // venue: "MBCH"
     },
     {
         title: "Free fire ",
         time: "6:00 PM",
-        date: "March 1",
+        date: "February 21",
         ref: "Freefire"
     },
     {
         title: "Valorant ",
         time: "6:00 PM",
-        date: "March 1",
+        date: "February 21",
         ref: "Valorant"
     },
     {
         title: "Chess ",
         time: "6:00 PM",
-        date: "March 1",
+        date: "February 21",
         ref: "Chess"
     },
     {
         title: "BGMI",
         time: "6:00 PM",
-        date: "March 1",
+        date: "February 21",
         ref: "BGMI"
     },
-    // March 2
+    // February 22
     {
         title: "0xdebug",
         time: "9:00 AM",
-        date: "March 2",
+        date: "February 22",
         ref: "0xdebug",
-        venue: "L103, L210, L303, L308, L315"
+        // venue: "L103, L210, L303, L308, L315"
     },
     {
         title: "Paper Presentation",
         time: "9:00 AM to 4:00 PM",
-        date: "March 2",
+        date: "February 22",
         ref: "Paper_Presentation",
-        venue: "IT214"
+        // venue: "IT214"
     },
     {
-        title: "Prompt Engineering",
-        time: "9:30 AM",
-        date: "March 2",
-        ref: "Prompt_Engineering",
-        venue: "IT442, IT443"
+        title: "Recall Rumble",
+        time: "9:00 AM",
+        date: "February 22",
+        ref: "Recall_Rumble",
+        // venue: "IT442, IT443"
     },
     {
-        title: "Webinar on Generative AI",
-        time: "10:00 AM",
-        date: "March 2",
-        ref: "Webinar3"
+        title: "Logic Unchained",
+        time: "9:00 AM",
+        date: "February 22",
+        ref: "Recall_Rumble",
+        // venue: "IT442, IT443"
     },
     {
-        title: "Workshop on Machine Learning and it's applications",
-        time: "10:00 AM",
-        date: "March 2",
-        ref: "Workshop4",
-        venue: "IT211 or MBCH or LBCH"
+        title: "Webinar (Coming Soon..)",
+        time: "",
+        date: "February 22",
+        ref: "Webinar1"
     },
     {
-        title: "Escape Room",
-        time: "10:00 AM to 5:00 PM",
-        date: "March 2",
-        ref: "Escape_Room",
-        venue: "L109"
+        title: "Workshop (Coming Soon..)",
+        time: "10:00 AM - 12:00 PM",
+        date: "February 22",
+        ref: "Workshop3",
+        // venue: "IT211 or MBCH or LBCH"
     },
     {
         title: "Cryptera Coding Contest",
         time: "10:30 AM",
-        date: "March 2",
+        date: "February 22",
         ref: "Cryptera_Coding_Contest",
-        venue: "L103, L210, L303, L308, L315 "
+        // venue: "L109"
     },
     {
-        title: "Clash of Code",
-        time: "11:30 AM",
-        date: "March 2",
-        ref: "Clash_Of_Code",
-        venue: "L303, L308, IT443"
+        title: "Escape Room",
+        time: "11:00 AM",
+        date: "February 22",
+        ref: "Escape_Room",
+        // venue: "L103, L210, L303, L308, L315 "
     },
     {
         title: "Carrom",
+        time: "11:00 AM",
+        date: "February 22",
+        ref: "Carrom",
+        // venue: "L303, L308, IT443"
+    },
+    {
+        title: "Reverse Coding",
         time: "12:00 PM",
-        date: "March 2",
-        ref: "Carrom"
+        date: "February 22",
+        ref: "Reverse_Coding"
+    },
+    {
+        title: "Hackathon",
+        time: "1:00 AM",
+        date: "February 22",
+        ref: "Hackathon",
+        // venue: "L103, L210, L303, L308, L315"
+    },
+    {
+        title: "Movie Quiz",
+        time: "1:30 PM",
+        date: "February 22",
+        ref: "Movie_Quiz",
+        // venue: "L102,L101(Waiting Room) "
+    },
+    {
+        title: "Workshop (Coming Soon..)",
+        time: "2:00 PM to 4:00 PM",
+        date: "February 22",
+        ref: "Workshop4"
     },
     {
         title: "Missing Code",
         time: "2:00 PM",
-        date: "March 2",
+        date: "February 22",
         ref: "Missing_Code",
-        venue: "L103, L210, L303, L308, L315"
-    },
-    {
-        title: "Hackathon",
-        time: "2:00 PM",
-        date: "March 2",
-        ref: "Hackathon",
-        venue: "L102,L101(Waiting Room) "
-    },
-    {
-        title: "Webinar in Distributed database",
-        time: "2:00 PM",
-        date: "March 2",
-        ref: "Webinar2"
-    },
-    {
-        title: "IPL Auction",
-        time: "2:00 PM",
-        date: "March 2",
-        ref: "IPL-Auction1",
-        venue: "LBCH"
+        // venue: "LBCH"
 
     },
     {
-        title: "Workshop on Augmented Reality App Development",
+        title: "Ipl Auction",
         time: "2:00 PM",
-        date: "March 2",
-        ref: "Workshop1",
-        venue: "IT211 or MBCH or LBCH"
+        date: "February 22",
+        ref: "Ipl_Auction",
+        // venue: "IT211 or MBCH or LBCH"
     },
     {
         title: "Tech Feud",
-        time: "2:30 PM",
-        date: "March 2",
+        time: "2:00 PM",
+        date: "February 22",
         ref: "Tech_Feud",
-        venue: "IT442, IT443"
-    },
-    {
-        title: "Movie Quiz",
-        time: "4:00 PM",
-        date: "March 2",
-        ref: "Movie_quiz",
-        venue: "MBCH"
+        // venue: "IT442, IT443"
     },
     {
         title: "Free fire ",
         time: "6:00 PM",
-        date: "March 2",
+        date: "February 22",
         ref: "Freefire"
     },
     {
         title: "Valorant ",
         time: "6:00 PM",
-        date: "March 2",
+        date: "February 22",
         ref: "Valorant"
     },
     {
         title: "Chess ",
         time: "6:00 PM",
-        date: "March 2",
+        date: "February 22",
         ref: "Chess"
     },
     {
         title: "BGMI",
         time: "6:00 PM",
-        date: "March 2",
+        date: "February 22",
         ref: "BGMI"
     },
 
-    // March 3
+    // February 23
+
     {
-        title: "Webinar on AI and Data Science",
-        time: "10:00 AM",
-        date: "March 3",
-        ref: "Webinar1"
+        title: "Webinar (Coming Soon..)",
+        time: "",
+        date: "February 23",
+        ref: "Webinar2"
+    },
+
+    {
+        title: "Webinar (Coming Soon..)",
+        time: "",
+        date: "February 23",
+        ref: "Webinar3"
     }
 ];

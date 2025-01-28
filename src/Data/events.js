@@ -6,7 +6,7 @@ import carrom from "../Assets/event/carrom.jpg";
 // import workshop1 from "../Assets/event/workshop1.jpg";
 import prompt from "../Assets/event/prompteng.jpeg";
 
-const form = "https://docs.google.com/forms/d/e/1FAIpQLSdVn_M4OESw7BRTY5QJF8FREnONDoWUfAreehNLWgyF81HhHw/viewform"
+const form = "https://forms.gle/vLSyf3tomF4xVjKAA"
 
 export default [
     ///////////////////////////////////////////////////////
@@ -36,7 +36,7 @@ export default [
                 // "https://www.itprotoday.com/sites/itprotoday.com/files/styles/article_featured_retina/public/programming%20evolution.jpg?itok=WTj9-yNz",
             secondary: [],
         },
-        dateTime: "February 21, 22",
+        dateTime: "February 22,10:30 am",
         duration: "2 hrs",
         prizes: {
             gold: "1500",
@@ -104,7 +104,7 @@ export default [
             // "https://www.zdnet.com/a/img/resize/757fc75271d8f21e8d54e61b5d0dee0a3d522971/2021/06/30/0286f74b-453c-4472-b5c1-321b18475c78/technical-visual-studio-code-extension.jpg?auto=webp&fit=crop&height=1200&width=1200",
             secondary: [],
         },
-        dateTime: "February 21, 22",
+        dateTime: "February 22,09:00 am",
         duration: "1.5 hrs",
         prizes: {
             gold: "1000",
@@ -147,7 +147,7 @@ export default [
                 "https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
             ],
         },
-        dateTime: "February 21, 22",
+        dateTime: "February 21,09:00 am",
         duration: "1.5 hrs",
         prizes: {
             gold: "1000",
@@ -192,7 +192,7 @@ export default [
                 "https://www.billboard.com/wp-content/uploads/2022/07/salt-n-pepa-celebrity-family-feud-2022-billboard-1548.png",
             secondary: [],
         },
-        dateTime: "February 21, 22",
+        dateTime: "February 22,02:00 pm",
         duration: "1.5 hrs",
         prizes: {
             gold: "1000",
@@ -245,7 +245,7 @@ export default [
             primary:"https://img.freepik.com/premium-photo/composite-image-angry-hipster-businessman-holding-his-hairs_1134-35309.jpg?uid=R27846696&ga=GA1.1.388313583.1706188067&semt=ais_hybrid",
             secondary: [],
         },
-        dateTime: "February 21, 22",
+        dateTime: "February 21,02:45 pm",
         duration: "2 hrs",
         prizes: {
             gold: "1000",
@@ -290,7 +290,7 @@ export default [
             primary: jumbledCode,
             secondary: [],
         },
-        dateTime: "February 21, 22",
+        dateTime: "February 21,09:45 am",
         duration: "1 hr",
         prizes: {
             gold: "800",
@@ -349,7 +349,7 @@ export default [
                 "https://s3images.coroflot.com/user_files/individual_files/large_1020744_aontiqjc9mm3_aggdhrcsmvnh.png",
             secondary: [],
         },
-        dateTime: "February 21, 22",
+        dateTime: "February 21,02:00 pm",
         duration: "1.5 hrs",
         prizes: {
             gold: "1000",
@@ -412,7 +412,7 @@ export default [
                 "https://akm-img-a-in.tosshub.com/indiatoday/images/story/202012/chris-ried-ieic5Tq8YMk-unsplas_1200x768.jpeg?size=690:388",
             secondary: [],
         },
-        dateTime: "February 21, 22",
+        dateTime: "February 22,02:00 pm",
         duration: "1.5 hrs",
         prizes: {
             gold: "1000",
@@ -483,7 +483,7 @@ export default [
             primary: prompt,
             secondary: [],
         },
-        dateTime: "February 21, 22",
+        dateTime: "February 21,11:30 am",
         duration: "1.5 hrs",
         prizes: {
             gold: "1000",
@@ -542,7 +542,7 @@ export default [
                 "https://pythonweb.org/wp-content/uploads/2021/04/Programming-HD-Wallpapers-Python-And-Other-Coding.jpg",
             secondary: [],
         },
-        dateTime: "February 21, 22",
+        dateTime: "February 22,12:00 pm",
         duration: "1.5 hrs",
         prizes: {
             gold: "1000",
@@ -606,7 +606,7 @@ export default [
                 "https://akm-img-a-in.tosshub.com/indiatoday/images/story/202010/work-731198_1280_1_1200x768.jpeg?size=690:388"
             ],
         },
-        dateTime: "February 21, 22",
+        dateTime: "February 22,09:00 am",
         duration: "1.5 hrs",
         prizes: {
             gold: "800",
@@ -663,7 +663,7 @@ export default [
         contact: "8438845719",
         carddescription:
             "Join our singing and music competition and showcase your talent to the world",
-        dateTime: "February 21, 22",
+        dateTime: "February 20 - Last date for submission.",
         prizes: {
             gold: "300",
             gold1: "300"
@@ -673,7 +673,7 @@ export default [
         color: "var(--fg-g)",
         description:
             "Calling all music enthusiasts! Participate in our Singing and Instrumental Contest to showcase your talent. Whether you’re a seasoned performer or just love music, this is your chance to shine. Who will be the star of the event?",
-        form: "https://docs.google.com/forms/d/e/1FAIpQLScZ3OP1rKPbmSF_6s-Ro--7TnzV4QhN2TIaA9oNiBC0Dvh2bw/viewform",
+        form: "https://forms.gle/CfvDfSzUjYcSv46j8",
         type: "non_technical",
         faq: [
             {
@@ -716,7 +716,7 @@ export default [
             ],
         },
         contact: "8438845719",
-        dateTime: "February 21, 22",
+        dateTime: "February 22,01:30 pm",
         prizes: {
             gold: "500",
             silver:"250",
@@ -758,7 +758,7 @@ export default [
             ],
         },
         contact: "8438845719",
-        dateTime: "February 21, 22",
+        dateTime: "February 21,10:45 am",
         prizes: {
             gold: "600",
             silver: "400",
@@ -805,7 +805,7 @@ export default [
             ],
         },
         contact: "8438845719",
-        dateTime: "February 21, 22",
+        dateTime: "February 20 - Last date for submission.",
         prizes: {
             gold: "300",
             silver:"150",
@@ -815,7 +815,7 @@ export default [
             "Drawing is not what one sees, but what one can make others see",
         description:
             "Dive into a world of colours and emotions at our Art and Emotions event. Create artwork that captures the essence of your feelings. From vibrant hues to subtle shades, express your innermost emotions through your art.",
-        form: "https://docs.google.com/forms/d/e/1FAIpQLScElFOCsEJBTGN8a1FQ_lWjpe-kHz-U8QJuNOaOGBXrhywYSw/viewform",
+        form: "https://forms.gle/CfvDfSzUjYcSv46j8",
         type: "non_technical",
         faq: [
             {
@@ -868,7 +868,7 @@ export default [
             ],
         },
         contact: "8438845719",
-        dateTime: "February 21, 22",
+        dateTime: "February 20 - Last date for submission.",
         prizes: {
             gold: "350",
             silver:"150",
@@ -876,7 +876,7 @@ export default [
         carddescription: "Where Words Flow and Creativity Takes Shape",
         color: "var(--fg-g)",
         description:"Calling all poets! Participate in our Poetry Event and showcase your talent. Share your poems that touch on themes of love, loss, joy, and everything in between. Connect with others through the shared experience of poetry.",
-        form: form,
+        form: "https://forms.gle/CfvDfSzUjYcSv46j8",
         type: "non_technical",
         faq: [
             {
@@ -926,7 +926,7 @@ export default [
             ],
         },
         contact: "8438845719",
-        dateTime: "February 21, 22",
+        dateTime: "February 21,10:00 am",
         prizes: {
             gold: "2000",
         },
@@ -935,7 +935,7 @@ export default [
             "Solve the clues and follow the trail, find the treasure that will prevail.",
         description:
             "Ready for an adventure? Put your puzzle-solving skills to the test. Follow the clues, solve the puzzles, and find the hidden treasures. Who will be the ultimate treasure hunter?",
-        form: "https://docs.google.com/forms/d/e/1FAIpQLSeTlzTsWcmaK89WOtjPhWXLgkFjBo3GFaMccVIM8CAWY7SCiQ/viewform",
+        form: form,
         type: "non_technical",
         faq: [],
         speakers: [],
@@ -972,7 +972,7 @@ export default [
             ],
         },
         contact: "8438845719",
-        dateTime: "February 21, 22",
+        dateTime: "February 21,03:30 pm",
         prizes: {
             gold: "300",
             silver:"150",
@@ -1030,7 +1030,7 @@ export default [
             ],
         },
         contact: "8438845719",
-        dateTime: "February 21, 22",
+        dateTime: "February 21,02:00 pm",
         duration:"1.5 hrs",
         prizes: {
             gold: "400",
@@ -1083,7 +1083,7 @@ export default [
             ],
         },
         contact: "8438845719",
-        dateTime: "February 21, 22",
+        dateTime: "February 21,12:30 pm",
         prizes: {
             gold: "400",
             silver:"200",
@@ -1140,7 +1140,7 @@ export default [
             primary: "https://assets.entrepreneur.com/content/3x2/2000/20191009140007-GettyImages-1053962188.jpeg?crop=4:3",
             secondary: [],
         },
-        dateTime: "February 21, 22",
+        dateTime: "February 20 - Last date for submission.",
         duration: "Online",
         prizes: {
             gold: "250",
@@ -1151,7 +1151,7 @@ export default [
         carddescription: "Best photographs that capture the beauty and creativity.",
         description:
             "Get ready to freeze the moments! Participate in our Photography Event and share your unique perspective. From the smallest details to the grandest vistas, bring your best photos to life. Let your view of world will shown to others!",
-        form: "https://docs.google.com/forms/d/e/1FAIpQLSd2JYaCJW4kgijFE5W69625vbxRzEdMffcds-v-jCMTA3drHQ/viewform",
+        form: "https://forms.gle/CfvDfSzUjYcSv46j8",
         type: "non_technical",
         faq: [],
         tags: ["Fun Event"],
@@ -1179,7 +1179,7 @@ export default [
             primary: "https://as01.epimg.net/meristation_en/imagenes/2022/02/18/news/1645143158_918055_1645145092_noticia_normal.jpg",
             secondary: [],
         },
-        dateTime: "February 21, 22",
+        dateTime: "February 21,11:30 am",
         duration: "1.5 hrs",
         prizes: {
             gold: "400",
@@ -1223,7 +1223,7 @@ export default [
             primary: "https://img.freepik.com/free-photo/gradient-technology-background_23-2151895872.jpg?t=st=1737654417~exp=1737658017~hmac=80848eaf744e83a2d9a4f9f6b7e17cb1e36d22ff6987c940795e72a1de1d5d48&w=360",
             secondary: [],
         },
-        dateTime: "February 21, 22",
+        dateTime: "February 22,09:00 am",
         duration: "2 hrs",
         prizes: {
             gold: "400",
@@ -1269,7 +1269,7 @@ export default [
             primary:"https://plus.unsplash.com/premium_photo-1682125771198-f7cbed7cb868?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Y2luZW1hfGVufDB8fDB8fHww",
             secondary: [],
         },
-        dateTime: "February 21, 22",
+        dateTime: "February 20 - Last date for submission.",
         duration: "Online",
         prizes: {
             gold: "500",
@@ -1280,7 +1280,7 @@ export default [
         carddescription:
             "Unleash your creativity and let your story shine, one reel at a time!",
         description: "Step into the spotlight with Cinematic Snippet! Create a stand-out reel, whether it’s stand-up comedy, a recreation, or your own unique idea. Compete, impress, and win exciting prizes. Don’t miss your chance—join now and let your creativity shine!",
-        form: form,
+        form: "https://forms.gle/CfvDfSzUjYcSv46j8",
         type: "non_technical",
         faq: [
             {
@@ -1307,7 +1307,7 @@ export default [
         results: null,
         rules: [
             "Participation can be individual or in teams of up to 4 members",
-            "The abstract should be at most one page and must be submitted after paying the 'Entry Fee'",
+            "The abstract should be at most two pages and must be submitted after paying the 'Entry Fee' on or before February 15",
             "Participants will be shortlisted based on the innovative ideas submitted",
             "Shortlisted participants are required to complete their registration by paying the 'Registration Fee' based on their team size",
             "The oral presentation is allotted 10 minutes, followed by a 2-3 minute Q&A session; the time limit must not be exceeded",
@@ -1321,7 +1321,7 @@ export default [
             primary: "https://www.incimages.com/uploaded_files/image/1920x1080/getty_505595136_20001333200092800_406810.jpg",
             secondary: [],
         },
-        dateTime: "February 21, 22",
+        dateTime: "February 21 & 22",
         duration: "",
         prizes: {
             gold: "2000",
@@ -1332,7 +1332,7 @@ export default [
         color: "var(--fg-g)",
         carddescription: "Are you ready to showcase your ideas on the big stage?",
         description: "Showcase your research, ideas, and innovation in our Paper Presentation event.Impress the panel with your knowledge and communication skills while addressing key topics in your field!  ",
-        form: "https://docs.google.com/forms/d/e/1FAIpQLScN_V0-20BQgpvXtz2NvS1siVmJ_lxtPmEA3nCGXDjJnyjRHA/viewform",
+        form: " https://forms.gle/CBpgJ3iunVZQsDhP6",
         type: "flagship",
         faq: [
             {
@@ -1400,7 +1400,7 @@ export default [
         },
         amt: "150",
         contact: "6374330882",
-        dateTime: "February 21, 22",
+        dateTime: "February 21 & 22,06:00 pm",
         prizes: {
             gold: "1000",
             silver: "500",
@@ -1410,7 +1410,7 @@ export default [
             "Get ready to battle it out and be the last one standing in the ultimate Free Fire showdown!",
         description:
             "Engage in the intense action of Clash Squad in Free Fire, where teamwork and tactics are the keys to victory. Battle it out in fast-paced 4v4 matches and prove your skills to dominate the battlefield!",
-        form: "https://docs.google.com/forms/d/e/1FAIpQLSfmCfHZOQkHfyZPA71G1PRjzTk4F0r-kHdM2ljluM0-KIMobQ/viewform?usp=sf_link",
+        form: "https://forms.gle/Wdqc8puK8LoVgaaS9",
         type: "flagship",
         faq: [
             {
@@ -1472,7 +1472,7 @@ export default [
             ],
         },
         contact: "9025451507",
-        dateTime: "February 21, 22",
+        dateTime: "February 22,01:00 pm",
         prizes: {
             gold: "2000",
             silver: "1000",
@@ -1481,7 +1481,7 @@ export default [
         color: "var(--fg-g)",
         carddescription: "You must do the thing you think you cannot do",
         description:"Join the coding marathon in our Hackathon and unleash your programming skills.Collaborate, innovate, and build solutions to real-world challenges!",
-        form: "https://docs.google.com/forms/d/1QX93EKN6TQTdauH-7kj7fErct_qVfJHFTRKQvxg0dWU/edit?usp=drivesdk",
+        form: "https://forms.gle/8YPPSNJJvQz4iGL26",
         type: "flagship",
         faq: [{
             question: "Can we register on the spot for the hackathon ?",
@@ -1547,7 +1547,7 @@ export default [
         },
         amt: "300",
         contact: "7418039493",
-        dateTime: "February 21, 22",
+        dateTime: "February 21 & 22,06:00 pm",
         prizes: {
             gold: "2000",
             silver: "1000",
@@ -1557,7 +1557,7 @@ export default [
             "Rise to the challenge and take on the competition in a high-stakes battle for supremacy",
         description:
             "Gear up for high-octane tactical gameplay in the Valorant tournament. Team up, strategize, and outplay your opponents in this thrilling esports competition!",
-        form: "https://docs.google.com/forms/d/e/1FAIpQLScFDqxw1lkE99beZkDLID8AB4LSk5GPSD4st3revyHCl6nZ3A/viewform",
+        form: "https://forms.gle/3hr71n9SiLoPc4B57",
         type: "flagship",
         faq: [],
         speakers: [],
@@ -1589,7 +1589,7 @@ export default [
             primary: chess,
             secondary: [],
         },
-        dateTime: "February 21, 22",
+        dateTime: "February 21 & 22,06:00 pm",
         duration: "",
         prizes: {
             gold: "500",
@@ -1603,7 +1603,7 @@ export default [
             "Enter the world of strategy and intellect with our exciting chess tournament!",
         description:
             "Put your strategic thinking to the test in our Chess competition.Outsmart your opponents and prove yourself as a grandmaster in the making!  ",
-        form: "https://docs.google.com/forms/d/e/1FAIpQLSd_XqKFigNtReNdvVejryuzeIYhhnuc2A44sITUhoFRK1gevQ/viewform",
+        form: "https://forms.gle/CKe54pNGAE5ppf6A6",
         type: "flagship",
         faq: [],
         tags: ["Fun Event", "Chess"],
@@ -1634,7 +1634,7 @@ export default [
             primary: "https://i.pinimg.com/736x/aa/29/b0/aa29b0bcf2e5e1718fdaa0710de4f633.jpg",
             secondary: [],
         },
-        dateTime: "February 21, 22",
+        dateTime: "February 21 & 22,06:00 pm",
         duration: "",
         prizes: {
             gold: "1000",
@@ -1647,7 +1647,7 @@ export default [
             "Dive into the intense battlegrounds of BGMI, where strategy, survival, and skill converge.",
         description:
             "Get ready for an intense battle of skills, strategy, and survival in our BGMI tournament.Show off your gaming prowess and fight your way to the top in this action-packed flagship event!",
-        form: "https://docs.google.com/forms/d/e/1FAIpQLSeGyD1TTLJWJKi-YSEWeibkgB2d97A8qaDqybz3Ey8wG-86Ow/viewform",
+        form: "https://forms.gle/gb3L2EcEd9BvBXY58",
         type: "flagship",
         faq: [],
         tags: [],
@@ -1688,7 +1688,7 @@ export default [
             primary: carrom,
             secondary: [],
         },
-        dateTime: "February 21, 22",
+        dateTime: "February 21 & 22,11:00 am",
         duration: "",
         prizes: {
             gold: "600",
@@ -1701,7 +1701,7 @@ export default [
             "Let the striker talk !",
         description:
             "Sharpen your aim and test your precision in the ultimate Carrom challenge.Compete with the best and showcase your mastery in this classic indoor game!",
-        form: "https://docs.google.com/forms/d/e/1FAIpQLSdh89b7jTQENvRUYblX9sP2tV4LJ-f1tl1B_pI0yNPmkutqVA/viewform",
+        form: "https://forms.gle/C8YQR1RANAeEkyTy5",
         type: "flagship",
         faq: [
             {
@@ -1737,7 +1737,7 @@ export default [
         pics: {
             primary: "https://thebridge.in/h-upload/2022/02/12/23253-ipl-2022.webp",
         },
-        dateTime: "February 21, 22",
+        dateTime: "February 22,02:00 pm",
         duration: "",
         prizes: {
             gold: "1000",
@@ -1749,7 +1749,7 @@ export default [
         determination: "The team with the highest total rating after player auction will be declared as the winner.",
         carddescription: "Immersive cricket experience  assemble, bid, and conquer! 🏏💰",
         description:"Step into the shoes of a team manager in our thrilling IPL Auction event. Strategize, bid, and create your dream cricket team to dominate the league!",
-        form: "https://docs.google.com/forms/d/1ZN4qCUfnYxOw5F5UX1FJflKD3c9lKdfRiBsjm118Vug/viewform?chromeless=1&edit_requested=true",
+        form: "https://forms.gle/z3GTtLisR95fygZ46",
         type: "flagship",
         faq: [
             {
@@ -1801,7 +1801,7 @@ export default [
             primary:"https://images6.alphacoders.com/561/561826.jpg",
             secondary: [],
         },
-        dateTime: "February 21, 22",
+        dateTime: "February 21 & 22,11:00 am",
         duration: "",
         prizes:{
             gold:"750",
@@ -1814,7 +1814,7 @@ export default [
             "The clock’s ticking, the city’s fate hangs in the balance. Can you beat the mastermind in time to stop the disaster?",
         description:
             "Challenge your mind and teamwork in this thrilling Escape Room experience. Solve puzzles, find clues, and race against time to secure your freedom! ",
-        form: "https://docs.google.com/forms/d/1iz_tGiXvHyijd7zJ90i-VrcivnFmDMSQySd2dMiJJAM/viewform?chromeless=1&edit_requested=true",
+        form: "https://forms.gle/twrgWfbPREbduY1N9",
         type: "flagship",
         faq: [
             {
@@ -1857,7 +1857,7 @@ export default [
                     "https://www.cnet.com/a/img/resize/bcbacc4ad119e6f901ff4b7865f1b164f317be5b/hub/2019/11/23/4e21a4ae-cab6-4ea5-ace9-c3d8603ff017/all-parts.jpg?auto=webp&width=1200",
                 secondary: [],
             },
-            dateTime: "February 21, 22",
+            dateTime: "February 21,02:00 pm",
             duration: "",
             prizes: {
                 gold: "1500",
@@ -1868,7 +1868,7 @@ export default [
             color: "var(--fg-g)",
             carddescription: "Are you the ultimate PC enthusiast?",
             description:"Combine creativity and technical expertise in the PC Building challenge.Assemble and design the ultimate system to showcase your hardware knowledge and skills!",
-            form: form,
+            form: "https://forms.gle/MuqBhBdMaG5QLLtS6",
             type: "flagship",
             faq: [
                 {

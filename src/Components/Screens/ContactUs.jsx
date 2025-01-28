@@ -102,7 +102,7 @@ function ContactUs() {
                                     <button
                                         type="submit"
                                         className="submit"
-                                        style={{ width: "200px", height: "50px" }}
+                                        style={{ width: "150px", height: "50px" }}
                                     >
                                         Submit
                                     </button>

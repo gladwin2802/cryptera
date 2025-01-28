@@ -77,13 +77,13 @@ function Timelinex() {
                 </div>
                 <div className="button-flex">
                     <div onClick={() => scrollToTimeline(0)} className="item-button">
-                        <div>March 1</div>
+                        <div>February 21</div>
                     </div>
                     <div onClick={() => scrollToTimeline(17)} className="item-button">
-                        <div>March 2</div>
+                        <div>February 22</div>
                     </div>
                     <div onClick={() => scrollToTimeline(35)} className="item-button">
-                        <div>March 3</div>
+                        <div>February 23</div>
                     </div>
                 </div>
                 <>
@@ -129,7 +129,7 @@ function Timelinex() {
                                             <Typography
                                                 className="event_name"
                                                 component="span"
-                                                onClick={() => navigateToEventPage(event.ref)}
+                                                // onClick={() => navigateToEventPage(event.ref)}
                                             >
                                                 {event.title.toUpperCase()}
                                             </Typography>
@@ -144,7 +144,7 @@ function Timelinex() {
                                             <Typography
                                                 className="event_name"
                                                 component="span"
-                                                onClick={() => navigateToEventPage(event.ref)}
+                                                // onClick={() => navigateToEventPage(event.ref)}
                                             >
                                                 {event.title.toUpperCase()}
                                             </Typography>

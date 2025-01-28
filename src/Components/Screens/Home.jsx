@@ -3,14 +3,14 @@ import "../../Styles/Home.css";
 import { useNavigate } from "react-router-dom";
 
 // Example image imports
-import img1 from "../../Assets/Caroussel/images/crypterabg.png";
-import img2 from "../../Assets/Caroussel/images/technical.png";
-import img3 from "../../Assets/Caroussel/images/non-technical.png";
-import img4 from "../../Assets/Caroussel/images/flagship.png";
-import img5 from "../../Assets/Caroussel/images/pcrypterabg.png";
-import img6 from "../../Assets/Caroussel/images/ptechnical.png";
-import img7 from "../../Assets/Caroussel/images/pnon-technical.png";
-import img8 from "../../Assets/Caroussel/images/pflagship.png";
+import img1 from "../../Assets/Caroussel/images/crypterabg.jpg";
+import img2 from "../../Assets/Caroussel/images/technical.jpg";
+import img3 from "../../Assets/Caroussel/images/non-technical.jpg";
+import img4 from "../../Assets/Caroussel/images/flagship.jpg";
+import img5 from "../../Assets/Caroussel/images/pcrypterabg.jpg";
+import img6 from "../../Assets/Caroussel/images/ptechnical.jpg";
+import img7 from "../../Assets/Caroussel/images/pnon-technical.jpg";
+import img8 from "../../Assets/Caroussel/images/pflagship.jpg";
 import bg from "../../Assets/Caroussel/images/space5.jpg";
 import CountDownHome from "./CountDownHome";
 import Gallery from './Gallery';
@@ -158,7 +158,7 @@ function Home() {
                 </div>
             </div>
             
-            <Gallery/>
+            
         </div>
     );
            
