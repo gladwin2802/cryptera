@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "../../Styles/ContactUs.css";
 import { db } from "../../App";
-import { collection, addDoc } from "firebase/firestore";
+import { collection, addDoc, serverTimestamp } from "firebase/firestore";
 
 function ContactUs() {
     const [name, setname] = useState("");
@@ -23,6 +23,7 @@ function ContactUs() {
                     question,
                     college,
                     replied: false,
+                    createdAt: serverTimestamp(),
                 });
                 alert("Success");
                 setname("");

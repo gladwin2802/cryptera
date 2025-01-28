@@ -1,11 +1,10 @@
 import chess from "../Components/Screens/assets/chess.jpg";
-import blindCode from "../Assets/event/blindCode.jpg"
+// import blindCode from "../Assets/event/blindCode.jpg"
 import jumbledCode from "../Assets/event/jumbledCode.jpg";
 import oxdebug from "../Assets/event/0xdebug.jpg";
 import carrom from "../Assets/event/carrom.jpg";
-import workshop1 from "../Assets/event/workshop1.jpg";
+// import workshop1 from "../Assets/event/workshop1.jpg";
 import prompt from "../Assets/event/prompteng.jpeg";
-import { duration } from "@mui/material";
 
 const form = "https://docs.google.com/forms/d/e/1FAIpQLSdVn_M4OESw7BRTY5QJF8FREnONDoWUfAreehNLWgyF81HhHw/viewform"
 

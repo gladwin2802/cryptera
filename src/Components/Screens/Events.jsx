@@ -3,10 +3,8 @@ import Eventcard from '../Eventcard';
 import '../../Styles/Events.css';
 import { useLocation } from 'react-router-dom';
 import { TbReportMoney } from 'react-icons/tb';
-import { useNavigate } from 'react-router-dom';
 function Events() {
     const location = useLocation();
-    const navigate = useNavigate();
     const [curr, setcurr] = useState(0);
     const technicalref = useRef(null);
     const nontechnicalref = useRef(null);
@@ -25,19 +23,15 @@ function Events() {
         // Set the appropriate current category based on the query parameter
         switch (category) {
             case 'Technical':
-                navigate('/events/Technical');
                 setcurr(0);
                 break;
             case 'Non-Technical':
-                navigate('/events/Non-technical');
                 setcurr(1);
                 break;
             case 'Flagship':
-                navigate('/events/Flagship');
                 setcurr(2);
                 break;
             default:
-                // Default to the first category if no category is specified in the URL
                 setcurr(0);
                 break;
         }
@@ -91,8 +85,12 @@ function Events() {
                         if ((data.type === "technical" && curr === 0) ||
                             (data.type === "non_technical" && curr === 1) ||
                             (data.type === "flagship" && curr === 2)) {
+                            let categoryStr;
+                            if (curr === 0) categoryStr = "Technical";
+                            else if (curr === 1) categoryStr = "Non-Technical";
+                            else if (curr === 2) categoryStr = "Flagship";
                             return (
-                                <Eventcard curr={curr} primary={data.color} data={data} key={index} status={data.status === 1 ? data.status : undefined} />
+                                <Eventcard primary={data.color} data={data} key={index} status={data.status === 1 ? data.status : undefined} category={categoryStr} />
                             );
                         } else {
                             return null;

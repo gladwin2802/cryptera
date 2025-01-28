@@ -1,0 +1,169 @@
+/* Entire slider container */
+.slider-container {
+    position: relative;
+    width: 90%;
+    max-width: 1200px;
+    margin: 60px auto;
+    overflow: hidden;
+    /* Hide overflowing slides */
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Slider wrapper */
+.slider {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    /* Smooth slide animation */
+}
+
+/* Individual slide */
+.slide {
+    min-width: 100%;
+    /* Take up the full width of the container */
+    height: 600px;
+    /* Default height */
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+/* Overlay for title text */
+.slide-overlay {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px 20px;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 1.2rem;
+    text-shadow: 0 2px 5px rgba(0, 0, 0, 0.8);
+}
+
+/* Navigation buttons */
+.nav-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    border: none;
+    font-size: 2rem;
+    padding: 10px 20px;
+    cursor: pointer;
+    z-index: 2;
+    transition: background-color 0.3s ease;
+}
+
+.nav-button:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.nav-left {
+    left: 10px;
+}
+
+.nav-right {
+    right: 10px;
+}
+
+/* Dots container */
+.dots-container {
+    position: absolute;
+    bottom: 15px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    z-index: 3;
+}
+
+/* Individual dots */
+.dot {
+    width: 12px;
+    height: 12px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.dot.active {
+    background-color: #8ae686;
+    /* Green active dot */
+}
+
+/* MEDIA QUERIES */
+
+@media only screen and (max-width: 900px) {
+    .slider-container {
+        /* position: unset; */
+        width: 95%;
+        /* overflow: unset; */
+    }
+}
+
+/* For tablets (width <= 768px) */
+@media (max-width: 768px) {
+    .slider-container {
+        /* position: unset; */
+        width: 95%;
+    }
+
+    .slide {
+        width: 90%;
+        height: 400px;
+        /* Adjust slide height for tablets */
+    }
+
+    .slide-overlay {
+        top: 10px;
+        left: 10px;
+        font-size: 1rem;
+        /* Smaller font for overlay text */
+    }
+
+    .nav-button {
+        font-size: 1.5rem;
+        /* Smaller navigation buttons */
+        padding: 8px 15px;
+    }
+
+    .dot {
+        width: 10px;
+        height: 10px;
+    }
+}
+
+/* For mobile devices (width <= 480px) */
+@media (max-width: 480px) {
+    .slider-container {
+        width: 95%;
+    }
+
+    .slide {
+        width: 80%;
+        height: 300px;
+        /* Further reduce slide height for small screens */
+    }
+
+    .slide-overlay {
+        top: 8px;
+        left: 8px;
+        font-size: 0.9rem;
+        /* Smaller font for overlay text */
+        padding: 8px 15px;
+    }
+
+    .nav-button {
+        font-size: 1.2rem;
+        /* Even smaller navigation buttons */
+        padding: 5px 10px;
+    }
+
+    .dot {
+        width: 8px;
+        height: 8px;
+    }
+}

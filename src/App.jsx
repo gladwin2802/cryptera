@@ -8,7 +8,6 @@ import events from './Data/events';
 import Home from './Components/Screens/Home';
 import AboutUs from './Components/Screens/AboutUs';
 import ContactUs from './Components/Screens/ContactUs';
-import Gallery from './Components/Screens/Gallery';
 import Committee from './Components/Screens/Committee';
 import Events from './Components/Screens/Events';
 import Countdown from './Components/Screens/Countdown';
@@ -18,10 +17,10 @@ import Eventdetails from './Components/Screens/Eventdetails';
 import Navmobile from './Components/Navmobile';
 import Queries from './Components/Screens/Queries';
 import Main1 from './Components/Screens/Main1';
-import Update_event from './Components/Screens/Update_event';
 import { initializeApp } from "firebase/app";
 import { getFirestore } from "firebase/firestore";
 import { getevent_details_data } from './Data/events_data';
+import Gallery from './Components/Screens/Gallery';
 import Admin from './Components/Screens/Admin';
 import Venue from './Components/Screens/Venue';
 const firebaseConfig = {
@@ -78,8 +77,7 @@ function App() {
                         <Route path="/events/:name" element={<Eventdetails />}></Route>
                         {/* <Route path="/admin" element={<Admin />}></Route> */}
                         {/* <Route path="/venue" element={<Venue />}></Route> */}
-                        <Route path='/access_code_8870' element={<Queries />}></Route>
-                        <Route path='/access_code_8870499146_ji' element={<Update_event />}></Route>
+                        <Route path='/queries2025' element={<Queries />}></Route>
                     </Routes>
                 </div>
             </BrowserRouter>

@@ -13,7 +13,7 @@ function Navmobile() {
     const contactref = useRef(null);
     const eventref = useRef(null);
     const commiteeref = useRef(null);
-    // const galleryref=useRef(null);
+    const galleryref=useRef(null);
     // const hintref = useRef(null);
     const linkxref = useRef(null);
     const sociallinksref = useRef(null);
@@ -41,7 +41,7 @@ function Navmobile() {
         webref.current.classList.remove("active");
         commiteeref.current.classList.remove("active");
         timelineref.current.classList.remove("active");
-        // galleryref.current.classList.remove("active");
+        galleryref.current.classList.remove("active");
         // adminref.current.classList.remove("active");
         // venueref.current.classList.remove("active");
     };
@@ -118,22 +118,22 @@ function Navmobile() {
             clearActive();
             commiteeref.current.classList.add("active");
         }
-        // else if (location.pathname === "/gallery") {
-        //     clearActive();
-        //     galleryref.current.classList.add("active");
-        // }
+        else if (location.pathname === "/gallery") {
+            clearActive();
+            galleryref.current.classList.add("active");
+        }
 
-        // else if (location.pathname === "/admin") {
-        //     clearActive();
-        //     adminref.current.classList.add("active");
-        // }
+        else if (location.pathname === "/admin") {
+            clearActive();
+            adminref.current.classList.add("active");
+        }
         else {
             clearActive();
         }
     }, [location]);
 
     useEffect(() => {
-        const eventDate = new Date("2025-02-20T00:00:00");
+        const eventDate = new Date("2025-02-21T12:00:00");
         const timer = setInterval(() => {
             const now = new Date();
             const timeDifference = eventDate - now;
@@ -255,7 +255,7 @@ function Navmobile() {
                             <span>Committee</span>
                         </Link>
 
-                        {/* <Link
+                        <Link
                             onClick={toggleMenu}
                             to="gallery"
                             ref={galleryref}
@@ -263,7 +263,7 @@ function Navmobile() {
                         >
                             <i className="fa fa-image"></i>
                             <span>Gallery</span>
-                        </Link> */}
+                        </Link>
 
                         <Link
                             onClick={toggleMenu}

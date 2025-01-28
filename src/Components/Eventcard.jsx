@@ -1,11 +1,11 @@
 import { React } from "react";
 import { useNavigate } from "react-router-dom";
 import { TbReportMoney } from "react-icons/tb";
-import Eventdetails from "./Screens/Eventdetails";
-function Eventcard({ curr,data, primary, status }) {
+
+function Eventcard({ data, primary, status, category }) {
     const navigate = useNavigate();
     const clickhandler = (e) => {
-        navigate(`/events/${data.name}`);
+        navigate(`/events/${data.name}?category=${category}`);
     };
     return (
         <div className="event-card" style={{ borderTopColor: primary }}>

@@ -61,7 +61,7 @@ function Navbar() {
     }, [location]);
 
     useEffect(() => {
-        const eventDate = new Date("2025-02-20T00:00:00");
+        const eventDate = new Date("2025-02-21T12:00:00");
         const timer = setInterval(() => {
             const now = new Date();
             const timeDifference = eventDate - now;
@@ -88,67 +88,73 @@ function Navbar() {
     };
 
     return (
-        <div className="navbar">
-            <div className="navbar-logo">
-                <Link to="/" ref={homeref} className="active navbar-link" id="Home-link">
-                    <img src={logo} alt="logo" />
-                </Link>
-            </div>
-            <div className="navbar-links">
-                <Link to="/" ref={homeref} className="active navbar-link" id="Home-link">
-                    <i className="fa fa-home"></i>
-                    <span>Home</span>
-                </Link>
-                <Link to="about_us" ref={aboutref} className="navbar-link" id="about_us-link">
-                    <i className="fa fa-info-circle"></i>
-                    <span>About us</span>
-                </Link>
-                <Link to="events" ref={eventref} className="navbar-link">
-                    <i className="fa fa-calendar-minus"></i>
-                    <span>Events</span>
-                </Link>
-                <Link to="timeline" ref={timelineref} className="navbar-link">
-                    <i className="fa fa-calendar-check"></i>
-                    <span>Timeline</span>
-                </Link>
-                <Link to="web_devs" ref={webref} className="navbar-link">
-                    <i className="fa fa-wifi"></i>
-                    <span>Web devs</span>
-                </Link>
-                <Link to="committee" ref={commiteeref} className="navbar-link">
-                    <i className="fa fa-users"></i>
-                    <span>Committee</span>
-                </Link>
-                {/* <Link to="gallery" ref={galleryref} className="navbar-link">
-                    <i className="fa fa-image"></i>
-                    <span>Gallery</span>
-                </Link> */}
-                <Link to="contact_us" ref={contactref} className="navbar-link">
-                    <i className="fa fa-headset"></i>
-                    <span>Contact Us</span>
-                </Link>
-            </div>
+        <>
+            <div className="navbar">
+                <div className="navbar-logo">
+                    <Link to="/" ref={homeref} className="active navbar-link" id="Home-link">
+                        <img src={logo} alt="logo" />
+                    </Link>
+                </div>
+                <div className="navbar-links">
+                    <Link to="/" ref={homeref} className="active navbar-link" id="Home-link">
+                        <i className="fa fa-home"></i>
+                        <span>Home</span>
+                    </Link>
+                    <Link to="about_us" ref={aboutref} className="navbar-link" id="about_us-link">
+                        <i className="fa fa-info-circle"></i>
+                        <span>About us</span>
+                    </Link>
+                    <Link to="events" ref={eventref} className="navbar-link">
+                        <i className="fa fa-calendar-minus"></i>
+                        <span>Events</span>
+                    </Link>
+                    <Link to="timeline" ref={timelineref} className="navbar-link">
+                        <i className="fa fa-calendar-check"></i>
+                        <span>Timeline</span>
+                    </Link>
+                    <Link to="web_devs" ref={webref} className="navbar-link">
+                        <i className="fa fa-wifi"></i>
+                        <span>Web devs</span>
+                    </Link>
+                    <Link to="committee" ref={commiteeref} className="navbar-link">
+                        <i className="fa fa-users"></i>
+                        <span>Committee</span>
+                    </Link>
+                    <Link to="contact_us" ref={contactref} className="navbar-link">
+                        <i className="fa fa-headset"></i>
+                        <span>Contact Us</span>
+                    </Link>
 
-            <div className="countdown">
-                <p className="tagName">Commencing in</p>
-                <p style={gradientStyle}>
-                    {timeLeft.days} Days {timeLeft.hours} Hrs {timeLeft.minutes} Mins {timeLeft.seconds} Secs
-                </p>
-            </div>
+                </div>
 
-            {/* Social Media Links */}
-            <div className="social-links" ref={socialLinksRef}>
-                <a href="https://www.instagram.com/cryptera_2k25" style={{ padding: "10px" }}>
-                    <i className="fab fa-instagram"></i>
-                </a>
-                <a href="https://www.youtube.com/channel/UCsiIbEbaefrwPFmJ_cxwoJg" style={{ padding: "10px" }}>
-                    <i className="fab fa-youtube"></i>
-                </a>
-                <a href="mailto:cryptera.cit@gmail.com" style={{ padding: "10px" }}>
-                    <i className="fa-solid fa-envelope"></i>
-                </a>
+                {/* Social Media Links */}
+                <div className="social-links" ref={socialLinksRef}>
+                    <a href="https://www.instagram.com/cryptera_2k25" style={{ padding: "10px" }}>
+                        <i className="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://www.youtube.com/channel/UCsiIbEbaefrwPFmJ_cxwoJg" style={{ padding: "10px" }}>
+                        <i className="fab fa-youtube"></i>
+                    </a>
+                    <a href="mailto:cryptera.cit@gmail.com" style={{ padding: "10px" }}>
+                        <i className="fa-solid fa-envelope"></i>
+                    </a>
+                </div>
+                {/* <div>
+                    <lottie-player
+                        autoplay
+                        loop
+                        mode="normal"
+                        src="https://assets1.lottiefiles.com/packages/lf20_1pxqjqps.json"
+                    ></lottie-player>
+                </div> */}
+                <div className="countdown">
+                    <p className="tagName">Commencing in</p>
+                    <p style={gradientStyle}>
+                        {timeLeft.days} Days {timeLeft.hours} Hrs {timeLeft.minutes} Mins {timeLeft.seconds} Secs
+                    </p>
+                </div>
             </div>
-        </div>
+        </>
     );
 }
 
