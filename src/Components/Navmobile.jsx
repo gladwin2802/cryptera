@@ -13,7 +13,7 @@ function Navmobile() {
     const contactref = useRef(null);
     const eventref = useRef(null);
     const commiteeref = useRef(null);
-    const galleryref=useRef(null);
+    // const galleryref=useRef(null);
     // const hintref = useRef(null);
     const linkxref = useRef(null);
     const sociallinksref = useRef(null);
@@ -41,7 +41,7 @@ function Navmobile() {
         webref.current.classList.remove("active");
         commiteeref.current.classList.remove("active");
         timelineref.current.classList.remove("active");
-        galleryref.current.classList.remove("active");
+        // galleryref.current.classList.remove("active");
         // adminref.current.classList.remove("active");
         // venueref.current.classList.remove("active");
     };
@@ -118,10 +118,10 @@ function Navmobile() {
             clearActive();
             commiteeref.current.classList.add("active");
         }
-        else if (location.pathname === "/gallery") {
-            clearActive();
-            galleryref.current.classList.add("active");
-        }
+        // else if (location.pathname === "/gallery") {
+        //     clearActive();
+        //     galleryref.current.classList.add("active");
+        // }
 
         // else if (location.pathname === "/admin") {
         //     clearActive();
@@ -255,7 +255,7 @@ function Navmobile() {
                             <span>Committee</span>
                         </Link>
 
-                        <Link
+                        {/* <Link
                             onClick={toggleMenu}
                             to="gallery"
                             ref={galleryref}
@@ -263,7 +263,7 @@ function Navmobile() {
                         >
                             <i className="fa fa-image"></i>
                             <span>Gallery</span>
-                        </Link>
+                        </Link> */}
 
                         <Link
                             onClick={toggleMenu}
@@ -324,5 +324,4 @@ function Navmobile() {
         </>
     );
 }
-
 export default Navmobile;

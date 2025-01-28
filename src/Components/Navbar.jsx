@@ -13,7 +13,7 @@ function Navbar() {
     const timelineref = useRef(null);
     const webref = useRef(null);
     const socialLinksRef = useRef(null);
-    const galleryref=useRef(null);
+    // const galleryref=useRef(null);
     const [timeLeft, setTimeLeft] = useState({ days: 0, hours: 0, minutes: 0, seconds: 0 });
 
 
@@ -25,7 +25,7 @@ function Navbar() {
         webref.current.classList.remove("active");
         commiteeref.current.classList.remove("active");
         timelineref.current.classList.remove("active");
-        galleryref.current.classList.remove("active");
+        // galleryref.current.classList.remove("active");
     };
 
     useEffect(() => {
@@ -51,10 +51,10 @@ function Navbar() {
             clearActive();
             commiteeref.current.classList.add("active");
         }
-        else if (location.pathname === "/gallery"){
-            clearActive();
-            galleryref.current.classList.add("active");
-        }
+        // else if (location.pathname === "/gallery"){
+        //     clearActive();
+        //     galleryref.current.classList.add("active");
+        // }
         else {
             clearActive();
         }
@@ -119,10 +119,10 @@ function Navbar() {
                     <i className="fa fa-users"></i>
                     <span>Committee</span>
                 </Link>
-                <Link to="gallery" ref={galleryref} className="navbar-link">
+                {/* <Link to="gallery" ref={galleryref} className="navbar-link">
                     <i className="fa fa-image"></i>
                     <span>Gallery</span>
-                </Link>
+                </Link> */}
                 <Link to="contact_us" ref={contactref} className="navbar-link">
                     <i className="fa fa-headset"></i>
                     <span>Contact Us</span>

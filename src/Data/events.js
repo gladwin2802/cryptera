@@ -1391,7 +1391,7 @@ export default [
         ],
         pics: {
             primary:
-                "https://akm-img-a-in.tosshub.com/aajtak/images/story/202202/how_to_download_free_fire-sixteen_nine.jpg",
+                "https://i.pinimg.com/736x/cd/03/84/cd038431ecf9ccfa4c8d08c55248e83f.jpg",
             secondary: [
                 "https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
                 "https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
@@ -1464,7 +1464,7 @@ export default [
         ],
         pics: {
             primary:
-                "https://images.squarespace-cdn.com/content/v1/5e6542d2ae16460bb741a9eb/1603318636443-A846ACUKNYUBA0RPLJ94/marvin-meyer-SYTO3xs06fU-unsplash.jpg",
+                "https://i.pinimg.com/736x/51/3b/05/513b05383c9e097835642a9bfbe50827.jpg",
             secondary: [
                 "https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
                 "https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
@@ -1632,7 +1632,7 @@ export default [
         ],
         entry: [],
         pics: {
-            primary: "https://wallpapercave.com/wp/wp9273900.jpg",
+            primary: "https://i.pinimg.com/736x/aa/29/b0/aa29b0bcf2e5e1718fdaa0710de4f633.jpg",
             secondary: [],
         },
         dateTime: "February 21, 22",
@@ -1799,7 +1799,7 @@ export default [
         ],
         entry: [],
         pics: {
-            primary: "https://i0.wp.com/www.reviewgeek.com/thumbcache/0/0/4d1ac939003e4caefdc8c63653f52d05/p/uploads/2021/01/4335a3f2.png?resize=1920%2C1080&ssl=1",
+            primary:"https://images6.alphacoders.com/561/561826.jpg",
             secondary: [],
         },
         dateTime: "February 21, 22",
@@ -1855,7 +1855,7 @@ export default [
             ],
             pics: {
                 primary:
-                    "https://staticg.sportskeeda.com/editor/2022/01/5f21e-16433417948778-1920.jpg",
+                    "https://www.cnet.com/a/img/resize/bcbacc4ad119e6f901ff4b7865f1b164f317be5b/hub/2019/11/23/4e21a4ae-cab6-4ea5-ace9-c3d8603ff017/all-parts.jpg?auto=webp&width=1200",
                 secondary: [],
             },
             dateTime: "February 21, 22",
