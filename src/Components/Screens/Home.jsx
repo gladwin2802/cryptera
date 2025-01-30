@@ -116,31 +116,30 @@ function Home() {
                         // top:100
                     }}
                 >
-
                     <section className="caroussel-1">
                         <img className="bg" src={bg} alt="" />
                         <div className="list">
                             <div className="item">
-                                <img src={isMobile ? img8 : img4} alt="" />
+                                <img src={isMobile ? img8 : img4} style={isMobile ? {height:"90%", width:"650px",marginTop:"20px"}:{}} alt="" />
                                 <div onClick={() => clickhandler("Flagship")} className="item-button">
                                     <div>Explore</div>
                                 </div>
                             </div>
                             <div className="item">
-                                <img src={isMobile ? img5 : img1} alt="" />
+                                <img src={isMobile ? img5 : img1} style={isMobile ? {height:"90%", width:"650px",marginTop:"20px"}:{}} alt="" />
                                 {/* Example button if needed:
               <div onClick={() => handleClick()} className="item-button">
                 <div>Register Now</div>
               </div> */}
                             </div>
                             <div className="item">
-                                <img src={isMobile ? img6 : img2} alt="" />
+                                <img src={isMobile ? img6 : img2} style={isMobile ? {height:"90%", width:"650px",marginTop:"20px"}:{}} alt="" />
                                 <div onClick={() => clickhandler("Technical")} className="item-button">
                                     <div>Explore</div>
                                 </div>
                             </div>
                             <div className="item">
-                                <img src={isMobile ? img7 : img3} alt="" />
+                                <img src={isMobile ? img7 : img3} style={isMobile ? {height:"90%",width:"650px",marginTop:"20px"}:{}} alt="" />
                                 <div onClick={() => clickhandler("Non-Technical")} className="item-button">
                                     <div>Explore</div>
                                 </div>

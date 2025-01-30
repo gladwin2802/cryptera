@@ -66,6 +66,12 @@ export const events = [
         // venue: "L109"
     },
     {
+        title: "Webinar (Coming Soon..)",
+        time: "12:00 PM to 2:00 PM",
+        date: "February 21",
+        ref: "Webinar1"
+    },
+    {
         title: "Typing Thunder",
         time: "12:30 PM",
         date: "February 21",
@@ -79,13 +85,13 @@ export const events = [
         ref: "Pc_Building",
         // venue: "L102"
     },
-    {
-        title: "Workshop (Coming Soon..)",
-        time: "2:00 PM to 4:00 PM",
-        date: "February 21",
-        ref: "Workshop2",
-        // venue: "IT211 or MBCH or LBCH"
-    },
+    // {
+    //     title: "Workshop (Coming Soon..)",
+    //     time: "2:00 PM to 4:00 PM",
+    //     date: "February 21",
+    //     ref: "Workshop2",
+    //     // venue: "IT211 or MBCH or LBCH"
+    // },
     {
         title: "UI Design Contest",
         time: "2:00 PM",
@@ -94,7 +100,7 @@ export const events = [
         // venue: "IT442, IT443, L103, L210, IOT"
     },
     {
-        title: "Sales Talk",
+        title: "Selling Showdown",
         time: "2:00 PM",
         date: "February 21",
         ref: "Sales_Talk",
@@ -114,6 +120,12 @@ export const events = [
         date: "February 21",
         ref: "MarvelDC_Quiz",
         // venue: "MBCH"
+    },
+    {
+        title: "Webinar (Coming Soon..)",
+        time: "6:00 PM to 8:00 PM",
+        date: "February 21",
+        ref: "Webinar2"
     },
     {
         title: "Free fire ",
@@ -167,12 +179,6 @@ export const events = [
         date: "February 22",
         ref: "Recall_Rumble",
         // venue: "IT442, IT443"
-    },
-    {
-        title: "Webinar (Coming Soon..)",
-        time: "",
-        date: "February 22",
-        ref: "Webinar1"
     },
     {
         title: "Workshop (Coming Soon..)",
@@ -275,19 +281,8 @@ export const events = [
         ref: "BGMI"
     },
 
-    // February 23
 
-    {
-        title: "Webinar (Coming Soon..)",
-        time: "",
-        date: "February 23",
-        ref: "Webinar2"
-    },
+    
 
-    {
-        title: "Webinar (Coming Soon..)",
-        time: "",
-        date: "February 23",
-        ref: "Webinar3"
-    }
+    
 ];
