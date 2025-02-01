@@ -2,6 +2,7 @@ import React, { useRef, useState, useEffect } from "react";
 import "../Styles/ComponentsStyles/Navmobile.css";
 import Logo from "../Assets/logo_final.png";
 import { Link, useLocation, useNavigate } from "react-router-dom";
+import CountDownHome from "./Screens/CountDownHome";
 function Navmobile() {
     const sidenavref = useRef();
     const [open, setopen] = useState(false);
@@ -50,7 +51,7 @@ function Navmobile() {
         if (location.pathname === "/") {
             clearActive();
             homeref.current.classList.add("active");
-            homeref.current.classList.add("active");
+            // homeref.current.classList.add("active");
 
             // hintref.current.innerHTML = "Scroll";
             // hintref.current.addEventListener("click", () => { });
@@ -76,6 +77,7 @@ function Navmobile() {
             // hintref.current.addEventListener("click", () => {
             //     navigate("/events");
             // });
+
         } else if (location.pathname === "/contact_us") {
             clearActive();
             contactref.current.classList.add("active");
@@ -131,37 +133,36 @@ function Navmobile() {
             clearActive();
         }
     }, [location]);
+    // useEffect(() => {
+    //     const eventDate = new Date("2025-02-21T09:00:00");
+    //     const timer = setInterval(() => {
+    //         const now = new Date();
+    //         const timeDifference = eventDate - now;
 
-    useEffect(() => {
-        const eventDate = new Date("2025-02-21T12:00:00");
-        const timer = setInterval(() => {
-            const now = new Date();
-            const timeDifference = eventDate - now;
+    //         if (timeDifference <= 0) {
+    //             clearInterval(timer);
+    //             setTimeLeft({ days: 0, hours: 0, minutes: 0, seconds: 0 });
+    //         } else {
+    //             const days = Math.floor(timeDifference / (1000 * 60 * 60 * 24));
+    //             const hours = Math.floor((timeDifference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    //             const minutes = Math.floor((timeDifference % (1000 * 60 * 60)) / (1000 * 60));
+    //             const seconds = Math.floor((timeDifference % (1000 * 60)) / 1000);
+    //             setTimeLeft({ days, hours, minutes, seconds });
+    //         }
+    //     }, 1000);
 
-            if (timeDifference <= 0) {
-                clearInterval(timer);
-                setTimeLeft({ days: 0, hours: 0, minutes: 0, seconds: 0 });
-            } else {
-                const days = Math.floor(timeDifference / (1000 * 60 * 60 * 24));
-                const hours = Math.floor((timeDifference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-                const minutes = Math.floor((timeDifference % (1000 * 60 * 60)) / (1000 * 60));
-                const seconds = Math.floor((timeDifference % (1000 * 60)) / 1000);
-                setTimeLeft({ days, hours, minutes, seconds });
-            }
-        }, 1000);
-
-        return () => clearInterval(timer);
-    }, []);
+    //     return () => clearInterval(timer);
+    // }, []);
 
     useEffect(() => {
         closenav();
     }, []);
 
-    const gradientStyle = {
-        background: `linear-gradient(to right, #05FFA3, #06BED8)`,
-        WebkitBackgroundClip: "text",
-        color: "transparent",
-    };
+    // const gradientStyle = {
+    //     background: `linear-gradient(to right, #05FFA3, #06BED8)`,
+    //     WebkitBackgroundClip: "text",
+    //     color: "transparent",
+    // };
 
     return (
         <>
@@ -204,6 +205,7 @@ function Navmobile() {
                             <i className="fa fa-calendar-minus"></i>
                             <span>Events</span>
                         </Link>
+
                         {/* <Link
                             onClick={toggleMenu}
                             to="venue"
@@ -225,17 +227,7 @@ function Navmobile() {
                             <i className="fa fa-calendar-check"></i>
                             <span>Timeline</span>
                         </Link>
-                        {/*
-                            <Link
-                                        onClick={toggleMenu}
-                                        to="gallery"
-                                        ref={galref}
-                                        className="navbar-linkx"
-                                        >
-                                        <i className="fa-brands fa-envira"></i>
-                                        <span>Gallery</span>
-                            </Link>
-                        */}
+                        
                         <Link
                             onClick={toggleMenu}
                             to="web_devs"
@@ -254,7 +246,6 @@ function Navmobile() {
                             <i className="fa fa-users"></i>
                             <span>Committee</span>
                         </Link>
-
                         {/* <Link
                             onClick={toggleMenu}
                             to="gallery"
@@ -301,14 +292,14 @@ function Navmobile() {
                             </div>
                         </div>
                     </div>
-                    <div className="countdownx">
+                    {/* <div className="countdownx">
                                 <p className="tagNamex">Commencing in</p>
                                 <p className="tagNamex1"style={gradientStyle}>
                                 {timeLeft.days} Days {timeLeft.hours} Hrs {timeLeft.minutes} Mins {timeLeft.seconds} Secs
                                 </p>
-                    </div>
+                    </div> */}
+                    <CountDownHome/>
                 </div>
-
                 <div className="nav-mobile">
                     <div onClick={toggleMenu} className="close-btn">
                         <i className="fas fa-bars"></i>
@@ -324,3 +315,4 @@ function Navmobile() {
     );
 }
 export default Navmobile;
+

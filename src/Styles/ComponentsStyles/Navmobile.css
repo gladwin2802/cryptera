@@ -73,6 +73,9 @@
 .navbar-linkx>i {
     margin: 10px;
 }
+.navbar-linkx:hover{
+    color: #05ffa3;
+}
 
 .close-btn-x {
     position: absolute;
@@ -105,3 +108,8 @@
 .social-linksx>i {
     margin: 10px;
 }
+
+.active {
+    color: #05ffa3;
+}
+
