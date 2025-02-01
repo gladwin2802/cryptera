@@ -82,9 +82,9 @@ function Timelinex() {
                     <div onClick={() => scrollToTimeline(17)} className="item-button">
                         <div>February 22</div>
                     </div>
-                    <div onClick={() => scrollToTimeline(35)} className="item-button">
-                        <div>February 23</div>
-                    </div>
+                        {/* <div onClick={() => scrollToTimeline(35)} className="item-button">
+                            <div>February 23</div>
+                        </div> */}
                 </div>
                 <>
                     {events.map((event, index) => {

@@ -3,6 +3,7 @@ import { Link, useLocation } from "react-router-dom";
 import "../Styles/ComponentsStyles/Navbar.css";
 import logo from "../Assets/logo_final.png";
 import { useState } from "react";
+import CountDownHome from "./Screens/CountDownHome";
 function Navbar() {
     const location = useLocation();
     const homeref = useRef(null);
@@ -59,34 +60,6 @@ function Navbar() {
             clearActive();
         }
     }, [location]);
-
-    useEffect(() => {
-        const eventDate = new Date("2025-02-21T09:00:00");
-        const timer = setInterval(() => {
-            const now = new Date();
-            const timeDifference = eventDate - now;
-
-            if (timeDifference <= 0) {
-                clearInterval(timer);
-                setTimeLeft({ days: 0, hours: 0, minutes: 0, seconds: 0 });
-            } else {
-                const days = Math.floor(timeDifference / (1000 * 60 * 60 * 24));
-                const hours = Math.floor((timeDifference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-                const minutes = Math.floor((timeDifference % (1000 * 60 * 60)) / (1000 * 60));
-                const seconds = Math.floor((timeDifference % (1000 * 60)) / 1000);
-                setTimeLeft({ days, hours, minutes, seconds });
-            }
-        }, 1000);
-
-        return () => clearInterval(timer);
-    }, []);
-
-    const gradientStyle = {
-        background: `linear-gradient(to right, #05FFA3, #06BED8)`,
-        WebkitBackgroundClip: "text",
-        color: "transparent",
-    };
-
     return (
         <>
             <div className="navbar">
@@ -147,12 +120,7 @@ function Navbar() {
                         src="https://assets1.lottiefiles.com/packages/lf20_1pxqjqps.json"
                     ></lottie-player>
                 </div> */}
-                <div className="countdown">
-                    <p className="tagName">Commencing in</p>
-                    <p style={gradientStyle}>
-                        {timeLeft.days} Days {timeLeft.hours} Hrs {timeLeft.minutes} Mins {timeLeft.seconds} Secs
-                    </p>
-                </div>
+                <CountDownHome/>
             </div>
         </>
     );

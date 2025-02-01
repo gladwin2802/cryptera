@@ -281,11 +281,21 @@ function Eventdetails() {
                                         <i className="fas fa-calendar-week mr-2 mb-3"></i>
                                         {Event_data.dateTime}
                                     </p>
-                                    {Event_data.duration && (
-                                <div>
-                                    <p className="text-lg">Duration : {Event_data.duration}</p>
-                                </div>
-                            )}
+                                    {
+                                        (Event_data.mode=="offline"  && Event_data.duration )?
+                                        (
+                                        <div>
+                                            <p className="text-lg">Mode : {Event_data.mode}</p>
+                                            <p className="text-lg">Duration : {Event_data.duration}</p>
+                                        </div>
+                                        )
+                                        :
+                                        (
+                                        <div>
+                                            <p className="text-lg">Mode: {Event_data.mode}</p>
+                                        </div>
+                                        )
+                                    }
                                 </div>
                                 <div className="button-calendar">
                                     {Event_data.form == "" && (

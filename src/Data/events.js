@@ -3,8 +3,9 @@ import chess from "../Components/Screens/assets/chess.jpg";
 import jumbledCode from "../Assets/event/jumbledCode.jpg";
 import oxdebug from "../Assets/event/0xdebug.jpg";
 import carrom from "../Assets/event/carrom.jpg";
-// import workshop1 from "../Assets/event/workshop1.jpg";
+import workshop1 from "../Assets/event/workshop1.jpg";
 import prompt from "../Assets/event/prompteng.jpeg";
+import { duration } from "@mui/material";
 
 const form = "https://forms.gle/vLSyf3tomF4xVjKAA"
 
@@ -38,6 +39,7 @@ export default [
         },
         dateTime: "February 22,10:30 am",
         duration: "2 hrs",
+        mode:"offline",
         prizes: {
             gold: "1500",
             silver: "1000",
@@ -106,6 +108,7 @@ export default [
         },
         dateTime: "February 22,09:00 am",
         duration: "1.5 hrs",
+        mode:"offline",
         prizes: {
             gold: "1000",
             silver: "500",
@@ -149,6 +152,7 @@ export default [
         },
         dateTime: "February 21,09:00 am",
         duration: "1.5 hrs",
+        mode:"offline",
         prizes: {
             gold: "1000",
             silver: "500",
@@ -194,6 +198,7 @@ export default [
         },
         dateTime: "February 22,02:00 pm",
         duration: "1.5 hrs",
+        mode:"offline",
         prizes: {
             gold: "1000",
             silver: "500",
@@ -247,6 +252,7 @@ export default [
         },
         dateTime: "February 21,02:45 pm",
         duration: "2 hrs",
+        mode:"offline",
         prizes: {
             gold: "1000",
             silver: "500",
@@ -292,6 +298,7 @@ export default [
         },
         dateTime: "February 21,09:45 am",
         duration: "1.5 hrs",
+        mode:"offline",
         prizes: {
             gold: "800",
             silver: "450",
@@ -351,6 +358,7 @@ export default [
         },
         dateTime: "February 21,02:00 pm",
         duration: "1.5 hrs",
+        mode:"offline",
         prizes: {
             gold: "1000",
             silver: "500",
@@ -414,6 +422,7 @@ export default [
         },
         dateTime: "February 22,02:00 pm",
         duration: "1.5 hrs",
+        mode:"offline",
         prizes: {
             gold: "1000",
             silver: "500",
@@ -485,6 +494,7 @@ export default [
         },
         dateTime: "February 21,11:30 am",
         duration: "1.5 hrs",
+        mode:"offline",
         prizes: {
             gold: "1000",
             silver: "500",
@@ -544,6 +554,7 @@ export default [
         },
         dateTime: "February 22,12:00 pm",
         duration: "1.5 hrs",
+        mode:"offline",
         prizes: {
             gold: "1000",
             silver: "500",
@@ -609,6 +620,7 @@ export default [
         },
         dateTime: "February 22,09:00 am",
         duration: "1.5 hrs",
+        mode:"offline",
         prizes: {
             gold: "800",
             silver: "450",
@@ -637,7 +649,6 @@ export default [
         eligibility: "Anyone can join",
         completed: false,
         results: null,
-        duration:"Online",
         free: "yes",
         rules: [
            "Mode: Online",  
@@ -665,6 +676,8 @@ export default [
         carddescription:
             "Join our singing and music competition and showcase your talent to the world",
         dateTime: "February 20 - Last date for submission.",
+        duration:null,
+        mode:"Online",
         prizes: {
             gold: "300",
             gold1: "300"
@@ -687,7 +700,7 @@ export default [
             },
         ],
         speakers: [],
-        tags: [],
+        tags: ["Fun Event"],
     },
 
     // Movie quiz 
@@ -706,6 +719,7 @@ export default [
             "The quiz will have three rounds",
         ],
         duration:"1.5 hrs",
+        mode:"offline",
         pics: {
             primary:
                 "https://i0.wp.com/www.socialnews.xyz/wp-content/uploads/2019/12/31/Great-Tamil-Movies-Of-The-Decade-Editors-Choice-scaled.jpg?quality=80&zoom=1&ssl=1",
@@ -731,7 +745,7 @@ export default [
         type: "non_technical",
         faq: [],
         speakers: [],
-        tags: [],
+        tags: ["Fun Event"],
     },
 
     // Poster Design 
@@ -745,6 +759,7 @@ export default [
         completed: false,
         results: null,
         duration:"1 hr",
+        mode:"offline",
         rules: [
             "Solo Participation",
             "All editing tools are allowed to use",
@@ -774,7 +789,7 @@ export default [
         type: "non_technical",
         faq: [],
         speakers: [],
-        tags: [],
+        tags: ["Fun Event"],
     },
 
     // ARTISTIC AURAS 
@@ -787,7 +802,8 @@ export default [
         completed: false,
         results: null,
         free: "yes",
-        duration:"Online",
+        duration:null,
+        mode:"Online",
         rules: [
             "All kind of artistic styles are welcomed (Pencil sketch,water colour,doodle art,oil painting etc.)",
             "Your drawings will be posted on our Instagram page", 
@@ -830,7 +846,7 @@ export default [
             },
         ],
         speakers: [],
-        tags: [],
+        tags: ["Fun Event","Arts"],
     },
 
     // Rhyme and Rhythm 
@@ -843,7 +859,8 @@ export default [
         eligibility: "Anyone can join",
         completed: false,
         results: null,
-        duration:"Online",
+        duration:null,
+        mode:"Online",
         free:"yes",
         rules: [
             "MODE: Online ",
@@ -894,7 +911,7 @@ export default [
             },
         ],
         speakers: [],
-        tags: [],
+        tags: ["Fun Event","Poetry"],
     },
     
     // Tresure hunt 
@@ -908,6 +925,7 @@ export default [
         completed: false,
         results: null,
         duration:"5 hrs",
+        mode:"offline",
         rules: [
             "Team Size: A team can contain 1 or 2 persons as its members (if there are more registrations, participants may be required to form each team with three members)",
             "Rounds: This event contains a total of 3 rounds",
@@ -940,7 +958,7 @@ export default [
         type: "non_technical",
         faq: [],
         speakers: [],
-        tags: [],
+        tags: ["Fun Event"],
     },
 
     // Marvel/DC_Quiz 
@@ -954,6 +972,7 @@ export default [
         completed: false,
         results: null,
         duration:"2 hrs",
+        mode:"offline",
         rules: [
             "The questions will be based on the cinematic and comic of both MARVEL and DC Universes",
             "Marks for each question might vary based on the difficulty of the questions (Easy/Medium/Hard)",
@@ -996,7 +1015,7 @@ export default [
             },
         ],
         speakers: [],
-        tags: [],
+        tags: ["Fun Event","Marvel","DC"],
     },
 
     // Selling Showdown 
@@ -1033,6 +1052,7 @@ export default [
         contact: "8438845719",
         dateTime: "February 21,02:00 pm",
         duration:"1.5 hrs",
+        mode:"offline",
         prizes: {
             gold: "400",
             silver: "200",
@@ -1052,7 +1072,7 @@ export default [
             },
         ],
         speakers: [],
-        tags: [],
+        tags: ["Fun Event"],
     },
 
     // Typing Thunder 
@@ -1065,6 +1085,7 @@ export default [
         eligibility: "Anyone can join",
         completed: false,
         duration:"45 mins",
+        mode:"offline",
         results: null,
         rules: [
             "Online participations not allowed",
@@ -1108,7 +1129,7 @@ export default [
             },
         ],
         speakers: [],
-        tags: [],
+        tags: ["Fun Event"],
     },
 
     // Shutterbug Showcase 
@@ -1142,7 +1163,8 @@ export default [
             secondary: [],
         },
         dateTime: "February 20 - Last date for submission.",
-        duration: "Online",
+        duration:null,
+        mode: "Online",
         prizes: {
             gold: "250",
             silver:"150",
@@ -1182,6 +1204,7 @@ export default [
         },
         dateTime: "February 21,11:30 am",
         duration: "1.5 hrs",
+        mode:"offline",
         prizes: {
             gold: "400",
             silver:"200",
@@ -1226,6 +1249,7 @@ export default [
         },
         dateTime: "February 22,09:00 am",
         duration: "2 hrs",
+        mode:"offline",
         prizes: {
             gold: "400",
         },
@@ -1251,6 +1275,7 @@ export default [
         name: "Cinematic_Snippets",
         title: "Cinematic Snippets",
         // venue: "LBCH" ,
+        free: "yes",
         status: 1,
         eligibility: "Anyone can join",
         completed: false,
@@ -1272,7 +1297,8 @@ export default [
             secondary: [],
         },
         dateTime: "February 20 - Last date for submission.",
-        duration: "Online",
+        duration:null,
+        mode: "Online",
         prizes: {
             gold: "500",
             sliver:"200",
@@ -1290,7 +1316,7 @@ export default [
                 answer: "Online",
             },
         ],
-        tags: [],
+        tags: ["Fun Event"],
     },
     
 
@@ -1324,7 +1350,8 @@ export default [
             secondary: [],
         },
         dateTime: "February 21 & 22",
-        duration: "",
+        duration: null,
+        mode:"offline",
         prizes: {
             gold: "2000",
             silver:"1000",
@@ -1369,7 +1396,8 @@ export default [
         name: "Freefire",
         title: "Freefire",
         status: 1,
-        duration:"3 hrs",
+        mode:"online",
+        duration:null,
         eligibility: "Anyone can join",
         completed: false,
         results: null,
@@ -1437,7 +1465,7 @@ export default [
             },
         ],
         speakers: [],
-        tags: [],
+        tags: ["Gaming"],
     },
 
     // Hackathon 1
@@ -1450,6 +1478,8 @@ export default [
         eligibility: "Anyone can join",
         completed: false,
         results: null,
+        mode:"offline",
+        duration:null,
         // mailto: "mailto:crypterahackathon@gmail.com?subject=Hackathon%20Submission&body=Dear%20Organizers,%0D%0A%0D%0AAttached%20are%20my%20PPT%20and%20other%20necessary%20files%20for%20the%20hackathon.%20Please%20let%20me%20know%20if%20there%20are%20any%20issues.%0D%0A%0D%0AKind%20regards,%0D%0A[Your%20Name]",
         // email: "crypterahackathon@gmail.com",
         rules: [
@@ -1510,7 +1540,7 @@ export default [
             answer: "The winners will be announced on the day of the final presentation after the evaluation by the panel."
         }],
         speakers: [],
-        tags: [],
+        tags: ["Hackathon"],
      },
 
     // Valorant 1
@@ -1522,6 +1552,8 @@ export default [
         eligibility: "Anyone can join",
         completed: false,
         results: null,
+        mode:"online",
+        duration:null,
         rules: [
             "Players are expected to use a single account for each player",  
             "Each team must consist of 5 players and 2 substitute players",  
@@ -1563,7 +1595,7 @@ export default [
         type: "flagship",
         faq: [],
         speakers: [],
-        tags: [],
+        tags: ["Gaming"],
     },
 
     // Chess 1
@@ -1592,7 +1624,8 @@ export default [
             secondary: [],
         },
         dateTime: "February 21 & 22,06:00 pm",
-        duration: "",
+        duration: null,
+        mode:"online",
         prizes: {
             gold: "500",
             silver: "300",
@@ -1637,7 +1670,8 @@ export default [
             secondary: [],
         },
         dateTime: "February 21 & 22,06:00 pm",
-        duration: "",
+        duration: null,
+        mode:"online",
         prizes: {
             gold: "1000",
             silver: "500",
@@ -1652,7 +1686,7 @@ export default [
         form: "https://forms.gle/gb3L2EcEd9BvBXY58",
         type: "flagship",
         faq: [],
-        tags: [],
+        tags: ["Gaming"],
     },
 
     // Carrom 1
@@ -1691,7 +1725,8 @@ export default [
             secondary: [],
         },
         dateTime: "February 21 & 22,11:00 am",
-        duration: "",
+        duration: null,
+        mode:"offline",
         prizes: {
             gold: "600",
             silver: "300",
@@ -1715,7 +1750,7 @@ export default [
                 answer: "Yes, you can use your own striker"
             }
         ],
-        tags: [],
+        tags: ["Carrom"],
     },
 
     // IPL Auction 1
@@ -1740,7 +1775,8 @@ export default [
             primary: "https://thebridge.in/h-upload/2022/02/12/23253-ipl-2022.webp",
         },
         dateTime: "February 22,02:00 pm",
-        duration: "",
+        duration: null,
+        mode:"offline",
         prizes: {
             gold: "1000",
             silver:"500",
@@ -1779,7 +1815,7 @@ export default [
                 answer: "No."
             }
         ],
-        tags: [],
+        tags: ["Auction"],
     },
 
     // Escape Room 1
@@ -1804,7 +1840,8 @@ export default [
             secondary: [],
         },
         dateTime: "February 21 & 22,11:00 am",
-        duration: "",
+        duration: null,
+        mode:"offline",
         prizes:{
             gold:"750",
         },
@@ -1832,7 +1869,7 @@ export default [
                 answer: "The objective is to find clues, solve a mystery and overall, have fun."
             }
         ],
-        tags: [],
+        tags: ["Fun Event"],
     },
 
     // PC Building 1
@@ -1860,7 +1897,8 @@ export default [
                 secondary: [],
             },
             dateTime: "February 21,02:00 pm",
-            duration: "",
+            duration: null,
+            mode:"offline",
             prizes: {
                 gold: "1500",
                 silver: "750",
@@ -1890,184 +1928,163 @@ export default [
         },
 
 
-    // // Workshops
-    // {
-    //     id: "34",
-    //     key: 1,
-    //     status: 1,
-    //     rules: [
-    //         "Certificate will be given for the registered candidates",
-    //         "Disocunts will be given for referrals",
-    //         "For further details call : 8668171335",
-    //     ],
-    //     faq: [
-    //         {
-    //             question: "Will it happen online or offline?",
-    //             answer: "Offline",
-    //         },
-    //         {
-    //             question: "Will it be a one day workshop or two days?",
-    //             answer: "One day, Time is mentioned above",
-    //         },
-    //         {
-    //             question: "Can I get any discount?",
-    //             answer: "Yeah sure, Contact us for further details",
-    //         },
-    //         {
-    //             question: "Can I get certificate?",
-    //             answer: "Yes, Certificate will be provided in offline",
-    //         },
-    //     ],
-    //     name: "Workshop1",
-    //     title: "Workshop on Augmented Reality App development",
-    //     venue: " IT211 or MBCH or LBCH",
-    //     dateTime: "March 2, 2 pm to 4 pm",
-    //     carddescription: "Step into the future of digital creativity with our AR workshop - where innovation meets immersion",
-    //     description: "Dive into Augmented Reality (AR) development in our expert-led workshop. Gain practical experience and insights into AR frameworks, interface design, and implementation. Whether you're new to AR or seasoned in development, this session offers valuable skills to create immersive digital experiences. Join us to harness the power of AR and stay at the forefront of innovation in this rapidly evolving field.",
-    //     type: "flagship",
-    //     eligibility: "Anyone can join",
-    //     pics: {
-    //         primary: workshop1,
-    //     },
-    //     contact: "8668171335",
-    //     tags: [],
-    //     entry: [
-    //         "Single Workshop - Rs. 150/-",
-    //         "Combo A - Two Workshops - Rs. 250/-",
-    //         "Combo B - Three Workshops - Rs. 350/-",
-    //         "Combo C - Four Workshops - Rs. 450/-"
-    //     ],
-    //     form: "https://docs.google.com/forms/u/4/d/1FyBdGuDfijIrVOUHxSZtsoDaR_hd7utw-lg3_-iSfHg/edit?usp=drivesdk&chromeless=1",
-    //     speakerinfo:
-    //         "Divith loves games and has a lot of interest in creating visual content, his career journey as a game dev started from his college days.",
-    //     speakers: [
-    //         {
-    //             name: "Divith MJ",
-    //             bio: "He was developing a project in Augmented Reality technology as an aid for medical science students enabling them to visualize complex diseases and their treatment procedures in a interactive method through reality technology. He has experience in AR, VR, 3D game development.",
-    //         },
-    //     ],
-    //     color: "red",
-    // },
+    // Workshops
+    //workshop1
+    {
+        id: "34",
+        key: 1,
+        status: 1,
+        rules: [
+        "Certificate will be given for the registered candidates who attend the workshop",
+        "For further details call : 7092469189"
+    ],
+        faq: [
+        {
+                question: "Will it happen online or offline?",
+                answer: "Offline",
+        },
+        {
+                question: "Will it be a one day workshop or two days?",
+                answer: "One day, Time is mentioned above",
+        },
+        {
+                question: "Can I get certificate?",
+                answer: "Yes, Certificate will be provided in offline",
+        },
+    ],
+        name: "Workshop1",
+        title: "Explore MERN Stack: The Ultimate Hands-On Workshop",
+        // venue: " IT213 or Auditorium",
+        dateTime: " February 21, 10 am to 12 pm",
+        carddescription: "Level up your web development with MongoDB, Express, React and Node.js!",
+        description: "Step into the world of Full-Stack Development by exploring MongoDB, Express.js, React and Node.js with our hands-on MERN Stack Workshop! Whether you're just starting out or looking to sharpen your skills, join us for a fun, practical session that will take your Web Development game to the next level!",
+        type: "flagship",
+        eligibility: "Anyone can join",
+        pics: {
+            primary: "https://itechnasik.com/wp-content/uploads/2023/11/Mern-Stack-Developer.png",
+    },
+        contact: "7092469189",
+        tags: ["Workshop"],
+        entry: [
+        "Single Workshop - Rs. 150/-",
+        "Combo A - Two Workshops - Rs. 250/-",
+        "Combo B - Three Workshops - Rs. 350/-",
+    ],
+        
+        form: "https://forms.gle/eo9VSfU8uQQbRwac7",
+        speakerinfo: "Kuru Prasath is a Technical Trainer at Yellowmatics.ai, specializing in Java Full Stack and MERN Stack technologies, with over Five years of Industry experience.",
+        speakers: [
+        {
+                name: "Kuru Prasath D R",
+                bio: "Kuru Prasath holds a Bachelor's degree in Engineering from Vellore Institute of Technology (VIT). As an experienced Skill Development Engineer, he has been actively mentoring students and contributing to the Global Student Alumni Network and preparing candidates for roles in Product Development Companies.He has conducted technical training at Tech Molders for pre-final and final-year students and at Kanavu Labs for Corporate Professionals.",
+        },
+    ],
+        color: "red",
+    },
 
-    // {
-    //     id: "35",
-    //     key: 1,
-    //     status: 1,
-    //     rules: [
-    //         "Certificate will be given for the registered candidates",
-    //         "Disocunts will be given for referrals",
-    //         "For further details call : 9750935611",
-    //     ],
-    //     faq: [
-    //         {
-    //             question: "Will it happen online or offline?",
-    //             answer: "Offline",
-    //         },
-    //         {
-    //             question: "Will it be a one day workshop or two days?",
-    //             answer: "One day, time is mentioned above",
-    //         },
-    //         {
-    //             question: "Can I get any discount?",
-    //             answer: "Yeah sure, contact us for further details",
-    //         },
-    //         {
-    //             question: "Can I get certificate?",
-    //             answer: "Yes, Certificate will be provided in offline",
-    //         },
-    //     ],
-    //     name: "Workshop2",
-    //     title: "Workshop on Uncover Your Next Big Idea: Dive into Startup Possibilities!",
-    //     venue: " IT211 or MBCH or LBCH",
-    //     dateTime: " March 1, 10 am to 12 pm",
-    //     carddescription: "Empower your entrepreneurial journey: Dive into the startup world, fail fast, succeed faster!",
-    //     description:
-    //         "Dive into the world of entrepreneurship with a startup that sparks innovation and meets market needs. Embrace failure as a stepping stone to success, fostering rapid iteration and unforgettable growth. Ready to kickstart your journey? Join us at our upcoming workshop to learn how to turn your vision into a thriving business!",
-    //     type: "flagship",
-    //     eligibility: "Anyone can join",
-    //     pics: {
-    //         primary:
-    //             "https://as2.ftcdn.net/v2/jpg/02/38/40/55/1000_F_238405533_yyX4K55OmH2LiM7LQ01ITn6kl0b6J6K8.jpg",
-    //     },
-    //     contact: "9750935611",
-    //     tags: [],
-    //     entry: [
-    //         "Single Workshop - Rs. 150/-",
-    //         "Combo A - Two Workshops - Rs. 250/-",
-    //         "Combo B - Three Workshops - Rs. 350/-",
-    //         "Combo C - Four Workshops - Rs. 450/-"
-    //     ],
-    //     form: "https://docs.google.com/forms/u/4/d/1FyBdGuDfijIrVOUHxSZtsoDaR_hd7utw-lg3_-iSfHg/edit?usp=drivesdk&chromeless=1",
-    //     speakerinfo:
-    //         "Vijaya Kumar Rangasamy is an Assistant Professor with over a decade of experience in Design Thinking-based Teaching and Research. He is the founder of ElectricTronics, specializing in automation products and consultancy services for industries in Tamil Nadu.He has delivered more seminars and conducted workshops with students, researchers and industry people regarding technology and creativity.Also, he is a motivational speaker to schools, colleges and industry personals",
-    //     speakers: [
-    //         {
-    //             name: "Vijaya Kumar Rangasamy",
-    //             bio: "Vijaya Kumar Rangasamy has published over 25 research papers in Electric vehicles technology and Hybrid Vehicles and has been recognized with awards such as Best Entrepreneurship Coordinator, Young Start-up, and Best Innovator. As Chief Coordinator of the Innovation and Entrepreneurship Development Cell, he evaluates and guides numerous student projects, including those for SIDP 1.0 and SIDP 2.0, showcasing his commitment to nurturing entrepreneurship. With multiple patents, he continues to inspire aspiring entrepreneurs while advocating for a greener future.",
-    //         },
-    //     ],
-    //     color: "red",
-    // },
+    //workshop2 
+    {
+        id: "35",
+        key: 1,
+        status: 1,
+        rules: [
+        "Certificate will be given for the registered candidates who attend the workshop",
+        "For further details call : 7092469189"
+    ],
+        faq: [
+        {
+                question: "Will it happen online or offline?",
+                answer: "Offline",
+        },
+        {
+                question: "Will it be a one day workshop or two days?",
+                answer: "One day, Time is mentioned above",
+        },
+        {
+                question: "Can I get certificate?",
+                answer: "Yes, Certificate will be provided in offline",
+        },
+    ],
+        name: "Workshop 2",
+        title: "Exploring Data Engineering in the World of Game Development",
+        //venue: " IT213 or Auditorium",
+        dateTime: " February 22, 10 am to 12 pm",
+        carddescription: "Transform Data into the magic behind your Favorite Games!",
+        description: "Step into the World of Data Engineering and see how it transforms Game Development. From optimizing Gameplay to creating immersive experiences, discover how data is the driving force behind next-level gaming innovation. Ready to unlock the potential? Let’s dive in!",
+        type: "flagship",
+        eligibility: "Anyone can join",
+        pics: {
+            primary: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0fSfBH17OziJme8Kam1U8ZcLRcyQSkHp3Kg&s",
+    },
+        contact: "7092469189",
+        tags: ["Workshop"],
+        entry: [
+        "Single Workshop - Rs. 150/-",
+        "Combo A - Two Workshops - Rs. 250/-",
+        "Combo B - Three Workshops - Rs. 350/-",
+    ],
+        form: "https://forms.gle/eo9VSfU8uQQbRwac7",
+        speakerinfo: "Prabhu Varadharajan is the Lead Data Engineer/Architect at Electronic Arts Inc. (EA) in Toronto, Canada, with around 10 years of industry experience specializing in Data Engineering",
+        speakers: [
+        {
+                name: "Prabhu Varadharajan",
+                bio: "Prabhu Varadharajan holds a Bachelor of Engineering (B.E.) in Computer Science from KIT - Kalaignar Karunanidhi Institute of Technology. Throughout his career, he has worked at Deloitte as a Senior Consultant, as a Data Engineer at Verizon, as a Business Intelligence Analyst at Altimetrik and as a Programmer Analyst at Computer Sciences Corporation (CSC).",
+        },
+    ],
+        color: "red",
+    },
+    //workshop3
+    {
+        id: "36",
+        key: 1,
+        status: 1,
+        rules: [
+        "Certificate will be given for the registered candidates who attend the workshop",
+        "For further details call : 7092469189"
+    ],
+        faq: [
+        {
+                question: "Will it happen online or offline?",
+                answer: "Offline",
+        },
+        {
+                question: "Will it be a one day workshop or two days?",
+                answer: "One day, Time is mentioned above",
+        },
+        {
+                question: "Can I get certificate?",
+                answer: "Yes, Certificate will be provided in offline",
+        },
+    ],
+        name: "Workshop3",
+        title: "Artificial Intelligence and Machine Learning : Explore, Learn, and Build with Hands-On Experience",
+       // venue: " IT213 or Auditorium",
+        dateTime: " February 22, 2 pm to 4 pm",
+        carddescription: "Embark on a Hands-on Adventure into the World of AI and ML!",
+        description: "Dive deep into the practical applications of Artificial Intelligence and Machine Learning in this interactive session. From building models to solving Real-World problems, explore the tools and techniques driving innovation. Whether you're just starting or looking to sharpen your skills, this journey will equip you with the knowledge and experience to succeed in the AI-driven future!",
+        type: "flagship",
+        eligibility: "Anyone can join",
+        pics: {
+            primary: workshop1,
+    },
+        contact: "7092469189",
+        tags: ["Workshop"],
+        entry: [
+        "Single Workshop - Rs. 150/-",
+        "Combo A - Two Workshops - Rs. 250/-",
+        "Combo B - Three Workshops - Rs. 350/-",
+    ],
+        form: "https://forms.gle/eo9VSfU8uQQbRwac7",
+        speakerinfo: "Dr. S. Kannimuthu is a Professor in the Department of Computer Science and Engineering at Karpagam College of Engineering and in-charge of the Center of Excellence in Algorithms and an IEEE Senior Member with over 17 years of Teaching and Industrial experience.",
+        speakers: [
+        {
+                name: "Dr. S. Kannimuthu",
+                bio: "Dr. S. Kannimuthu holds a PhD in Computer Science and Engineering, as well as an M.E. (CSE) and B.Tech (IT) from Anna University, Chennai. He has published 2 Books and 3 Book Chapters. Throughout his Career, he has delivered over 190 Guest Lectures. He also serves as a Mentor/Consultant for DeepLearning.AI, MaxByte Technologies, Dhanvi Info Tech and Hubino. He is an expert member of the AICTE Student Learning Assessment Project (ASLAP)",
+        },
+    ],
+        color: "red",
+    },
 
-    // {
-    //     id: "36",
-    //     key: 1,
-    //     status: 1,
-    //     rules: [
-    //         "Certificate will be given for the registered candidates",
-    //         "Disocunts will be given for referrals",
-    //         "For further details call : 9629888319",
-    //     ],
-    //     faq: [
-    //         {
-    //             question: "Will it happen online or offline?",
-    //             answer: "Offline",
-    //         },
-    //         {
-    //             question: "Will it be a one day workshop or two days?",
-    //             answer: "One day, time is mentioned above",
-    //         },
-    //         {
-    //             question: "Can I get any discount?",
-    //             answer: "Yeah sure, contact us for further details",
-    //         },
-    //         {
-    //             question: "Can I get certificate?",
-    //             answer: "Yes, Certificate will be provided in offline",
-    //         },
-    //     ],
-    //     name: "Workshop3",
-    //     title: "Workshop on Charged Up: Exploring the Potential of Electric Vehicles",
-    //     venue: "IT211 or MBCH or LBCH",
-    //     dateTime: "March 1, 2pm to 4pm",
-    //     carddescription: "Switch gears with us at our Electric Vehicle Workshop - igniting excitement for eco-friendly driving!",
-    //     description:
-    //         "Curious about electric vehicles? Join us for a workshop where we'll break down everything you need to know! From how they work to why they're important for the environment, we'll cover it all. Whether you're a bike lover or simply interested in sustainable transportation, this workshop is your chance to get the inside scoop on electric vehicles. Don't miss out - reserve your spot today!",
-    //     type: "flagship",
-    //     eligibility: "Anyone can join",
-    //     pics: {
-    //         primary:
-    //             "https://i0.wp.com/evehicleshop.in/wp-content/uploads/2020/09/Untitled-design.jpg",
-    //     },
-    //     contact: "9629888319",
-    //     tags: [],
-    //     entry: [
-    //         "Single Workshop - Rs. 150/-",
-    //         "Combo A - Two Workshops - Rs. 250/-",
-    //         "Combo B - Three Workshops - Rs. 350/-",
-    //         "Combo C - Four Workshops - Rs. 450/-"
-    //     ],
-    //     form: "https://docs.google.com/forms/u/4/d/1FyBdGuDfijIrVOUHxSZtsoDaR_hd7utw-lg3_-iSfHg/edit?usp=drivesdk&chromeless=1",
-    //     speakerinfo:
-    //         "Mohanraj Ramasamy is a visionary leader, the Founder and CEO of SRIVARU Motors (SVM), SRIVARU has developed a high performance motorcycle, 'Prana' powered by sustainable energy. He is a former Senior Manager at Tesla Motors and built and Managed Infrastructure and System services team for supporting entire Tesla Motors business functions. ",
-    //     speakers: [
-    //         {
-    //             name: "Mohanraj Ramasamy",
-    //             bio: "His skills in storage and unix architecture are unmatched. He is an experienced Information & Technology leader in operating cutting-edge infrastructure solutions enterprise-wide in large, complex global organizations",
-    //         },
-    //     ],
-    //     color: "red",
-    // },
 
     // {
     //     id: "37",
@@ -2129,125 +2146,109 @@ export default [
     //     color: "red",
     // },
 
-    // // Webinar
-    // {
-    //     id: "37",
-    //     key: 1,
-    //     status: 1,
-    //     s: 1,
-    //     rules: [
-    //         "E-certificate will be given for the registered candidates",
-    //         "Discounts will be given for referrals",
-    //         "For further details call :9750935611",
-    //     ],
-    //     faq: [
-    //         {
-    //             question: "Will it happen online or offline?",
-    //             answer: "Online",
-    //         },
-    //         {
-    //             question: "Will it be a one day webinar or two days?",
-    //             answer: "One day, time is mentioned above",
-    //         },
-    //         {
-    //             question: "Can I get any discount?",
-    //             answer: "Yeah sure, contact us for further details",
-    //         },
-    //         {
-    //             question: "Can I get certificate?",
-    //             answer: "Yes, e-certificate will be provided",
-    //         },
-    //     ],
-    //     name: "Webinar1",
-    //     title: "Webinar on Demystifying AI and Data Science",
-    //     dateTime: "March 3, 10 am to 12 pm",
-    //     carddescription: "Demystifying AI and Data Science : Building your future career in a data driven world",
-    //     description:
-    //         "Demystifying AI and Data Science - Building your future career in a data driven world: Get ready to embark on an exhilarating journey through the captivating world of AI and data science! Join us for an immersive webinar where we unravel the fascinating evolution of AI over the decades. Gain valuable insights into the essential skill sets needed to thrive in this dynamic field and pave your way to a successful career in AI and data science. Don't miss out on this incredible opportunity to explore, learn, and chart your course towards a brighter future. Register now and be part of the AI revolution! Check out the form for more details on registration fees.",
-    //     type: "flagship",
-    //     eligibility: "Anyone can join",
-    //     pics: {
-    //         primary:
-    //             "https://www.analytixlabs.co.in/blog/wp-content/uploads/2021/09/Blog8_2.1-edited-1024x576.jpg",
-    //     },
-    //     contact: "9750935611",
-    //     tags: [],
-    //     entry: [
-    //         "Single Webinar - Rs.100/-",
-    //         "Combo A - Two Webinars - Rs.150/-",
-    //         "Combo B - Three Webinars - Rs.250/-",
-    //     ],
-    //     form: "https://docs.google.com/forms/d/1CE2njtrsNWY4KX7vJWTH54-0x4OzV4QofIWp_gOnstI/edit?chromeless=1",
-    //     speakerinfo:
-    //         "Aravind Chandramouli is currently the head of the AI Center of Excellence at Tredence. He has around 17 years of industry experience all in the data science, AI/ML space. Prior to Tredence, he had stints at Fidelity Investments, GE research labs and Microsoft.",
-    //     speakers: [
-    //         {
-    //             name: "Aravind Chandramouli",
-    //             bio: "Aravind has also filed for 10 patents with 6 grants and has over 10 publications in International conferences and journals.  He completed his PhD from the University of Kansas in 2007 and graduated from Coimbatore Institute of Technology in 2002 with a Bachelors in Computer Science.",
-    //         },
-    //     ],
-    //     color: "red",
-    // },
 
-    // {
-    //     id: "38",
-    //     key: 1,
-    //     status: 1,
-    //     s: 1,
-    //     rules: [
-    //         "E-certificate will be given for the registered candidates",
-    //         "Discounts will be given for referrals",
-    //         "For further details call : 9750935611",
-    //     ],
-    //     faq: [
-    //         {
-    //             question: "Will it happen online or offline?",
-    //             answer: "Online",
-    //         },
-    //         {
-    //             question: "Will it be a one day webinar or two days?",
-    //             answer: "One day, time is mentioned above",
-    //         },
-    //         {
-    //             question: "Can I get any discount?",
-    //             answer: "Yeah sure, contact us for further details",
-    //         },
-    //         {
-    //             question: "Can I get certificate?",
-    //             answer: "Yes, e-certificate will be provided",
-    //         },
-    //     ],
-    //     name: "Webinar2",
-    //     title: "Webinar on Distributed Data Mastery: Revolutionizing Cloud Architecture",
-    //     dateTime: "March 2, 2 pm to 4 pm",
-    //     carddescription: " Unlock resilience in distributed databases; revolutionize your Cloud data strategy with us.",
-    //     description:
-    //         "Elevate your understanding of distributed databases and revolutionize your approach to Cloud data architecture with our empowering webinar! Learn about Cloud Data Management challenges and strategies for seamless operation. Discover how they persist during disruptions. Register now for a deeper understanding of distributed database resilience.",
-    //     type: "flagship",
-    //     eligibility: "Anyone can join",
-    //     pics: {
-    //         primary:
-    //             "https://www.datamation.com/wp-content/uploads/2023/07/dm-current-database-trends-1068x702.png",
-    //     },
-    //     contact: "9750935611",
-    //     tags: [],
-    //     entry: [
-    //         "Single Webinar - Rs.100/-",
-    //         "Combo A - Two Webinars - Rs.150/-",
-    //         "Combo B - Three Webinars - Rs.250/-",
-    //     ],
-    //     form: "https://docs.google.com/forms/d/1CE2njtrsNWY4KX7vJWTH54-0x4OzV4QofIWp_gOnstI/edit?chromeless=1",
-    //     speakerinfo:
-    //         "Vijay Lakshminarayanan is a distinguished alumnus of CIT CSE's 2003 batch. Following his undergraduate studies, he pursued a Master's degree at the Illinois Institute of Technology, solidifying his expertise. With a career spanning multiple decades, Vijay has established himself as a seasoned industry veteran. Presently, he serves as the Senior Director of Engineering at Freshworks, where he oversees all aspects of the company's data systems.",
-    //     speakers: [
-    //         {
-    //             name: "Vijay Lakshminarayanan",
-    //             bio: "Vijay Lakshminarayanan boasts over two decades of software engineering expertise. He held the position of Director of Engineering at Freshworks, with a brief stint in management, following roles as a Developer at Marin Software and Senior Software Developer at eBay. Earlier, he contributed as a Senior Software Development Engineer at Computer Science Corporation and worked as a Developer at GlobalScholar.com. He kickstarted his career as a Project Engineer at Wipro Technologies.",
-    //         },
-    //     ],
-    //     color: "red",
-    // },
 
+    // Webinar
+    //Webinar 1
+    {
+        id: "37",
+        key: 1,
+        status: 1,
+        s: 1,
+        rules: [
+                "E-certificate will be given for the registered candidates those who attend the webinar",
+                "For further details call :7092469189",
+        ],
+        faq: [
+                {
+                question: "Will it happen online or offline?",
+                answer: "Online",
+                },
+                {
+                question: "Will it be a one day webinar or two days?",
+                answer: "One day, time is mentioned above",
+                },
+                {
+                question: "Can I get certificate?",
+                answer: "Yes, e-certificate will be provided",
+                },
+        ],
+        name: "Webinar1",
+        title: "Generative AI: Create Beyond Imagination",
+        dateTime: "February 21, 12 pm to 2 pm",
+        carddescription: "Explore the future of AI-driven creativity!",
+        description: "Step into the World of Generative AI and discover how it’s reshaping creativity. Uncover the Tools, Techniques, and Strategies that are driving this revolutionary field. Whether you're an AI Enthusiast or looking to expand your knowledge, this session will show you how Generative AI is breaking boundaries and unlocking endless possibilities!",
+        type: "flagship",
+        eligibility: "Anyone can join",
+        pics: {
+            primary: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYqAKZmufTUmYsrG0JCnRdEWGDqv5YUdcM6w&s",
+        },
+        contact: "7092469189",
+        tags: ["Webinar"],
+        entry: [
+                "Single Webinar - Rs.100/-",
+                "Combo A - Two Webinars - Rs.150/-",
+        ],
+        form: "https://forms.gle/4JWQNh2uDKvVVFpLA",
+        speakerinfo: "Paramasivam Venkataramasamy is the Co-Founder & CTO of Trivecta Digital Solutions, with over 35 years of Industry experience. He has extensive hands-on experience in Multiple Technologies, Software Development Processes and tools.",
+        speakers: [
+                {
+                name: "Paramasivam Venkataramasamy",
+                bio: "Paramasivam Venkataramasamy holds a Master of Engineering (M.Eng.) in Computer Science from the National Institute of Technology (NIT), Tiruchirappalli and a Bachelor of Engineering (B.E.) from Bangalore University. Throughout his career, he has Co-Founded and led several Technology-driven companies, including Synaptris Inc. (CTO & Vice President), e-Brahma Technologies Pvt. Ltd. (Director & Co-Founder) and Kovai TDI Software Pvt. Ltd. (Managing Director & Co-Founder). He also served as an Associate Consultant at Tata Consultancy Services (TCS).",
+                },
+        ],
+        color: "red",
+    },
+    // Webinar 2
+    {
+        id: "38",
+        key: 1,
+        status: 1,
+        s: 1,
+        rules: [
+                "E-certificate will be given for the registered candidates those who attend the webinar",
+                "For further details call :7092469189",
+        ],
+        faq: [
+                {
+                question: "Will it happen online or offline?",
+                answer: "Online",
+                },
+                {
+                question: "Will it be a one day webinar or two days?",
+                answer: "One day, time is mentioned above",
+                },
+                {
+                question: "Can I get certificate?",
+                answer: "Yes, e-certificate will be provided",
+                },
+        ],
+        name: "Webinar2",
+        title: "Demystifying Computer Vision and Digital Image Processing",
+        dateTime: "February 21, 6 pm to 8 pm",
+        carddescription: "Unlock the Power of Visual Data - Discover how Machines see and interpret the World!",
+        description: "Explore the world of Computer Vision and Image Processing in our exciting Webinar. Dive into techniques like Image Analysis, Feature Extraction and AI-powered Vision Systems. Learn how Technology helps machines understand visual data, opening doors to endless possibilities in the field!",
+        type: "flagship",
+        eligibility: "Anyone can join",
+        pics: {
+            primary: "https://dac.digital/wp-content/uploads/2023/03/what_are_the_practical_applications_of_modern_computer_vision_technology-optimized.jpg",
+        },
+        contact: "7092469189",
+        tags: ["Webinar"],
+        entry: [
+                "Single Webinar - Rs.100/-",
+                "Combo A - Two Webinars - Rs.150/-",
+        ],
+        form: "https://forms.gle/4JWQNh2uDKvVVFpLA",
+        speakerinfo: "Dr. Anupama Namburu is an Associate Professor at the School of Engineering, Jawaharlal Nehru University, New Delhi, specializing in Digital Image Processing. She has delivered over 35 Lectures, authored 8 Textbooks and published around 30 International Journal papers.",
+        speakers: [
+                {
+                name: "Dr. Anupama Namburu",
+                bio: "Dr. Anupama Namburu holds a PhD in Digital Image Processing from Jawaharlal Nehru Technological University, Kakinada. With a strong academic background, she has served as an Associate Professor at Vellore Institute of Technology, an Assistant Professor at Acharya Nagarjuna University and as the Deputy Director of Student Welfare at VIT-AP University. She also has Industry experience as a Senior Software Engineer at Wipro Technologies.",
+                },
+        ],
+        color: "red",
+    },
     // {
     //     id: "39",
     //     key: 1,
