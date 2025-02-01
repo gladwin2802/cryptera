@@ -2,7 +2,7 @@ import { space } from "postcss/lib/list";
 import React, { useState, useEffect } from "react";
 const CountDownHome = () => {
     // const targetDate = "2024-03-01T12:00:00";
-    const targetDate = "2025-02-20T00:00:00";
+    const targetDate = "2025-02-21T09:00:00";
     const calculateTimeRemaining = () => {
         const now = new Date();
         const difference = new Date(targetDate) - now;

@@ -26,7 +26,7 @@ export default [
             "The team can consist of either 1 or 2 members only.",
             "The designated platform for conducting the contest is HackerRank.",
             "Participants must have a registered account on HackerRank. If not, it is mandatory to create one.",
-            "The event will run for a duration of 1 hour and 30 minutes.",
+            "The event will run for a duration of 2 hours.",
             "Computers will be provided for the contest. In the event of technical issues, participants may be allowed to use their laptops, subject to approval. Otherwise, personal laptops will not be permitted."
         ],
         pics: {
@@ -167,7 +167,7 @@ export default [
                 answer: " HTML and CSS",
             },
         ],
-        tags: ["Python", "Java", "C++", "C", "Problem Solving"],
+        tags: ["HTML","CSS"],
     },
 
     // Tech Feud
@@ -291,7 +291,7 @@ export default [
             secondary: [],
         },
         dateTime: "February 21,09:45 am",
-        duration: "1 hr",
+        duration: "1.5 hrs",
         prizes: {
             gold: "800",
             silver: "450",
@@ -310,7 +310,7 @@ export default [
             },
             {
                 question: "What programming language the jumbled code will be?",
-                answer: "It will be in python.",
+                answer: "It will be a pseudo code.",
             },
             {
                 question: "Can individuals allowed to participate ?",
@@ -322,7 +322,7 @@ export default [
                     "It's based on time and the number of questions you answer correctly.",
             },
         ],
-        tags: [ "Python"],
+        tags: [ "Pseudo code"],
     },
 
     // UI Design Contest
@@ -494,7 +494,7 @@ export default [
         color: "var(--fg-g)",
         carddescription:
             "Unleash your creativity with our AI image generation contest!",
-        description:"Unleash your creativity in our DALL-E Image Generation Contest! Dive into a world of imagination and craft stunning images based on our exciting themes using DALL-E. Join the competition and showcase your artistic flair—let’s see what you can create! Don’t miss out—sign up now and let your creativity shine!",
+        description:"Unleash your creativity in our Image Generation Contest! Dive into a world of imagination and craft stunning images based on our exciting themes. Join the competition and showcase your artistic flair—let’s see what you can create! Don’t miss out—sign up now and let your creativity shine!",
         form: form,
         type: "technical",
         faq: [
@@ -597,6 +597,7 @@ export default [
             "A total of 2 rounds will be conducted.",
             "Round 1: Rapid Logic Challenge",
             "A rapid-fire round featuring logic-based questions to be solved within a set time limit.",
+            "Round 2 : A Mystery coding challenge requiring structured solutions.",
         ],
         pics: {
             primary:
@@ -1254,6 +1255,7 @@ export default [
         eligibility: "Anyone can join",
         completed: false,
         results: null,
+        free:"yes",
         rules: [
            "Reels must be a maximum of 60 seconds", 
             "Submit reels by 19th February, 6 PM; late entries will not be accepted",
@@ -1451,10 +1453,10 @@ export default [
         // mailto: "mailto:crypterahackathon@gmail.com?subject=Hackathon%20Submission&body=Dear%20Organizers,%0D%0A%0D%0AAttached%20are%20my%20PPT%20and%20other%20necessary%20files%20for%20the%20hackathon.%20Please%20let%20me%20know%20if%20there%20are%20any%20issues.%0D%0A%0D%0AKind%20regards,%0D%0A[Your%20Name]",
         // email: "crypterahackathon@gmail.com",
         rules: [
-            "A team shall consist of a maximum of 4 participants",
+            "A team shall consist of 2-4 participants",
             "ENTRY FEE PER TEAM : Rs. 250",
             "Theme - Open Theme (AIML and IoT - Preferred)",
-            "The teams should submit the topic on February 21",
+            "The teams should submit the topic by February 21",
             "The final solution must be demonstrated through presentation and implementation of the project",
             "Panel members decision is final",
             "Simulation can be done through any software",
@@ -1744,7 +1746,7 @@ export default [
             silver:"500",
         },
         contact: "9962539073",
-        amt: "150",
+        amt: "175",
         color: "var(--fg-g)",
         determination: "The team with the highest total rating after player auction will be declared as the winner.",
         carddescription: "Immersive cricket experience  assemble, bid, and conquer! 🏏💰",

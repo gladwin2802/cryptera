@@ -210,7 +210,7 @@ export const events = [
     },
     {
         title: "Hackathon",
-        time: "1:00 AM",
+        time: "1:00 PM",
         date: "February 22",
         ref: "Hackathon",
         // venue: "L103, L210, L303, L308, L315"

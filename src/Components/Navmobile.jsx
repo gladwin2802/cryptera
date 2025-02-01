@@ -13,7 +13,7 @@ function Navmobile() {
     const contactref = useRef(null);
     const eventref = useRef(null);
     const commiteeref = useRef(null);
-    const galleryref=useRef(null);
+    //const galleryref=useRef(null);
     // const hintref = useRef(null);
     const linkxref = useRef(null);
     const sociallinksref = useRef(null);
@@ -41,7 +41,7 @@ function Navmobile() {
         webref.current.classList.remove("active");
         commiteeref.current.classList.remove("active");
         timelineref.current.classList.remove("active");
-        galleryref.current.classList.remove("active");
+        // galleryref.current.classList.remove("active");
         // adminref.current.classList.remove("active");
         // venueref.current.classList.remove("active");
     };
@@ -50,8 +50,7 @@ function Navmobile() {
         if (location.pathname === "/") {
             clearActive();
             homeref.current.classList.add("active");
-            homeref.current.classList.add("active");
-
+            // homeref.current.classList.add("active");
             // hintref.current.innerHTML = "Scroll";
             // hintref.current.addEventListener("click", () => { });
         } else if (location.pathname.includes("/events")) {
@@ -89,7 +88,7 @@ function Navmobile() {
             closenav();
         }
         // else if (location.pathname === "/venue") {
-        //     clearActive();
+            // clearActive();
         //     venueref.current.classList.add("active");
         // }
         else if (location.pathname === "/timeline") {
@@ -101,7 +100,7 @@ function Navmobile() {
             // });
         } 
         // else if (location.pathname === "/gallery") {
-        //     clearActive();
+            // clearActive();
             // hintref.current.innerHTML = "Committee";
             // hintref.current.addEventListener("click", () => {
             //     navigate("/committee");
@@ -118,22 +117,22 @@ function Navmobile() {
             clearActive();
             commiteeref.current.classList.add("active");
         }
-        else if (location.pathname === "/gallery") {
-            clearActive();
-            galleryref.current.classList.add("active");
-        }
+        // else if (location.pathname === "/gallery") {
+            // clearActive();
+        //     galleryref.current.classList.add("active");
+        // }
 
-        else if (location.pathname === "/admin") {
-            clearActive();
-            adminref.current.classList.add("active");
-        }
+        // else if (location.pathname === "/admin") {
+            // clearActive();
+        //     adminref.current.classList.add("active");
+        // }
         else {
             clearActive();
         }
     }, [location]);
 
     useEffect(() => {
-        const eventDate = new Date("2025-02-21T12:00:00");
+        const eventDate = new Date("2025-02-21T09:00:00");
         const timer = setInterval(() => {
             const now = new Date();
             const timeDifference = eventDate - now;
@@ -177,7 +176,7 @@ function Navmobile() {
                             onClick={toggleMenu}
                             to="/"
                             ref={homeref}
-                            className=" navbar-linkx"
+                            className="navbar-linkx"
                             id="Home-link"
                         >
                             {" "}
@@ -219,7 +218,7 @@ function Navmobile() {
                             onClick={toggleMenu}
                             to="timeline"
                             ref={timelineref}
-                            className=" navbar-linkx"
+                            className="navbar-linkx"
                         >
                             {" "}
                             <i className="fa fa-calendar-check"></i>
@@ -249,13 +248,13 @@ function Navmobile() {
                             onClick={toggleMenu}
                             to="committee"
                             ref={commiteeref}
-                            className=" navbar-linkx"
+                            className="navbar-linkx"
                         >
                             <i className="fa fa-users"></i>
                             <span>Committee</span>
                         </Link>
 
-                        <Link
+                        {/* <Link
                             onClick={toggleMenu}
                             to="gallery"
                             ref={galleryref}
@@ -263,13 +262,13 @@ function Navmobile() {
                         >
                             <i className="fa fa-image"></i>
                             <span>Gallery</span>
-                        </Link>
+                        </Link> */}
 
                         <Link
                             onClick={toggleMenu}
                             to="contact_us"
                             ref={contactref}
-                            className=" navbar-linkx"
+                            className="navbar-linkx"
                         >
                             <i className="fa fa-headset"></i>
                             <span>Contact Us</span>

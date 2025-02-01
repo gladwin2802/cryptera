@@ -73,7 +73,9 @@
 .navbar-linkx>i {
     margin: 10px;
 }
-
+.active {
+    color: #05ffa3 ;
+}
 .close-btn-x {
     position: absolute;
     right: 20px;
@@ -104,4 +106,7 @@
 
 .social-linksx>i {
     margin: 10px;
+}
+.active{
+    color: #05ffa3;
 }
