@@ -5,6 +5,7 @@ import oxdebug from "../Assets/event/0xdebug.jpg";
 import carrom from "../Assets/event/carrom.jpg";
 import workshop1 from "../Assets/event/workshop1.jpg";
 import prompt from "../Assets/event/prompteng.jpeg";
+import cheran from "../Assets/event/cheran.png"
 import { duration } from "@mui/material";
 
 const form = "https://forms.gle/vLSyf3tomF4xVjKAA"
@@ -1756,8 +1757,8 @@ export default [
     // IPL Auction 1
     {
         id: "32",
-        name: "IPL-Auction1",
-        title: "IPL Auction",
+        name: "IPL_Auction",
+        title: "IPL_Auction",
         status: 1,
         // venue: "LBCH",
         eligibility: "Anyone can join",
@@ -1936,6 +1937,7 @@ export default [
         status: 1,
         rules: [
         "Certificate will be given for the registered candidates who attend the workshop",
+        "Participants are advised to bring their Laptops for the Hands-on Session (Mandatory for MERN Stack and AIML Workshops)",
         "For further details call : 7092469189"
     ],
         faq: [
@@ -1956,7 +1958,7 @@ export default [
         title: "Explore MERN Stack: The Ultimate Hands-On Workshop",
         // venue: " IT213 or Auditorium",
         dateTime: " February 21, 10 am to 12 pm",
-        carddescription: "Level up your web development with MongoDB, Express, React and Node.js!",
+        carddescription: "WORKSHOP",
         description: "Step into the world of Full-Stack Development by exploring MongoDB, Express.js, React and Node.js with our hands-on MERN Stack Workshop! Whether you're just starting out or looking to sharpen your skills, join us for a fun, practical session that will take your Web Development game to the next level!",
         type: "flagship",
         eligibility: "Anyone can join",
@@ -1966,17 +1968,18 @@ export default [
         contact: "7092469189",
         tags: ["Workshop"],
         entry: [
-        "Single Workshop - Rs. 150/-",
-        "Combo A - Two Workshops - Rs. 250/-",
-        "Combo B - Three Workshops - Rs. 350/-",
+        "Single Event (Workshop / Entrepreneurship Talk) – Rs. 150/-",
+        "Combo A – Any 2 Events – Rs. 250/-",
+        "Combo B – Any 3 Events – Rs. 350/-",
+        "Combo C – Any 4 Events – Rs. 450/-",
     ],
         
         form: "https://forms.gle/eo9VSfU8uQQbRwac7",
-        speakerinfo: "Kuru Prasath is a Technical Trainer at Yellowmatics.ai, specializing in Java Full Stack and MERN Stack technologies, with over Five years of Industry experience.",
+        speakerinfo: "Guru Prasath is a Technical Trainer at Yellowmatics.ai, specializing in Java Full Stack and MERN Stack technologies, with over Five years of Industry experience.",
         speakers: [
         {
-                name: "Kuru Prasath D R",
-                bio: "Kuru Prasath holds a Bachelor's degree in Engineering from Vellore Institute of Technology (VIT). As an experienced Skill Development Engineer, he has been actively mentoring students and contributing to the Global Student Alumni Network and preparing candidates for roles in Product Development Companies.He has conducted technical training at Tech Molders for pre-final and final-year students and at Kanavu Labs for Corporate Professionals.",
+                name: "Guru Prasath D R",
+                bio: "Guru Prasath holds a Bachelor's degree in Engineering from Vellore Institute of Technology (VIT). As an experienced Skill Development Engineer, he has been actively mentoring students and contributing to the Global Student Alumni Network and preparing candidates for roles in Product Development Companies.He has conducted technical training at Tech Molders for pre-final and final-year students and at Kanavu Labs for Corporate Professionals.",
         },
     ],
         color: "red",
@@ -1987,52 +1990,56 @@ export default [
         id: "35",
         key: 1,
         status: 1,
+        s: 1,
         rules: [
-        "Certificate will be given for the registered candidates who attend the workshop",
-        "For further details call : 7092469189"
-    ],
+            "Certificate will be given for the registered candidates who attend the workshop",
+            "For further details call : 7092469189"
+        ],
         faq: [
-        {
-                question: "Will it happen online or offline?",
-                answer: "Offline",
-        },
-        {
-                question: "Will it be a one day workshop or two days?",
-                answer: "One day, Time is mentioned above",
-        },
-        {
-                question: "Can I get certificate?",
-                answer: "Yes, Certificate will be provided in offline",
-        },
-    ],
-        name: "Workshop 2",
-        title: "Exploring Data Engineering in the World of Game Development",
-        //venue: " IT213 or Auditorium",
-        dateTime: " February 22, 10 am to 12 pm",
-        carddescription: "Transform Data into the magic behind your Favorite Games!",
-        description: "Step into the World of Data Engineering and see how it transforms Game Development. From optimizing Gameplay to creating immersive experiences, discover how data is the driving force behind next-level gaming innovation. Ready to unlock the potential? Let’s dive in!",
+            {
+                    question: "Will it happen online or offline?",
+                    answer: "Offline",
+            },
+            {
+                    question: "Will it be a one day workshop or two days?",
+                    answer: "One day, Time is mentioned above",
+            },
+            {
+                    question: "Can I get certificate?",
+                    answer: "Yes, Certificate will be provided in offline",
+            },
+        ],
+        name: "Workshop2",
+        title: "Entrepreneurship Unplugged : Turning Ideas into Impact",
+        dateTime: "February 21, 2 pm to 4 pm",
+        carddescription: "Entrepreneurship Talk",
+        description:
+            "Empower your Business Journey with Game-Changing Sales strategies and Entrepreneurial insights! Ignite your Entrepreneurial spirit and unlock the secrets to skyrocketing sales and Business Success! Join us for an Inspiring talk filled with actionable strategies, real-world insights, and tips to turn your vision into a thriving business—take the first step towards your Entrepreneurial Journey!.",
         type: "flagship",
         eligibility: "Anyone can join",
         pics: {
-            primary: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0fSfBH17OziJme8Kam1U8ZcLRcyQSkHp3Kg&s",
-    },
-        contact: "7092469189",
-        tags: ["Workshop"],
-        entry: [
-        "Single Workshop - Rs. 150/-",
-        "Combo A - Two Workshops - Rs. 250/-",
-        "Combo B - Three Workshops - Rs. 350/-",
-    ],
-        form: "https://forms.gle/eo9VSfU8uQQbRwac7",
-        speakerinfo: "Prabhu Varadharajan is the Lead Data Engineer/Architect at Electronic Arts Inc. (EA) in Toronto, Canada, with around 10 years of industry experience specializing in Data Engineering",
-        speakers: [
-        {
-                name: "Prabhu Varadharajan",
-                bio: "Prabhu Varadharajan holds a Bachelor of Engineering (B.E.) in Computer Science from KIT - Kalaignar Karunanidhi Institute of Technology. Throughout his career, he has worked at Deloitte as a Senior Consultant, as a Data Engineer at Verizon, as a Business Intelligence Analyst at Altimetrik and as a Programmer Analyst at Computer Sciences Corporation (CSC).",
+            primary:cheran,
         },
-    ],
+        contact: "7092469189",        
+        tags: [],
+        entry: [
+            "Single Event (Workshop / Entrepreneurship Talk) – Rs. 150/-",
+            "Combo A – Any 2 Events – Rs. 250/-",
+            "Combo B – Any 3 Events – Rs. 350/-",
+            "Combo C – Any 4 Events – Rs. 450/-",
+        ],
+        form: "https://forms.gle/eo9VSfU8uQQbRwac7",
+        speakerinfo:
+            "Hussain Ahmed is a YouTuber, Founder of Cheran Academy, and a Content Creator. As a Sales & Growth Consultant, he helps business owners and brands stand out and dominate their industry through unconventional training and strategies.",
+        speakers: [
+            {
+                name: "Mohammad Sameer",
+                bio: "Aravind has also filed for 10 patents with 6 grants and has over 10 publications in International conferences and journals.  He completed his PhD from the University of Kansas in 2007 and graduated from Coimbatore Institute of Technology in 2002 with a Bachelors in Computer Science.",
+            },
+        ],
         color: "red",
     },
+
     //workshop3
     {
         id: "36",
@@ -2040,6 +2047,7 @@ export default [
         status: 1,
         rules: [
         "Certificate will be given for the registered candidates who attend the workshop",
+        "Participants are advised to bring their Laptops for the Hands-on Session (Mandatory for MERN Stack and AIML Workshops)",
         "For further details call : 7092469189"
     ],
         faq: [
@@ -2057,10 +2065,65 @@ export default [
         },
     ],
         name: "Workshop3",
+        title: "Exploring Data Engineering in the Real World",
+        //venue: " IT213 or Auditorium",
+        dateTime: " February 22, 10 am to 12 pm",
+        carddescription: "WORKSHOP",
+        description: "Step into the World of Data Engineering and see how it transforms Game Development. From optimizing Gameplay to creating immersive experiences, discover how data is the driving force behind next-level gaming innovation. Ready to unlock the potential? Let’s dive in!",
+        type: "flagship",
+        eligibility: "Anyone can join",
+        pics: {
+            primary: "https://www.valuemomentum.com/wp-content/uploads/2024/12/shutterstock_1551647945-1536x864.jpg",
+    },
+        contact: "7092469189",
+        tags: ["Workshop"],
+        entry: [
+            "Single Event (Workshop / Entrepreneurship Talk) – Rs. 150/-",
+            "Combo A – Any 2 Events – Rs. 250/-",
+            "Combo B – Any 3 Events – Rs. 350/-",
+            "Combo C – Any 4 Events – Rs. 450/-",
+    ],
+        form: "https://forms.gle/eo9VSfU8uQQbRwac7",
+        speakerinfo: "Prabhu Varadharajan is the Lead Data Engineer/Architect at Electronic Arts Inc. (EA) in Toronto, Canada, with around 10 years of industry experience specializing in Data Engineering",
+        speakers: [
+        {
+                name: "Prabhu Varadharajan",
+                bio: "Prabhu Varadharajan holds a Bachelor of Engineering (B.E.) in Computer Science from KIT - Kalaignar Karunanidhi Institute of Technology. Throughout his career, he has worked at Deloitte as a Senior Consultant, as a Data Engineer at Verizon, as a Business Intelligence Analyst at Altimetrik and as a Programmer Analyst at Computer Sciences Corporation (CSC).",
+        },
+    ],
+        color: "red",
+    },
+    
+    
+    //workshop4
+    {
+        id: "37",
+        key: 1,
+        status: 1,
+        rules: [
+        "Certificate will be given for the registered candidates who attend the workshop",
+        "Participants are advised to bring their Laptops for the Hands-on Session (Mandatory for MERN Stack and AIML Workshops)",
+        "For further details call : 7092469189"
+    ],
+        faq: [
+        {
+                question: "Will it happen online or offline?",
+                answer: "Offline",
+        },
+        {
+                question: "Will it be a one day workshop or two days?",
+                answer: "One day, Time is mentioned above",
+        },
+        {
+                question: "Can I get certificate?",
+                answer: "Yes, Certificate will be provided in offline",
+        },
+    ],
+        name: "Workshop4",
         title: "Artificial Intelligence and Machine Learning : Explore, Learn, and Build with Hands-On Experience",
        // venue: " IT213 or Auditorium",
         dateTime: " February 22, 2 pm to 4 pm",
-        carddescription: "Embark on a Hands-on Adventure into the World of AI and ML!",
+        carddescription: "WORKSHOP",
         description: "Dive deep into the practical applications of Artificial Intelligence and Machine Learning in this interactive session. From building models to solving Real-World problems, explore the tools and techniques driving innovation. Whether you're just starting or looking to sharpen your skills, this journey will equip you with the knowledge and experience to succeed in the AI-driven future!",
         type: "flagship",
         eligibility: "Anyone can join",
@@ -2070,9 +2133,10 @@ export default [
         contact: "7092469189",
         tags: ["Workshop"],
         entry: [
-        "Single Workshop - Rs. 150/-",
-        "Combo A - Two Workshops - Rs. 250/-",
-        "Combo B - Three Workshops - Rs. 350/-",
+            "Single Event (Workshop / Entrepreneurship Talk) – Rs. 150/-",
+            "Combo A – Any 2 Events – Rs. 250/-",
+            "Combo B – Any 3 Events – Rs. 350/-",
+            "Combo C – Any 4 Events – Rs. 450/-",
     ],
         form: "https://forms.gle/eo9VSfU8uQQbRwac7",
         speakerinfo: "Dr. S. Kannimuthu is a Professor in the Department of Computer Science and Engineering at Karpagam College of Engineering and in-charge of the Center of Excellence in Algorithms and an IEEE Senior Member with over 17 years of Teaching and Industrial experience.",
@@ -2084,6 +2148,8 @@ export default [
     ],
         color: "red",
     },
+    
+
 
 
     // {
@@ -2151,7 +2217,7 @@ export default [
     // Webinar
     //Webinar 1
     {
-        id: "37",
+        id: "38",
         key: 1,
         status: 1,
         s: 1,
@@ -2176,12 +2242,12 @@ export default [
         name: "Webinar1",
         title: "Generative AI: Create Beyond Imagination",
         dateTime: "February 21, 12 pm to 2 pm",
-        carddescription: "Explore the future of AI-driven creativity!",
+        carddescription: "WEBINAR",
         description: "Step into the World of Generative AI and discover how it’s reshaping creativity. Uncover the Tools, Techniques, and Strategies that are driving this revolutionary field. Whether you're an AI Enthusiast or looking to expand your knowledge, this session will show you how Generative AI is breaking boundaries and unlocking endless possibilities!",
         type: "flagship",
         eligibility: "Anyone can join",
         pics: {
-            primary: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYqAKZmufTUmYsrG0JCnRdEWGDqv5YUdcM6w&s",
+            primary: "https://wisr.ai/wp-content/uploads/2023/02/cybersecurity-and-ai-work-together-1024x683.jpg",
         },
         contact: "7092469189",
         tags: ["Webinar"],
@@ -2197,11 +2263,11 @@ export default [
                 bio: "Paramasivam Venkataramasamy holds a Master of Engineering (M.Eng.) in Computer Science from the National Institute of Technology (NIT), Tiruchirappalli and a Bachelor of Engineering (B.E.) from Bangalore University. Throughout his career, he has Co-Founded and led several Technology-driven companies, including Synaptris Inc. (CTO & Vice President), e-Brahma Technologies Pvt. Ltd. (Director & Co-Founder) and Kovai TDI Software Pvt. Ltd. (Managing Director & Co-Founder). He also served as an Associate Consultant at Tata Consultancy Services (TCS).",
                 },
         ],
-        color: "red",
+        color: "blue",
     },
     // Webinar 2
     {
-        id: "38",
+        id: "39",
         key: 1,
         status: 1,
         s: 1,
@@ -2226,7 +2292,7 @@ export default [
         name: "Webinar2",
         title: "Demystifying Computer Vision and Digital Image Processing",
         dateTime: "February 21, 6 pm to 8 pm",
-        carddescription: "Unlock the Power of Visual Data - Discover how Machines see and interpret the World!",
+        carddescription: "WEBINAR",
         description: "Explore the world of Computer Vision and Image Processing in our exciting Webinar. Dive into techniques like Image Analysis, Feature Extraction and AI-powered Vision Systems. Learn how Technology helps machines understand visual data, opening doors to endless possibilities in the field!",
         type: "flagship",
         eligibility: "Anyone can join",
@@ -2247,7 +2313,7 @@ export default [
                 bio: "Dr. Anupama Namburu holds a PhD in Digital Image Processing from Jawaharlal Nehru Technological University, Kakinada. With a strong academic background, she has served as an Associate Professor at Vellore Institute of Technology, an Assistant Professor at Acharya Nagarjuna University and as the Deputy Director of Student Welfare at VIT-AP University. She also has Industry experience as a Senior Software Engineer at Wipro Technologies.",
                 },
         ],
-        color: "red",
+        color: "blue",
     },
     // {
     //     id: "39",

@@ -129,7 +129,7 @@ function Timelinex() {
                                             <Typography
                                                 className="event_name"
                                                 component="span"
-                                                // onClick={() => navigateToEventPage(event.ref)}
+                                                onClick={() => navigateToEventPage(event.ref)}
                                             >
                                                 {event.title.toUpperCase()}
                                             </Typography>
@@ -144,7 +144,7 @@ function Timelinex() {
                                             <Typography
                                                 className="event_name"
                                                 component="span"
-                                                // onClick={() => navigateToEventPage(event.ref)}
+                                                onClick={() => navigateToEventPage(event.ref)}
                                             >
                                                 {event.title.toUpperCase()}
                                             </Typography>

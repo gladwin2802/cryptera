@@ -31,10 +31,10 @@ export const events = [
 
     },
     {
-        title: "Workshop (coming soon..)",
+        title: "Workshop-Explore MERN Stack",
         time: "10:00 AM to 12:00 PM",
         date: "February 21",
-        // ref: "Workshop1",
+        ref: "Workshop1",
         // venue: "IT211 or MBCH or LBCH"
     },
     {
@@ -62,11 +62,11 @@ export const events = [
         title: "Attack On Anime",
         time: "11:30 AM",
         date: "February 21",
-        ref: "Attack_On_Anime",
+        ref: "Attack_on_Anime",
         // venue: "L109"
     },
     {
-        title: "Webinar (Coming Soon..)",
+        title: "Webinar-Generative AI",
         time: "12:00 PM to 2:00 PM",
         date: "February 21",
         ref: "Webinar1"
@@ -82,7 +82,7 @@ export const events = [
         title: "PC Building",
         time: "2:00 PM",
         date: "February 21",
-        ref: "Pc_Building",
+        ref: "PC_Building",
         // venue: "L102"
     },
     // {
@@ -96,21 +96,27 @@ export const events = [
         title: "UI Design Contest",
         time: "2:00 PM",
         date: "February 21",
-        ref: "Ui_Design_Contest",
+        ref: "UI_Design_Contest",
         // venue: "IT442, IT443, L103, L210, IOT"
     },
     {
         title: "Selling Showdown",
         time: "2:00 PM",
         date: "February 21",
-        ref: "Sales_Talk",
+        ref: "Selling_Showdown",
         // venue: "L210, L201 (waiting room )"
+    },
+    {
+        title: "Entrepreneurship Unplugged",
+        time: "02:00 PM to 04:00 PM",
+        date: "February 21",
+        ref: "Workshop2"
     },
     {
         title: "Code In Chaos",
         time: "2:30 PM",
         date: "February 21",
-        ref: "Code_In_Chaos",
+        ref: "Code_in_Chaos",
         // venue: "IT442,L210"
 
     },
@@ -122,7 +128,7 @@ export const events = [
         // venue: "MBCH"
     },
     {
-        title: "Webinar (Coming Soon..)",
+        title: "Webinar-Digital Image Processing",
         time: "6:00 PM to 8:00 PM",
         date: "February 21",
         ref: "Webinar2"
@@ -177,11 +183,11 @@ export const events = [
         title: "Logic Unchained",
         time: "9:00 AM",
         date: "February 22",
-        ref: "Recall_Rumble",
+        ref: "Logic_Unchained",
         // venue: "IT442, IT443"
     },
     {
-        title: "Workshop (Coming Soon..)",
+        title: "Workshop-Data Engineering",
         time: "10:00 AM - 12:00 PM",
         date: "February 22",
         ref: "Workshop3",
@@ -225,11 +231,11 @@ export const events = [
         title: "Movie Quiz",
         time: "1:30 PM",
         date: "February 22",
-        ref: "Movie_Quiz",
+        ref: "Movie_quiz",
         // venue: "L102,L101(Waiting Room) "
     },
     {
-        title: "Workshop (Coming Soon..)",
+        title: "Workshop-AIML",
         time: "2:00 PM to 4:00 PM",
         date: "February 22",
         ref: "Workshop4"
@@ -246,7 +252,7 @@ export const events = [
         title: "Ipl Auction",
         time: "2:00 PM",
         date: "February 22",
-        ref: "Ipl_Auction",
+        ref: "IPL_Auction",
         // venue: "IT211 or MBCH or LBCH"
     },
     {
