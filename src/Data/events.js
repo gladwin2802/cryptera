@@ -5,7 +5,6 @@ import oxdebug from "../Assets/event/0xdebug.jpg";
 import carrom from "../Assets/event/carrom.jpg";
 import workshop1 from "../Assets/event/workshop1.jpg";
 import prompt from "../Assets/event/prompteng.jpeg";
-import cheran from "../Assets/event/cheran.png"
 import { duration } from "@mui/material";
 
 const form = "https://forms.gle/vLSyf3tomF4xVjKAA"
@@ -1989,7 +1988,7 @@ export default [
     {
         id: "35",
         key: 1,
-        status: 1,
+        status: 0,
         s: 1,
         rules: [
             "Certificate will be given for the registered candidates who attend the workshop",
@@ -2010,15 +2009,14 @@ export default [
             },
         ],
         name: "Workshop2",
-        title: "Entrepreneurship Unplugged : Turning Ideas into Impact",
+        title: "WORKSHOP",
         dateTime: "February 21, 2 pm to 4 pm",
-        carddescription: "Entrepreneurship Talk",
-        description:
-            "Empower your Business Journey with Game-Changing Sales strategies and Entrepreneurial insights! Ignite your Entrepreneurial spirit and unlock the secrets to skyrocketing sales and Business Success! Join us for an Inspiring talk filled with actionable strategies, real-world insights, and tips to turn your vision into a thriving business—take the first step towards your Entrepreneurial Journey!.",
+        carddescription: "COMING SOON..",
+        description:"",
         type: "flagship",
         eligibility: "Anyone can join",
         pics: {
-            primary:cheran,
+            primary:"https://imgs.search.brave.com/hC3mmWU9nnUsLFKNjHaJzL7Fgi90zawVvg11ufeGSo8/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly90NC5m/dGNkbi5uZXQvanBn/LzEwLzUzLzIxLzQz/LzM2MF9GXzEwNTMy/MTQzNDRfc3lPTnMx/ajBUS3YzUW05bzFt/MWxyR0hKWXhVSGk2/ZDIuanBn",
         },
         contact: "7092469189",        
         tags: [],
@@ -2030,11 +2028,11 @@ export default [
         ],
         form: "https://forms.gle/eo9VSfU8uQQbRwac7",
         speakerinfo:
-            "Hussain Ahmed is a YouTuber, Founder of Cheran Academy, and a Content Creator. As a Sales & Growth Consultant, he helps business owners and brands stand out and dominate their industry through unconventional training and strategies.",
+            "",
         speakers: [
             {
-                name: "Mohammad Sameer",
-                bio: "Aravind has also filed for 10 patents with 6 grants and has over 10 publications in International conferences and journals.  He completed his PhD from the University of Kansas in 2007 and graduated from Coimbatore Institute of Technology in 2002 with a Bachelors in Computer Science.",
+                name: "",
+                bio: "",
             },
         ],
         color: "red",

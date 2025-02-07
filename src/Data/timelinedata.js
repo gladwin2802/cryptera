@@ -107,10 +107,10 @@ export const events = [
         // venue: "L210, L201 (waiting room )"
     },
     {
-        title: "Entrepreneurship Unplugged",
+        title: "Workshop (Coming soon)",
         time: "02:00 PM to 04:00 PM",
         date: "February 21",
-        ref: "Workshop2"
+        // ref: "Workshop2"
     },
     {
         title: "Code In Chaos",
