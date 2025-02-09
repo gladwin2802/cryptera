@@ -1967,10 +1967,10 @@ export default [
         contact: "7092469189",
         tags: ["Workshop"],
         entry: [
-        "Single Event (Workshop / Entrepreneurship Talk) – Rs. 150/-",
-        "Combo A – Any 2 Events – Rs. 250/-",
-        "Combo B – Any 3 Events – Rs. 350/-",
-        "Combo C – Any 4 Events – Rs. 450/-",
+        "Single Workshop – Rs. 150/-",
+        "Combo A – Two Workshops – Rs. 250/-",
+        "Combo B – Three Workshops – Rs. 350/-",
+        "Combo C – Four Workshops – Rs. 450/-"
     ],
         
         form: "https://forms.gle/eo9VSfU8uQQbRwac7",
@@ -1984,59 +1984,59 @@ export default [
         color: "red",
     },
 
-    //workshop2 
-    {
-        id: "35",
-        key: 1,
-        status: 0,
-        s: 1,
-        rules: [
-            "Certificate will be given for the registered candidates who attend the workshop",
-            "For further details call : 7092469189"
-        ],
-        faq: [
-            {
-                    question: "Will it happen online or offline?",
-                    answer: "Offline",
-            },
-            {
-                    question: "Will it be a one day workshop or two days?",
-                    answer: "One day, Time is mentioned above",
-            },
-            {
-                    question: "Can I get certificate?",
-                    answer: "Yes, Certificate will be provided in offline",
-            },
-        ],
-        name: "Workshop2",
-        title: "WORKSHOP",
-        dateTime: "February 21, 2 pm to 4 pm",
-        carddescription: "COMING SOON..",
-        description:"",
-        type: "flagship",
-        eligibility: "Anyone can join",
-        pics: {
-            primary:"https://imgs.search.brave.com/hC3mmWU9nnUsLFKNjHaJzL7Fgi90zawVvg11ufeGSo8/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly90NC5m/dGNkbi5uZXQvanBn/LzEwLzUzLzIxLzQz/LzM2MF9GXzEwNTMy/MTQzNDRfc3lPTnMx/ajBUS3YzUW05bzFt/MWxyR0hKWXhVSGk2/ZDIuanBn",
+//workshop2 
+ {
+    id: "35",
+    key: 1,
+    status: 1,
+    s: 1,
+    rules: [
+        "Certificate will be given for the registered candidates who attend the workshop",
+        "For further details call : 7092469189"
+    ],
+    faq: [
+        {
+                question: "Will it happen online or offline?",
+                answer: "Offline",
         },
-        contact: "7092469189",        
-        tags: [],
-        entry: [
-            "Single Event (Workshop / Entrepreneurship Talk) – Rs. 150/-",
-            "Combo A – Any 2 Events – Rs. 250/-",
-            "Combo B – Any 3 Events – Rs. 350/-",
-            "Combo C – Any 4 Events – Rs. 450/-",
-        ],
-        form: "https://forms.gle/eo9VSfU8uQQbRwac7",
-        speakerinfo:
-            "",
-        speakers: [
-            {
-                name: "",
-                bio: "",
-            },
-        ],
-        color: "red",
+        {
+                question: "Will it be a one day workshop or two days?",
+                answer: "One day, Time is mentioned above",
+        },
+        {
+                question: "Can I get certificate?",
+                answer: "Yes, Certificate will be provided in offline",
+        },
+    ],
+    name: "Workshop2",
+    title: "Azure and AWS Unveiled: An Exploration of Cloud Services and Capabilities",
+    dateTime: "February 21, 2 pm to 4 pm",
+    carddescription: "WORKSHOP",
+    description:"Unlock the power of Azure and AWS and discover how they drive real-world innovation! This session breaks down core Cloud Services, from Computing and Storage to AI and Security, showcasing their impact across industries. Join us to explore how these platforms are shaping the future of Cloud Technology!",
+    type: "flagship",
+    eligibility: "Anyone can join",
+    pics: {
+        primary:"https://imgs.search.brave.com/kaWmyb8Kjfd3840BThBeYlEkJioMjriL4gZ4s7aIpMc/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTQ1/OTUzNTEyMC9waG90/by9kYXRhLWNsb3Vk/LXNlcnZlci5qcGc_/cz02MTJ4NjEyJnc9/MCZrPTIwJmM9am4x/SGJPaFZTOEhrSGtl/VGRlSnNxUXc1NkJW/ckNSQkluWWhrV0tm/T0puND0",
     },
+    contact: "7092469189",        
+    tags: [],
+    entry: [
+        "Single Workshop – Rs. 150/-",
+        "Combo A – Two Workshops – Rs. 250/-",
+        "Combo B – Three Workshops – Rs. 350/-",
+        "Combo C – Four Workshops – Rs. 450/-"
+    ],
+    form: "https://forms.gle/eo9VSfU8uQQbRwac7",
+    speakerinfo:
+        "Jerald Felix is an IT Analyst at Bosch Global Software Technologies, with expertise in Cloud and AI. He is a Microsoft Certified Trainer with a deep understanding of Azure cloud services and Infrastructure projects. With over Ten years of experience, he has been delivering and supporting IT solutions.",
+    speakers: [
+        {
+            name: "Jerald Felix",
+            bio: "",
+        },
+    ],
+    color: "red",
+},
 
     //workshop3
     {
@@ -2076,10 +2076,10 @@ export default [
         contact: "7092469189",
         tags: ["Workshop"],
         entry: [
-            "Single Event (Workshop / Entrepreneurship Talk) – Rs. 150/-",
-            "Combo A – Any 2 Events – Rs. 250/-",
-            "Combo B – Any 3 Events – Rs. 350/-",
-            "Combo C – Any 4 Events – Rs. 450/-",
+        "Single Workshop – Rs. 150/-",
+        "Combo A – Two Workshops – Rs. 250/-",
+        "Combo B – Three Workshops – Rs. 350/-",
+        "Combo C – Four Workshops – Rs. 450/-"
     ],
         form: "https://forms.gle/eo9VSfU8uQQbRwac7",
         speakerinfo: "Prabhu Varadharajan is the Lead Data Engineer/Architect at Electronic Arts Inc. (EA) in Toronto, Canada, with around 10 years of industry experience specializing in Data Engineering",
@@ -2131,10 +2131,10 @@ export default [
         contact: "7092469189",
         tags: ["Workshop"],
         entry: [
-            "Single Event (Workshop / Entrepreneurship Talk) – Rs. 150/-",
-            "Combo A – Any 2 Events – Rs. 250/-",
-            "Combo B – Any 3 Events – Rs. 350/-",
-            "Combo C – Any 4 Events – Rs. 450/-",
+        "Single Workshop – Rs. 150/-",
+        "Combo A – Two Workshops – Rs. 250/-",
+        "Combo B – Three Workshops – Rs. 350/-",
+        "Combo C – Four Workshops – Rs. 450/-"
     ],
         form: "https://forms.gle/eo9VSfU8uQQbRwac7",
         speakerinfo: "Dr. S. Kannimuthu is a Professor in the Department of Computer Science and Engineering at Karpagam College of Engineering and in-charge of the Center of Excellence in Algorithms and an IEEE Senior Member with over 17 years of Teaching and Industrial experience.",
