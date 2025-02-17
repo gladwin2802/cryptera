@@ -12,8 +12,13 @@ import img6 from "../../Assets/Caroussel/images/ptechnical.jpg";
 import img7 from "../../Assets/Caroussel/images/pnon-technical.jpg";
 import img8 from "../../Assets/Caroussel/images/pflagship.jpg";
 import bg from "../../Assets/Caroussel/images/space5.jpg";
+import sponsor1 from "../../Assets/Sponsors/sponsor1.svg";
+import sponsor2 from "../../Assets/Sponsors/sponsor2.png";
+import sponsor4 from "../../Assets/Sponsors/sponsor4.jpeg";
 import CountDownHome from "./CountDownHome";
 import Gallery from './Gallery';
+import { colors } from "@mui/material";
+import { width } from "@fortawesome/free-solid-svg-icons/fa0";
 
 function Home() {
     const navigator = useNavigate();
@@ -90,12 +95,26 @@ function Home() {
             }, 100)
         );
 
-        // Restart the autoplay timer
-        startAutoplay();
     };
 
     return (
+        
         <div style={{height:"100vh", width:"100%",overflowY:"scroll"}}>
+            <button onClick={() => window.location.href = "https://drive.google.com/file/d/1CxfvzZY0nG7RtGsQeWV9gj18P8SZABO-/view?usp=sharing"} 
+                style={{
+                    position: "relative",
+                    left:isMobile ? "64%": "87%",
+                    top:isMobile ? "14%": "8%",
+                    backgroundColor: "#6200ea",
+                    color: "white",
+                    padding: isMobile ? "5px 10px": "10px 20px",
+                    borderRadius: "5px",
+                    border: "none",
+                    cursor: "pointer",
+                    zIndex: "1000"
+                }}>
+                Brochure 📥
+            </button>
             <div
                 className="home main-section"
                 id="Home"
@@ -116,6 +135,7 @@ function Home() {
                         // top:100
                     }}
                 >
+
                     <section className="caroussel-1">
                         <img className="bg" src={bg} alt="" />
                         <div className="list">
@@ -127,9 +147,8 @@ function Home() {
                             </div>
                             <div className="item">
                                 <img src={isMobile ? img5 : img1} style={isMobile ? {height:"90%", width:"650px",marginTop:"20px"}:{}} alt="" />
-                                {/* Example button if needed:
-              <div onClick={() => handleClick()} className="item-button">
-                <div>Register Now</div>
+              {/* <div onClick={() => DownloadBrochure()} className="item-button">
+                <div>Download Brochure 📥</div>
               </div> */}
                             </div>
                             <div className="item">
@@ -156,8 +175,72 @@ function Home() {
                     </section>
                 </div>
             </div>
-            
-            
+            <section style={{ position: "relative", textAlign: "center" }}>
+    {/* Background Image */}
+    <img className="bg" src={bg} alt="" style={{ width: "100%", height: "auto" }} />
+
+    <h2 style={{
+        position: "absolute",
+        width:"100%",
+        top: isMobile ? "0%" : "100px",
+        left: "50%",
+        transform: "translate(-50%, -50%)",
+        color:"violet",
+        fontSize: isMobile ? "35px" : "100px",
+        fontWeight: "bold"
+    }}>
+        Our Sponsors
+    </h2>
+    <h2 style={{
+        position: "absolute",
+        width:"100%",
+        top: isMobile ? "22%" : "250px",
+        left: "50%",
+        transform: "translate(-50%, -50%)",
+        color:"violet",
+        fontSize: isMobile ? "25px" : "60px",
+        fontWeight: "bold"
+    }}>
+        Title Sponsors
+    </h2>
+    <div style={{
+        position: "absolute",
+        top: isMobile ? "32%" : "40%", 
+        left: isMobile ? "50%" : "590px",
+        transform: "translateX(-50%)",
+        display: "flex",
+        gap: isMobile ? "20px" : "100px",
+        justifyContent: "center"
+    }}>
+        <img src={sponsor1} alt="Sponsor 1" style={{ width: "370px", height: "auto"}} />
+        <img src={sponsor2} alt="Sponsor 2" style={{ width: isMobile ? "100px" : "220px", height: isMobile ? "50px" : "100px" }} />
+    </div>
+    <h2 style={{
+        position: "absolute",
+        width:"100%",
+        top: isMobile ? "65%" : "530px",
+        left: "51%",
+        transform: "translate(-50%, -50%)",
+        color:"violet",
+        fontSize: isMobile ? "16px" : "45px",
+        fontWeight: "bold"
+    }}>
+         <pre>Other Sponsor</pre>
+    </h2>
+    <div style={{
+        position: "absolute",
+        top: "74%",
+        left: isMobile ? "50%" : "600px",
+        transform: "translateX(-50%)",
+        display: "flex",
+        gap: isMobile ? "150px" : "430px",
+        justifyContent: "center"
+    }}>
+        <img src={sponsor4} alt="Sponsor 4" style={{  width:  isMobile ? "65px" : "190px", height:  isMobile ? "50px" : "auto"}} />
+    </div>
+
+</section>
+
         </div>
     );
            

@@ -74,12 +74,21 @@ function Timelinex() {
                     >
                         Timeline
                     </h1>
+                    <h4
+                        style={{
+                            textAlign: "center",
+                            color: "#05ffa3",
+                            padding: "0px 0px 25px 0px"
+                        }}
+                        >
+                        CLICK ON EVENTS TO VIEW FULL DETAILS
+                    </h4>
                 </div>
                 <div className="button-flex">
                     <div onClick={() => scrollToTimeline(0)} className="item-button">
                         <div>February 21</div>
                     </div>
-                    <div onClick={() => scrollToTimeline(17)} className="item-button">
+                    <div onClick={() => scrollToTimeline(22)} className="item-button">
                         <div>February 22</div>
                     </div>
                         {/* <div onClick={() => scrollToTimeline(35)} className="item-button">

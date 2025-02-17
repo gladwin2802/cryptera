@@ -1335,7 +1335,7 @@ export default [
         results: null,
         rules: [
             "Participation can be individual or in teams of up to 4 members",
-            "The abstract should be at most two pages and must be submitted after paying the 'Entry Fee' on or before February 15",
+            "The abstract should be at most two pages and must be submitted after paying the 'Entry Fee' on or before February 18",
             "Participants will be shortlisted based on the innovative ideas submitted",
             "Shortlisted participants are required to complete their registration by paying the 'Registration Fee' based on their team size",
             "The oral presentation is allotted 10 minutes, followed by a 2-3 minute Q&A session; the time limit must not be exceeded",
@@ -1380,11 +1380,6 @@ export default [
             {
                 question: "What is the maximum team size?",
                 answer: "The maximum team size is 4.",
-            },
-            {
-                question: "What are the topics I can present on ?",
-                answer:
-                    "Participants can choose any topic of your choice related to the fields we've mentioned. Check out the registration form for the list of fields. ",
             },
         ],
         tags: ["presentation"],
