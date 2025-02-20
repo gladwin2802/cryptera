@@ -1,3 +1,6 @@
+
+
+
 import React, { useState, useEffect } from "react";
 const COUNTDOWN_TARGET = new Date("2025-02-21T09:00:00");
 const getTimeLeft = () => {
@@ -10,6 +13,7 @@ const getTimeLeft = () => {
 };
 const CountDownHome = () => {
   const [timeLeft, setTimeLeft] = useState(() => getTimeLeft());
+//   console.log(timeLeft);
   useEffect(() => {
       const timer = setInterval(() => {
           setTimeLeft(getTimeLeft());
@@ -19,8 +23,8 @@ const CountDownHome = () => {
           clearInterval(timer);
       };
   }, []);
-
   return (
+  (timeLeft.days>=0 || timeLeft.hours>=0 || timeLeft.mins>=0 || timeLeft.secs>=0)?
     <div className="flex flex-col items-center justify-center text-center sm:-ml-12 py-10 -mt-12 ">
             <div className="flex flex-row justify-center gap-2">
                 {Object.entries(timeLeft).map(([label, value]) => (
@@ -32,7 +36,6 @@ const CountDownHome = () => {
                     </div>
                 ))}
             </div>
-        </div>
-  )
+        </div>:null);
 }
 export default CountDownHome;

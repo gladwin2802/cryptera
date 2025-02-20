@@ -5,7 +5,7 @@ import pf4 from '../Assets/Profile/Gladwin.jpg'
 import pf5 from '../Assets/Profile/Ashwin.jpg'
 import pf6 from '../Assets/Profile/ganeshprasad.jpg'
 import pf7 from '../Assets/Profile/Yatin.jpg'
-import pf8 from '../Assets/Profile/Nirmal.jpg'
+// import pf8 from '../Assets/Profile/Nirmal.jpg'
 
 
 const web_devs_data = [
@@ -85,17 +85,6 @@ const web_devs_data = [
         medium: "",
         portfolio: "",
         linkedin: "https://www.linkedin.com/in/yatinsp"
-    },
-    {
-        id: 6,
-        profile: pf8,
-        name: "Nirmal K",
-        about: "Backend Developer focused on APIs and server-side logic",
-        instagram: "https://www.instagram.com/nk007.ig",
-        github: "https://github.com/nirmal-k-007",
-        medium: "",
-        portfolio: "",
-        linkedin: "https://in.linkedin.com/in/nirmal-k-08ab27348"
     }
 ]
 

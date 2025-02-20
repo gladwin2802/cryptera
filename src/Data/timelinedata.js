@@ -6,28 +6,28 @@ export const events = [
         time: "9:00 AM",
         date: "February 21",
         ref: "CSS_Battle",
-        // venue: "IT442, IT443, L103"
+        venue: "IT442, L303, L308"
     },
     {
         title: "Paper Presentation",
         time: "9:00 AM to 4:00 PM",
         date: "February 21",
         ref: "Paper_Presentation",
-        // venue: "IT214"
+        venue: "IT211, IT212"
     },
     {
         title: "Jumbled Code",
         time: "09:45 AM",
         date: "February 21",
         ref: "Jumbled_Code",
-        // venue: "L103, L210, L303, L310, L315, IOT"
+        venue: "IT443, IT444, L210"
     },
     {
         title: "Treasure hunt",
         time: "10:00 AM",
         date: "February 21",
         ref: "Treasure_Hunt",
-        // venue: "L102"
+        venue: "LBCH"
 
     },
     {
@@ -35,35 +35,35 @@ export const events = [
         time: "10:00 AM to 12:00 PM",
         date: "February 21",
         ref: "Workshop1",
-        // venue: "IT211 or MBCH or LBCH"
+        venue: "Auditorium"
     },
     {
         title: "Poster Design",
         time: "10:45 AM",
         date: "February 21",
         ref: "Poster_Design",
-        // venue: "L101"
+        venue: "L103, L308, L203"
     },
     {
         title: "Escape room",
         time: "11:00 AM",
         date: "February 21",
         ref: "Escape_Room",
-        // venue: "IT442, IT443"
+        venue: "L110"
     },
     {
         title: "Prompt engineering",
         time: "11:30 AM",
         date: "February 21",
         ref: "Prompt_Engineering",
-        // venue: "LBCH"
+        venue: "IT442, IT443, L210"
     },
     {
         title: "Attack On Anime",
         time: "11:30 AM",
         date: "February 21",
         ref: "Attack_on_Anime",
-        // venue: "L109"
+        venue: "IT 213"
     },
     {
         title: "Webinar-Generative AI",
@@ -76,14 +76,14 @@ export const events = [
         time: "12:30 PM",
         date: "February 21",
         ref: "Typing_Thunder",
-        // venue: "L103, L210, L303, L308, L315"
+        venue: "L303, L308, IT444"
     },
     {
         title: "PC Building",
         time: "2:00 PM",
         date: "February 21",
         ref: "PC_Building",
-        // venue: "L102"
+        venue: "IT214"
     },
     // {
     //     title: "Workshop (Coming Soon..)",
@@ -97,27 +97,28 @@ export const events = [
         time: "2:00 PM",
         date: "February 21",
         ref: "UI_Design_Contest",
-        // venue: "IT442, IT443, L103, L210, IOT"
+        venue: "IT442, L303, L308"
     },
     {
         title: "Selling Showdown",
         time: "2:00 PM",
         date: "February 21",
         ref: "Selling_Showdown",
-        // venue: "L210, L201 (waiting room )"
+        venue: "L109"
     },
     {
         title: "Workshop-Cloud",
         time: "02:00 PM to 04:00 PM",
         date: "February 21",
-        ref: "Workshop2"
+        ref: "Workshop2",
+        venue:"IT213"
     },
     {
         title: "Code In Chaos",
         time: "2:30 PM",
         date: "February 21",
         ref: "Code_in_Chaos",
-        // venue: "IT442,L210"
+        venue: "IT443,IT444,L210"
 
     },
     {
@@ -125,7 +126,7 @@ export const events = [
         time: "3:30 PM",
         date: "February 21",
         ref: "MarvelDC_Quiz",
-        // venue: "MBCH"
+        venue: "L108"
     },
     {
         title: "Webinar-Digital Image Processing",
@@ -139,12 +140,12 @@ export const events = [
         date: "February 21",
         ref: "Freefire"
     },
-    {
-        title: "Valorant ",
-        time: "6:00 PM",
-        date: "February 21",
-        ref: "Valorant"
-    },
+    // {
+    //     title: "Valorant ",
+    //     time: "6:00 PM",
+    //     date: "February 21",
+    //     ref: "Valorant"
+    // },
     {
         title: "Chess ",
         time: "6:00 PM",
@@ -163,49 +164,49 @@ export const events = [
         time: "9:00 AM",
         date: "February 22",
         ref: "0xdebug",
-        // venue: "L103, L210, L303, L308, L315"
+        venue: "IT443, IT444, L210"
     },
     {
         title: "Paper Presentation",
         time: "9:00 AM to 4:00 PM",
         date: "February 22",
         ref: "Paper_Presentation",
-        // venue: "IT214"
+        venue: "IT211, L103"
     },
     {
         title: "Recall Rumble",
         time: "9:00 AM",
         date: "February 22",
         ref: "Recall_Rumble",
-        // venue: "IT442, IT443"
+        venue: "L109"
     },
     {
         title: "Logic Unchained",
         time: "9:00 AM",
         date: "February 22",
         ref: "Logic_Unchained",
-        // venue: "IT442, IT443"
+        venue: "IT442, L303, L308"
     },
     {
         title: "Workshop-Data Engineering",
         time: "10:00 AM - 12:00 PM",
         date: "February 22",
         ref: "Workshop3",
-        // venue: "IT211 or MBCH or LBCH"
+        venue: "Auditorium"
     },
     {
         title: "Cryptera Coding Contest",
         time: "10:30 AM",
         date: "February 22",
         ref: "Cryptera_Coding_Contest",
-        // venue: "L109"
+        venue: "L303, L308, L210, IT443"
     },
     {
         title: "Escape Room",
         time: "11:00 AM",
         date: "February 22",
         ref: "Escape_Room",
-        // venue: "L103, L210, L303, L308, L315 "
+        venue: "L110"
     },
     {
         title: "Carrom",
@@ -218,34 +219,36 @@ export const events = [
         title: "Reverse Coding",
         time: "12:00 PM",
         date: "February 22",
-        ref: "Reverse_Coding"
+        ref: "Reverse_Coding",
+        venue:"IT444, IT442, L103"
     },
     {
         title: "Hackathon",
         time: "1:00 PM",
         date: "February 22",
         ref: "Hackathon",
-        // venue: "L103, L210, L303, L308, L315"
+        venue: "L102, L110, L201, IT211"
     },
     {
         title: "Movie Quiz",
         time: "1:30 PM",
         date: "February 22",
         ref: "Movie_quiz",
-        // venue: "L102,L101(Waiting Room) "
+        venue: "LBCH(Round 1),L108(Round 2)"
     },
     {
         title: "Workshop-AIML",
         time: "2:00 PM to 4:00 PM",
         date: "February 22",
-        ref: "Workshop4"
+        ref: "Workshop4",
+        venue:"IT213"
     },
     {
         title: "Missing Code",
         time: "2:00 PM",
         date: "February 22",
         ref: "Missing_Code",
-        // venue: "LBCH"
+        venue: "IT443, IT444, L210"
 
     },
     {
@@ -253,14 +256,14 @@ export const events = [
         time: "2:00 PM",
         date: "February 22",
         ref: "IPL_Auction",
-        // venue: "IT211 or MBCH or LBCH"
+        venue: "L109"
     },
     {
         title: "Tech Feud",
         time: "2:00 PM",
         date: "February 22",
         ref: "Tech_Feud",
-        // venue: "IT442, IT443"
+        venue: "IT442, L303, L308"
     },
     {
         title: "Free fire ",
@@ -268,12 +271,12 @@ export const events = [
         date: "February 22",
         ref: "Freefire"
     },
-    {
-        title: "Valorant ",
-        time: "6:00 PM",
-        date: "February 22",
-        ref: "Valorant"
-    },
+    // {
+    //     title: "Valorant ",
+    //     time: "6:00 PM",
+    //     date: "February 22",
+    //     ref: "Valorant"
+    // },
     {
         title: "Chess ",
         time: "6:00 PM",
