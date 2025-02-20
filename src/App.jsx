@@ -23,6 +23,7 @@ import { getevent_details_data } from './Data/events_data';
 import Gallery from './Components/Screens/Gallery';
 import Admin from './Components/Screens/Admin';
 import Venue from './Components/Screens/Venue';
+import RegCount from './Components/Screens/regCnt';
 const firebaseConfig = {
     apiKey: "AIzaSyCjDtQ-hsyXk876DZLyyeC6UpXMFFjF5EY",
     authDomain: "cryptera.firebaseapp.com",
@@ -75,7 +76,7 @@ function App() {
                         <Route path="/committee" element={<Committee />}></Route>
                         <Route path="/contact_us" element={<ContactUs />}></Route>
                         <Route path="/events/:name" element={<Eventdetails />}></Route>
-                        {/* <Route path="/admin" element={<Admin />}></Route> */}
+                        <Route path="/regCnt" element={<RegCount />}></Route>
                         {/* <Route path="/venue" element={<Venue />}></Route> */}
                         <Route path='/queries2025' element={<Queries />}></Route>
                     </Routes>

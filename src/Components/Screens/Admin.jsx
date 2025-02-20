@@ -152,7 +152,6 @@ const Admin = () => {
             passkey: passkey,
         };
         // CrYpTeRa$#@!2K24
-
         const options = {
             method: "POST",
             headers: {
@@ -286,5 +285,4 @@ const Admin = () => {
         </div >
     );
 }
-
 export default Admin;

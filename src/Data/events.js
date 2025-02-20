@@ -1539,59 +1539,59 @@ export default [
      },
 
     // Valorant 1
-    {
-        id: "28",
-        name: "Valorant",
-        title: "Valorant",
-        status: 1,
-        eligibility: "Anyone can join",
-        completed: false,
-        results: null,
-        mode:"online",
-        duration:null,
-        rules: [
-            "Players are expected to use a single account for each player",  
-            "Each team must consist of 5 players and 2 substitute players",  
-            "Substitutes can be included only at the beginning of a new match; the moderator has to be informed about the substitutes included",  
-            "Players must be available at least 15 minutes in the lobby before the match is scheduled to begin",  
-            "Failure of the entire team to show up on time will lead to forfeiture of the match",  
-            "The team captain needs to add all their members and the coordinator (whose details will be subsequently revealed) as their friends with their RIOT IDs",  
-            "The captains will be responsible for adding their team players into the game lobby; add your teammates to your friend list well ahead of the match",  
-            "Cheating in any form (including exploiting bugs) will not be tolerated and will lead to the disqualification of the entire team from the event",  
-            "Team captains must send a screenshot of the final scorecard to the coordinator at the end of the match, for future reference",  
-            "Only the base (vanilla) version of the game is to be used (i.e., no mods of any sort)",  
-            "In case of any changes in the schedule of matches, team captains will be informed",  
-            "The coordinator will let the team leader know regarding match fixtures, tournament schedules, and other updates regarding further stages of the tournament",  
-            "If the team fails to show up, the opponents automatically get a walkover",
-        ],
-        pics: {
-            primary:
-                "https://www.riotgames.com/darkroom/1440/d0807e131a84f2e42c7a303bda672789:3d02afa7e0bfb75f645d97467765b24c/valorant-offwhitelaunch-keyart.jpg",
-            secondary: [
-                "https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
-                "https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
-                "https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
-                "https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
-            ],
-        },
-        amt: "300",
-        contact: "7418039493",
-        dateTime: "February 21 & 22,06:00 pm",
-        prizes: {
-            gold: "2000",
-            silver: "1000",
-        },
-        color: "var(--fg-g)",
-        carddescription:
-            "Rise to the challenge and take on the competition in a high-stakes battle for supremacy",
-        description:
-            "Gear up for high-octane tactical gameplay in the Valorant tournament. Team up, strategize, and outplay your opponents in this thrilling esports competition!",
-        form: "https://forms.gle/3hr71n9SiLoPc4B57",
-        type: "flagship",
-        faq: [],
-        speakers: [],
-        tags: ["Gaming"],
-    },
+    // {
+    //     id: "28",
+    //     name: "Valorant",
+    //     title: "Valorant",
+    //     status: 1,
+    //     eligibility: "Anyone can join",
+    //     completed: false,
+    //     results: null,
+    //     mode:"online",
+    //     duration:null,
+    //     rules: [
+    //         "Players are expected to use a single account for each player",  
+    //         "Each team must consist of 5 players and 2 substitute players",  
+    //         "Substitutes can be included only at the beginning of a new match; the moderator has to be informed about the substitutes included",  
+    //         "Players must be available at least 15 minutes in the lobby before the match is scheduled to begin",  
+    //         "Failure of the entire team to show up on time will lead to forfeiture of the match",  
+    //         "The team captain needs to add all their members and the coordinator (whose details will be subsequently revealed) as their friends with their RIOT IDs",  
+    //         "The captains will be responsible for adding their team players into the game lobby; add your teammates to your friend list well ahead of the match",  
+    //         "Cheating in any form (including exploiting bugs) will not be tolerated and will lead to the disqualification of the entire team from the event",  
+    //         "Team captains must send a screenshot of the final scorecard to the coordinator at the end of the match, for future reference",  
+    //         "Only the base (vanilla) version of the game is to be used (i.e., no mods of any sort)",  
+    //         "In case of any changes in the schedule of matches, team captains will be informed",  
+    //         "The coordinator will let the team leader know regarding match fixtures, tournament schedules, and other updates regarding further stages of the tournament",  
+    //         "If the team fails to show up, the opponents automatically get a walkover",
+    //     ],
+    //     pics: {
+    //         primary:
+    //             "https://www.riotgames.com/darkroom/1440/d0807e131a84f2e42c7a303bda672789:3d02afa7e0bfb75f645d97467765b24c/valorant-offwhitelaunch-keyart.jpg",
+    //         secondary: [
+    //             "https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
+    //             "https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
+    //             "https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
+    //             "https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
+    //         ],
+    //     },
+    //     amt: "300",
+    //     contact: "7418039493",
+    //     dateTime: "February 21 & 22,06:00 pm",
+    //     prizes: {
+    //         gold: "2000",
+    //         silver: "1000",
+    //     },
+    //     color: "var(--fg-g)",
+    //     carddescription:
+    //         "Rise to the challenge and take on the competition in a high-stakes battle for supremacy",
+    //     description:
+    //         "Gear up for high-octane tactical gameplay in the Valorant tournament. Team up, strategize, and outplay your opponents in this thrilling esports competition!",
+    //     form: "https://forms.gle/3hr71n9SiLoPc4B57",
+    //     type: "flagship",
+    //     faq: [],
+    //     speakers: [],
+    //     tags: ["Gaming"],
+    // },
 
     // Chess 1
     {
