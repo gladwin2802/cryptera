@@ -1967,7 +1967,7 @@ export default [
         "Combo C – Four Workshops – Rs. 450/-"
     ],
         
-        form: "https://forms.gle/eo9VSfU8uQQbRwac7",
+        // form: "https://forms.gle/eo9VSfU8uQQbRwac7",
         speakerinfo: "Guru Prasath is a Technical Trainer at Yellowmatics.ai, specializing in Java Full Stack and MERN Stack technologies, with over Five years of Industry experience.",
         speakers: [
         {
@@ -2021,7 +2021,7 @@ export default [
         "Combo B – Three Workshops – Rs. 350/-",
         "Combo C – Four Workshops – Rs. 450/-"
     ],
-    form: "https://forms.gle/eo9VSfU8uQQbRwac7",
+    // form: "https://forms.gle/eo9VSfU8uQQbRwac7",
     speakerinfo:
         "Jerald Felix is an IT Analyst at Bosch Global Software Technologies, with expertise in Cloud and AI. He is a Microsoft Certified Trainer with a deep understanding of Azure cloud services and Infrastructure projects. With over Ten years of experience, he has been delivering and supporting IT solutions.",
     speakers: [
@@ -2076,7 +2076,7 @@ export default [
         "Combo B – Three Workshops – Rs. 350/-",
         "Combo C – Four Workshops – Rs. 450/-"
     ],
-        form: "https://forms.gle/eo9VSfU8uQQbRwac7",
+        // form: "https://forms.gle/eo9VSfU8uQQbRwac7",
         speakerinfo: "Prabhu Varadharajan is the Lead Data Engineer/Architect at Electronic Arts Inc. (EA) in Toronto, Canada, with around 10 years of industry experience specializing in Data Engineering",
         speakers: [
         {
@@ -2131,7 +2131,7 @@ export default [
         "Combo B – Three Workshops – Rs. 350/-",
         "Combo C – Four Workshops – Rs. 450/-"
     ],
-        form: "https://forms.gle/eo9VSfU8uQQbRwac7",
+        // form: "https://forms.gle/eo9VSfU8uQQbRwac7",
         speakerinfo: "Dr. S. Kannimuthu is a Professor in the Department of Computer Science and Engineering at Karpagam College of Engineering and in-charge of the Center of Excellence in Algorithms and an IEEE Senior Member with over 17 years of Teaching and Industrial experience.",
         speakers: [
         {
