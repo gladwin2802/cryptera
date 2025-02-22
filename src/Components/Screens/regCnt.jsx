@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
-const SHEET_ID = "1moX3AgF-Go5jBFBNzRH8n8_A_Lk__jF4yTs1Q8UP-BQ";
-const API_KEY = "AIzaSyCt-fkEJudB_wFcH9Zm6EUatT-5S9Gob_g";
-const CORRECT_PASSKEY = "CRYPTERA$2K25"; // Replace with your actual passkey
+const SHEET_ID = "";
+const API_KEY = "";
+// const CORRECT_PASSKEY = "CRYPTERA$2K25"; // Replace with your actual passkey
 const SHEET_NAMES = {
   main:[
     "Form Responses 1"
@@ -72,7 +72,7 @@ const RegCount = () => {
     for (let category in SHEET_NAMES) {
       for (let sheet of SHEET_NAMES[category]) {
         const RANGE = `${encodeURIComponent(sheet)}!A:A`;
-        const URL = `https://sheets.googleapis.com/v4/spreadsheets/${SHEET_ID}/values/${RANGE}?key=${API_KEY}`;
+        // const URL = `https://sheets.googleapis.com/v4/spreadsheets/${SHEET_ID}/values/${RANGE}?key=${API_KEY}`;
 
         try {
           const response = await fetch(URL);

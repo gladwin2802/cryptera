@@ -2076,7 +2076,7 @@ export default [
         "Combo B – Three Workshops – Rs. 350/-",
         "Combo C – Four Workshops – Rs. 450/-"
     ],
-        // form: "https://forms.gle/eo9VSfU8uQQbRwac7",
+        form: "https://forms.gle/eo9VSfU8uQQbRwac7",
         speakerinfo: "Prabhu Varadharajan is the Lead Data Engineer/Architect at Electronic Arts Inc. (EA) in Toronto, Canada, with around 10 years of industry experience specializing in Data Engineering",
         speakers: [
         {
